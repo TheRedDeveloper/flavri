@@ -1,0 +1,6 @@
+ID,Name,PubChem CID,CAS number,canonical SMILES,Taste,Class taste,Reference_(cod)/[pp]
+0001,(-)-Haematoxylin,320930,517-28-2,Oc1cc2c(cc1O)C1c3ccc(c(c3OCC1(O)C2)O)O,Sweet,Sweetness,Arnoldi1995_((-)-1); Bassoli2001_(39)
+0002,(+)-4β-hydroxyhernandulcin,126862,145385-64-4,CC(C)=CCCC(C)(O)C1CC(O)C(=CC1=O)C,Sweet,Sweetness,Ҫiçek2020_(32); Kinghorn1998_(2); Kinghorn2002_(7); Kinghorn2010_(15)/[276]; Kinghorn2012_[231]
+0003,(+)-Dihydroquercetin 3-acetate,442540,78834-97-6,CC(=O)OC1C(Oc2cc(cc(c2C1=O)O)O)c1ccc(c(c1)O)O,Non-bitter; Sweet(6),Sweetness,Bouysset2020_(175); Ҫiçek2020_(19); Dagan-Wiener2017; Kinghorn2002_(26); Kinghorn2010_(91)/[278]; Nanayakkara1988_(1); Shallenberger1993_[269]
+0004,(+)-Dihydro-6-methoxy-luteolin 3-acetate,14886050,*,COc1c(cc2c(c1O)C(=O)C(OC(C)=O)C(O2)c1ccc(c(c1)O)O)O,Sweet,Sweetness,Ҫiçek2020_(21); Kinghorn2002_(28); Kinghorn2010_(93)/[278]
+0005,(+)-Haematoxylin,442514,517-28-2,Oc1cc2c(cc1O)C1c3ccc(c(c3OCC1(O)C2)O)O,Sweet,Sweetness,Arnoldi1995_((+)-1); Arnoldi1996_(12); Bassoli2001_(37); Bassoli2002_(6); Bassoli2006_[334]; Bouysset2020_(209); Ҫiçek2020_(28); Kinghorn2006_[295]; Kinghorn2010_(103)/[279]

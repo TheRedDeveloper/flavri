@@ -1,0 +1,287 @@
+{
+  "ChemTastesDB": {
+    "total_records": 4078,
+    "valid_rdkit_smiles": 4075,
+    "salts_disconnected": 783,
+    "class_distribution": {
+      "Bitterness": 1615,
+      "Sweetness": 1313,
+      "Non-sweetness": 304,
+      "Tastelessness": 232,
+      "Umaminess": 220,
+      "Multitaste": 179,
+      "Miscellaneous": 119,
+      "Sourness": 49,
+      "Non-bitterness": 28,
+      "Saltiness": 16
+    },
+    "usable_for_flavri": "Directly usable for small molecules. High quality gold-standard.",
+    "file": "raw\\chemtastesdb\\ChemTastesDB_database.xlsx"
+  },
+  "BitterDB_2024": {
+    "compounds_count": 2250,
+    "valid_rdkit_smiles": 2250,
+    "receptor_ligand_pairs": 2231,
+    "unique_receptors": 155,
+    "usable_for_flavri": "2,250 bitter structures + TAS2R receptor pairs with EC50 and thresholds.",
+    "file": "raw\\bitterdb\\BitterCompoundsPropA_2024.csv"
+  },
+  "TastePeptidesDB_Suite": {
+    "peptides_count": 2939,
+    "taste_distribution": {
+      "Umami": 1188,
+      "Bitter": 917,
+      "Sour": 287,
+      "Sweet": 205,
+      "Salty": 139,
+      "Astringent": 122,
+      "Kokumi": 69,
+      "No-Bitter": 5,
+      "Tasteless": 3,
+      "No-Kokumi": 1,
+      "sweet": 1,
+      " Bitter": 1,
+      " Salty": 1
+    },
+    "synergy_interaction_pairs": 930,
+    "synergy_modulating_properties": {
+      "Umami-Enhancing": 561,
+      "Salt-Enhancing": 152,
+      "Kokumi-Enhancing": 56,
+      "Bitter-Masking": 37,
+      "Mouthfulness": 22,
+      "Thickness": 14,
+      "Bitter": 14,
+      "Kokumi": 11,
+      "Sweet-Enhancing": 9,
+      "Increasing Complexity": 8
+    },
+    "derivatives_count": 975,
+    "usable_for_flavri": "Core taste peptide repository: 2,939 peptides with continuous thresholds, 930 empirical synergy/masking pairs, and 975 derivatives.",
+    "files": [
+      "raw\\tastepeptides_db\\tpdb_export.csv",
+      "raw\\tastepeptides_db\\1-tastepeptides_synergy-2024-0621.csv"
+    ]
+  },
+  "BitterGNN_MultiFlavor": {
+    "total_records": 5456,
+    "modalities": {
+      "Astringent": {
+        "count": 332,
+        "valid_smiles": 315
+      },
+      "Bitter": {
+        "count": 1761,
+        "valid_smiles": 1761
+      },
+      "Kokumi": {
+        "count": 300,
+        "valid_smiles": 300
+      },
+      "Salt": {
+        "count": 37,
+        "valid_smiles": 37
+      },
+      "Sour": {
+        "count": 75,
+        "valid_smiles": 75
+      },
+      "Sweet": {
+        "count": 2263,
+        "valid_smiles": 2263
+      },
+      "Tasteless": {
+        "count": 287,
+        "valid_smiles": 287
+      },
+      "Umami": {
+        "count": 401,
+        "valid_smiles": 401
+      }
+    },
+    "usable_for_flavri": "Provides 2,263 Sweet, 1,761 Bitter, 401 Umami, 300 Kokumi, 332 Astringent, 75 Sour, 37 Salt molecules with SMILES.",
+    "directory": "raw\\peptides_heyigacu\\bittergnn\\dataset\\taste_dataset\\multi_flavor"
+  },
+  "UmamiMeta_2024": {
+    "total_peptides": 1580,
+    "umami_positive": 972,
+    "umami_negative": 608,
+    "min_length": 1,
+    "max_length": 39,
+    "usable_for_flavri": "1,580 sequences with binary labels and TAS1R pocket coordinates.",
+    "file": "raw\\peptides_heyigacu\\umamimeta\\code\\dock\\ummpep2024.csv"
+  },
+  "VirtuousUmami": {
+    "total_molecules_peptides": 442,
+    "has_smiles": true,
+    "usable_for_flavri": "442 curated compounds with standardized SMILES.",
+    "file": "raw\\virtuous_umami\\data\\Umami_training_dataset.csv"
+  },
+  "SweetenersDB": {
+    "total_sweeteners": 316,
+    "metric": "Continuous Log(S) relative sweetness to sucrose (1.0)",
+    "usable_for_flavri": "Continuous sweetness potency values.",
+    "file": "raw\\sweeteners\\sweetenersdb_scraped.csv"
+  },
+  "ChEMBL_Sensory_Channels": {
+    "datasets": {
+      "chembl_casr_kokumi_bioactivities": {
+        "count": 199,
+        "target_channel": "CaSR_kokumi"
+      },
+      "chembl_trpa1_pungency_bioactivities": {
+        "count": 184,
+        "target_channel": "TRPA1_pungency"
+      },
+      "chembl_trpm8_cooling_bioactivities": {
+        "count": 198,
+        "target_channel": "TRPM8_cooling"
+      },
+      "chembl_trpv1_heat_bioactivities": {
+        "count": 189,
+        "target_channel": "TRPV1_heat"
+      }
+    },
+    "usable_for_flavri": "High-affinity bioactivities with SMILES, standard_type (IC50, EC50, Ki), and nM concentrations for TRPM8, TRPV1, TRPA1, and CaSR."
+  },
+  "Tingling_Alkylamides_Suite": {
+    "compounds_count": 14,
+    "compounds": [
+      "Hydroxy-alpha-sanshool",
+      "Hydroxy-beta-sanshool",
+      "alpha-Sanshool",
+      "beta-Sanshool",
+      "gamma-Sanshool",
+      "Hydroxy-gamma-sanshool",
+      "Bungeanool",
+      "Spilanthol (Affinin)",
+      "Pellitorine",
+      "Tetrahydropellitorine",
+      "Dehydro-alpha-sanshool",
+      "Neo-pellitorine",
+      "Achilleamide",
+      "Fagaramide"
+    ],
+    "metrics": "Tingling detection threshold (umol/L) and TASK-1 / TASK-3 K2P channel inhibition %",
+    "usable_for_flavri": "Primary empirical benchmark for the 11th sensory dimension (tingling / K2P channels).",
+    "file": "raw\\tingling_alkylamides\\leibniz_tingling_alkylamides_suite.csv"
+  },
+  "Acid_Sourness_Speciation_Benchmark": {
+    "acids_count": 18,
+    "acids": [
+      "Citric acid",
+      "L-Malic acid",
+      "L-(+)-Tartaric acid",
+      "Acetic acid",
+      "L-Lactic acid",
+      "Fumaric acid",
+      "Succinic acid",
+      "Phosphoric acid",
+      "Hydrochloric acid",
+      "Gluconic acid",
+      "L-Ascorbic acid",
+      "Adipic acid",
+      "Formic acid",
+      "Propionic acid",
+      "Butyric acid",
+      "Oxalic acid",
+      "Glutaric acid",
+      "Glycolic acid"
+    ],
+    "metrics": "pKa values, human detection threshold (DT, mM), recognition threshold (RT, mM), and relative sourness",
+    "usable_for_flavri": "Definitive benchmark for sour taste grounded in thermodynamic acid speciation.",
+    "file": "raw\\acid_sourness_speciation\\acid_sourness_speciation_benchmark.csv"
+  },
+  "Synthetic_Cooling_Compendium": {
+    "coolants_count": 12,
+    "coolants": [
+      "WS-3",
+      "WS-5",
+      "WS-12",
+      "WS-23",
+      "WS-27",
+      "Frescolat MGA",
+      "Frescolat ML (Menthyl lactate)",
+      "Icilin",
+      "PMD 38 (p-Menthane-3,8-diol)",
+      "Menthoxypropanediol",
+      "Menthyl glutarate",
+      "L-Menthol"
+    ],
+    "metrics": "Potency relative to menthol (1.0), TRPM8 activation flags, and odor profiles",
+    "usable_for_flavri": "Curated library of synthetic odorless cooling carboxamides (WS-3, WS-5, WS-12, WS-23, etc.).",
+    "file": "raw\\synthetic_cooling_compendium\\synthetic_cooling_agents_compendium.csv"
+  },
+  "Senomyx_Synthetic_Amides": {
+    "amides_count": 6,
+    "compounds": [
+      "S6973 (Umami enhancer)",
+      "S2383 (Sucralose enhancer)",
+      "S807 (Umami modulator)",
+      "S337 (Sweet enhancer)",
+      "S779 (Umami enhancer)",
+      "S819 (Umami enhancer)"
+    ],
+    "metrics": "T1R1/T1R3 (umami) and T1R2/T1R3 (sweet) EC50 (uM) and relative potency",
+    "usable_for_flavri": "Non-amino-acid synthetic amides acting as positive allosteric modulators.",
+    "file": "raw\\senomyx_amides\\senomyx_synthetic_amides_library.csv"
+  },
+  "Psychophysical_Mixtures": {
+    "datasets": {
+      "breslin_beauchamp_sodium_bitter_matrix": {
+        "pairs": 5,
+        "cols": [
+          "salt_name",
+          "salt_smiles",
+          "bitter_name",
+          "bitter_smiles",
+          "suppressed_by_salt",
+          "suppression_mechanism"
+        ]
+      },
+      "keast_breslin_sweet_sour_matrix": {
+        "pairs": 25,
+        "cols": [
+          "component_a_name",
+          "component_a_smiles",
+          "conc_a_mM",
+          "component_b_name",
+          "component_b_smiles",
+          "conc_b_mM",
+          "base_sweetness",
+          "base_sourness",
+          "perceived_sweetness",
+          "perceived_sourness",
+          "sweet_suppression_delta",
+          "sour_suppression_delta",
+          "interaction_type"
+        ]
+      },
+      "yamaguchi_umami_synergy_matrix": {
+        "pairs": 64,
+        "cols": [
+          "component_a_name",
+          "component_a_smiles",
+          "conc_a_g_dL",
+          "component_b_name",
+          "component_b_smiles",
+          "conc_b_g_dL",
+          "modality",
+          "synergy_type",
+          "perceived_intensity_equiv_msg",
+          "synergy_delta",
+          "is_synergistic"
+        ]
+      }
+    },
+    "usable_for_flavri": "Mathematical calibration curves for Stage 2 synergy head: Yamaguchi (umami allosteric cooperativity, 64 pairs), Keast & Breslin (sweet-sour mutual suppression, 25 pairs), Breslin & Beauchamp (sodium bitter masking, 5 pairs)."
+  },
+  "JECFA_Evaluated_Flavors": {
+    "total_substances": 6552,
+    "flavouring_agents": 4633,
+    "has_cas": 2317,
+    "has_fema": 4258,
+    "usable_for_flavri": "Master regulatory cross-referencing dictionary linking FEMA, CAS, JECFA, and functional flavor classes.",
+    "file": "raw\\jecfa_db\\output\\jecfa.rds"
+  }
+}
