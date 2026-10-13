@@ -1,0 +1,6 @@
+salt_name,salt_smiles,bitter_name,bitter_smiles,suppressed_by_salt,suppression_mechanism
+Sodium chloride,[Na+].[Cl-],Quinine,COC1=CC2=C(C=C1)N=CC=C2C(C3CC4CCN3CC4C=C)O,True,peripheral_eNaC_TAS2R_inhibition
+Sodium gluconate,[Na+].[O-]C(=O)C(O)C(O)C(O)C(O)CO,Quinine,COC1=CC2=C(C=C1)N=CC=C2C(C3CC4CCN3CC4C=C)O,True,peripheral_eNaC_TAS2R_inhibition
+Sodium chloride,[Na+].[Cl-],Caffeine,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,True,peripheral_eNaC_TAS2R_inhibition
+Sodium chloride,[Na+].[Cl-],Denatonium benzoate,CCN(CC)(CC(=O)NC1=C(C=CC=C1C)C)CC2=CC=CC=C2.C1=CC=C(C=C1)C(=O)[O-],True,peripheral_eNaC_TAS2R_inhibition
+Sodium chloride,[Na+].[Cl-],Magnesium sulfate,[Mg+2].[O-]S(=O)(=O)[O-],False,unaffected_by_sodium

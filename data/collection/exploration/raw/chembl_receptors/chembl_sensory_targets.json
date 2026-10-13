@@ -1,0 +1,32 @@
+{
+  "TRPM8": {
+    "chembl_id": "CHEMBL1075319",
+    "pref_name": "Transient receptor potential cation channel subfamily M member 8",
+    "total_bioactivities": 1651
+  },
+  "TRPV1": {
+    "chembl_id": "CHEMBL4794",
+    "pref_name": "Transient receptor potential cation channel subfamily V member 1",
+    "total_bioactivities": 10753
+  },
+  "TRPA1": {
+    "chembl_id": "CHEMBL6007",
+    "pref_name": "Transient receptor potential cation channel subfamily A member 1",
+    "total_bioactivities": 6745
+  },
+  "TAS1R2": {
+    "chembl_id": "CHEMBL1613741",
+    "pref_name": "Taste receptor type 1 member 2",
+    "total_bioactivities": 15
+  },
+  "TAS1R3": {
+    "chembl_id": "CHEMBL1613742",
+    "pref_name": "Taste receptor type 1 member 3",
+    "total_bioactivities": 10
+  },
+  "CASR": {
+    "chembl_id": "CHEMBL1878",
+    "pref_name": "Extracellular calcium-sensing receptor",
+    "total_bioactivities": 811
+  }
+}

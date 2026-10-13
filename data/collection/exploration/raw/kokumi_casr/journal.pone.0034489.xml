@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN">
+  <front>
+    <journal-meta><journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><!--===== Grouping journal title elements =====--><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher></journal-meta>
+    <article-meta><article-id pub-id-type="publisher-id">PONE-D-11-20373</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0034489</article-id><article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Molecular cell biology</subject>
+            <subj-group>
+              <subject>Signal transduction</subject>
+              <subj-group>
+                <subject>Signaling pathways</subject>
+                <subj-group>
+                  <subject>Calcium-mediated signal transduction</subject>
+                </subj-group>
+              </subj-group>
+              <subj-group>
+                <subject>Membrane receptor signaling</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Neuroscience</subject>
+            <subj-group>
+              <subject>Sensory systems</subject>
+              <subj-group>
+                <subject>Gustatory system</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Anatomy and physiology</subject>
+            <subj-group>
+              <subject>Neurological system</subject>
+              <subj-group>
+                <subject>Sensory physiology</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Cell physiology</subject>
+              <subject>Sensory systems</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Molecular Biology</subject>
+          <subject>Physiology</subject>
+          <subject>Neuroscience</subject>
+        </subj-group>
+      </article-categories><title-group><article-title><italic>Kokumi</italic> Substances, Enhancers of Basic Tastes, Induce Responses in Calcium-Sensing Receptor Expressing Taste Cells</article-title><alt-title alt-title-type="running-head">Receptor Cells of Taste Enhancing Substances</alt-title></title-group><contrib-group>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Maruyama</surname>
+            <given-names>Yutaka</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Yasuda</surname>
+            <given-names>Reiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Kuroda</surname>
+            <given-names>Motonaka</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Eto</surname>
+            <given-names>Yuzuru</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+      </contrib-group><aff id="aff1">          <addr-line>Institute for Innovation, Ajinomoto Co., Inc., Kawasaki, Japan</addr-line>       </aff><contrib-group>
+        <contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Meyerhof</surname>
+            <given-names>Wolfgang</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group><aff id="edit1">German Institute for Human Nutrition, Germany</aff><author-notes>
+        <corresp id="cor1">* E-mail: <email xlink:type="simple">yutaka_maruyama@ajinomoto.com</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: YM MK YE. Performed the experiments: YM RY. Analyzed the data: YM RY. Contributed reagents/materials/analysis tools: YM RY MK YE. Wrote the paper: YM YE.</p>
+        </fn>
+      <fn fn-type="conflict">
+        <p>The authors have read the journal's policy and have the following conflicts: Dr. Maruyama, Ms. Yasuda, Dr. Kuroda and Dr. Eto are employees of Ajinomoto Co., Inc. The authors declare no financial conflict of interest was present regarding the results or interpretation of the reported experiments. Dr. Eto has applied for a patent on a kokumi-imparting agent (WO2007/055393). This does not alter the authors' adherence to all the PLoS ONE policies on sharing data and materials.</p>
+      </fn></author-notes><pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date><pub-date pub-type="epub">
+        <day>12</day>
+        <month>4</month>
+        <year>2012</year>
+      </pub-date><volume>7</volume><issue>4</issue><elocation-id>e34489</elocation-id><history>
+        <date date-type="received">
+          <day>14</day>
+          <month>10</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>3</month>
+          <year>2012</year>
+        </date>
+      </history><!--===== Grouping copyright info into permissions =====--><permissions><copyright-year>2012</copyright-year><copyright-holder>Maruyama et al</copyright-holder><license><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions><abstract>
+        <p>Recently, we reported that calcium-sensing receptor (CaSR) is a receptor for <italic>kokumi</italic> substances, which enhance the intensities of salty, sweet and umami tastes. Furthermore, we found that several γ-glutamyl peptides, which are CaSR agonists, are <italic>kokumi</italic> substances. In this study, we elucidated the receptor cells for <italic>kokumi</italic> substances, and their physiological properties. For this purpose, we used Calcium Green-1 loaded mouse taste cells in lingual tissue slices and confocal microscopy. <italic>Kokumi</italic> substances, applied focally around taste pores, induced an increase in the intracellular Ca<sup>2+</sup> concentration ([Ca<sup>2+</sup>]<sub>i</sub>) in a subset of taste cells. These responses were inhibited by pretreatment with the CaSR inhibitor, NPS2143. However, the <italic>kokumi</italic> substance-induced responses did not require extracellular Ca<sup>2+</sup>. CaSR-expressing taste cells are a different subset of cells from the T1R3-expressing umami or sweet taste receptor cells. These observations indicate that CaSR-expressing taste cells are the primary detectors of <italic>kokumi</italic> substances, and that they are an independent population from the influenced basic taste receptor cells, at least in the case of sweet and umami.</p>
+      </abstract><funding-group><funding-statement>This study was funded by Ajinomoto Co., Inc. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts>
+        <page-count count="8"/>
+      </counts></article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The extracellular calcium-sensing receptor, CaSR, is a classic seven-transmembrane-spanning, G protein-coupled receptor (GPCR) belonging to Family C of the superfamily of GPCRs <xref ref-type="bibr" rid="pone.0034489-Brown1">[1]</xref>. CaSR has been identified in several cells and tissues, including the parathyroid gland and kidney. It plays a central role in extracellular calcium homeostasis in mammals <xref ref-type="bibr" rid="pone.0034489-Chattopadhyay1">[2]</xref>. An increase in the blood calcium level is sensed by CaSR, which in turn suppresses parathyroid hormone secretion, stimulates calcitonin secretion, and induces urinary calcium excretion to reduce blood calcium to normal levels. It has become apparent that CaSR is expressed not only in the parathyroid glands and kidney, but also in many other tissues such as liver, heart, lung, gastrointestinal tract, pancreas and the central nervous system, suggesting that it is involved in a range of biological functions <xref ref-type="bibr" rid="pone.0034489-Brown2">[3]</xref>. It has been reported that CaSR is activated by several types of substances including cations such as Ca<sup>2+</sup>, Mg<sup>2+</sup> and Gd<sup>3+</sup>, basic peptides such as protamine and polylysine, and polyamines such as spermine <xref ref-type="bibr" rid="pone.0034489-Brown2">[3]</xref>.</p>
+      <p>CaSR is expressed in a subpopulation of taste cells in mice and rats <xref ref-type="bibr" rid="pone.0034489-Bystrova1">[4]</xref>, <xref ref-type="bibr" rid="pone.0034489-SanGabriel1">[5]</xref>, suggesting potential roles for this receptor in taste cellular biology. Ninomiya and colleagues reported that mice have a group of gustatory afferent nerve fibers that respond to calcium and magnesium <xref ref-type="bibr" rid="pone.0034489-Ninomiya1">[6]</xref>. Tordoff and co-workers described the taste perception of calcium and the physiological mechanisms underlying calcium intake, appetite and homeostasis, and indicated that calcium deprivation increases the palatability of calcium <xref ref-type="bibr" rid="pone.0034489-McCaughey1">[7]</xref>. These findings indicate the existence of a calcium transduction mechanism in taste cells. However, except for calcium, the physiological role of these CaSR agonists is not clear. Recently, Bystrova <italic>et al</italic>. reported that CaSR is expressed in a subset of taste cells, and that the agonists, NPS R-568, neomycin and several L-amino acids, induced a response in isolated taste cells <xref ref-type="bibr" rid="pone.0034489-Bystrova1">[4]</xref>.</p>
+      <p>Recently, we reported that various CaSR agonists including γ-glutamyl-cysteinyl-glycine (reduced form of glutathione, GSH) and other γ-glutamyl peptides have enhancing activities on umami, sweet and salty tastes, and that there is a high correlation between CaSR agonist activity and taste intensity <xref ref-type="bibr" rid="pone.0034489-Ohsu1">[8]</xref>. Ueda <italic>et al</italic>. reported that water extracts from garlic, which contain GSH, enhance umami taste intensity, and they propounded the taste enhancing character as the “<italic>kokumi</italic> flavor” <xref ref-type="bibr" rid="pone.0034489-Dunkel1">[9]</xref>–<xref ref-type="bibr" rid="pone.0034489-Ueda2">[12]</xref>. Furthermore, we identified several γ-glutamyl peptides, which are CaSR agonists that have a <italic>kokumi</italic> flavor activity, and found that γ-glutamyl-valinyl-glycine (γEVG) is the most potent <italic>kokumi</italic> substance <xref ref-type="bibr" rid="pone.0034489-Ohsu1">[8]</xref>. These results suggest that CaSR-expressing taste cells in lingual epithelium respond to <italic>kokumi</italic> substances.</p>
+      <p>In the present study, we employed a semi-intact lingual slice preparation in which it is possible to focally apply <italic>kokumi</italic> stimuli onto the apical tips of the taste buds and measure individual cellular responses with enough time and spatial resolution for Ca<sup>2+</sup> imaging. We show that <italic>kokumi</italic> substances induce a [Ca<sup>2+</sup>]<sub>i</sub> response in taste cells in the posterior tongue. The results indicate that <italic>kokumi</italic> substances are detected by CaSR-expressing taste cells.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title><italic>CaSR</italic> is expressed in the taste buds in lingual epithelia</title>
+        <p>We tested the expression of <italic>CaSR</italic> mRNA in taste buds and in non-taste lingual epithelium from a C57BL/6 mouse by RT-PCR. We confirmed that <italic>CaSR</italic> mRNA was expressed in circumvallate and foliate, but not in non-taste epithelium (<xref ref-type="fig" rid="pone-0034489-g001">Fig. 1A</xref>). To determine the presence of CaSR in taste cells, we employed immunohistochemistry on mice lingual tissues. CaSR immunoreactivity was observed in a subset of spindle-shaped taste cells in circumvallate, foliate, fungiform and palate papillae (<xref ref-type="fig" rid="pone-0034489-g001">Fig. 1B–E</xref>). In the transverse section of circumvallate taste buds, 8–10 CaSR-immunoreactive taste cells were present in a taste bud (<xref ref-type="fig" rid="pone-0034489-g002">Fig. 2D, H</xref>). The specificity of the antibody was confirmed by antigen preabsorption, which resulted in little or no immunoreaction in taste cells (<xref ref-type="fig" rid="pone-0034489-g001">Fig. 1F</xref>).</p>
+        <fig id="pone-0034489-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034489.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Taste cells express CaSR.</title>
+            <p>(A) RT-PCR for <italic>CaSR</italic> expression in taste bud-enriched circumvallate (cv), foliate (foli) and non-taste bud (nt) lingual epithelium. nc - negative control (lacking template); M - molecular standard. (B–E) Immunostaining for CaSR in taste buds. CaSR immunofluorescence is seen in most circumvallate (B), foliate (C), palate (D) and fungiform (E) taste buds. Immunofluorescent images (green) were superimposed on DIC images. (F) Validating the anti-CaSR antibody. The CaSR antiserum was preabsorbed with an excess of antigen peptides. The circumvallate sections reacted with preabsorbed and non-absorbed antibodies and were processed simultaneously. Images were taken under the same illumination conditions and detector settings. Scale bars 20 µm.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.g001" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0034489-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034489.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Confocal images showing colocalization of CaSR and the taste cell markers in taste cells from mouse circumvallate papillae.</title>
+            <p>(A–C) A longitudinal section of a circumvallate taste bud immunostained with antibodies against CaSR (A) and PLCβ2 (B). (C) Overlay of A and B. (D) A transverse section of a circumvallate taste bud immunostained with antibodies against CaSR (green) and PLCβ2 (red). (E–G) A longitudinal section of a circumvallate taste bud immunostained with antibodies against CaSR (E) and NCAM (F). (G) Overlay of E and F. (H) A transverse section of a circumvallate taste bud immunostained with antibodies against CaSR (green) and NCAM (red). Scale bars 20 µm. Arrowheads indicate double-labeled cells.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.g002" xlink:type="simple"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title><italic>CaSR</italic> is expressed in a subset of type II (receptor) and type III (presynaptic) cells</title>
+        <p>Mammalian taste buds contain three distinct classes of cells <xref ref-type="bibr" rid="pone.0034489-Chaudhari1">[13]</xref>–<xref ref-type="bibr" rid="pone.0034489-Yee1">[15]</xref>. A heterogeneous population of mammalian taste cells includes morphologically and functionally different taste cells classified into three subtypes, type I (glial-like cells), type II (receptor cells) and type III (presynaptic) taste cells <xref ref-type="bibr" rid="pone.0034489-Kinnamon1">[16]</xref>. These classes express different complements of genes related to their functions: receptor (Type II) cells express G-protein coupled taste receptors and transduction machinery. In contrast, presynaptic (Type III) cells express neuronal proteins, including those associated with synapses, and also respond to sour stimuli <xref ref-type="bibr" rid="pone.0034489-DeFazio1">[17]</xref>–<xref ref-type="bibr" rid="pone.0034489-Tomchik1">[21]</xref>.</p>
+        <p>To characterize the CaSR-immunoreactive taste cells, we investigated the coexpression of CaSR and taste cell markers. Using immunofluorescence, previous reports have shown in circumvallate taste buds the expression of PLCβ2 in type II taste cells (receptor cells) <xref ref-type="bibr" rid="pone.0034489-DeFazio1">[17]</xref>, and of neural cell adhesion molecule (NCAM) in type III taste cells (presynaptic cells) <xref ref-type="bibr" rid="pone.0034489-Dvoryanchikov1">[22]</xref>. Consequently, we used double immunofluorescence microscopy to evaluate whether these CaSR-expressing taste cells co-expressed taste cell markers. Using immunohistochemistry, we observed that the CaSR-expressing taste cells also expressed either PLCβ2 or NCAM (<xref ref-type="fig" rid="pone-0034489-g002">Fig. 2</xref>). Out of 728 CaSR-positive cells, 314 cells expressed PLCβ2 (43.1%; <xref ref-type="fig" rid="pone-0034489-g002">Fig. 2D</xref>), while the other CaSR-positive cells expressed NCAM (669 cells out of 1033 cells, 64.7%; <xref ref-type="fig" rid="pone-0034489-g002">Fig. 2H</xref>). Conversely, out of 823 PLCβ2-positive cells, 314 cells expressed CaSR (38.2%). These populations were in agreement with previous findings regarding the cell-types of CaSR-expressing taste cells <xref ref-type="bibr" rid="pone.0034489-SanGabriel1">[5]</xref>.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Taste cells respond to focally applied <italic>kokumi</italic> substances</title>
+        <p>To test whether <italic>kokumi</italic> substances induce an intracellular Ca<sup>2+</sup> response in taste cells and if so, to identify which taste cells are responsible, we employed semi-intact lingual slice preparations, focally applied <italic>kokumi</italic> substances to the apical chemosensory tips of the taste cells, and imaged the intracellular [Ca<sup>2+</sup>] changes in the taste cells with confocal scanning microscopy <xref ref-type="bibr" rid="pone.0034489-Caicedo1">[23]</xref>, <xref ref-type="bibr" rid="pone.0034489-Maruyama1">[24]</xref>. Focal application of the <italic>kokumi</italic> substances, cinacalcet (a classic CaSR agonist; 10 µM), glutathione (GSH; 100 µM), or γ-glutamyl-valinyl-glycine (γEVG; 100 µM), induced Ca<sup>2+</sup> responses (Δ[Ca<sup>2+</sup>]<sub>i</sub>) in a small fraction of the taste cells (<xref ref-type="fig" rid="pone-0034489-g003">Fig. 3A</xref>) <xref ref-type="bibr" rid="pone.0034489-Ohsu1">[8]</xref>. These responses were not induced by solution puffing, because no response was observed after ejection of Tyrode's solution (<xref ref-type="fig" rid="pone-0034489-g003">Fig 3A</xref>). Some, but not all, <italic>kokumi</italic> substance-responsive cells also responded to bath applied KCl (50 mM), which induces a Ca<sup>2+</sup> response in the presynaptic (Type III) taste cells via depolarization of the plasma membrane. γEVG evoked a transient [Ca<sup>2+</sup>]<sub>i</sub> increase in 6.5% of the taste cells in the circumvallate papilla (34 of 524 cells obtained from 26 mice). The mean amplitude of Ca<sup>2+</sup> responses (Δ<italic>F/F</italic>) evoked by 100 µM γEVG was 11.6±1.7% (mean ± SE; n = 21 cells; <xref ref-type="fig" rid="pone-0034489-g003">Fig. 3B</xref>). The EC<sub>50</sub> value of γEVG was estimated at approximately 13 µM (<xref ref-type="fig" rid="pone-0034489-g003">Fig. 3B</xref>). Importantly, applying higher concentrations of γEVG (&gt;30 µM) did not induce Ca<sup>2+</sup> responses in additional taste cells. Furthermore, <italic>kokumi</italic> substance-induced responses were selectively blocked by 3 µM NPS2143, a CaSR inhibitor, which barely affected the umami (MPG 100 mM + IMP 1 mM) and the sweet (SC45647, 100 µM) responses (<xref ref-type="fig" rid="pone-0034489-g003">Fig. 3C</xref>) <xref ref-type="bibr" rid="pone.0034489-Ohsu1">[8]</xref>, <xref ref-type="bibr" rid="pone.0034489-Gowen1">[25]</xref>. This suggests that the Ca<sup>2+</sup> responses we recorded reflect selective stimulation of a specific subpopulation of <italic>kokumi</italic> substance-responsive taste cells.</p>
+        <fig id="pone-0034489-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034489.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Taste cell responses (ΔCa<sup>2+</sup>) evoked by <italic>kokumi</italic> stimuli, recorded in a slice preparation of the mouse circumvallate papilla.</title>
+            <p>(A) Taste cells were stimulated sequentially with three <italic>kokumi</italic> substances, cinacalcet (CCT, 10 µM), glutathione (GSH, 100 µM) and γ-glutamyl-valinyl-glycine (γEVG, 100 µM), as well as γEVG + NPS2143 (3 µM), a CaSR antagonist. Arrowheads below traces indicate the stimulation. (B) Concentration-response relationship for γEVG (mean ± SE; n = 4 cells). (C) Taste responses elicited by γEVG (100 µM) were inhibited by the CaSR antagonist, NPS2143 (3 µM), but the umami (MPG 100 mM + IMP 1 mM) and the sweet (SC45647, 10 µM) responses were unaffected. Mean amplitudes of γEVG-, MPG + IMP-, and SC45647-induced responses in the presence or absence of 3 µM NPS2143 are shown (mean ± SE; *<italic>p</italic>≤0.05, n = 4 cells). Raw traces are shown in A.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.g003" xlink:type="simple"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>Responses to <italic>kokumi</italic> substance stimulus involve Ca<sup>2+</sup> release</title>
+        <p>Next, we investigated the Ca<sup>2+</sup>-mobilizing pathway that is activated by the <italic>kokumi</italic> substance stimulus in mouse circumvallate taste cells. We examined responses in acute absence of extracellular Ca<sup>2+</sup> by bathing slices in a Ca<sup>2+</sup>-free Tyrode's solution (containing 0.2 mM EGTA) 2 min before the focal <italic>kokumi</italic> substance stimulation. As shown in <xref ref-type="fig" rid="pone-0034489-g004">Fig. 4A</xref>, responses evoked by γEVG did not significantly change compared with the presence of extracellular Ca<sup>2+</sup> (control, Δ<italic>F/F</italic> = 7.1±1.8%; Ca<sup>2+</sup>-free, Δ<italic>F/F</italic> = 6.7±2.0%; n = 5). In contrast, the depolarization-evoked Ca<sup>2+</sup> response, elicited by perfusing the slice with 50 mM KCl that allows Ca<sup>2+</sup> influx through voltage-gated Ca<sup>2+</sup> channels in Type III presynaptic taste cells <xref ref-type="bibr" rid="pone.0034489-Richter1">[26]</xref>, was nearly completely abolished in the absence of extracellular Ca<sup>2+</sup> under parallel treatments (control, Δ<italic>F/F</italic> = 16.1±3.6%; Ca<sup>2+</sup>-free, Δ<italic>F/F</italic> = 2.8±0.2%; <italic>n</italic> = 4; <xref ref-type="fig" rid="pone-0034489-g004">Fig. 4B</xref>). Part of the γEVG-responsive taste cells showed a Ca<sup>2+</sup> response to KCl stimulation; however, the γEVG-induced response in these cells was not affected by Ca<sup>2+</sup>-free conditions (<xref ref-type="fig" rid="pone-0034489-g004">Fig. 4A and B</xref>). These results are consistent with <italic>kokumi</italic> transduction involving release of stored Ca<sup>2+</sup>, not Ca<sup>2+</sup> influx (<xref ref-type="fig" rid="pone-0034489-g004">Fig. 4C</xref>).</p>
+        <fig id="pone-0034489-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034489.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Ca<sup>2+</sup> response elicited by γEVG involves intracellular Ca<sup>2+</sup> stores and phospholipase C.</title>
+            <p>(A) γEVG (100 µM) was focally applied in medium containing Ca<sup>2+</sup> (left trace) or in the absence of Ca<sup>2+</sup> (Ca-free medium with 0.2 mM EGTA; right trace). (B) Responses elicited by depolarization (bath-applied KCl, 50 mM) and influx of Ca<sup>2+</sup> through voltage-dependent Ca<sup>2+</sup> channels were abolished in the absence of extracellular Ca<sup>2+</sup>. (C) Mean amplitudes of responses in the presence or absence of Ca<sup>2+</sup> in the medium (mean ± SE; *<italic>p</italic>≤0.05, n = 4 cells). (D) Responses to γEVG inhibited by U73122 (10 µM). (E) Mean amplitudes of the responses in the presence or absence of U73122 (mean ± SE; *<italic>p</italic>≤0.05, n = 4 cells).</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.g004" xlink:type="simple"/>
+        </fig>
+        <p>Umami, sweet and bitter stimuli trigger the release of stored Ca<sup>2+</sup> by activating phospholipase C (PLC) <xref ref-type="bibr" rid="pone.0034489-Maruyama1">[24]</xref>, <xref ref-type="bibr" rid="pone.0034489-Huang3">[27]</xref>–<xref ref-type="bibr" rid="pone.0034489-Zhang1">[30]</xref>. To directly test whether <italic>kokumi</italic> substance-elicited Ca<sup>2+</sup> responses arise from PLC activation, we used a non-selective PLC inhibitor, U73122 <xref ref-type="bibr" rid="pone.0034489-Bleasdale1">[31]</xref>–<xref ref-type="bibr" rid="pone.0034489-Thompson1">[33]</xref>. After incubation with 10 µM U73122 for 10 min, responses elicited by γEVG were almost abolished (control, Δ<italic>F/F</italic> = 8.3±1.6%; U73122, Δ<italic>F/F</italic> = 1.7±0.8%; <italic>n</italic> = 4; <xref ref-type="fig" rid="pone-0034489-g004">Fig. 4D and E</xref>). In contrast, depolarization (KCl)-induced responses were not significantly altered by treatment with U73122 (data not shown). These data strongly support the notion that the <italic>kokumi</italic> mechanisms involve intracellular Ca<sup>2+</sup> release.</p>
+      </sec>
+      <sec id="s2e">
+        <title><italic>CaSR</italic> ligand-responsive cells do not respond to L-glutamate stimuli</title>
+        <p>It has been reported that CaSR is activated by various γ-glutamyl peptides, including glutathione and γEVG <xref ref-type="bibr" rid="pone.0034489-Ohsu1">[8]</xref>, <xref ref-type="bibr" rid="pone.0034489-Conigrave1">[34]</xref>, <xref ref-type="bibr" rid="pone.0034489-Wang1">[35]</xref>. When transiently expressed in HEK293 cells, CaSR also induces Ca<sup>2+</sup> changes in response to L-glutamate monomer, which is associated with the umami taste <xref ref-type="bibr" rid="pone.0034489-Bystrova1">[4]</xref>. In contrast, receptor (Type II) cells respond to sweet, bitter and umami taste stimuli by elevating cytoplasmic Ca<sup>2+</sup> <xref ref-type="bibr" rid="pone.0034489-DeFazio1">[17]</xref>, <xref ref-type="bibr" rid="pone.0034489-Tomchik1">[21]</xref>. We asked whether the CaSR ligand, γEVG, and glutamate produce responses in the same mouse type II taste cells. These studies have suggested that γEVG mimics the taste of L-glutamate, at least in part, by activating the same taste receptors as umami compounds. To test this interpretation directly, we focally applied γEVG and monopotassium L-glutamate (MPG) + inosine monophosphate (IMP) sequentially on circumvallate taste buds. γEVG (100 µM) evoked transient Ca<sup>2+</sup> responses in some taste cells (10 responding cells out of 132 recorded cells; Δ<italic>F/F</italic> = 7.4±1.3%), but not in those that responded to MPG (100 mM) + IMP (1 mM) (<xref ref-type="fig" rid="pone-0034489-g005">Fig. 5A, C</xref>). Conversely, MPG + IMP-responding cells (8 cells out of 132 recorded cells; Δ<italic>F/F</italic> = 6.7±1.5%) did not respond to γEVG (<xref ref-type="fig" rid="pone-0034489-g005">Fig. 5B, C</xref>). These data suggest that separate receptors, found on separate cells, generate Ca<sup>2+</sup> responses to γEVG and MPG + IMP (<xref ref-type="fig" rid="pone-0034489-g005">Fig. 5C</xref>). In cells that respond to each agonist, we cannot rule out the possibility of subthreshold responses to the other agonist. Nevertheless, these results emphasize that responses to CaSR ligand in native taste tissues are highly heterogeneous and vary markedly from those described for the proposed umami taste receptors.</p>
+        <fig id="pone-0034489-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034489.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>γEVG-responding taste cells are different from MPG + IMP-responding cells.</title>
+            <p>(A) Taste cell responses were recorded in lingual slice preparations of mouse circumvallate papilla. Preparations were sequentially stimulated with γEVG (100 µM) and MPG (100 mM) + IMP (1 mM). The traces show superimposed responses from γEVG-responding cells (A) and MPG + IMP-responding cells (B). Responses to γEVG were only observed in cells lacking response to MPG + IMP. (C) We recorded from 132 Calcium Green-loaded taste cells in 16 lingual slices. Ten dye-loaded cells were γEVG-responding cells, while MPG + IMP stimulation evoked responses in 8 out of 132 cells. We did not identify cells that responded to both substances.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.g005" xlink:type="simple"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>Physiological responses correlate with molecular expression</title>
+        <p>We recorded Ca<sup>2+</sup> responses to 100 µM γEVG and 100 mM MPG in lingual slice preparations as described above. The functional responses of taste cells in lingual slices fell into two distinct classes. Our next step was to test whether the two kinds of responding taste cells, determined by functional imaging, mapped onto the two categories determined by expression of CaSR and an umami receptor subunit, T1R3 <xref ref-type="bibr" rid="pone.0034489-Li1">[36]</xref>. We designed additional methods, which are independent from the methods described above, to distinguish between CaSR-expressing cells and T1R3 cells. To identify these receptors, we used dual immunohistochemistry for CaSR and T1R3 in mouse circumvallate papillae. Examples of immunostained circumvallate papilla are shown in <xref ref-type="fig" rid="pone-0034489-g006">Fig. 6</xref>. The presence of CaSR immunofluorescent signals was observed in a subset of taste cells. In 63 circumvallate taste buds, 502 taste cells expressed CaSR, whereas 347 taste cells expressed T1R3. Only three cells (0.6% of CaSR-positive taste cells) expressed both CaSR and T1R3 (<xref ref-type="fig" rid="pone-0034489-g006">Fig. 6</xref>). These data demonstrate that most taste cells express CaSR, T1R3, or neither.</p>
+        <fig id="pone-0034489-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034489.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>CaSR is found in distinct cells that do not express an umami/sweet receptor subunit.</title>
+            <p>(A–C) A longitudinal section of a circumvallate taste bud immunostained with antibodies against CaSR (A) and T1R3 (B). (C) Overlay of A and B. (D) A transverse section of a circumvallate taste bud immunostained with antibodies against CaSR (green) and T1R3 (red). Scale bars 20 µm.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.g006" xlink:type="simple"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>In this study, we used a preparation of lingual slices from circumvallate papilla that allows one to apply tastants selectively to the apical chemosensory tips of taste cells, while avoiding stimulating non-taste cells and basolateral regions of taste buds <xref ref-type="bibr" rid="pone.0034489-Maruyama1">[24]</xref>. This report presents data that indicate that CaSR ligands induce a cellular response in mouse circumvallate taste cells. We identified a population (6.5%) of taste cells in the circumvallate papillae that responds to <italic>kokumi</italic> substances. This value is comparable with the immunohistochemistry results (6.8% CaSR-positive cells/taste bud). Furthermore, this compares with previous estimates, in the same preparation, of 28% cells that respond to bitter <xref ref-type="bibr" rid="pone.0034489-Caicedo2">[37]</xref> and 5% to umami (monopotassium L-glutamate) stimuli <xref ref-type="bibr" rid="pone.0034489-Maruyama1">[24]</xref>. The threshold concentration of γEVG needed to activate a Ca<sup>2+</sup> response in taste cells was 3 µM, which is consistent with reports on human sensory evaluation analysis <xref ref-type="bibr" rid="pone.0034489-Ohsu1">[8]</xref>. We also observed that both species respond to CaSR agonists with very similar characteristics (<xref ref-type="supplementary-material" rid="pone.0034489.s001">Figure S1</xref>, <xref ref-type="supplementary-material" rid="pone.0034489.s002">Method S1</xref>). Hence, the results from mouse experiments can be extrapolated to results from human CaSR experiments. Additionally, NPS2143, a CaSR inhibitor, impaired the CaSR agonist-induced taste cell response in lingual slice preparations, as well as in heterologous experiments. Moreover, taste cells responded to multiple CaSR agonists, including hydrophobic (cinacalcet) and hydrophilic (GSH and γEVG) <italic>kokumi</italic> substances. Taste buds contain tight junctions around the taste pore (e.g., claudin 4 and 8), and maintain a highly specific permeability barrier for paracellular diffusion <xref ref-type="bibr" rid="pone.0034489-Michlig1">[38]</xref>. It is expected that CaSR agonists (<italic>kokumi</italic> substances), especially the hydrophilic GSH and γEVG, are accessible only to microvilli in the apical tip of the taste cells, and activate CaSR. Taken together, the data from the present study suggest that CaSR is involved in taste transduction in mice.</p>
+      <p>Human sensory analysis demonstrated that CaSR agonists enhance the intensity of umami and sweet tastes, and are called <italic>kokumi</italic> flavor <xref ref-type="bibr" rid="pone.0034489-Ohsu1">[8]</xref>. We expected that CaSR agonists would induce a response in the umami or sweet taste cells. Tordoff and colleagues reported that calcium elicits appetitive behavior in mice <xref ref-type="bibr" rid="pone.0034489-McCaughey1">[7]</xref>. Their recent study suggested that CaSR dimerizes with the sweet and umami receptor subunit T1R3 <xref ref-type="bibr" rid="pone.0034489-Tordoff1">[39]</xref>. However, surprisingly, CaSR agonists induced a response in a different group of taste cells from the umami or sweet taste cells. Results from double immunohistochemistry of CaSR and T1R3 also support this observation. Signaling in taste cells, especially for umami, sweet and bitter, are well understood. Taste receptors for umami (T1R1 + T1R3) and sweet (T1R2 + T1R3) agonists have been identified <xref ref-type="bibr" rid="pone.0034489-Li1">[36]</xref>, <xref ref-type="bibr" rid="pone.0034489-Montmayeur1">[40]</xref>–<xref ref-type="bibr" rid="pone.0034489-Nelson2">[42]</xref>, and activation of these receptors elicits cellular responses (e.g. transient Ca<sup>2+</sup> changes and ATP secretion) in receptor-expressing taste cells. These findings demonstrate the involvement of CaSR in <italic>kokumi</italic> signaling, and suggest that CaSR is not directly involved in umami or sweet taste signaling. In cells that respond to each agonist, we cannot rule out the possibility of cell-to-cell signaling within a taste bud.</p>
+      <p>Our results indicate that <italic>kokumi</italic> substance-responsive taste cells are both presynaptic (Type III) and non-presynaptic taste cells. Furthermore, the results suggest that certain stimuli evoke the Ca<sup>2+</sup> response via release from intracellular stores in both presynaptic and non-presynaptic taste cells. The exact classification of <italic>kokumi</italic> substance-responsive taste cells remains to be determined. San Gabriel <italic>et al</italic>. reported that CaSR-positive taste cells coexpress PLCβ2, a receptor (Type II) cell marker, or NCAM, a presynaptic cell marker in rat vallate taste buds <xref ref-type="bibr" rid="pone.0034489-SanGabriel1">[5]</xref>. Taken together with these observations, CaSR is expressed at least in Type II and Type III taste cells. Activation of <italic>kokumi</italic> substance-responsive cells may modulate the activity of sensory afferent fibers, and/or neighboring taste cells in the same taste bud <xref ref-type="bibr" rid="pone.0034489-Maruyama1">[24]</xref>, <xref ref-type="bibr" rid="pone.0034489-Huang4">[43]</xref>, <xref ref-type="bibr" rid="pone.0034489-Huang5">[44]</xref>. ATP released from receptor cells may excite primary sensory afferent fibers <xref ref-type="bibr" rid="pone.0034489-Finger1">[45]</xref>. ATP may also function as a paracrine transmitter and act on cells within the taste bud <xref ref-type="bibr" rid="pone.0034489-Huang4">[43]</xref>, <xref ref-type="bibr" rid="pone.0034489-Dando1">[46]</xref>, <xref ref-type="bibr" rid="pone.0034489-Romanov1">[47]</xref>. Our experiments were not designed to distinguish between these possibilities, both of which remain open questions.</p>
+      <p>Recently, Bystrova <italic>et al.</italic> reported that only type III taste cells responded to agonists of CaSR. However, in our study, all CaSR agonists tested induced responses in both type II and type III taste cells. We do not know the reason for this discrepancy; enzyme treatment during taste cell isolation might affect cellular responses. In PLCβ2-positive type II taste cells, CaSR is expressed in T1R3-negative taste cells. Whether CaSR is expressed in bitter receptor T2R-positive cells remains unresolved.</p>
+      <p>Our results suggest that <italic>kokumi</italic> substance-induced increases in [Ca<sup>2+</sup>]<sub>i</sub> arise principally via mobilization from intracellular stores, because responses were essentially unaffected by depletion of extracellular Ca<sup>2+</sup>. Conversely, responses were strongly abolished by pre-treatment with U73122, demonstrating the involvement of phospholipase C in <italic>kokumi</italic> transduction. These results provide direct evidence of the existence of a functional <italic>kokumi</italic> receptor coupled to Ca<sup>2+</sup> mobilization in taste cells. Generally, [Ca<sup>2+</sup>]<sub>i</sub> response in taste cells seems to depend on two sources of Ca<sup>2+</sup>. For depolarizing stimuli (KCl), Ca<sup>2+</sup> influx is induced via activation of voltage-gated Ca<sup>2+</sup> channels in presynaptic taste cells <xref ref-type="bibr" rid="pone.0034489-DeFazio1">[17]</xref>, <xref ref-type="bibr" rid="pone.0034489-Huang5">[44]</xref>, <xref ref-type="bibr" rid="pone.0034489-Roberts1">[48]</xref>. Interestingly, neither thapsigargin nor U73122 totally eliminated the Ca<sup>2+</sup> responses evoked by <italic>kokumi</italic> stimuli. Whether this represents minor additional pathways remains unresolved.</p>
+      <p>In summary, our results demonstrate that <italic>kokumi</italic> substance-responsive cells are presynaptic and non-presynaptic taste cells. We observed that part of the <italic>kokumi</italic> substance-responsive cells did not respond to umami (MPG) or sweet (SC45647) stimuli. The <italic>kokumi</italic> flavor is defined as an enhancer of umami and sweet tastes. <italic>Kokumi</italic> substance-responding taste cells might involve enhancement of these basic tastes.</p>
+    </sec>
+    <sec id="s4" sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Tissue preparation and functional imaging</title>
+        <p>All experimental procedures were approved by the Animal Experiment Institution Review Board of Ajinomoto Co., Inc., Institute for Innovation (2008220, 2009085, 2010013 and 2011239), and conformed with the standards for the use of laboratory animals published by the Institute of Laboratory Animal Resources, U.S. National Academy of Sciences. C57BL/6 adult mice (≥7 weeks old, male) were sacrificed by exposure to diethyl ether, followed by cervical dislocation. Tongues were removed and immersed in cold Tyrode's solution. Lingual slices containing the vallate papilla were obtained, and a Ca<sup>2+</sup> indicator dye was injected into taste cells following similar procedures previously described by Maruyama <italic>et al</italic>. <xref ref-type="bibr" rid="pone.0034489-Maruyama1">[24]</xref>. Briefly, the fluorescent Ca<sup>2+</sup> indicator dye, Calcium Green-1 dextran (CGD; MW 3,000; 0.25 mM in H<sub>2</sub>O; Invitrogen, Carlsbad, CA, USA), was injected iontophoretically through a large-diameter-tip glass micropipette (40 µm) into the crypt surrounding the vallate papilla (−3.5 µA square pulses, 10 min). The CGD-loaded tissue was sliced at 100 µm with a vibratome (Leica VT1000S, Nussloch, Germany). Slices containing vallate taste buds were mounted on a glass coverslip coated with Cell-Tak (Becton Dickinson, Franklin Lakes, NJ, USA), put in a recording chamber, and superfused with Tyrode's solution (30°C) at a rate of 1.5 ml/min. Single glass micropipettes (2 µm tip diameter) were used to directly deliver taste stimuli for apical stimulation of a selected taste bud. Stimuli were ejected for 1 s with air pressure (3.5 psi; Pressure System IIe, Toohey Company, Fairfield, NJ, USA). Different pipettes were mounted for each taste stimulus. All stimulus solutions contained 2 µM fluorescein to monitor stimulus application, duration and concentration.</p>
+        <p>CGD-loaded taste cells were viewed with a laser-scanning confocal microscope, using an argon laser (Fluoview FV-300, Olympus, Tokyo, Japan). Images were captured at 1.1 s intervals. Fluorometric signals are expressed as relative fluorescence change: Δ<italic>F/F</italic> = (<italic>F–F<sub>0</sub></italic>)/<italic>F<sub>0</sub></italic>, where <italic>F<sub>0</sub></italic> denotes the resting fluorescence level corrected for any bleaching that occurred during the recording. Using Δ<italic>F/F</italic> corrects for variations in baseline fluorescence, cell thickness, total dye concentration and illumination <xref ref-type="bibr" rid="pone.0034489-Helmchen1">[49]</xref>. Peak Δ<italic>F/F</italic> constituted the response amplitude for statistical quantification.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Data analysis</title>
+        <p>Statistical analyses using paired Student's <italic>t</italic>-tests were applied to determine whether the changes in the response amplitudes (peak Δ<italic>F/F)</italic> to a given treatment were significant. Data presented in bar graphs show mean ± SEM.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Reagents and solutions</title>
+        <p>γ-glutamyl-valinyl-glycine (γEVG) was synthesized by Kokusan Chemicals (Tokyo, Japan). Cinacalcet, NPS2143 and SC45647 were chemically synthesized in our facility by previously described methods <xref ref-type="bibr" rid="pone.0034489-Rodriguez1">[50]</xref>–<xref ref-type="bibr" rid="pone.0034489-Nofre1">[52]</xref>. All other chemicals including monopotassium L-glutamate (MPG) were purchased from Sigma Chemical (St Louis, MO, USA). All tastants were freshly dissolved in Tyrode's solution for each experiment. The standard medium consisted of Tyrode's solution, which is composed of, in mM: 135 NaCl, 5 KCl, 1.5 CaCl<sub>2</sub>, 1 MgCl<sub>2</sub>, 10 HEPES, 10 glucose, 10 sodium pyruvate and 5 NaHCO<sub>3</sub>, pH 7.2; 318–323 mOsm. For Ca<sup>2+</sup>-free Tyrode's solution, CaCl<sub>2</sub> was removed, and 0.2 mM EGTA was added.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Immunohistochemistry</title>
+        <p>Mouse circumvallate tissues were fixed in 4% paraformaldehyde and cryoprotected in 10–30% sucrose for 3.5 h at 4°C. Frozen sections (12 µm) were prepared and blocked in Protein Block (Dako, Glostrup, Denmark) with 1% Triton X-100 (Sigma) for 45 min at room temperature. Sections were then incubated for 1 h with a primary antibody [rat anti-CaSR, diluted 1∶400; rabbit anti-PLCβ2, 1∶500 (sc-206, Santa Cruz, Santa Cruz, CA, USA); rabbit anti-NCAM, 1∶400 (AB5032, Millipore, Billerica, MA, USA) and rabbit anti-T1R3, 1∶800 (kind gift from Dr. Iwatsuki, Ajinomoto Co., Inc.) <xref ref-type="bibr" rid="pone.0034489-Iwatsuki1">[53]</xref>], followed by a secondary antibody (1∶1000): Alexa Fluor 488 labeled donkey anti-rat IgG antibody for anti-CaSR (A-21208, Invitrogen) and Alexa Fluor 568 labeled goat anti-rabbit IgG antibody for anti-PLCβ2, anti-NCAM and anti-T1R3 (A-11036, Invitrogen). CaSR was detected using a specific antibody generated in our lab (host = rat). The anti-mouse-CaSR antibody recognizes the protein sequences: KSNSEDPFPQPERQKQQ, QGPMVGDHQPEIESPDE and MRQNSLEAQKSNDTLNR, corresponding to residues 917–933, 1034–1050 and 994–1010 of the mouse CaSR, respectively. Negative controls without the primary antibody were processed in parallel in every experiment. Images were obtained with a laser-scanning confocal microscope (Olympus). We estimated a thickness of ∼3 µm for the optical section taken by the confocal microscope.</p>
+      </sec>
+      <sec id="s4e">
+        <title>RT-PCR analysis</title>
+        <p>RT-PCR amplification was performed using primers that amplify the mouse <italic>CaSR</italic>, <italic>PLCβ2</italic>, <italic>Snap25</italic> and <italic>β-actin</italic>. Briefly, dissected tongue containing circumvallate and foliate papillae was injected into the submucosal layer with a mixture of 1 mg/ml collagenase A (Roche Applied Science, Indianapolis, IN, USA), 2.5 mg/ml Dispase II (Roche Applied Science) and 1 mg/ml trypsin inhibitor (Sigma), and then incubated for 20 min at room temperature. The papilla-containing epithelium was peeled from the underlying connective tissue. Total RNA was isolated from the epithelial papillae and from the epithelium without taste buds (RNA micro kit, Agilent Technologies, Santa Clara, CA, USA). Purified RNA was denatured, and first-strand cDNA was synthesized using oligo(dT)<sub>12–18</sub> primer and reverse transcriptase (Super Script III, Invitrogen). cDNA was used as a template in a 20 µl PCR mixture with Taq polymerase (Invitrogen). PCR conditions were as follows: 94°C for 2 min, followed by 29–35 cycles of 94°C for 30 s, 58°C for 20 s, and 72°C for 45 s. The PCR products were analyzed by gel electrophoresis with GelRed staining (Biotium, Hayward, CA, USA). The primers used were as follows: <italic>CaSR</italic>, 5′-tcgagaccccttacatggac-3′ (forward) and 5′-agtagttccccaccaggtca-3′ (reverse); <italic>PLCβ2</italic>, 5′-ctcgctttgggaagtttgc-3′ (forward) and 5′-gcattgactgtcatcgggt-3′ (reverse); <italic>Snap25</italic>, 5′-ggcaataatcaggatggagtag-3′ (forward) and 5′-agatttaaccacttcccagca-3′ (reverse); <italic>β-actin</italic>, 5′-caccctgtgctgctcacc-3′ (forward) and 5′-gcacgatttccctctcag-3′ (reverse).</p>
+      </sec>
+    </sec>
+    <sec id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material id="pone.0034489.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.s001" xlink:type="simple">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Human and mouse CaSR have similar properties for </bold><bold><italic>kokumi</italic></bold><bold> substances.</bold> Concentration-response curves for cinacalcet (A), glutathione (GSH; B) and γ-glutamyl-valinyl-glycine (γEVG; C) in human (filled) or mouse (open) CaSR-expressing HEK cells. For the tested CaSR agonists, we observed very similar EC<sub>50</sub> values in both species of CaSR. The EC<sub>50</sub> values for cinacalcet, GSH and γEVG were 0.207, 0.058 and 0.033 µM for human CaSR, and 0.580, 0.058 and 0.032 µM for mouse CaSR, respectively.</p>
+          <p>(TIF)</p>
+        </caption>
+      </supplementary-material>
+      <supplementary-material id="pone.0034489.s002" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0034489.s002" xlink:type="simple">
+        <label>Method S1</label>
+        <caption>
+          <p><bold>Determination of CaSR activity using HEK293 cells.</bold> Full-length human and mouse CaSR cDNA were isolated by RT-PCR and validated by sequencing. Both constructs were cloned into pcDNA3.1 (Invitrogen) for functional experiments. HEK cells were transfected in parallel using Fugene 6 (Roche, Indianapolis, IN, USA) with constructs of human- or mouse-CaSR, or with the empty expression vector, pcDNA3.1. After 24 h, cells were harvested and seeded in a 96-well plate. Cells were loaded with the calcium indicator dye, Calcium 3 (Molecular Devices, Sunnyvale, CA, USA), and responses were measured with FRIPR or FLEX Station (Molecular Devices).</p>
+          <p>(DOC)</p>
+        </caption>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to Eriko Miura for performing excellent immunohistochemistry. We thank Toshihiko Hatanaka for synthesis of the <italic>kokumi</italic> substances, and Dr. Yusuke Amino for synthesis of the sweetener, SC45647. We also thank Dr. Ken Iwatsuki, Dr. Hisayuki Uneyama and Dr. Kunio Torii for providing the anti-T1R3 antibody and for valuable suggestions.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0034489-Brown1">
+        <label>1</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Brown</surname><given-names>EM</given-names></name><name name-style="western"><surname>Gamba</surname><given-names>G</given-names></name><name name-style="western"><surname>Riccardi</surname><given-names>D</given-names></name><name name-style="western"><surname>Lombardi</surname><given-names>M</given-names></name><name name-style="western"><surname>Butters</surname><given-names>R</given-names></name><etal/></person-group>             <year>1993</year>             <article-title>Cloning and characterization of an extracellular Ca<sup>2+−</sup>sensing receptor from bovine parathyroid.</article-title>             <source>Nature</source>             <volume>366</volume>             <fpage>575</fpage>             <lpage>580</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Chattopadhyay1">
+        <label>2</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Chattopadhyay</surname><given-names>N</given-names></name><name name-style="western"><surname>Vassilev</surname><given-names>PM</given-names></name><name name-style="western"><surname>Brown</surname><given-names>EM</given-names></name></person-group>             <year>1997</year>             <article-title>Calcium-sensing receptor: roles in and beyond systemic calcium homeostasis.</article-title>             <source>Biol Chem</source>             <volume>378</volume>             <fpage>759</fpage>             <lpage>768</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Brown2">
+        <label>3</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Brown</surname><given-names>EM</given-names></name><name name-style="western"><surname>MacLeod</surname><given-names>RJ</given-names></name></person-group>             <year>2001</year>             <article-title>Extracellular calcium sensing and extracellular calcium signaling.</article-title>             <source>Physiol Rev</source>             <volume>81</volume>             <fpage>239</fpage>             <lpage>297</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Bystrova1">
+        <label>4</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Bystrova</surname><given-names>MF</given-names></name><name name-style="western"><surname>Romanov</surname><given-names>RA</given-names></name><name name-style="western"><surname>Rogachevskaja</surname><given-names>OA</given-names></name><name name-style="western"><surname>Churbanov</surname><given-names>GD</given-names></name><name name-style="western"><surname>Kolesnikov</surname><given-names>SS</given-names></name></person-group>             <year>2010</year>             <article-title>Functional expression of the extracellular-Ca<sup>2+</sup>-sensing receptor in mouse taste cells.</article-title>             <source>J Cell Sci</source>             <volume>123</volume>             <fpage>972</fpage>             <lpage>982</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-SanGabriel1">
+        <label>5</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>San Gabriel</surname><given-names>A</given-names></name><name name-style="western"><surname>Uneyama</surname><given-names>H</given-names></name><name name-style="western"><surname>Maekawa</surname><given-names>T</given-names></name><name name-style="western"><surname>Torii</surname><given-names>K</given-names></name></person-group>             <year>2009</year>             <article-title>The calcium-sensing receptor in taste tissue.</article-title>             <source>Biochem Biophys Res Commun</source>             <volume>378</volume>             <fpage>414</fpage>             <lpage>418</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Ninomiya1">
+        <label>6</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Ninomiya</surname><given-names>Y</given-names></name><name name-style="western"><surname>Tonosaki</surname><given-names>K</given-names></name><name name-style="western"><surname>Funakoshi</surname><given-names>M</given-names></name></person-group>             <year>1982</year>             <article-title>Gustatory neural response in the mouse.</article-title>             <source>Brain Res</source>             <volume>244</volume>             <fpage>370</fpage>             <lpage>373</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-McCaughey1">
+        <label>7</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>McCaughey</surname><given-names>SA</given-names></name><name name-style="western"><surname>Forestell</surname><given-names>CA</given-names></name><name name-style="western"><surname>Tordoff</surname><given-names>MG</given-names></name></person-group>             <year>2005</year>             <article-title>Calcium deprivation increases the palatability of calcium solutions in rats.</article-title>             <source>Physiol Behav</source>             <volume>84</volume>             <fpage>335</fpage>             <lpage>342</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Ohsu1">
+        <label>8</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Ohsu</surname><given-names>T</given-names></name><name name-style="western"><surname>Amino</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nagasaki</surname><given-names>H</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Takeshita</surname><given-names>S</given-names></name><etal/></person-group>             <year>2010</year>             <article-title>Involvement of the calcium-sensing receptor in human taste perception.</article-title>             <source>J Biol Chem</source>             <volume>285</volume>             <fpage>1016</fpage>             <lpage>1022</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Dunkel1">
+        <label>9</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Dunkel</surname><given-names>A</given-names></name><name name-style="western"><surname>Koster</surname><given-names>J</given-names></name><name name-style="western"><surname>Hofmann</surname><given-names>T</given-names></name></person-group>             <year>2007</year>             <article-title>Molecular and sensory characterization of gamma-glutamyl peptides as key contributors to the kokumi taste of edible beans (Phaseolus vulgaris L.).</article-title>             <source>J Agric Food Chem</source>             <volume>55</volume>             <fpage>6712</fpage>             <lpage>6719</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Toelstede1">
+        <label>10</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Toelstede</surname><given-names>S</given-names></name><name name-style="western"><surname>Hofmann</surname><given-names>T</given-names></name></person-group>             <year>2009</year>             <article-title>Kokumi-active glutamyl peptides in cheeses and their biogeneration by Penicillium roquefortii.</article-title>             <source>J Agric Food Chem</source>             <volume>57</volume>             <fpage>3738</fpage>             <lpage>3748</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Ueda1">
+        <label>11</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Ueda</surname><given-names>T</given-names></name><name name-style="western"><surname>Yonemitsu</surname><given-names>M</given-names></name><name name-style="western"><surname>Tsubuku</surname><given-names>T</given-names></name><name name-style="western"><surname>Sakaguchi</surname><given-names>M</given-names></name><name name-style="western"><surname>Miyajima</surname><given-names>R</given-names></name></person-group>             <year>1997</year>             <article-title>Flavor characteristics of glutathione in raw and cooked foodstuffs.</article-title>             <source>Bioscience, Biotechnology, and Biochemistry</source>             <volume>61</volume>             <fpage>1977</fpage>             <lpage>1980</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Ueda2">
+        <label>12</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Ueda</surname><given-names>Y</given-names></name><name name-style="western"><surname>Sakaguchi</surname><given-names>M</given-names></name><name name-style="western"><surname>Hirayama</surname><given-names>K</given-names></name><name name-style="western"><surname>Miyajima</surname><given-names>R</given-names></name><name name-style="western"><surname>Kimizuka</surname><given-names>A</given-names></name></person-group>             <year>1990</year>             <article-title>Characteristic flavor constituents in water extract of garlic.</article-title>             <source>Agricultural and Biological Chemistry</source>             <volume>54</volume>             <fpage>163</fpage>             <lpage>169</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Chaudhari1">
+        <label>13</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Chaudhari</surname><given-names>N</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2010</year>             <article-title>The cell biology of taste.</article-title>             <source>J Cell Biol</source>             <volume>190</volume>             <fpage>285</fpage>             <lpage>296</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Murray1">
+        <label>14</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Murray</surname><given-names>RG</given-names></name></person-group>             <year>1993</year>             <article-title>Cellular relations in mouse circumvallate taste buds.</article-title>             <source>Microsc Res Tech</source>             <volume>26</volume>             <fpage>209</fpage>             <lpage>224</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Yee1">
+        <label>15</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Yee</surname><given-names>CL</given-names></name><name name-style="western"><surname>Yang</surname><given-names>R</given-names></name><name name-style="western"><surname>Bottger</surname><given-names>B</given-names></name><name name-style="western"><surname>Finger</surname><given-names>TE</given-names></name><name name-style="western"><surname>Kinnamon</surname><given-names>JC</given-names></name></person-group>             <year>2001</year>             <article-title>“Type III” cells of rat taste buds: immunohistochemical and ultrastructural studies of neuron-specific enolase, protein gene product 9.5, and serotonin.</article-title>             <source>J Comp Neurol</source>             <volume>440</volume>             <fpage>97</fpage>             <lpage>108</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Kinnamon1">
+        <label>16</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Kinnamon</surname><given-names>JC</given-names></name><name name-style="western"><surname>Taylor</surname><given-names>BJ</given-names></name><name name-style="western"><surname>Delay</surname><given-names>RJ</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>1985</year>             <article-title>Ultrastructure of mouse vallate taste buds. I. Taste cells and their associated synapses.</article-title>             <source>J Comp Neurol</source>             <volume>235</volume>             <fpage>48</fpage>             <lpage>60</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-DeFazio1">
+        <label>17</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>DeFazio</surname><given-names>RA</given-names></name><name name-style="western"><surname>Dvoryanchikov</surname><given-names>G</given-names></name><name name-style="western"><surname>Maruyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Kim</surname><given-names>JW</given-names></name><name name-style="western"><surname>Pereira</surname><given-names>E</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>Separate populations of receptor cells and presynaptic cells in mouse taste buds.</article-title>             <source>J Neurosci</source>             <volume>26</volume>             <fpage>3971</fpage>             <lpage>3980</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Huang1">
+        <label>18</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>AL</given-names></name><name name-style="western"><surname>Chen</surname><given-names>X</given-names></name><name name-style="western"><surname>Hoon</surname><given-names>MA</given-names></name><name name-style="western"><surname>Chandrashekar</surname><given-names>J</given-names></name><name name-style="western"><surname>Guo</surname><given-names>W</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>The cells and logic for mammalian sour taste detection.</article-title>             <source>Nature</source>             <volume>442</volume>             <fpage>934</fpage>             <lpage>938</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Huang2">
+        <label>19</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>YA</given-names></name><name name-style="western"><surname>Maruyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Stimac</surname><given-names>R</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2008</year>             <article-title>Presynaptic (Type III) cells in mouse taste buds sense sour (acid) taste.</article-title>             <source>J Physiol</source>             <volume>586</volume>             <fpage>2903</fpage>             <lpage>2912</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Medler1">
+        <label>20</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Medler</surname><given-names>KF</given-names></name><name name-style="western"><surname>Margolskee</surname><given-names>RF</given-names></name><name name-style="western"><surname>Kinnamon</surname><given-names>SC</given-names></name></person-group>             <year>2003</year>             <article-title>Electrophysiological characterization of voltage-gated currents in defined taste cell types of mice.</article-title>             <source>J Neurosci</source>             <volume>23</volume>             <fpage>2608</fpage>             <lpage>2617</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Tomchik1">
+        <label>21</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Tomchik</surname><given-names>SM</given-names></name><name name-style="western"><surname>Berg</surname><given-names>S</given-names></name><name name-style="western"><surname>Kim</surname><given-names>JW</given-names></name><name name-style="western"><surname>Chaudhari</surname><given-names>N</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2007</year>             <article-title>Breadth of tuning and taste coding in mammalian taste buds.</article-title>             <source>J Neurosci</source>             <volume>27</volume>             <fpage>10840</fpage>             <lpage>10848</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Dvoryanchikov1">
+        <label>22</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Dvoryanchikov</surname><given-names>G</given-names></name><name name-style="western"><surname>Tomchik</surname><given-names>SM</given-names></name><name name-style="western"><surname>Chaudhari</surname><given-names>N</given-names></name></person-group>             <year>2007</year>             <article-title>Biogenic amine synthesis and uptake in rodent taste buds.</article-title>             <source>J Comp Neurol</source>             <volume>505</volume>             <fpage>302</fpage>             <lpage>313</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Caicedo1">
+        <label>23</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Caicedo</surname><given-names>A</given-names></name><name name-style="western"><surname>Jafri</surname><given-names>MS</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2000</year>             <article-title><italic>In situ</italic> Ca<sup>2+</sup> imaging reveals neurotransmitter receptors for glutamate in taste receptor cells.</article-title>             <source>J Neurosci</source>             <volume>20</volume>             <fpage>7978</fpage>             <lpage>7985</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Maruyama1">
+        <label>24</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Maruyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Pereira</surname><given-names>E</given-names></name><name name-style="western"><surname>Margolskee</surname><given-names>RF</given-names></name><name name-style="western"><surname>Chaudhari</surname><given-names>N</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2006</year>             <article-title>Umami responses in mouse taste cells indicate more than one receptor.</article-title>             <source>J Neurosci</source>             <volume>26</volume>             <fpage>2227</fpage>             <lpage>2234</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Gowen1">
+        <label>25</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Gowen</surname><given-names>M</given-names></name><name name-style="western"><surname>Stroup</surname><given-names>GB</given-names></name><name name-style="western"><surname>Dodds</surname><given-names>RA</given-names></name><name name-style="western"><surname>James</surname><given-names>IE</given-names></name><name name-style="western"><surname>Votta</surname><given-names>BJ</given-names></name><etal/></person-group>             <year>2000</year>             <article-title>Antagonizing the parathyroid calcium receptor stimulates parathyroid hormone secretion and bone formation in osteopenic rats.</article-title>             <source>J Clin Invest</source>             <volume>105</volume>             <fpage>1595</fpage>             <lpage>1604</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Richter1">
+        <label>26</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Richter</surname><given-names>TA</given-names></name><name name-style="western"><surname>Dvoryanchikov</surname><given-names>GA</given-names></name><name name-style="western"><surname>Chaudhari</surname><given-names>N</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2004</year>             <article-title>Acid-sensitive two-pore domain potassium (K2P) channels in mouse taste buds.</article-title>             <source>J Neurophysiol</source>             <volume>92</volume>             <fpage>1928</fpage>             <lpage>1936</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Huang3">
+        <label>27</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>L</given-names></name><name name-style="western"><surname>Shanker</surname><given-names>YG</given-names></name><name name-style="western"><surname>Dubauskaite</surname><given-names>J</given-names></name><name name-style="western"><surname>Zheng</surname><given-names>JZ</given-names></name><name name-style="western"><surname>Yan</surname><given-names>W</given-names></name><etal/></person-group>             <year>1999</year>             <article-title>Ggamma13 colocalizes with gustducin in taste receptor cells and mediates IP<sub>3</sub> responses to bitter denatonium.</article-title>             <source>Nat Neurosci</source>             <volume>2</volume>             <fpage>1055</fpage>             <lpage>1062</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Ogura1">
+        <label>28</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Ogura</surname><given-names>T</given-names></name><name name-style="western"><surname>Kinnamon</surname><given-names>SC</given-names></name></person-group>             <year>1999</year>             <article-title>IP(3)-Independent release of Ca<sup>2+</sup> from intracellular stores: A novel mechanism for transduction of bitter stimuli.</article-title>             <source>J Neurophysiol</source>             <volume>82</volume>             <fpage>2657</fpage>             <lpage>2666</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Rossler1">
+        <label>29</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Rossler</surname><given-names>P</given-names></name><name name-style="western"><surname>Kroner</surname><given-names>C</given-names></name><name name-style="western"><surname>Freitag</surname><given-names>J</given-names></name><name name-style="western"><surname>Noe</surname><given-names>J</given-names></name><name name-style="western"><surname>Breer</surname><given-names>H</given-names></name></person-group>             <year>1998</year>             <article-title>Identification of a phospholipase C beta subtype in rat taste cells.</article-title>             <source>Eur J Cell Biol</source>             <volume>77</volume>             <fpage>253</fpage>             <lpage>261</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Zhang1">
+        <label>30</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name><name name-style="western"><surname>Hoon</surname><given-names>MA</given-names></name><name name-style="western"><surname>Chandrashekar</surname><given-names>J</given-names></name><name name-style="western"><surname>Mueller</surname><given-names>KL</given-names></name><name name-style="western"><surname>Cook</surname><given-names>B</given-names></name><etal/></person-group>             <year>2003</year>             <article-title>Coding of sweet, bitter, and umami tastes: different receptor cells sharing similar signaling pathways.</article-title>             <source>Cell</source>             <volume>112</volume>             <fpage>293</fpage>             <lpage>301</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Bleasdale1">
+        <label>31</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Bleasdale</surname><given-names>JE</given-names></name><name name-style="western"><surname>Thakur</surname><given-names>NR</given-names></name><name name-style="western"><surname>Gremban</surname><given-names>RS</given-names></name><name name-style="western"><surname>Bundy</surname><given-names>GL</given-names></name><name name-style="western"><surname>Fitzpatrick</surname><given-names>FA</given-names></name><etal/></person-group>             <year>1990</year>             <article-title>Selective inhibition of receptor-coupled phospholipase C-dependent processes in human platelets and polymorphonuclear neutrophils.</article-title>             <source>J Pharmacol Exp Ther</source>             <volume>255</volume>             <fpage>756</fpage>             <lpage>768</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Salari1">
+        <label>32</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Salari</surname><given-names>H</given-names></name><name name-style="western"><surname>Bramley</surname><given-names>A</given-names></name><name name-style="western"><surname>Langlands</surname><given-names>J</given-names></name><name name-style="western"><surname>Howard</surname><given-names>S</given-names></name><name name-style="western"><surname>Chan-Yeung</surname><given-names>M</given-names></name><etal/></person-group>             <year>1993</year>             <article-title>Effect of phospholipase C inhibitor U-73122 on antigen-induced airway smooth muscle contraction in guinea pigs.</article-title>             <source>Am J Respir Cell Mol Biol</source>             <volume>9</volume>             <fpage>405</fpage>             <lpage>410</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Thompson1">
+        <label>33</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Thompson</surname><given-names>AK</given-names></name><name name-style="western"><surname>Mostafapour</surname><given-names>SP</given-names></name><name name-style="western"><surname>Denlinger</surname><given-names>LC</given-names></name><name name-style="western"><surname>Bleasdale</surname><given-names>JE</given-names></name><name name-style="western"><surname>Fisher</surname><given-names>SK</given-names></name></person-group>             <year>1991</year>             <article-title>The aminosteroid U-73122 inhibits muscarinic receptor sequestration and phosphoinositide hydrolysis in SK-N-SH neuroblastoma cells. A role for Gp in receptor compartmentation.</article-title>             <source>J Biol Chem</source>             <volume>266</volume>             <fpage>23856</fpage>             <lpage>23862</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Conigrave1">
+        <label>34</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Conigrave</surname><given-names>AD</given-names></name><name name-style="western"><surname>Quinn</surname><given-names>SJ</given-names></name><name name-style="western"><surname>Brown</surname><given-names>EM</given-names></name></person-group>             <year>2000</year>             <article-title>L-amino acid sensing by the extracellular Ca<sup>2+</sup>-sensing receptor.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>97</volume>             <fpage>4814</fpage>             <lpage>4819</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Wang1">
+        <label>35</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Wang</surname><given-names>M</given-names></name><name name-style="western"><surname>Yao</surname><given-names>Y</given-names></name><name name-style="western"><surname>Kuang</surname><given-names>D</given-names></name><name name-style="western"><surname>Hampson</surname><given-names>DR</given-names></name></person-group>             <year>2006</year>             <article-title>Activation of family C G-protein-coupled receptors by the tripeptide glutathione.</article-title>             <source>J Biol Chem</source>             <volume>281</volume>             <fpage>8864</fpage>             <lpage>8870</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Li1">
+        <label>36</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>X</given-names></name><name name-style="western"><surname>Staszewski</surname><given-names>L</given-names></name><name name-style="western"><surname>Xu</surname><given-names>H</given-names></name><name name-style="western"><surname>Durick</surname><given-names>K</given-names></name><name name-style="western"><surname>Zoller</surname><given-names>M</given-names></name><etal/></person-group>             <year>2002</year>             <article-title>Human receptors for sweet and umami taste.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>99</volume>             <fpage>4692</fpage>             <lpage>4696</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Caicedo2">
+        <label>37</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Caicedo</surname><given-names>A</given-names></name><name name-style="western"><surname>Kim</surname><given-names>KN</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2002</year>             <article-title>Individual mouse taste cells respond to multiple chemical stimuli.</article-title>             <source>J Physiol</source>             <volume>544</volume>             <fpage>501</fpage>             <lpage>509</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Michlig1">
+        <label>38</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Michlig</surname><given-names>S</given-names></name><name name-style="western"><surname>Damak</surname><given-names>S</given-names></name><name name-style="western"><surname>Le Coutre</surname><given-names>J</given-names></name></person-group>             <year>2007</year>             <article-title>Claudin-based permeability barriers in taste buds.</article-title>             <source>J Comp Neurol</source>             <volume>502</volume>             <fpage>1003</fpage>             <lpage>1011</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Tordoff1">
+        <label>39</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Tordoff</surname><given-names>MG</given-names></name><name name-style="western"><surname>Shao</surname><given-names>H</given-names></name><name name-style="western"><surname>Alarcon</surname><given-names>LK</given-names></name><name name-style="western"><surname>Margolskee</surname><given-names>RF</given-names></name><name name-style="western"><surname>Mosinger</surname><given-names>B</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Involvement of T1R3 in calcium-magnesium taste.</article-title>             <source>Physiol Genomics</source>             <volume>34</volume>             <fpage>338</fpage>             <lpage>348</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Montmayeur1">
+        <label>40</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Montmayeur</surname><given-names>JP</given-names></name><name name-style="western"><surname>Liberles</surname><given-names>SD</given-names></name><name name-style="western"><surname>Matsunami</surname><given-names>H</given-names></name><name name-style="western"><surname>Buck</surname><given-names>LB</given-names></name></person-group>             <year>2001</year>             <article-title>A candidate taste receptor gene near a sweet taste locus.</article-title>             <source>Nat Neurosci</source>             <volume>4</volume>             <fpage>492</fpage>             <lpage>498</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Nelson1">
+        <label>41</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Nelson</surname><given-names>G</given-names></name><name name-style="western"><surname>Chandrashekar</surname><given-names>J</given-names></name><name name-style="western"><surname>Hoon</surname><given-names>MA</given-names></name><name name-style="western"><surname>Feng</surname><given-names>L</given-names></name><name name-style="western"><surname>Zhao</surname><given-names>G</given-names></name><etal/></person-group>             <year>2002</year>             <article-title>An amino-acid taste receptor.</article-title>             <source>Nature</source>             <volume>416</volume>             <fpage>199</fpage>             <lpage>202</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Nelson2">
+        <label>42</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Nelson</surname><given-names>G</given-names></name><name name-style="western"><surname>Hoon</surname><given-names>MA</given-names></name><name name-style="western"><surname>Chandrashekar</surname><given-names>J</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name><name name-style="western"><surname>Ryba</surname><given-names>NJ</given-names></name><etal/></person-group>             <year>2001</year>             <article-title>Mammalian sweet taste receptors.</article-title>             <source>Cell</source>             <volume>106</volume>             <fpage>381</fpage>             <lpage>390</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Huang4">
+        <label>43</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>YJ</given-names></name><name name-style="western"><surname>Maruyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Dvoryanchikov</surname><given-names>G</given-names></name><name name-style="western"><surname>Pereira</surname><given-names>E</given-names></name><name name-style="western"><surname>Chaudhari</surname><given-names>N</given-names></name><etal/></person-group>             <year>2007</year>             <article-title>The role of pannexin 1 hemichannels in ATP release and cell-cell communication in mouse taste buds.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>104</volume>             <fpage>6436</fpage>             <lpage>6441</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Huang5">
+        <label>44</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>YJ</given-names></name><name name-style="western"><surname>Maruyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Lu</surname><given-names>KS</given-names></name><name name-style="western"><surname>Pereira</surname><given-names>E</given-names></name><name name-style="western"><surname>Plonsky</surname><given-names>I</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>Mouse taste buds use serotonin as a neurotransmitter.</article-title>             <source>J Neurosci</source>             <volume>25</volume>             <fpage>843</fpage>             <lpage>847</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Finger1">
+        <label>45</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Finger</surname><given-names>TE</given-names></name><name name-style="western"><surname>Danilova</surname><given-names>V</given-names></name><name name-style="western"><surname>Barrows</surname><given-names>J</given-names></name><name name-style="western"><surname>Bartel</surname><given-names>DL</given-names></name><name name-style="western"><surname>Vigers</surname><given-names>AJ</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>ATP signaling is crucial for communication from taste buds to gustatory nerves.</article-title>             <source>Science</source>             <volume>310</volume>             <fpage>1495</fpage>             <lpage>1499</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Dando1">
+        <label>46</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Dando</surname><given-names>R</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name></person-group>             <year>2009</year>             <article-title>Cell-to-cell communication in intact taste buds through ATP signalling from pannexin 1 gap junction hemichannels.</article-title>             <source>J Physiol</source>             <volume>587</volume>             <fpage>5899</fpage>             <lpage>5906</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Romanov1">
+        <label>47</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Romanov</surname><given-names>RA</given-names></name><name name-style="western"><surname>Rogachevskaja</surname><given-names>OA</given-names></name><name name-style="western"><surname>Bystrova</surname><given-names>MF</given-names></name><name name-style="western"><surname>Jiang</surname><given-names>P</given-names></name><name name-style="western"><surname>Margolskee</surname><given-names>RF</given-names></name><etal/></person-group>             <year>2007</year>             <article-title>Afferent neurotransmission mediated by hemichannels in mammalian taste cells.</article-title>             <source>EMBO J</source>             <volume>26</volume>             <fpage>657</fpage>             <lpage>667</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Roberts1">
+        <label>48</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Roberts</surname><given-names>CD</given-names></name><name name-style="western"><surname>Dvoryanchikov</surname><given-names>G</given-names></name><name name-style="western"><surname>Roper</surname><given-names>SD</given-names></name><name name-style="western"><surname>Chaudhari</surname><given-names>N</given-names></name></person-group>             <year>2009</year>             <article-title>Interaction between the second messengers cAMP and Ca<sup>2+</sup> in mouse presynaptic taste cells.</article-title>             <source>J Physiol</source>             <volume>587</volume>             <fpage>1657</fpage>             <lpage>1668</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Helmchen1">
+        <label>49</label>
+        <element-citation publication-type="other" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Helmchen</surname><given-names>G</given-names></name></person-group>             <year>2000</year>             <article-title>Calibration of fluorescent calcium indicators; Yuste R, Lanni F, Konnerth A, editors.</article-title>             <publisher-loc>Cold Spring Harbor, NY</publisher-loc>             <publisher-name>Cold Spring Harbor Laboratory</publisher-name>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Rodriguez1">
+        <label>50</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Rodriguez</surname><given-names>M</given-names></name><name name-style="western"><surname>Nemeth</surname><given-names>E</given-names></name><name name-style="western"><surname>Martin</surname><given-names>D</given-names></name></person-group>             <year>2005</year>             <article-title>The calcium-sensing receptor: a key factor in the pathogenesis of secondary hyperparathyroidism.</article-title>             <source>Am J Physiol Renal Physiol</source>             <volume>288</volume>             <fpage>F253</fpage>             <lpage>264</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Rybczynska1">
+        <label>51</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Rybczynska</surname><given-names>A</given-names></name><name name-style="western"><surname>Lehmann</surname><given-names>A</given-names></name><name name-style="western"><surname>Jurska-Jasko</surname><given-names>A</given-names></name><name name-style="western"><surname>Boblewski</surname><given-names>K</given-names></name><name name-style="western"><surname>Orlewska</surname><given-names>C</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>Hypertensive effect of calcilytic NPS 2143 administration in rats.</article-title>             <source>J Endocrinol</source>             <volume>191</volume>             <fpage>189</fpage>             <lpage>195</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Nofre1">
+        <label>52</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Nofre</surname><given-names>G</given-names></name><name name-style="western"><surname>Tinti</surname><given-names>JM</given-names></name><name name-style="western"><surname>Chatzopoulos</surname><given-names>FO</given-names></name></person-group>             <year>1987</year>             <article-title>Sweetening agents.</article-title>             <source>US patent</source>             <volume>4921939</volume>          </element-citation>
+      </ref>
+      <ref id="pone.0034489-Iwatsuki1">
+        <label>53</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Iwatsuki</surname><given-names>K</given-names></name><name name-style="western"><surname>Ichikawa</surname><given-names>R</given-names></name><name name-style="western"><surname>Hiasa</surname><given-names>M</given-names></name><name name-style="western"><surname>Moriyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Torii</surname><given-names>K</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Identification of the vesicular nucleotide transporter (VNUT) in taste cells.</article-title>             <source>Biochem Biophys Res Commun</source>             <volume>388</volume>             <fpage>1</fpage>             <lpage>5</lpage>          </element-citation>
+      </ref>
+    </ref-list>
+    
+  </back>
+</article>

@@ -1,0 +1,15 @@
+name,smiles,canonical_smiles,source,taste_modality,tingling_detection_threshold_umol_L,task1_inhibition_pct,task3_inhibition_pct,sensory_descriptor
+Hydroxy-alpha-sanshool,CC=CC=CC(=O)NCC(C)(C)O,CC=CC=CC(=O)NCC(C)(C)O,Zanthoxylum bungeanum (Sichuan pepper),tingling,6.8,82.5,76.0,"tingling, numbing, vibrating (~50 Hz)"
+Hydroxy-beta-sanshool,CC=CC=CC(=O)NCC(C)(C)O,CC=CC=CC(=O)NCC(C)(C)O,Zanthoxylum bungeanum,tingling,14.5,68.0,62.0,"tingling, prickling"
+alpha-Sanshool,CC=CC=CC(=O)NCC(C)C,CC=CC=CC(=O)NCC(C)C,Zanthoxylum piperitum,tingling,9.2,74.0,71.0,"tingling, pungent, numbing"
+beta-Sanshool,CC=CC=CC(=O)NCC(C)C,CC=CC=CC(=O)NCC(C)C,Zanthoxylum piperitum,tingling,18.0,59.0,55.0,"tingling, slight numbing"
+gamma-Sanshool,CCCC=CC=CC(=O)NCC(C)C,CCCC=CC=CC(=O)NCC(C)C,Zanthoxylum bungeanum,tingling,22.0,48.0,45.0,"tingling, burning"
+Hydroxy-gamma-sanshool,CCCC=CC=CC(=O)NCC(C)(C)O,CCCC=CC=CC(=O)NCC(C)(C)O,Zanthoxylum bungeanum,tingling,11.5,71.0,69.0,"tingling, numbing"
+Bungeanool,CC=CC=CC(O)C(=O)NCC(C)(C)O,CC=CC=CC(O)C(=O)NCC(C)(C)O,Zanthoxylum bungeanum,tingling,38.0,35.0,32.0,"tingling, cooling"
+Spilanthol (Affinin),CCC=CC=CC(=O)NCC(C)C,CCC=CC=CC(=O)NCC(C)C,Acmella oleracea (Jambu / toothache plant),tingling,4.5,88.0,84.0,"electric tingling, intense salivation, piquant"
+Pellitorine,CCCCC=CC(=O)NCC(C)C,CCCCC=CC(=O)NCC(C)C,Piper nigrum / Anacyclus pyrethrum,tingling,12.0,65.0,58.0,"tingling, salivation, pungent"
+Tetrahydropellitorine,CCCCCCCCC(=O)NCC(C)C,CCCCCCCCC(=O)NCC(C)C,Synthetic analog,tingling,150.0,12.0,10.0,inactive / weakly numbing
+Dehydro-alpha-sanshool,C#CC=CC=CC(=O)NCC(C)C,C#CC=CC=CC(=O)NCC(C)C,Zanthoxylum species,tingling,16.0,62.0,57.0,"tingling, sharp"
+Neo-pellitorine,CCCCCC=CC(=O)NCC(C)C,CCCCCC=CC(=O)NCC(C)C,Synthetic isomer,tingling,28.0,42.0,38.0,mild tingling
+Achilleamide,CCCCCC=CC(=O)NC1CCCC1,CCCCCC=CC(=O)NC1CCCC1,Achillea millefolium,tingling,35.0,39.0,36.0,"tingling, bitter-pungent"
+Fagaramide,COc1ccc(C=CC(=O)NCC(C)C)cc1OC,COc1ccc(C=CC(=O)NCC(C)C)cc1OC,Zanthoxylum fagara,tingling,75.0,21.0,18.0,"weak tingling, bitter"

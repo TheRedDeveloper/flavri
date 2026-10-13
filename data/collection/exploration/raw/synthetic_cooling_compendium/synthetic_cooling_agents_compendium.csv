@@ -1,0 +1,13 @@
+name,cas,fema,smiles,potency_relative_to_menthol,trpm8_active,odor_profile,onset,duration
+WS-3,39711-79-0,3455.0,CC(C)C1CCC(C)CC1C(=O)NCC,1.5,True,virtually odorless,rapid,prolonged
+WS-5,68489-09-8,4309.0,CCOC(=O)CNC(=O)C1CC(C)CCC1C(C)C,4.0,True,odorless,fast,very long
+WS-12,68489-14-5,4684.0,COc1ccc(NC(=O)C2CC(C)CCC2C(C)C)cc1,6.0,True,odorless,clean,longest lasting
+WS-23,51115-67-4,3804.0,CC(C)C(=O)N(C)C(C)C,0.75,True,odorless,immediate front of mouth,medium
+WS-27,51115-64-1,4557.0,CC(C)C(=O)NCC(C)C,0.8,True,odorless,moderate,medium
+Frescolat MGA,63187-91-7,3808.0,CC(C)C1CCC(C)CC1OC2CCOC2,0.8,True,subtle woody-mint,gentle,prolonged
+Frescolat ML (Menthyl lactate),59259-38-0,3784.0,CC(O)C(=O)OC1CC(C)CCC1C(C)C,0.5,True,odorless,delayed,long lasting
+Icilin,36945-98-9,,O=[N+]([O-])c1ccc(C2Nc3ccccc3C(=O)N2c4ccc(O)cc4)cc1,200.0,True,odorless,potent TRPM8 agonist,long
+"PMD 38 (p-Menthane-3,8-diol)",42822-86-6,,CC1CCC(O)C(C(C)(C)O)C1,0.3,True,"clean, citrus-eucalyptus",mild,prolonged
+Menthoxypropanediol,87061-04-9,3784.0,OCC(O)COC1CC(C)CCC1C(C)C,0.4,True,odorless,smooth,medium
+Menthyl glutarate,220621-22-7,4006.0,CC(C)C1CCC(C)CC1OC(=O)CCCC(=O)O,0.35,True,odorless,delayed,extended
+L-Menthol,2216-51-5,2665.0,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1O,1.0,True,strong minty aroma,immediate,medium

@@ -1,0 +1,7 @@
+name,cas,patent_ref,smiles,target_receptor,modality,ec50_uM,relative_potency,chemotype
+S6973 (Umami enhancer),864445-43-2,US7476402B2 Ex 1,O=C(NC1CC1)c2cc(Cl)ccc2O,T1R1/T1R3,umami_enhancer,0.12,25.0,salicylamide analog
+S2383 (Sucralose enhancer),1093403-33-8,US7935732B2,O=C(NCc1ccc(F)cc1)c2cc(C)nc(O)c2,T1R2/T1R3,sweet_enhancer,0.08,40.0,nicotinamide derivative
+S807 (Umami modulator),864445-44-3,US7476402B2 Ex 2,O=C(NCC1CC1)c2ccc(O)c(Cl)c2,T1R1/T1R3,umami_enhancer,0.28,12.0,benzamide
+S337 (Sweet enhancer),928042-45-7,US7935732B2,CC(=O)Nc1ccc(C(=O)NC2CCCC2)cc1,T1R2/T1R3,sweet_enhancer,0.45,15.0,bis-amide
+S779 (Umami enhancer),864445-46-5,US7476402B2 Ex 5,Fc1ccc(C(=O)NC2CC2)c(O)c1,T1R1/T1R3,umami_enhancer,0.19,18.0,fluorosalicylamide
+S819 (Umami enhancer),864445-48-7,US7476402B2 Ex 8,Clc1cc(C(=O)NCC(C)C)ccc1O,T1R1/T1R3,umami_enhancer,0.35,10.0,isobutylamide analog

@@ -1,0 +1,931 @@
+﻿PepName,Name in Research,Lib/DOI,Intrinsic Taste,Intrinsic Threshold(mM),Added Concentration(mM) ,Modulating Properties,Modulating Threshold(mM),Modulating Object,Solvent Formulation（W/V）,Source,Vitro_verit,Corresponding Author,Publication
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Umami-Enhancing,/,Chicken Broth,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sweet-Enhancing,/,Chicken Broth,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Salt-Enhancing,/,Chicken Broth,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sour-Enhancing,/,Chicken Broth,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Mouthfulness,/,Chicken Broth,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Kokumi-Enhancing,/,Chicken Broth,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Umami-Enhancing,/,Soy Sauce,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sweet-Enhancing,/,Soy Sauce,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Salt-Enhancing,/,Soy Sauce,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sour-Enhancing,/,Soy Sauce,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Mouthfulness,/,Soy Sauce,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Kokumi-Enhancing,/,Soy Sauce,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+N-lactoyl-Glu,N-l-Lac-l-Glu,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,1.754,0.004,Mouthfulness,0.157,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Glu,N-l-Lac-l-Glu,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,1.754,0.004,Increasing Complexity,0.157,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Gln,N-l-Lac-l-Gln,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,6.343,0.0125,Mouthfulness,0.237,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Gln,N-l-Lac-l-Gln,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,6.343,0.0125,Increasing Complexity,0.237,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Asp,N-l-Lac-l-Asp,https://doi.org/10.1021/acs.jafc.2c02623,Sour,/,0.0006,Modulating Complexity,0.361,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Asp,N-l-Lac-l-Asp,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,2.711,0.0006,Modulating Complexity,0.361,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Asn,N-l-Lac-l-Asn,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,4.886,0.0094,Modulating Complexity,0.373,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Gly,N-Suc-Gly,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.732,0.0013,Increasing Complexity,0.256,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Ala,N-Suc-l-Ala,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.498,0.0011,Increasing Complexity,0.048,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Glu,N-Suc-l-Glu,https://doi.org/10.1021/acs.jafc.2c02623,Umami,1.935,0.0015,Mouthfulness,0.0017,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Glu,N-Suc-l-Glu,https://doi.org/10.1021/acs.jafc.2c02623,Umami,1.935,0.0015,Increasing Complexity,0.0017,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Glu,N-Suc-l-Glu,https://doi.org/10.1021/acs.jafc.2c02623,Umami,1.935,0.0015,Long-lasting,0.0017,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Gln,N-Suc-l-Gln,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.245,0.0039,Mouthfulness,0.0051,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Gln,N-Suc-l-Gln,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.245,0.0039,Volume,0.0051,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Asn,N-Suc-l-Asn,https://doi.org/10.1021/acs.jafc.2c02623,Umami,3.047,0.0007,Mouthfulness,0.061,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Asn,N-Suc-l-Asn,https://doi.org/10.1021/acs.jafc.2c02623,Umami,3.047,0.0007,Increasing Complexity,0.061,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Phe,N-Suc-l-Phe,https://doi.org/10.1021/acs.jafc.2c02623,Astringent,0.342,0.0004,Tongue-Covering,0.287,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Phe,N-Succinoyl-Phe,https://doi.org/10.1021/acs.jafc.2c02623,Bitter,8.46,0.0004,Astringent,0.287,Broth,/,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+γ-Glu-Asn-Phe,γ-Glu-Asn-Phe,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,1.97,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Asn-Phe,γ-Glu-Asn-Phe,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,1.94,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Asn-Phe,γ-Glu-Asn-Phe,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,0.8,Broth,/,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Val,γ-Glu-Leu-Val,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,2.01,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Val,γ-Glu-Leu-Val,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,2.06,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Val,γ-Glu-Leu-Val,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,0.9,Broth,/,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Tyr,γ-Glu-Leu-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,1.73,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Tyr,γ-Glu-Leu-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,1.85,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Tyr,γ-Glu-Leu-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,0.69,Broth,/,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Leu,γ-Glu-Gly-Leu,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,2.07,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Leu,γ-Glu-Gly-Leu,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,2.29,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Leu,γ-Glu-Gly-Leu,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,1.03,Broth,/,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Phe,γ-Glu-Gly-Phe,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,1.97,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Phe,γ-Glu-Gly-Phe,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,2.18,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Phe,γ-Glu-Gly-Phe,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,0.88,Broth,/,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Tyr,γ-Glu-Gly-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,1.7,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Tyr,γ-Glu-Gly-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,1.72,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Tyr,γ-Glu-Gly-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,0.72,Broth,/,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Val-Val,γ-Glu-Val-Val,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,1.83,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Val-Val,γ-Glu-Val-Val,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,1.65,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Val-Val,γ-Glu-Val-Val,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,0.73,Broth,/,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gln-Tyr,γ-Glu-Gln-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami-Enhancing,1.67,MSG,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gln-Tyr,γ-Glu-Gln-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salt-Enhancing,1.69,Saline,0.35%,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gln-Tyr,γ-Glu-Gln-Tyr,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi-Enhancing,0.68,Broth,,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+N-acetyl-Val,N-acetyl-Val,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,0.63(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,0.63(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,0.63(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,0.63(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,0.63(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,0.63(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,1.25(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,2.50(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitter-Masking,2.50(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,2.50(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salt-Enhancing,2.50(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,2.50(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami-Enhancing,2.50(g/L),"MSG, NaCl","0.5%, 0.3%",/,1,Chun Cui,2023/11/6
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Astringent,100 mg/L,50 mg/L ,Mouthfulness,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Kokumi,100 mg/L,50 mg/L ,Mouthfulness,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Bitter,400 mg/L,50 mg/L ,Mouthfulness,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Astringent,100 mg/L,50 mg/L ,Umami-Enhancing,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Kokumi,100 mg/L,50 mg/L ,Umami-Enhancing,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Bitter,400 mg/L,50 mg/L ,Umami-Enhancing,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Astringent,100 mg/L,50 mg/L ,Continuity,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Kokumi,100 mg/L,50 mg/L ,Continuity,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,https://doi.org/10.1021/acs.jafc.3c03054,Bitter,400 mg/L,50 mg/L ,Continuity,/,Broth,,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+γ-D-Glu-Val,γ-D-Glu-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Val,γ-D-Glu-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Val,γ-D-Glu-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami-Enhancing,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]2-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]2-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]2-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami-Enhancing,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]3-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]3-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]3-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami-Enhancing,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Met,γ-D-Glu-L-Val,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Met,γ-D-Glu-L-Met,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Met,γ-D-Glu-L-Met,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami-Enhancing,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]2-L-Met,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]2-L-Met,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]3-L-Met,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]3-L-Met,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Phe,γ-D-Glu-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Phe,γ-D-Glu-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Phe,γ-D-Glu-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami-Enhancing,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]2-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]2-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]2-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami-Enhancing,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]3-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfulness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]3-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]3-L-Phe,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami-Enhancing,/,Broth,,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-Glu-Cys-Gly,γECG,https://doi.org/10.1074/jbc.M109.029165,/,/,0.08%,Thickness,/,"MSG, NaCl, IMP","0.02%, 0.07%, 0.02%",/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Cys-Gly,γECG,https://doi.org/10.1074/jbc.M109.029165,/,/,0.08%,Mouthfulness,/,"MSG, NaCl, IMP","0.02%, 0.07%, 0.02%",/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,https://doi.org/10.1074/jbc.M109.029165,/,/,0.01%,Thickness,/,"MSG, NaCl, IMP","0.02%, 0.07%, 0.02%",/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,https://doi.org/10.1074/jbc.M109.029165,/,/,0.01%,Mouthfulness,/,"MSG, NaCl, IMP","0.02%, 0.07%, 0.02%",/,1,Yuzuru Eto,2009/11/5
+N-acetyl-Ala,N-acetylalanine,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi-Enhancing,0.33,Broth,/,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Ile,N-acetylisoleucine,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi-Enhancing,1.53,Broth,/,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Leu,N-acetylleucine,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi-Enhancing,1.72,Broth,/,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Met,N-acetylmethionine,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi-Enhancing,1.81,Broth,/,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Phe,N-acetylphenylalanine,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi-Enhancing,1.64,Broth,/,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Tyr,N-acetyltyrosine,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi-Enhancing,1.1,Broth,/,/,1,Thorsten Koenig,2013/3/9
+N-lactoyl-Val,N-l-Lac-l-Val,https://doi.org/10.1021/acs.jafc.3c04282,Umami,/,/,Umami-Enhancing,/,MSG,4 g/l,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Val,N-l-Lac-l-Val,https://doi.org/10.1021/acs.jafc.3c04282,Sweet,/,/,Sweet-Enhancing,/,Sucrose,5 g/l,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Val,N-l-Lac-l-Val,https://doi.org/10.1021/acs.jafc.3c04282,Kokumi,/,/,Kokumi-Enhancing,/,"Sucrose, Sodium chloride, sodium glutamate","1, 3, 1 g/l",Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Leu,N-l-Lac-l-Leu,https://doi.org/10.1021/acs.jafc.3c04282,Umami,/,/,Umami-Enhancing,/,MSG,4 g/l,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Leu,N-l-Lac-l-Leu,https://doi.org/10.1021/acs.jafc.3c04282,Sweet,/,/,Sweet-Enhancing,/,Sucrose,5 g/l,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Leu,N-l-Lac-l-Leu,https://doi.org/10.1021/acs.jafc.3c04282,Kokumi,/,/,Kokumi-Enhancing,/,"Sucrose, Sodium chloride, sodium glutamate","1, 3, 1 g/l",Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Ile,N-l-Lac-l-Ile,https://doi.org/10.1021/acs.jafc.3c04282,Umami,/,/,Umami-Enhancing,/,MSG,4 g/l,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Ile,N-l-Lac-l-Ile,https://doi.org/10.1021/acs.jafc.3c04282,Sweet,/,/,Sweet-Enhancing,/,Sucrose,5 g/l,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Ile,N-l-Lac-l-Ile,https://doi.org/10.1021/acs.jafc.3c04282,Kokumi,/,/,Kokumi-Enhancing,/,"Sucrose, Sodium chloride, sodium glutamate","1, 3, 1 g/l",Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Sour,100 mg/L,/,Sour-Enhancing,/,citric acid,0.80 g/L ,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Sweet,200 mg/L,/,Sweet-Enhancing,/,Sucrose,1.00 g/L ,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Bitter,400 mg/L,/,Bitter-Masking,/,L-Isoleucine,0.25 g/L,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Salty,200 mg/L,/,Salt-Enhancing,/,NaCl,0.35 g/L,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Umami,100 mg/L,/,Umami-Enhancing,/,MSG,0.35 g/L,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Umami,0.21,/,Umami-Enhancing,/,Broth ,0.35 g/L,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Umami,0.1,/,Umami-Enhancing,/,Chicken Broth,0.35 g/L,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,Salty,200 mg/L,/,Continuity,/,NaCl,0.35 g/L,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,/,/,/,Continuity,/,Broth,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,https://doi.org/10.1021/acs.jafc.2c00530,/,/,/,Continuity,/,Chicken Broth,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Trp,N-l-Lac-l-Trp,https://doi.org/10.1021/acs.jafc.2c07807,/,/,/,Bitterness-Masking,/,l-异亮氨酸,5 g/l,,1,"Chun Cui, Jucai Xu, Laihao Li",2023/1/23
+β-alanyl-N-methyl-His,β-alanyl-N-methyl-l-histidine,https://doi.org/10.1021/jf900948r,/,/,/,Umami-Enhancing,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-N-methyl-His,β-alanyl-N-methyl-l-histidine,https://doi.org/10.1021/jf900948r,/,/,/,Sour-Masking,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-N-methyl-His,β-alanyl-N-methyl-l-histidine,https://doi.org/10.1021/jf900948r,/,/,/,Thickness,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-His,β-alanyl-l-histidine,https://doi.org/10.1021/jf900948r,/,/,/,Umami-Enhancing,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-His,β-alanyl-l-histidine,https://doi.org/10.1021/jf900948r,/,/,/,Sour-Masking,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-His,β-alanyl-l-histidine,https://doi.org/10.1021/jf900948r,/,/,/,Thickness,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-Gly,β-alanylglycine,https://doi.org/10.1021/jf900948r,/,/,/,Umami-Enhancing,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-Gly,β-alanylglycine,https://doi.org/10.1021/jf900948r,/,/,/,Sour-Masking,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-Gly,β-alanylglycine,https://doi.org/10.1021/jf900948r,/,/,/,Thickness,/,Broth,/,/,1,Thomas Hofmann,2009/10/9
+γ-Glu-Leu,γ-Glu-Leu,https://doi.org/10.1021/jf071276u,/,9.4,/,Kokumi-Enhancing,0.8,Broth,/,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Val,γ-Glu-Val,https://doi.org/10.1021/jf071276u,/,3.3,/,Kokumi-Enhancing,0.4,Broth,/,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Cys-β-Ala,γ-Glu-Cys-β-Ala,https://doi.org/10.1021/jf071276u,/,3.8,/,Kokumi-Enhancing,0.2,Broth,/,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Cys-Gly,γ-Glu-Cys-Gly,https://doi.org/10.1021/jf071276u,/,3.1,/,Kokumi-Enhancing,0.2,Broth,/,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Ala,γ-Glu-Ala,https://doi.org/10.1080/09168451.2020.1743169,,,,No Kokumi,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Tyr,γ-Glu-Tyr,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi-Enhancing,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Glu-Tyr,γ-Glu-α-Glu-Tyr,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi-Enhancing,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-γ-Glu-Tyr,γ-[Glu]2-Tyr,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi-Enhancing,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Glu-Glu-Tyr,γ-Glu-α-[Glu]2-Tyr,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi-Enhancing,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-γ-Glu-γ-Glu-Tyr,γ-[Glu]3-Tyr,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi-Enhancing,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Glu-Glu-Glu-Tyr,γ-Glu-α-[Glu]3-Tyr,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi-Enhancing,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Tyr,γ-[Glu]4-Tyr,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi-Enhancing,/,/,/,/,0.5,Keisuke Ito,2020/7/2
+γ-l-glutamyl-β-alanyl-His,γ-l-glutamyl-β-alanyl-l-histidine,https://doi.org/10.1021/acs.jafc.1c06965,/,/,/,Sweet-Enhancing,/,/,/,/,1,Hideyuki Suzuki,2022/1/4
+γ-Glu-Phe,γ-Glu-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,2.5,,Kokumi,0.89,commercial soy sauce,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-Phe,γ-[Glu]2-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.34,,Kokumi,1.01,commercial soy sauce,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]3-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.58,,Kokumi,1.22,commercial soy sauce,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]4-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.6,,Kokumi,1.34,commercial soy sauce,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]5-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.92,,Kokumi,1.42,commercial soy sauce,,,1,Juan Yang,2017/9/13
+γ-Glu-Phe,γ-Glu-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,2.5,,Kokumi,0.78,model Chicken Broth,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-Phe,γ-[Glu]2-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.34,,Kokumi,0.96,model Chicken Broth,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]3-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.58,,Kokumi,1.1,model Chicken Broth,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]4-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.6,,Kokumi,1.25,model Chicken Broth,,,1,Juan Yang,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]5-Phe,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.92,,Kokumi,1.33,model Chicken Broth,,,1,Juan Yang,2017/9/13
+γ-Glu-Val,γ-Glu-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3.3,/,Umami-Enhancing,0.55,Soy sauce,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-Val,γ-Glu-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3.3,/,Umami-Enhancing,0.4,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Val,γ-[Glu]2-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3,/,Umami-Enhancing,0.72,Soy sauce,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Val,γ-[Glu]2-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3,/,Umami-Enhancing,0.65,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]3-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.89,/,Umami-Enhancing,0.76,Soy sauce,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]3-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.89,/,Umami-Enhancing,0.73,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]4-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.6,/,Umami-Enhancing,0.88,Soy sauce,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]4-Val,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.6,/,Umami-Enhancing,0.85,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-Met,γ-Glu-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.5,/,Umami-Enhancing,0.59,Soy sauce,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-Met,γ-Glu-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.5,/,Umami-Enhancing,0.005,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Met,γ-[Glu]2-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.61,/,Umami-Enhancing,0.69,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Met,γ-[Glu]2-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.61,/,Umami-Enhancing,0.61,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]3-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.58,/,Umami-Enhancing,0.72,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]3-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.58,/,Umami-Enhancing,0.72,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]4-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.49,/,Umami-Enhancing,0.85,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]4-Met,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.49,/,Umami-Enhancing,0.89,Model Chicken Broth,,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+dipotassium N-(d-glucos-1-yl)-l-glutamate,dipotassium N-(d-glucos-1-yl)-l-glutamate,https://doi.org/10.1021/jf0344441,Umami,1.6,10 mM,Umami-Enhancing,/,NaCl,/,/,1,Thomas Hofmann,2003/7/19
+dipotassium N-(d-glucos-1-yl)-l-glutamate,dipotassium N-(d-glucos-1-yl)-l-glutamate,https://doi.org/10.1021/jf0344441,Umami,1.6,10 mM,Umami-Enhancing,/,MSG,/,/,1,Thomas Hofmann,2003/7/19
+N-(1-deoxyfructos-1-yl)-l-glutamate,N-(1-deoxyfructos-1-yl)-l-glutamate,https://doi.org/10.1021/jf0344441,Umami,1.6,10 mM,Umami-Enhancing,/,MSG,/,/,1,Thomas Hofmann,2003/7/19
+Thr-Gly-Cys,TGC,https://doi.org/10.1002/jsfa.10626,Astringent,2.35 g kg-1,/,Kokumi-Enhancing,/,/,/,Soy Sauce,1,Chun Cui,2020/7/1
+Gly-Leu-Glu,GLE,https://doi.org/10.1002/jsfa.10626,Astringent,1.03 g kg-1,/,Kokumi-Enhancing,/,/,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Glu,γ-Glu-Glu,https://doi.org/10.1002/jsfa.10626,Astringent,0.018 g kg-1,/,Kokumi-Enhancing,/,/,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Leu,γ-Glu-Leu,https://doi.org/10.1002/jsfa.10626,Astringent,0.8~3.2g kg-1,/,Kokumi-Enhancing,/,/,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Cys,γ-Glu-Cys,https://doi.org/10.1002/jsfa.10626,Astringent,0.15 g kg-1,/,Kokumi-Enhancing,/,/,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Cys,γ-Glu-Cys,https://doi.org/10.1002/jsfa.10626,Astringent,0.15 g kg-1,/,Umami-Enhancing,/,/,/,Soy Sauce,1,Chun Cui,2020/7/1
+Ala-Glu-Pro,Ala-Glu-Pro,https://doi.org/10.1002/jsfa.10626,Astringent,2.11 g kg-1,,Umami-Enhancing,/,water,/,Soy Sauce,1,,
+Val-Glu-Ala-Leu,Val-Glu-Ala-Leu,https://doi.org/10.1002/jsfa.10626,Umami,2.38 g kg-1,,Umami-Enhancing,/,Soy Sauce,/,Soy Sauce,1,,
+Gly-Gly-Gly-Glu,Gly-Gly-Gly-Glu,https://doi.org/10.1002/jsfa.10626,Umami,0.5 g kg-1,,Umami-Enhancing,/,water,/,Soy Sauce,1,,
+Asp-Arg,Asp-Arg,https://doi.org/10.1002/jsfa.10626,Astringent,0.5 g kg-1,,Umami-Enhancing,/,Soy Sauce,/,Soy Sauce,1,,
+Asp-Ala-Glu,Asp-Ala-Glu,https://doi.org/10.1002/jsfa.10626,Umami,0.5 g kg-1,,Umami-Enhancing,/,Soy Sauce,/,Soy Sauce,1,,
+Glu-Val-Cys,Glu-Val-Cys,https://doi.org/10.1002/jsfa.10626,Astringent,1.43 g kg-1,,Umami-Enhancing,/,Soy Sauce,/,Soy Sauce,1,,
+Gly-Gly-Gly-Ser,Gly-Gly-Gly-Ser,https://doi.org/10.1002/jsfa.10626,Astringent,1.09 g kg-1,,Umami-Enhancing,/,water,/,Soy Sauce,1,,
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminopropionic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminopropionic acid,https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.209,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4-hydroxybutanoic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4-hydroxybutanoic acid,https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.076,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxy-pentanoic lactone","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxy-pentanoic lactone",https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.489,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxypentanoic acid","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxypentanoic acid",https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.159,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminobutanoic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminobutanoic acid,https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.129,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-5-hydroxypentanoic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-5-hydroxypentanoic acid,https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.105,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxy-hexanoic lactone","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxy-hexanoic lactone",https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,>1,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxyhexanoic acid","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxyhexanoic acid",https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.278,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminoacetic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminoacetic acid,https://doi.org/10.1021/jf201685m,/,>1,/,Umami-Enhancing,0.031,Broth,/,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+pGlu-Pro,pyroGlu-Pro,https://doi.org/10.1021/acs.jafc.2c01688,Umami,300,,Umami-Enhancing,,,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+pGlu-Glu,pyroGlu-Glu,https://doi.org/10.1021/acs.jafc.2c01688,Umami,320,,Umami-Enhancing,,,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+pGlu-Gln,pyroGlu-Gln,https://doi.org/10.1021/acs.jafc.2c01688,Umami,350,,Umami-Enhancing,,,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+Fru-Glu,Fru-Glu,https://doi.org/10.1021/jf501173r,Umami,,,Umami-Enhancing,,,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+S-((4-amino-2-methylpyrimidin-5-yl)methyl)formamide,S-((4-amino-2-methylpyrimidin-5-yl)methyl)formamide,https://doi.org/10.1021/acs.jafc.9b01832,/,/,/,Kokumi-Enhancing,>1,Broth,/,/,1,Thomas Hofmann,2019/4/30
+S-((4-amino-2-methylpyrimidin-5-yl)methyl)-l-cysteine,S-((4-amino-2-methylpyrimidin-5-yl)methyl)-l-cysteine,https://doi.org/10.1021/acs.jafc.9b01832,Astringent,0.48,/,Kokumi-Enhancing,0.12,Broth,/,/,1,Thomas Hofmann,2019/4/30
+N-Suc-Tyr,N-Suc-Tyr,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Bitterness-Masking,/,"D-salicylic acid (200 mg/L), quinine (2 mg/L), and tryptophan (500 mg/L)",/,/,1,Chun Cui,2024/5/16
+N-Suc-Trp,N-Suc-Trp,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Bitterness-Masking,/,"D-salicylic acid (200 mg/L), quinine (2 mg/L), and tryptophan (500 mg/L)",/,/,1,Chun Cui,2024/5/16
+N-Suc-Phe,N-Suc-Phe,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Bitterness-Masking,/,"D-salicylic acid (200 mg/L), quinine (2 mg/L), and tryptophan (500 mg/L)",/,/,1,Chun Cui,2024/5/16
+N-Suc-Tyr,N-Suc-Tyr,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Salt-Enhancing,/,NaCl ,20 mmol/L ,/,1,Chun Cui,2024/5/16
+N-Suc-Trp,N-Suc-Trp,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Salt-Enhancing,/,NaCl ,20 mmol/L ,/,1,Chun Cui,2024/5/16
+N-Suc-Phe,N-Suc-Phe,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Salt-Enhancing,/,NaCl ,20 mmol/L ,/,1,Chun Cui,2024/5/16
+N-lactoyl-Leu,Lac-Leu,https://doi.org/10.1016/j.foodchem.2024.139670,Sour,0.08 mg/mL,,Umami-Enhancing,0.16 mg/mL,,,,1,Yunzi Feng,2024/5/30
+N-lactoyl-Leu,Lac-Leu,https://doi.org/10.1016/j.foodchem.2024.139670,Bitter,0.08 mg/mL,,Umami-Enhancing,0.16 mg/mL,,,,1,Yunzi Feng,2024/5/30
+N-lactoyl-Leu,Lac-Leu,https://doi.org/10.1016/j.foodchem.2024.139670,Astringent,0.08 mg/mL,,Umami-Enhancing,0.16 mg/mL,,,,1,Yunzi Feng,2024/5/30
+N-lactoyl-Ile,Lac-Ile,https://doi.org/10.1016/j.foodchem.2024.139670,/,/,/,Salt-Enhancing,/,/,/,,1,Yunzi Feng,2024/5/30
+pGlu-Pro-Cys-Gly-Ser,pyroGlu-Pro-Cys-Gly-Ser,CN201610147764.2,Umami,0.3,/,Umami-Enhancing,0.5,Msg,0.30%,/,1,,
+γ-Glu-γ-Glu-γ-Glu-D‑Val,γ‑L‑Glu‑γ‑L‑Glu‑γ‑L‑Glu‑D‑Val,CN201810339431.9,Sweet,/,/,Sweet-Enhancing,,,,,1,,
+N-lactoyl-Trp,Lactyltryptophan,CN202211483330.1,/,/,/,Bitterness-Masking,/,"Caffeine, Quinine, Tryptophan",/,/,1,,
+pGlu-Val-Val,pGlu-Val-Val,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val,pGlu-Val,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+Gln-Val-Leu,Gln-Val-Leu,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+Glu-Val-Leu,Glu-Val-Leu,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Phe,pGlu-Phe,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Gly-Ala-Ile-Phe,pGlu-Gly-Ala-Ile-Phe,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Pro-Gln,pGlu-Pro-Gln,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Pro-Ser,pGlu-Pro-Ser,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Pro-Glu,pGlu-Pro-Glu,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Pro,pGlu-Pro,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Leu-Leu,pGlu-Val-Leu-Leu,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Gln,pGlu-Val-Gln,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Glu,pGlu-Val-Glu,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Val-Val,pGlu-Val-Val-Val,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Ile,pGlu-Val-Ile,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Pro,pGlu-Val-Pro,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Ala,pGlu-Val-Ala,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Leu,pGlu-Leu,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Gly,pGlu-Val-Gly,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val,pGlu-Val,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Leu,pGlu-Val-Leu,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Val-Cys,pGlu-Val-Cys,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Cys-Gly,pGlu-Cys-Gly,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Cys,pGlu-Cys,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Cys-Gly,pGlu-Cys-Gly,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Cys-Cys,pGlu-Cys-Cys,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+pGlu-Cys-Val,pGlu-Cys-Val,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,,,1,,
+γ‑Glu‑γ‑Glu‑Ile,γ‑Glu‑γ‑Glu‑Ile,CN201710511214.9,Kokumi,,300 mg/lk,Mouthfulness,,,,,1,,
+γ‑Glu‑Val,γ‑Glu‑Val,WOJP18012548,Sweet,,,Sweet-Enhancing,,三氯蔗糖,,,1,,
+γ‑Glu‑X-Gly,γ‑Glu‑X-Gly,JP2018159732,/,,,Masking Effect,,,,,1,,
+γ‑Glu‑Phe,γ‑Glu‑Phe,JP2001056649,/,,,Bitter-Masking,,Phe,,,1,,
+γ-Glu-Val-Gly,γ-Glu-Val-Gly,WO2017141986A 1,/,,,Kokumi-Enhancing,,"L-Tartaric acid, adipic acid",,,1,,
+WO2021209345A1-1,WO2021209345A1-1,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-2,WO2021209345A1-2,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-3,WO2021209345A1-3,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-4,WO2021209345A1-4,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-5,WO2021209345A1-5,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-6,WO2021209345A1-6,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-7,WO2021209345A1-7,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-8,WO2021209345A1-8,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-9,WO2021209345A1-9,WO2021209345A1,/,,,Umami-Enhancing,,,,,1,,
+WO2021209345A1-1,WO2021209345A1-1,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-2,WO2021209345A1-2,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-3,WO2021209345A1-3,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-4,WO2021209345A1-4,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-5,WO2021209345A1-5,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-6,WO2021209345A1-6,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-7,WO2021209345A1-7,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-8,WO2021209345A1-8,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+WO2021209345A1-9,WO2021209345A1-9,WO2021209345A1,/,,,Salt-Enhancing,,,,,1,,
+N-(1-methyl-4-oxo-2-imidazolin-2-yl)alanine,N-(1-methyl-4-oxo-2-imidazolin-2-yl)alanine,JP08042772,/,,,Masking Effect,,,,,1,,
+Glu-Pro,EP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Pro-ARP,EP-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Glu,EE,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Glu-ARP,EE-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Ala-His,AH,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Ala-His-ARP,AH-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His,β-AH,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His-ARP,β-AH-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Pro-ARP,EP-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,GMP,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Glu-ARP,EE-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,GMP,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Ala-His-ARP,AH-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,GMP,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His,β-AH,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,GMP,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His-ARP,β-AH-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,GMP,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Arg-Phe-Pro-His-Ala-Asp-Phe-ARP,RFPHADF-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,GMP,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Arg-Phe-Pro-His-Ala-Asp-Phe-ARP,RFPHADF-ARP,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,MSG,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+N-butanoyl-Leu-Val,N-butanoyl-Leu-Val,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Val-Leu,N-butanoyl-Val-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Phe-Val,N-butanoyl-Phe-Val,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Ile-Ile,N-butanoyl-Ile-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Ile-Leu,N-butanoyl-Ile-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Val-Phe,N-butanoyl-Val-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Leu-Ile,N-butanoyl-Leu-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Leu-Leu,N-butanoyl-Leu-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Ile-Phe,N-butanoyl-Ile-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-propionyl-Phe-Phe,N-propionyl-Phe-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Phe-Ile,N-butanoyl-Phe-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Leu-Phe,N-butanoyl-Leu-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Ile-Trp,N-butanoyl-Ile-Trp,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Phe-Leu,N-butanoyl-Phe-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Trp-Ile,N-butanoyl-Trp-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Leu-Trp,N-butanoyl-Leu-Trp,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Trp-Leu ,N-butanoyl-Trp-Leu ,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Phe-Phe,N-butanoyl-Phe-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Trp-Phe,N-butanoyl-Trp-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Phe-Trp,N-butanoyl-Phe-Trp,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Trp-Trp,N-butanoyl-Trp-Trp,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Met-Val,N-butanoyl-Met-Val,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Met-Ile,N-butanoyl-Met-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Met-Leu,N-butanoyl-Met-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Phe-Tyr,N-Acetyl-Phe-Tyr,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Tyr-Val,N-butanoyl-Tyr-Val,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Ile-Ile,N-Acetyl-Ile-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Ile-Leu,N-Acetyl-Ile-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Tyr-Phe,N-Acetyl-Tyr-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Leu-Leu,N-Acetyl-Leu-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Trp-Val,N-butanoyl-Trp-Val,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Ile-Tyr,N-butanoyl-Ile-Tyr,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Phe-Ile,N-Acetyl-Phe-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Ile-Val,N-butanoyl-Ile-Val,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Leu-Pro,N-butanoyl-Leu-Pro,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Val-Ile,N-butanoyl-Val-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Leu-Tyr,N-butanoyl-Leu-Tyr,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Ile-Phe ,N-Acetyl-Ile-Phe ,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Tyr-Ile,N-butanoyl-Tyr-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Phe-Leu,N-Acetyl-Phe-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Tyr-Leu,N-butanoyl-Tyr-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Leu-Phe,N-Acetyl-Leu-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Phe-Pro,N-butanoyl-Phe-Pro,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Phe-Tyr,N-butanoyl-Phe-Tyr,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Trp-Pro,N-butanoyl-Trp-Pro,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-butanoyl-Tyr-Phe,N-butanoyl-Tyr-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-propionyl-Phe-Ile,N-propionyl-Phe-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Phe-Phe,N-Acetyl-Phe-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-propionyl-Phe-Leu,N-propionyl-Phe-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Trp-Phe,N-Acetyl-Trp-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Phe-Trp,N-Acetyl-Phe-Trp,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-propionyl-Leu-Phe,N-propionyl-Leu-Phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-isobutanoyl-Phe-Leu,N-isobutanoyl-Phe-Leu,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-isobutanoyl-Leu-Ile,N-isobutanoyl-Leu-Ile,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-isobutanoyl-Leu-phe,N-isobutanoyl-Leu-phe,"	WOEP13071637",Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Valine,N-Acetyl-Val,US20140127144A1,Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-tyrosine,N-acetyl-Tyr,US20140127144A1,Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-isoleucine,N-acetyl-Leu,US20140127144A1,Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Lysine,N-Acetyl-Lys,US20140127144A1,Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Leucine,N-Acetyl-Leu,US20140127144A1,Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-phenylalanine,N-acetyl-Phe,US20140127144A1,Umami,,,Umami-Enhancing,,,,,1,,
+N-acetyl-Glutamic Acid,N-Acetyl-Glu,US20140127144A1,Umami,,,Umami-Enhancing,,,,,1,,
+N-palmitoyl 1-amino-cyclopropyl carboxylic acid,N-palmitoyl 1-amino-cyclopropyl carboxylic acid,WOUS13034342,Umami,,,Umami-Enhancing,,,,,1,,
+N-stearoyl 1-amino-cyclopropyl carboxylic acid,N-stearoyl 1-amino-cyclopropyl carboxylic acid,WOUS13034342,Umami,,,Umami-Enhancing,,,,,1,,
+N- oleoyl 1-amino-cyclopropyl carboxylic acid,N- oleoyl 1-amino-cyclopropyl carboxylic acid,WOUS13034342,Umami,,,Umami-Enhancing,,,,,1,,
+N-decanoyl 1-amino-cyclopropyl carboxylic acid,N-decanoyl 1-amino-cyclopropyl carboxylic acid,WOUS13034342,Umami,,,Umami-Enhancing,,,,,1,,
+N-geranoyl 1-amino-cyclopropyl carboxylic acid,N-geranoyl 1-amino-cyclopropyl carboxylic acid,WOUS13034342,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034375-1,WOUS13034375-1,WOUS13034375,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034375-2,WOUS13034375-2,WOUS13034375,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034375-3,WOUS13034375-3,WOUS13034375,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034375-4,WOUS13034375-4,WOUS13034375,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034375-5,WOUS13034375-5,WOUS13034375,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149022A1-1,WO2013149022A1-1,WO2013149022A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149022A1-2,WO2013149022A1-2,WO2013149022A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149022A1-3,WO2013149022A1-3,WO2013149022A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149022A1-4,WO2013149022A1-4,WO2013149022A1,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034388-1,WOUS13034388-1,WOUS13034388,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034388-2,WOUS13034388-2,WO2013149025A1,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034388-3,WOUS13034388-3,WO2013149025A1,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034388-4,WOUS13034388-4,WO2013149025A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-1,WO2013149012A1-1,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-2,WO2013149012A1-2,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-3,WO2013149012A1-3,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-4,WO2013149012A1-4,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-5,WO2013149012A1-5,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-6,WO2013149012A1-6,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-7,WO2013149012A1-7,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-8,WO2013149012A1-8,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-9,WO2013149012A1-9,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-10,WO2013149012A1-10,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-11,WO2013149012A1-11,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-12,WO2013149012A1-12,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WO2013149012A1-13,WO2013149012A1-13,WO2013149012A1,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-1,WOUS13034395-1,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-2,WOUS13034395-2,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-3,WOUS13034395-3,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-4,WOUS13034395-4,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-5,WOUS13034395-5,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-6,WOUS13034395-6,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-7,WOUS13034395-7,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-8,WOUS13034395-8,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-9,WOUS13034395-9,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-10,WOUS13034395-10,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-11,WOUS13034395-11,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-12,WOUS13034395-12,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-13,WOUS13034395-13,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-14,WOUS13034395-14,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-15,WOUS13034395-15,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-17,WOUS13034395-17,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-18,WOUS13034395-18,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-19,WOUS13034395-19,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-20,WOUS13034395-20,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-21,WOUS13034395-21,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-22,WOUS13034395-22,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-23,WOUS13034395-23,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-24,WOUS13034395-24,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-25,WOUS13034395-25,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-26,WOUS13034395-26,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-27,WOUS13034395-27,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-28,WOUS13034395-28,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-29,WOUS13034395-29,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-30,WOUS13034395-30,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-31,WOUS13034395-31,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-32,WOUS13034395-32,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-33,WOUS13034395-33,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-34,WOUS13034395-34,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-35,WOUS13034395-35,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-37,WOUS13034395-37,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-38,WOUS13034395-38,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-39,WOUS13034395-39,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-40,WOUS13034395-40,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-41,WOUS13034395-41,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-47,WOUS13034395-47,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-51,WOUS13034395-51,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-55,WOUS13034395-55,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-62,WOUS13034395-62,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+WOUS13034395-68,WOUS13034395-68,WOUS13034395,Umami,,,Umami-Enhancing,,,,,1,,
+,RGENESDEQGAIVT,https://doi.org/10.1016/j.foodres.2018.11.055,Umami,0.43,,Umami-Enhancing,0.38,MSG,2 mmol/L,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,RFPHADF,https://doi.org/10.1016/j.foodres.2018.11.055,Bitter,0.4,,Bitter-Masking,,MSG,0.0002,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,SFE,https://doi.org/10.1016/j.foodres.2018.11.055,Umami,1.38,,Umami-Enhancing,1.34,MSG,0.0002,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,NEY,https://doi.org/10.1016/j.foodres.2018.11.055,,,,Umami-Enhancing,0.62,MSG,0.0002,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,FQP,https://doi.org/10.1016/j.foodres.2018.11.055,Bitter,1.99,,Bitter-Masking,,MSG,0.0002,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,AH,https://doi.org/10.1016/j.foodres.2018.11.055,,,,Umami-Enhancing,1.27,MSG,0.0002,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,EP,https://doi.org/10.1016/j.foodres.2018.11.055,Umami,1.49,,Umami-Enhancing,1,MSG,0.0002,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,GY,https://doi.org/10.1016/j.foodres.2018.11.055,Bitter,3,,Bitter-Masking,,MSG,0.0002,peanut protein isolate hydrolysate (PPIH),1,"Mouming Zhao, Lianzhu Lin",2018/11/27
+,EE,https: //doi.org/10.1271/bbb.63.555,Umami,,,Umami-Enhancing,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,ADE,https: //doi.org/10.1271/bbb.63.555,Umami Bitter,,,Umami-Enhancing,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,DEE,https: //doi.org/10.1271/bbb.63.555,Salty Umami,,,Umami-Enhancing,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,DES,https: //doi.org/10.1271/bbb.63.555,Sour,,,Sour-Masking,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,DES,https: //doi.org/10.1271/bbb.63.555,Sour,,,Salt-Enhancing,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,EEN,https: //doi.org/10.1271/bbb.63.555,Sour Bitter,,,Sour-Enhancing,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,SPE,https: //doi.org/10.1271/bbb.63.555,Salty Umami,,,Umami-Enhancing,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,EPAD,https: //doi.org/10.1271/bbb.63.555,,,,Sour-Masking,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,EPAD,https: //doi.org/10.1271/bbb.63.555,,,,Bitter-Masking,,IMP,g/kg,Enzymatic Hydrolysate,1,Shigezo UDAKA,1999/1/1
+,TGC,https://doi.org/10.1002/jsfa.10626,,,,Umami-Enhancing,2.35,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,EVY,https://doi.org/10.1002/jsfa.10626,Astringent,1.16,,Astringent-Masking,,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,AGY,https://doi.org/10.1002/jsfa.10626,Astringent,1.38,,Astringent-Masking,,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,GLE,https://doi.org/10.1002/jsfa.10626,,,,Umami-Enhancing,1.03,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,SEC,https://doi.org/10.1002/jsfa.10626,Astringent,1.07,,Astringent-Masking,,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,AEP,https://doi.org/10.1002/jsfa.10626,Astringent,2.11,,Umami-Enhancing,2.38,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,VEAL,https://doi.org/10.1002/jsfa.10626,Astringent,0.6,,Umami-Enhancing,0.55,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,GGGE,https://doi.org/10.1002/jsfa.10626,Astringent,0.5,,Umami-Enhancing,0.5,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,DR,https://doi.org/10.1002/jsfa.10626,Astringent,0.51,,Umami-Enhancing,0.59,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,DAE,https://doi.org/10.1002/jsfa.10626,,,,Umami-Enhancing,0.5,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,NTC,https://doi.org/10.1002/jsfa.10626,Astringent,2.06,,Astringent-Masking,,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,EVC,https://doi.org/10.1002/jsfa.10626,Astringent,1.43,,Umami-Enhancing,1.09,sauce,g/kg,defatted soybeans fermented soy sauce,1,Chun Cui,2020/7/1
+,RGENESEEEGAIVT,https://doi.org/10.1016/j.foodchem.2018.11.114,Umami,0.43,,Umami-Enhancing,0.33,MSG,mmol/L,peanut protein isolate hydrolysate,1,"Mouming Zhao, Guowan Su",2023/5/1
+,TESSSE,https://doi.org/10.1016/j.foodchem.2018.11.114,Umami,0.39,,Umami-Enhancing,0.36,MSG,mmol/L,peanut protein isolate hydrolysate,1,"Mouming Zhao, Guowan Su",2023/5/1
+,EDG,https://doi.org/10.1016/j.foodchem.2018.11.114,Umami,0.71,,Umami-Enhancing,0.69,MSG,mmol/L,peanut protein isolate hydrolysate,1,"Mouming Zhao, Guowan Su",2023/5/1
+,DQR,https://doi.org/10.1016/j.foodchem.2018.11.114,Umami,1.11,,Umami-Enhancing,0.55,MSG,mmol/L,peanut protein isolate hydrolysate,1,"Mouming Zhao, Guowan Su",2023/5/1
+,NNP,https://doi.org/10.1016/j.foodchem.2018.11.114,Umami,0.83,,Umami-Enhancing,0.82,MSG,mmol/L,peanut protein isolate hydrolysate,1,"Mouming Zhao, Guowan Su",2023/5/1
+,EGF,https://doi.org/10.1016/j.foodchem.2018.11.114,Umami,0.94,,Umami-Enhancing,0.77,MSG,mmol/L,peanut protein isolate hydrolysate,1,"Mouming Zhao, Guowan Su",2023/5/1
+,KGDEESLA,https://doi.org/10.1016/j.foodchem.2018.11.114,Umami,0.53,,Umami-Enhancing,0.16,MSG,0.004,soy sauce,1,Guowan Su,2016/3/18
+,ALPEEV,https://doi.org/10.1016/j.foodchem.2016.03.058,"Sour, Astritency",0.76,,Umami-Enhancing,1.52,MSG,0.004,soy sauce,1,Guowan Su,2016/3/18
+,LPEEV,https://doi.org/10.1016/j.foodchem.2016.03.058,Umami,0.43,,Umami-Enhancing,3.41,MSG,0.004,soy sauce,1,Guowan Su,2016/3/18
+,AQALQAQA,https://doi.org/10.1016/j.foodchem.2016.03.058,Umami,1.25,,Umami-Enhancing,,MSG,0.004,soy sauce,1,Guowan Su,2016/3/18
+,EQQQQ,https://doi.org/10.1016/j.foodchem.2016.03.058,Umami,0.76,,Umami-Enhancing,,MSG,0.004,soy sauce,1,Guowan Su,2016/3/18
+,EAGIQ,https://doi.org/10.1016/j.foodchem.2016.03.058,"Sour, Sweet",0.97,,Umami-Enhancing,1.94,MSG,0.004,soy sauce,1,Guowan Su,2016/3/18
+,VPY,https://doi.org/10.1016/j.foodres.2018.02.047,Umami,,,Umami-Enhancing,,MSG,0.0018,silkworm pupa hydrolysate,1,"Mouming Zhao, Xiaoling Liu",2018/2/20
+,TAY,https://doi.org/10.1016/j.foodres.2018.02.047,Umami,,,Umami-Enhancing,,MSG,0.0018,silkworm pupa hydrolysate,1,"Mouming Zhao, Xiaoling Liu",2018/2/20
+,AAPY,https://doi.org/10.1016/j.foodres.2018.02.047,Umami,,,Umami-Enhancing,,MSG,0.0018,silkworm pupa hydrolysate,1,"Mouming Zhao, Xiaoling Liu",2018/2/20
+,GFP,https://doi.org/10.1016/j.foodres.2018.02.047,Umami,,,Umami-Enhancing,,MSG,0.0018,silkworm pupa hydrolysate,1,"Mouming Zhao, Xiaoling Liu",2018/2/20
+,GRVSNCAA,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,SEEK,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,KEMQKN,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,KSAEN,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,QIEELEGK,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,TDVEQEGD,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,HNESQN,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,RGEPNND,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,TGDPEK,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,KGGGGP,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,TYLPVH,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,PAATIPE,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,GPAGPAGPR,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,AGAGPTP,https://doi.org/10.1016/j.foodchem.2020.128522,Umami,,,Umami-Enhancing,,MSG,0.0035,Ruditapes philippinarum,1,Yali Dang,2020/11/12
+,ADGLWL,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,0.74,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,AGDDAPR,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,1.43,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,GFLGPQ,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,0.4,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,HGEDKEGE,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,0.56,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,IGPGLGR,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,1.5,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,IPIPATKT,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,0.6,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,KDGGGGK,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,1.62,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,FAGDDAPR,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,1.18,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,PGPAGPAGP,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,0.7,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,SEASNNK,https://doi.org/10.1007/s00217-021-03734-w,Umami,,,Umami-Enhancing,0.33,MSG,0.0035,the hydrolysates of Sanhuang Chicken,1,Yali Dang,2021/4/11
+,MAASGDVGK,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.239535015,,Umami-Enhancing,0.119767507,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,VYETPDR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.227547336,,Umami-Enhancing,0.113773668,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,DAPYDYK,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.143527375,,Umami-Enhancing,0.086116425,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,TREQMIHER,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.20844433,,Umami-Enhancing,0.41688866,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,LLDAFFFDNK,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.101675614,,Umami-Enhancing,0.244021474,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,EATLWDMEEK,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.099889642,,Umami-Enhancing,0.199779284,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,LPLLEEAFLSR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.15533679,,Umami-Enhancing,0.077668395,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,NALKSVECYDAR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.091338415,,Umami-Enhancing,0.073070732,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,AKLTSLEEECQR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.088867845,,Umami-Enhancing,0.071094276,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,YLASCLSSVKEEK,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.068649116,,Umami-Enhancing,0.034324558,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,EQLEATVQKLDESR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.121522261,,Umami-Enhancing,0.06076113,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,MEREQEESTMR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.087684409,,Umami-Enhancing,0.070147527,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,SGVVAAVNDAAKDFHG,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.128395582,,Umami-Enhancing,0.160494477,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,VLSLNSGTEAVEAAIK,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.156072468,,Umami-Enhancing,0.156072468,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,EGSTIGLSK,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.22446941,,Umami-Enhancing,0.140293382,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,IMEALAGAGIDPRR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.136079046,,Umami-Enhancing,0.136079046,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,NQEGLFR,"10.1002/jsfa.10943, CN202010450530.1",Umami,0.231765018,,Umami-Enhancing,0.231765018,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,MTNLLEDLSFR,CN202010450530.1,Umami,0.149415301,,Umami-Enhancing,0.149415301,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,GFGDSCTPGKNER,CN202010450530.1,Umami,0.091410018,,Umami-Enhancing,0.073128014,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,YADSNIQINGTDR,CN202010450530.1,Umami,0.340941093,,Umami-Enhancing,0.170470546,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,AREIALQELGEQAK,CN202010450530.1,Umami,0.321387365,,Umami-Enhancing,0.064277473,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,IQQDDCK,CN202010450530.1,Umami,0.235589575,,Umami-Enhancing,0.294486968,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,QAEADMAR,CN202010450530.1,Umami,0.112236595,,Umami-Enhancing,0.224473189,MSG,2.00 mg/ml,the Chinese anchovy sauce,1,"Ying Bu, Yuyu Zhang",2020/11/13
+,DGF,https://doi.org/10.1016/j.foodchem.2022.133835,Umami,0.37,,Umami-Enhancing,0.37,MSG,0.05 mg/ml,Boletus edulis,1,"Chi-Tang Ho, Min Sun",2022/9/9
+,HHYE,https://doi.org/10.1016/j.foodchem.2022.133835,Umami,0.43,,Umami-Enhancing,0.21,MSG,0.05 mg/ml,Boletus edulis,1,"Chi-Tang Ho, Min Sun",2022/9/9
+,KCGQ,https://doi.org/10.1016/j.foodchem.2022.133835,Umami,0.58,,Umami-Enhancing,0.29,MSG,0.05 mg/ml,Boletus edulis,1,"Chi-Tang Ho, Min Sun",2022/9/9
+,PKALSAFK,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.104,,Umami-Enhancing,0.051,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,NKHGSGK,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.258,,Umami-Enhancing,0.128,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,SADETPR,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.242,,Umami-Enhancing,0.182,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,SDRKIPEK,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.386,,Umami-Enhancing,0.193,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,EIKKAALDANEK,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.035,,Umami-Enhancing,0.141,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,DALAHK,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.287,,Umami-Enhancing,0.431,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,LDDGR,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.163,,Umami-Enhancing,0.082,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,GHENQR,https://doi.org/10.1021/acs.jafc.2c09178,Umami,0.127,,Umami-Enhancing,0.507,MSG,0.004,Fermented Broad Bean Paste,1,Hongbin Lin,2023/2/22
+,AGKNTNGSQF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.4,,Umami-Enhancing,1,MSG,6 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,DEAVARGATF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.34,,Umami-Enhancing,1,MSG,6 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,REESDFQSSF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.31,,Umami-Enhancing,1,MSG,6 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,SEETTTGVHH,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.21,,Umami-Enhancing,1,MSG,6 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,WNNDAFQSSTN,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.28,,Umami-Enhancing,1,MSG,6 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,AGKNTNGSQF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.4,,Umami-Enhancing,1,MSG,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,DEAVARGATF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.34,,Umami-Enhancing,1,MSG,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,REESDFQSSF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.31,,Umami-Enhancing,1,MSG,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,SEETTTGVHH,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.21,,Umami-Enhancing,1,MSG,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,WNNDAFQSSTN,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.28,,Umami-Enhancing,1,MSG,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,AGKNTNGSQF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.4,,Umami-Enhancing,1,MSG,18 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,DEAVARGATF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.34,,Umami-Enhancing,1,MSG,18 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,REESDFQSSF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.31,,Umami-Enhancing,1,MSG,18 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,SEETTTGVHH,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.21,,Umami-Enhancing,1,MSG,18 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,WNNDAFQSSTN,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.28,,Umami-Enhancing,1,MSG,18 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,AGKNTNGSQF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.4,,Umami-Enhancing,1,IMP,4 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,DEAVARGATF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.34,,Umami-Enhancing,1,IMP,4 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,REESDFQSSF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.31,,Umami-Enhancing,1,IMP,4 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,SEETTTGVHH,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.21,,Umami-Enhancing,1,IMP,4 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,WNNDAFQSSTN,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.28,,Umami-Enhancing,1,IMP,4 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,AGKNTNGSQF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.4,,Umami-Enhancing,1,IMP,8 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,DEAVARGATF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.34,,Umami-Enhancing,1,IMP,8 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,REESDFQSSF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.31,,Umami-Enhancing,1,IMP,8 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,SEETTTGVHH,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.21,,Umami-Enhancing,1,IMP,8 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,WNNDAFQSSTN,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.28,,Umami-Enhancing,1,IMP,8 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,AGKNTNGSQF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.4,,Umami-Enhancing,1,IMP,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,DEAVARGATF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.34,,Umami-Enhancing,1,IMP,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,REESDFQSSF,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.31,,Umami-Enhancing,1,IMP,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,SEETTTGVHH,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.21,,Umami-Enhancing,1,IMP,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,WNNDAFQSSTN,https://doi.org/10.1021/acs.jafc.3c04608,Umami,0.28,,Umami-Enhancing,1,IMP,12 mM,Mushroom (Agaricus bisporus),1,"Wenli Wang, Yuan Liu",2024/4/12
+,L-Tyr,https://doi.org/10.1111/j.1365-2621.2005.tb11483.x,,1,,Umami-Enhancing,,"MSG, NaCl","4, 80 mM",,1,Masaaki Yasuda,2006/5/31
+,L-Phe,https://doi.org/10.1111/j.1365-2621.2005.tb11483.x,,1,,Umami-Enhancing,,"MSG, NaCl","4, 80 mM",,1,Masaaki Yasuda,2006/5/31
+,ASNMSDL,https://doi.org/10.1016/j.chroma.2019.03.003,"Sour, umami, astringent",10.19,15mg/mL,Umami-Enhancing,13.58,MSG,0.03 mg/L,,1,Shiqing Song,2019/7/5
+,LQPLNAH,https://doi.org/10.1016/j.chroma.2019.03.003,"Sour, umami, salty, astringent",12.63,15mg/mL,Umami-Enhancing,18.95,MSG,0.03 mg/L,,1,Shiqing Song,2019/7/5
+,AEEHVEAVN,https://doi.org/10.1016/j.foodchem.2022.134414,"Umami, Sour",0.33,,Umami-Enhancing,0.46,MSG,0.35%,,1,Shiqing Song,2019/7/5
+,LPLQD,https://doi.org/10.1016/j.foodchem.2022.134414,Umami,0.11,,Umami-Enhancing,0.24,MSG,0.35%,,1,Shiqing Song,2019/7/5
+,GPSGKLW,https://doi.org/10.1016/j.foodchem.2022.134414,"Umami(weak), bitter",0.09,,Umami-Enhancing,0.2,MSG,0.35%,,1,Shiqing Song,2019/7/5
+,DGGRYY,https://doi.org/10.1016/j.foodchem.2022.134414,"Umami, Bitterr",0.08,,Umami-Enhancing,0.28,MSG,0.35%,,1,Shiqing Song,2019/7/5
+,NEFGYSNR,https://doi.org/10.1016/j.foodchem.2022.134414,Umami,0.16,,Umami-Enhancing,0.28,MSG,0.35%,,1,Shiqing Song,2019/7/5
+,DEAGPSIVH,https://doi.org/10.1016/j.foodchem.2022.134414,Sour,,,Umami-Enhancing,0.58,MSG,0.35%,,1,Shiqing Song,2019/7/5
+γ-Glu-Leu,γ-EL,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val,γ-EV,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val-Gly,γ-EVG,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Met,γ-EM,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-Gly,γ-ECG,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Val,γ-E-γ-EV,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Glu,γ-EE,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gln,γ-EQ,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Met,γ-Eγ-EM,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Tyr,γ-E-γ-EY,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-β-Ala,γ-EC-β-A,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Tyr,γ-EY,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-His,γ-EH,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys,γ-EC,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Phe,γ-EF,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Phe,γ-E-γ-EF,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Thr,γ-ET,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asn,γ-EN,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Arg,γ-ER,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ile,γ-EI,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asp,γ-ED,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gly,γ-EG,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Val,γ-E-γ-EV,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Leu,γ-EL,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val,γ-EV,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-β-Ala,γ-EC-β-A,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Met,γ-EM,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val-Gly,γ-EVG,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-Gly,γ-ECG,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys,γ-EC,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Met,γ-E-γ-EM,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Glu,γ-EE,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asp,γ-ED,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ala,γ-EA,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gln,γ-EQ,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-His,γ-EH,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Tyr,γ-EY,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Thr,γ-ET,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Phe,γ-E-γ-EF,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Tyr,γ-E-γ-EY,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Arg,γ-ER,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Phe,γ-EF,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ile,γ-EI,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asn,γ-EN,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gly,γ-EG,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,"MSG, NaCl","0.5%, 0.9%",,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+,DFE,https://doi.org/10.1016/j.foodchem.2022.134583,"Umami, sour, kokumi, astringent",0.45,,Umami-Enhancing,0.38,MSG,,,1,Rina Wu,2022/10/12
+,WVNEEDHL,https://doi.org/10.1111/ijfs.14122,"Sour, astringent",,0.05%,Umami-Enhancing,,MSG,0.16%,,1,Yanping Wang,2019/2/23
+,NSLEGEFKG,https://doi.org/10.1111/ijfs.14122,"Sour, Astringent, Thickness",,0.05%,Umami-Enhancing,,MSG,0.16%,,1,Yanping Wang,2019/2/23
+,KDLFDPVIQD,https://doi.org/10.1111/ijfs.14122,Astringent,,0.0005,Umami-Enhancing,,MSG,0.0016,,1,Yanping Wang,2019/2/23
+,ADSYRLP,https://doi.org/10.3390/molecules27092853,Sour,,0.1% ,Umami-Enhancing,0.107,MSG,,,1,Fei Li,2022/4/30
+,DPLKY,https://doi.org/10.3390/molecules27092853,Sour,,0.1% ,Umami-Enhancing,0.164,MSG,0.35%,,1,Fei Li,2022/4/30
+,EAFRVL,https://doi.org/10.3390/molecules27092853,"Sour, astringent",,0.1% ,Umami-Enhancing,0.134,MSG,0.35%,,1,Fei Li,2022/4/30
+,EFHNR,https://doi.org/10.3390/molecules27092853,"Sour, astringent",,0.1% ,Umami-Enhancing,0.148,MSG,0.35%,,1,Fei Li,2022/4/30
+,SDLYVR,https://doi.org/10.3390/molecules27092853,Tasteless,,0.1% ,Umami-Enhancing,0.132,MSG,0.35%,,1,Fei Li,2022/4/30
+Ala-Val,Ala-Val,https://doi.org/10.1002/jsfa.7058,Tasteless,>26.4,,No effect,>26.4,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Lys,https://doi.org/10.1002/jsfa.7058,Bitter,2.4,,Bitter,1.2,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Lys,https://doi.org/10.1002/jsfa.7058,Bitter,2.4,,Kokumi-Enhancing,1.2,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Glu-Cys-Gly,https://doi.org/10.1002/jsfa.7058,Sour,4.1,,Kokumi-Enhancing,1,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Gln,https://doi.org/10.1002/jsfa.7058,Bitter,1.2,,Bitter,0.6,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Gln,https://doi.org/10.1002/jsfa.7058,Bitter,1.2,,Kokumi-Enhancing,0.6,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Ala,https://doi.org/10.1002/jsfa.7058,Bitter,3.1,,Bitter,0.4,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Ala,https://doi.org/10.1002/jsfa.7058,Bitter,3.1,,Kokumi-Enhancing,0.4,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Glu,https://doi.org/10.1002/jsfa.7058,Bitter,2.4,,Bitter,0.3,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Glu,https://doi.org/10.1002/jsfa.7058,Bitter,2.4,,Kokumi-Enhancing,0.3,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Tyr-Glu,https://doi.org/10.1002/jsfa.7058,Bitter,8,,Bitter,>16.1,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Tyr-Glu,https://doi.org/10.1002/jsfa.7058,Bitter,8,,No kokumi effect,>16.1,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Glu-Leu,https://doi.org/10.1002/jsfa.7058,Bitter,4.8,,Bitter,0.6,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Glu-Leu,https://doi.org/10.1002/jsfa.7058,Bitter,4.8,,Kokumi-Enhancing,0.6,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Glu-Val,https://doi.org/10.1002/jsfa.7058,Tasteless,>20.2,,Kokumi-Enhancing,0.6,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Thr,https://doi.org/10.1002/jsfa.7058,Bitter,1.3,,Bitter,0.7,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Leu-Thr,https://doi.org/10.1002/jsfa.7058,Bitter,1.3,,Kokumi-Enhancing,0.7,Chicken Broth,,,1,Huanlu Song,2014/12/26
+Ala-Tyr,Ala-Tyr,https://doi.org/10.1002/jsfa.7058,Bitter,4.9,,Bitter,>19.8,Chicken Broth,,,1,Huanlu Song,2014/12/26
+Ala-Tyr,Ala-Tyr,https://doi.org/10.1002/jsfa.7058,Bitter,4.9,,No kokumi effect,>19.8,Chicken Broth,,,1,Huanlu Song,2014/12/26
+Ala-Leu,Ala-Leu,https://doi.org/10.1002/jsfa.7058,Bitter,6.2,,Bitter,1.5,Chicken Broth,,,1,Huanlu Song,2014/12/26
+Ala-Leu,Ala-Leu,https://doi.org/10.1002/jsfa.7058,Bitter,6.2,,Kokumi-Enhancing,1.5,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Glu-Tyr,https://doi.org/10.1002/jsfa.7058,Bitter,4,,Bitter,1,Chicken Broth,,,1,Huanlu Song,2014/12/26
+,Glu-Tyr,https://doi.org/10.1002/jsfa.7058,Bitter,4,,Kokumi-Enhancing,1,Chicken Broth,,,1,Huanlu Song,2014/12/26
+Arg-Asp,Arg-Asp,https://doi.org/10.1016/j.foodchem.2022.132175,Umaminess,0.1728,,Umami-Enhancing,0.1728,MSG,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Gly-Val,Asp-Gly-Val,https://doi.org/10.1016/j.foodchem.2022.132175,Umaminess,0.5185,,Umami-Enhancing,0.5185,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Lys,Asp-Lys,https://doi.org/10.1016/j.foodchem.2022.132175,"Umaminess, saltiness (slight)",0.7655,,Umami-Enhancing,0.7655,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Arg,Asp-Arg,https://doi.org/10.1016/j.foodchem.2022.132175,"Umami, bitterness, saltiness (slight)",0.3457,,Bitter,0.3457,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Arg,Asp-Arg,https://doi.org/10.1016/j.foodchem.2022.132175,"Umami, bitterness, saltiness (slight)",0.3457,,Umami-Enhancing,0.3457,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Phe,Asp-Phe,https://doi.org/10.1016/j.foodchem.2022.132175,"Bitterness, saltiness (slight)",1.7839,,Bitter,1.7839,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Phe,Asp-Phe,https://doi.org/10.1016/j.foodchem.2022.132175,"Bitterness, saltiness (slight)",1.7839,,Umami-Enhancing,1.7839,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+FP,Phe-Pro,https://doi.org/10.1016/j.foodchem.2022.132175,Bitterness,0.7625,,Bitter,1.1437,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+FP,Phe-Pro,https://doi.org/10.1016/j.foodchem.2022.132175,Bitterness,0.7625,,Umami-Enhancing,1.1437,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Met,Asp-Met,https://doi.org/10.1016/j.foodchem.2022.132175,Bitterness,1.5134,,Bitter,0.7567,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+Asp-Met,Asp-Met,https://doi.org/10.1016/j.foodchem.2022.132175,Bitterness,1.5134,,Umami-Enhancing,0.7567,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+FN,Phe-Asn,https://doi.org/10.1016/j.foodchem.2022.132175,Tasteless,/,,Umami-Enhancing,0.358,,,,1,"Juan Yang, Weidong Bai",2022/1/19
+,TFYNELRV,https://doi.org/10.1111/ijfs.15883,"Bitter, Astringency",/,,Umami-Enhancing,0.4322,MSG,0.35%,,1,"Juncai Tu, Juan Yang",2022/5/26
+,TFYNELR,https://doi.org/10.1111/ijfs.15883,"Weak umami, Weak saltiness",0.5838,,Umami-Enhancing,0.4671,MSG,0.35%,,1,"Juncai Tu, Juan Yang",2022/5/26
+,TLFQPSF,https://doi.org/10.1111/ijfs.15883,"Umami, weak salt",0.5125,,Umami-Enhancing,0.4768,MSG,0.35%,,1,"Juncai Tu, Juan Yang",2022/5/26
+,LYANNVL,https://doi.org/10.1111/ijfs.15883,Umami,0.6328,,Umami-Enhancing,0.4219,MSG,0.35%,,1,"Juncai Tu, Juan Yang",2022/5/26
+,FAGDDAPRAVFPS,https://doi.org/10.1111/ijfs.15883,"Umami, weak salt",0.2445,,Umami-Enhancing,0.2594,MSG,0.35%,,1,"Juncai Tu, Juan Yang",2022/5/26
+,KD,https://doi.org/10.1111/ijfs.14271,Astringent,,,Umami-Enhancing,,MSG,1%,,1,Chun Cui,2019/7/3
+,KGC,https://doi.org/10.1111/ijfs.14271,,,,Umami-Enhancing,,MSG,1%,,1,Chun Cui,2019/7/3
+,HPI,https://doi.org/10.1111/ijfs.14271,Bitter,,,Umami-Enhancing,,MSG,1%,,1,Chun Cui,2019/7/3
+,QY,https://doi.org/10.1111/ijfs.14271,Astringent,,,Umami-Enhancing,,MSG,1%,,1,Chun Cui,2019/7/3
+,KP,https://doi.org/10.1111/ijfs.14271,Bitter,,,Umami-Enhancing,,MSG,1%,,1,Chun Cui,2019/7/3
+,LP,https://doi.org/10.1111/ijfs.14271,Bitter,,,Kokumi-Enhancing,,MSG,1%,,1,Chun Cui,2019/7/3
+,EK,https://doi.org/10.1111/ijfs.14271,Astringent,,,Salt-Enhancing,,Nacl,1%,,1,Chun Cui,2019/7/3
+,KGC,https://doi.org/10.1111/ijfs.14271,Astringent,,,Astringent,,Nacl,1%,,1,Chun Cui,2019/7/3
+,HPI,https://doi.org/10.1111/ijfs.14271,,,,Salt-Masking,,Nacl,1%,,1,Chun Cui,2019/7/3
+,QY,https://doi.org/10.1111/ijfs.14271,Bitter,,,Salt-Enhancing,,Nacl,1%,,1,Chun Cui,2019/7/3
+,KP,https://doi.org/10.1111/ijfs.14271,Astringent,,,Salt-Masking,,Nacl,1%,,1,Chun Cui,2019/7/3
+,LP,https://doi.org/10.1111/ijfs.14271,Bitter,,,Salt-Masking,,Nacl,1%,,1,Chun Cui,2019/7/3
+,KD,https://doi.org/10.1111/ijfs.14271,Bitter,,,Richer taste,,Soy sauce,,,1,Chun Cui,2019/7/3
+,EK,https://doi.org/10.1111/ijfs.14271,Astringent,,,Astringent,,Soy sauce,,,1,Chun Cui,2019/7/3
+,EK,https://doi.org/10.1111/ijfs.14271,Astringent,,,Salt,,Soy sauce,,,1,Chun Cui,2019/7/3
+,HPI,https://doi.org/10.1111/ijfs.14271,Bitter,,,Umami-Enhancing,,Soy sauce,,,1,Chun Cui,2019/7/3
+,QY,https://doi.org/10.1111/ijfs.14271,Bitter,,,Umami-Enhancing,,Soy sauce,,,1,Chun Cui,2019/7/3
+,KP,https://doi.org/10.1111/ijfs.14271,Bitter,,,Umami-Enhancing,,Soy sauce,,,1,Chun Cui,2019/7/3
+,LP,https://doi.org/10.1111/ijfs.14271,Bitter,,,Astringent,,Soy sauce,,,1,Chun Cui,2019/7/3
+,LP,https://doi.org/10.1111/ijfs.14271,Bitter,,,Kokumi,,Soy sauce,,,1,Chun Cui,2019/7/3
+,MDAIKKMQ,https://doi.org/10.1016/j.foodres.2023.113211,"Weak umami taste, sour taste, slightly sweet",0.8297,0.20%,Umami-Enhancing,0.5186,MSG,350 mg/L,,1,Xujia Hu,2023/6/30
+,RKYEEVAR,https://doi.org/10.1016/j.foodres.2023.113211,"Umami taste, sour taste, slightly sweet",0.3809,0.20%,Umami-Enhancing,0.2381,MSG,350 mg/L,,1,Xujia Hu,2023/6/30
+,IVGRPRHQG,https://doi.org/10.1016/j.foodres.2023.113211,"Strong bitter taste, sour taste",0.2944,0.20%,Umami-Enhancing,0.4906,MSG,350 mg/L,,1,Xujia Hu,2023/6/30
+,YVGDEAQSKRG,https://doi.org/10.1016/j.foodres.2023.113211,"Umami taste, sour taste, sweet",0.2481,0.20%,Umami-Enhancing,0.2067,MSG,350 mg/L,,1,Xujia Hu,2023/6/30
+,VNVDEVGGEALGR,https://doi.org/10.1016/j.foodres.2023.113211,"Umami tastes strong sour taste, sweet",0.1902,0.20%,Umami-Enhancing,0.0951,MSG,350 mg/L,,1,Xujia Hu,2023/6/30
+γ-Glu-Ala-Lys,γ-Glu-Ala-Lys,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.61,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Asn-Leu,γ-Glu-Asn-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98 ,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Lys,γ-Glu-Ile-Lys,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.71,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Ile,γ-Glu-Ala-Ile,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,2.16,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Leu-Leu,γ-Glu-Leu-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Phe-Leu,γ-Glu-Phe-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.84,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Thr-Leu,γ-Glu-Thr-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Met,γ-Glu-Ile-Met,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Val-Leu,γ-Glu-Val-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ser-Tyr,γ-Glu-Ser-Tyr,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,2.09,MSG,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Lys,γ-Glu-Ala-Lys,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.65,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Asn-Leu,γ-Glu-Asn-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.98,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Lys,γ-Glu-Ile-Lys,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.72,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Ile,γ-Glu-Ala-Ile,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,2.23,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Leu-Leu,γ-Glu-Leu-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.98,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Phe-Leu,γ-Glu-Phe-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.81,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Thr-Leu,γ-Glu-Thr-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.98,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Met,γ-Glu-Ile-Met,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.89,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Val-Leu,γ-Glu-Val-Leu,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.96,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ser-Tyr,γ-Glu-Ser-Tyr,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salt-Enhancing,1.67,Nacl,0.35%,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+Met-Thr-Leu-Glu-Arg-Pro-Trp,MTLERPW,https://doi.org/10.1021/acs.jafc.3c02471,Umami,0.498,0.5/1 mg/ml,Umami-Enhancing,,MSG,3.5 mg/mL,,1,"Yuan Liu, Guangyan Qing",2023/7/31
+Met-Asn-Leu-His-Leu-Ser-Phe,MNLHLSF,https://doi.org/10.1021/acs.jafc.3c02471,Umami,0.415,0.5/1 mg/ml,Umami-Enhancing,,MSG,3.5 mg/mL,,1,"Yuan Liu, Guangyan Qing",2023/7/31
+Gly-Glu-Ser-Met-Thr-Asp-Gly-Phe,GESMTDGF,https://doi.org/10.1016/j.foodchem.2023.137386,Umami,,,Umami-Enhancing,,MSG,0.0035,,1,Yuyu Zhang,2023/9/9
+Asp-Gly-Cys,DGC,https://doi.org/10.1016/j.foodchem.2023.137386,Umami,,,Umami-Enhancing,,MSG,0.0035,,1,Yuyu Zhang,2023/9/9
+Cys-Arg-Asp,CRD,https://doi.org/10.1016/j.foodchem.2023.137386,Umami,,,Umami-Enhancing,,MSG,0.0035,,1,Yuyu Zhang,2023/9/9
+Leu-Glu-Glu-Leu,LEEL,https://doi.org/10.1016/j.lwt.2024.115780,Umami,,1 mg/ml,Umami-Enhancing,,MSG,0.0035,,1,Yuyu Zhang,2023/9/9
+Asp-Glu-Arg-Phe,DERF,https://doi.org/10.1016/j.lwt.2024.115780,Umami,,1 mg/ml,Umami-Enhancing,,MSG,0.0035,,1,Yuyu Zhang,2023/9/9
+Asp-Trp-Asp-Pro-His-Gly-Leu,DWDPHGL,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.39,,Umami-Enhancing,0.48,,,,1,Jian Mao,2023/11/22
+Val-Pro-Glu-Pro-Glu-Pro-His,VPEPEPH,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.52,,Umami-Enhancing,0.28,,,,1,Jian Mao,2023/11/22
+Leu-Thr-Pro-Glu-Pro-Glu-His,LTPEPEH,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.57,,Umami-Enhancing,0.45,,,,1,Jian Mao,2023/11/22
+Gly-Ala-Asn-Gln-Leu-Asp-Pro-Arg,GANQLDPR,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.65,,Umami-Enhancing,0.43,,,,1,Jian Mao,2023/11/22
+Glu-Phe-Lys-Asp-His-Phe,EFKDHF,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.8,,Umami-Enhancing,0.46,,,,1,Jian Mao,2023/11/22
+Asn-Val-Asn-Pro-Trp-His-Asn,NVNPWHN,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.99,,Umami-Enhancing,0.36,,,,1,Jian Mao,2023/11/22
+Phe-Leu-Asp-Arg,FLDR,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.54,,Umami-Enhancing,0.27,,,,1,Jian Mao,2023/11/22
+Leu-Asp-Phe-Arg,LDFR,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.39,,Umami-Enhancing,0.41,,,,1,Jian Mao,2023/11/22
+Phe-Pro-Glu-Glu,FPEE,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.38,,Umami-Enhancing,0.26,,,,1,Jian Mao,2023/11/22
+Gln-Glu-Gly-Trp,QEGW,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.29,,Umami-Enhancing,0.31,,,,1,Jian Mao,2023/11/22
+Arg-Asp-His,RDH,https://doi.org/10.1016/j.jfca.2023.105822,Umami,0.32,,Umami-Enhancing,0.52,,,,1,Jian Mao,2023/11/22
+Ile-Gln-Gly-Phe-Lys,IQGFK,https://doi.org/10.1039/D3FO04487D,Umami,,,Umami-Enhancing,,Chicken Broth,,,1,"Chuang Yu, Tao Feng",2024/1/22
+Ile-Gln-Gly-Phe-Lys,IQGFK,https://doi.org/10.1039/D3FO04487D,Umami,,,Salt-Enhancing,,Chicken Broth,,,1,"Chuang Yu, Tao Feng",2024/1/22
+Glu-Asp-Phe-Phe-Val-Arg,EDFFVR,https://doi.org/10.1039/D3FO04487D,Umami,,,Umami-Enhancing,,Chicken Broth,,,1,"Chuang Yu, Tao Feng",2024/1/22
+Glu-Asp-Phe-Phe-Val-Arg,EDFFVR,https://doi.org/10.1039/D3FO04487D,Umami,,,Salt-Enhancing,,Chicken Broth,,,1,"Chuang Yu, Tao Feng",2024/1/22
+Thr-Asp,TD,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour,kokumi",1.067427244,1 mg/ml,Umami-Enhancing,2.134854488,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Asp,AD,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour,kokumi",1.224397841,1 mg/ml,Umami-Enhancing,1.224397841,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Gly-Glu,GE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",2.448795682,1 mg/ml,Umami-Enhancing,2.448795682,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Val-Asp,VD,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",2.152982311,1 mg/ml,Umami-Enhancing,2.152982311,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Glu-Phe,TEF,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",1.264503859,1 mg/ml,Umami-Enhancing,0.63225193,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Gly-Glu,AGE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",0.908228917,1 mg/ml,Umami-Enhancing,1.816457835,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Asp-Leu,ADL,https://doi.org/10.1016/j.fbio.2024.103951,"Strong umami, astringent",0.393896805,1 mg/ml,Umami-Enhancing,0.787793611,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Ser-Glu,TSE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, slight sour",1.491144095,1 mg/ml,Umami-Enhancing,1.491144095,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Gly-Asn,AGN,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",1.921229587,1 mg/ml,Umami-Enhancing,0.480307397,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Gly-Phe-Ala-Glu,GFAE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",0.591802821,1 mg/ml,Umami-Enhancing,1.183605642,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Tyr-Glu-Thr,TYET,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",0.975579299,1 mg/ml,Umami-Enhancing,0.487789649,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-His-Glu-Ala,THEA,https://doi.org/10.1016/j.fbio.2024.103951,"Strong umami, sour",0.547697916,1 mg/ml,Umami-Enhancing,0.273848958,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Asp-Gly-Arg-Gly-His-Leu,DGRGHL,https://doi.org/10.1016/j.fbio.2024.103951,"Slight umami, sour",0.382439597,1 mg/ml,Umami-Enhancing,0.382439597,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Glu-Gly-Glu-Leu-Pro-Arg,EGELPR,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi,sour",0.714527633,1 mg/ml,Umami-Enhancing,0.357263816,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Phe-Arg-Glu-Gly-Asp-Leu,FREGDL,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi,sour",0.679536176,1 mg/ml,Umami-Enhancing,0.169884044,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Arg-Phe-Glu-Ser-Phe,RFESF,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi,sour, bitter",0.365096217,1 mg/ml,Umami-Enhancing,0.730192435,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Asp-Pro-Arg-Val-Ile,DPRVI,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",0.208785005,1 mg/ml,Umami-Enhancing,0.41757001,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Arg-Asp-Asn-Pro-His-Trp,RDNPHW,https://doi.org/10.1016/j.fbio.2024.103951,"Sour, kokumi",/,1 mg/ml,Umami-Enhancing,0.606892601,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Phe-Glu-Lys-Pro,TFEKP,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",0.805536939,1 mg/ml,Umami-Enhancing,0.201384235,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+His-Glu-Trp-Gln-His,HEWQH,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",0.679570348,1 mg/ml,Umami-Enhancing,0.169892587,MSG,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Asp,TD,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour,kokumi",1.067427244,1 mg/ml,Salt-Enhancing,0.533713622,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Asp,AD,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour,kokumi",1.224397841,1 mg/ml,Salt-Enhancing,0.612198921,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Gly-Glu,GE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",2.448795682,1 mg/ml,Salt-Enhancing,0.612198921,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Val-Asp,VD,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",2.152982311,1 mg/ml,Salt-Enhancing,2.152982311,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Leu-Glu,LE,https://doi.org/10.1016/j.fbio.2024.103951,"Bitter, slight umami",0.960467171,1 mg/ml,Salt-Enhancing,0.480233586,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Glu-Phe,TEF,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",1.264503859,1 mg/ml,Salt-Enhancing,/,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Gly-Glu,AGE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",0.908228917,1 mg/ml,Salt-Enhancing,0.454114459,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Asp-Leu,ADL,https://doi.org/10.1016/j.fbio.2024.103951,"Strong umami, astringent",0.393896805,1 mg/ml,Salt-Enhancing,0.393896805,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Ser-Glu,TSE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, slight sour",1.491144095,1 mg/ml,Salt-Enhancing,0.372786024,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Ala-Gly-Asn,AGN,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",1.921229587,1 mg/ml,Salt-Enhancing,1.921229587,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Asp-Ser-Gln,DSQ,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour,kokumi",0.717747307,1 mg/ml,Salt-Enhancing,1.435494614,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Gly-Phe-Ala-Glu,GFAE,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",0.591802821,1 mg/ml,Salt-Enhancing,1.183605642,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Tyr-Glu-Thr,TYET,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",0.975579299,1 mg/ml,Salt-Enhancing,0.243894825,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-His-Glu-Ala,THEA,https://doi.org/10.1016/j.fbio.2024.103951,"Strong umami, sour",0.547697916,1 mg/ml,Salt-Enhancing,0.547697916,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Asp-Gly-Arg-Gly-His-Leu,DGRGHL,https://doi.org/10.1016/j.fbio.2024.103951,"Slight umami, sour",0.382439597,1 mg/ml,Salt-Enhancing,0.382439597,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Phe-Arg-Glu-Gly-Asp-Leu,FREGDL,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi,sour",0.679536176,1 mg/ml,Salt-Enhancing,0.339768088,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Phe-Arg-Glu-Gly-Asp-Ile,FREGDI,https://doi.org/10.1016/j.fbio.2024.103951,"Strong bitter,sour",/,/,Salt-Enhancing,0.339768088,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Asp-Pro-Arg-Val-Ile,DPRVI,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",0.208785005,1 mg/ml,Salt-Enhancing,0.41757001,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Arg-Asp-Asn-Pro-His-Trp,RDNPHW,https://doi.org/10.1016/j.fbio.2024.103951,"Sour, kokumi",/,1 mg/ml,Salt-Enhancing,0.606892601,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Gly-Ser-Asn-Arg-Phe-Glu-Thr,GSNRFET,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, bitter",/,/,Salt-Enhancing,0.617409719,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Thr-Phe-Glu-Lys-Pro,TFEKP,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, kokumi",0.805536939,1 mg/ml,Salt-Enhancing,0.805536939,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+His-Glu-Trp-Gln-His,HEWQH,https://doi.org/10.1016/j.fbio.2024.103951,"Umami, sour",0.679570348,1 mg/ml,Salt-Enhancing,0.339785174,NaCl,0.0035,,1,"Zhilei Zhou, Jian Mao",2024/3/21
+Glu-Glu,EE,10.3390/ijms21197045,,,,Bitter-Masking,,HEK 293T (hTAS2R16 ),,,1,Takumi Misaka,2020/9/24
+MSG,MSG,10.3390/ijms21197045,,,,Bitter-Masking,,HEK 293T (hTAS2R16 ),,,1,Takumi Misaka,2020/9/24
+L-Theanine,L-Theanine,10.3390/ijms21197045,,,,Bitter-Masking,,HEK 293T (hTAS2R16 ),,,1,Takumi Misaka,2020/9/24
+Glu-Thr-Ser-Ala-Arg-His-Leu,ETSARHL,https://doi.org/10.1021/acs.jafc.8b00830,,,,Bitter-Masking,,HEK 293T (T2R4),Quinine,Beef,1,"Prashen Chelikani, Rotimi E. Aluko",2018/4/29
+Ala-Gly-Asp-Asp-Ala-Pro-Arg-Ala-Val-Phe,AGDDAPRAVF,https://doi.org/10.1021/acs.jafc.8b00830,,,,Bitter-Masking,,HEK 293T (T2R4),Quinine,Beef,1,"Prashen Chelikani, Rotimi E. Aluko",2018/4/29
+Ala-Ala-Met-Tyr,AAMY,https://doi.org/10.1021/acs.jafc.8b00830,,,,Bitter-Masking,,HEK 293T (T2R4),Quinine,Beef,1,"Prashen Chelikani, Rotimi E. Aluko",2018/4/29
+Ala-Asp-Met,ADM,https://doi.org/10.1016/j.foodchem.2021.130839,,,,Bitter-Masking,,HEK 293T (T2R14),Quinine,Oncorhynchus mykiss,1,"Wenzhu Zhao, Jianrong Li",2021/8/20
+Ala-Asp-Trp,ADW,https://doi.org/10.1016/j.foodchem.2021.130839,,,,Bitter-Masking,,HEK 293T (T2R14),Quinine,Oncorhynchus mykiss,1,"Wenzhu Zhao, Jianrong Li",2021/8/20
+GABA,GABA,https://doi.org/10.1074/jbc.M114.576975,,,,Bitter-Masking,,HEK 293T (T2R4),Quinine,,1,Prashen Chelikani,2014/9/5
+Trp-Trp,Trp-Trp,https://doi.org/10.1093/bbb/zbab061,,,,Bitter-Masking,,HEK 293T (T2R14),,,1,Keisuke Ito,2021/4/21
+Trp-Trp,Trp-Trp,https://doi.org/10.1093/bbb/zbab061,,,,Bitter-Masking,,HEK 293T (T2R16),,,1,Keisuke Ito,2021/4/21
+Trp-Trp,Trp-Trp,https://doi.org/10.1093/bbb/zbab061,,,,Bitter-Masking,,HEK 293T (T2R43),,,1,Keisuke Ito,2021/4/21
+Trp-Trp,Trp-Trp,https://doi.org/10.1093/bbb/zbab061,,,,Bitter-Masking,,HEK 293T (T2R46),,,1,Keisuke Ito,2021/4/21
+Thr-Pro-Asp-Phe-Val-Arg,TPDFVR,https://doi.org/10.1016/j.ijgfs.2023.100693,,0.4,,Kokumi-Enhancing,,Chicken Broth,,,1,Zhuo Chen,2023/2/25
+Thr-Pro-Glu-Leu-Leu-His,TPELLH,https://doi.org/10.1016/j.ijgfs.2023.100693,,0.2,,Kokumi-Enhancing,,Chicken Broth,,,1,Zhuo Chen,2023/2/25
+pGlu-Cys,pGlu-Cys,https://doi.org/10.1021/acs.jafc.1c04479,,0.011,,Kokumi-Enhancing,0.75,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Val,pGlu-Val,https://doi.org/10.1021/acs.jafc.1c04479,,0.023,,Kokumi-Enhancing,1.75,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Asp,pGlu-Asp,https://doi.org/10.1021/acs.jafc.1c04479,,0.049,,Umami-Enhancing,0.35,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Glu,pGlu-Glu,https://doi.org/10.1021/acs.jafc.1c04479,,0.002,,Umami-Enhancing,0.34,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Pro,pGlu-Pro,https://doi.org/10.1021/acs.jafc.1c04479,,0.058,,Umami-Enhancing,0.31,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Cys,pGlu-Cys,https://doi.org/10.1021/acs.jafc.1c04479,,0.011,,Salt-Enhancing,,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Val,pGlu-Val,https://doi.org/10.1021/acs.jafc.1c04479,,0.023,,Salt-Enhancing,,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Asp,pGlu-Asp,https://doi.org/10.1021/acs.jafc.1c04479,,0.049,,Salt-Enhancing,,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Glu,pGlu-Glu,https://doi.org/10.1021/acs.jafc.1c04479,,0.002,,Salt-Enhancing,,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Pro,pGlu-Pro,https://doi.org/10.1021/acs.jafc.1c04479,,0.058,,Salt-Enhancing,,Model Broth,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Pro,pEP,https://doi.org/10.1021/acs.jafc.9b00905,,0.3,,Umami-Enhancing,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Glu,pEE,https://doi.org/10.1021/acs.jafc.9b00905,,0.32,,Umami-Enhancing,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Gln,pEQ,https://doi.org/10.1021/acs.jafc.9b00905,,0.35,,Umami-Enhancing,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Arg,pER,https://doi.org/10.1021/acs.jafc.9b00905,,0.55,,Umami-Enhancing,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Ser,pES,https://doi.org/10.1021/acs.jafc.9b00905,,0.86,,Umami-Enhancing,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Lys,pEK,https://doi.org/10.1021/acs.jafc.9b00905,,1.2,,Increasing Complexity,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Phe,pEF,https://doi.org/10.1021/acs.jafc.9b00905,,1.3,,Umami-Enhancing,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Val,pEV,https://doi.org/10.1021/acs.jafc.9b00905,,1.8,,Kokumi-Enhancing,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+pGlu-Ala,pEA,https://doi.org/10.1021/acs.jafc.9b00905,,2.7,,Increasing Complexity,,Model Broth,,,1,Thomas Hofmann,2019/3/27
+Ala-Glu-Ile-Asn-Lys-Ile-Leu-Gly-Asn,AEINKILGN,https://doi.org/10.1016/j.foodchem.2023.136480,,,,Salt-Enhancing,,,,,1,Yuyu Zhang,2023/6/3
+Thr-Pro-Leu-Val-Asp-Arg,TPLVDR,https://doi.org/10.1016/j.foodchem.2023.136480,,,,Salt-Enhancing,,,,,1,Yuyu Zhang,2023/6/3
+Arg-Pro,RP,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Arg-Ala,RA,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Ala-Arg,AR,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Arg-Gly,RG,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Arg-Ser,RS,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Arg-Val,RV,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Val-Arg,VR,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Arg-Met,RM,https://doi.org/10.1021/jf2041593,,,,Salt-Enhancing,,,,Fermented Fish Sauces,1,Thomas Hofmann,2011/11/1
+Pro-Asn,PN,https://doi.org/10.1016/j.foodchem.2022.132993,,,,Salt-Enhancing,,,,yeast,1,Huanlu Song,2022/9/15
+Asn-Ser-Glu,NSE,https://doi.org/10.1016/j.foodchem.2022.132993,,,,Salt-Enhancing,,,,yeast,1,Huanlu Song,2022/9/15
+Asn-Glu,NE,https://doi.org/10.1016/j.foodchem.2022.132993,,,,Salt-Enhancing,,,,yeast,1,Huanlu Song,2022/9/15
+Ser-Pro-Glu,SPE,https://doi.org/10.1016/j.foodchem.2022.132993,,,,Salt-Enhancing,,,,yeast,1,Huanlu Song,2022/9/15
+pGlu-Glu,pgluE,https://doi.org/10.1021/acs.jafc.3c05911,,646 μmol/L,,Salt-Enhancing,,,,yeast,1,John P. Munafo Jr,2023/12/18
+pGlu-Val,pgluV,https://doi.org/10.1021/acs.jafc.3c05911,,77  μmol/L,,Salt-Enhancing,,,,yeast,1,John P. Munafo Jr,2023/12/18
+pGlu-Val-Leu,pgluVL,https://doi.org/10.1021/acs.jafc.3c05911,,273  μmol/L,,Salt-Enhancing,,,,yeast,1,John P. Munafo Jr,2023/12/18
+pGlu-Val-Cys,pgluVC,https://doi.org/10.1021/acs.jafc.3c05911,,221 μmol/L,,Salt-Enhancing,,,,yeast,1,John P. Munafo Jr,2023/12/18
+Tyr-Asp-Pro-Asn-Asp-Pro-Glu-Lys,YDPNDPEK,https://doi.org/10.1016/j.foodres.2023.113917,,,,Salt-Enhancing,,,,Agaricus bisporus,1,"Qian Liu, Shiqing Song",2023/12/30
+Asp-Asp-Trp-Asp-Glu-Asp-Ala-Pro-Arg,DDWDEDAPR,https://doi.org/10.1016/j.foodres.2023.113917,,,,Salt-Enhancing,,,,Agaricus bisporus,1,"Qian Liu, Shiqing Song",2023/12/30
+Asp-Val-Pro-Asp-Gly-Pro-Pro-Pro-Glu-His,DVPDGPPPEH,https://doi.org/10.1016/j.foodres.2023.113917,,,,Salt-Enhancing,,,,Agaricus bisporus,1,"Qian Liu, Shiqing Song",2023/12/30
+Pro-His-Glu-Met-Gln,PHEMQ,https://doi.org/10.1016/j.foodchem.2023.138138,,,,Salt-Enhancing,,,,Stropharia rugosoannulata,1,Yan Yang,2023/12/21
+Ser-Glu-Pro-Ser-His-Phe,SEPSHF,https://doi.org/10.1016/j.foodchem.2023.138138,,,,Salt-Enhancing,,,,Stropharia rugosoannulata,1,Yan Yang,2023/12/21
+Ser-Gly-Cys-Val-Glu-Asn-Leu,SGCVENL,https://doi.org/10.1016/j.foodchem.2023.138138,,,,Salt-Enhancing,,,,Stropharia rugosoannulata,1,Yan Yang,2023/12/21
+Met-Glu,ME,https://doi.org/10.1016/j.fbio.2024.103661,"sour, sweet",,,Umami-Enhancing,0.053892861,I + G,,Soybean,1,Guowan Su,2024/1/31
+Glu-Val,EV,https://doi.org/10.1016/j.fbio.2024.103661," sour, sweet",,,Umami-Enhancing,0.138063777,I + G,,Soybean,1,Guowan Su,2024/1/31
+Glu-Leu,EL,https://doi.org/10.1016/j.fbio.2024.103661,"umami, sweet",,,Umami-Enhancing,0.061469899,I + G,,Soybean,1,Guowan Su,2024/1/31
+Glu-Ala,EA,https://doi.org/10.1016/j.fbio.2024.103661,"sour, sweet",,,Umami-Enhancing,0.145502706,I + G,,Soybean,1,Guowan Su,2024/1/31
+Met-Glu,ME,https://doi.org/10.1016/j.fbio.2024.103661,"sour, sweet",,,Umami-Enhancing,0.197607157,MSg,,Soybean,1,Guowan Su,2024/1/31
+Glu-Val,EV,https://doi.org/10.1016/j.fbio.2024.103661,"sour, sweet",,,Umami-Enhancing,0.097456784,MSg,,Soybean,1,Guowan Su,2024/1/31
+Glu-Leu,EL,https://doi.org/10.1016/j.fbio.2024.103661,"umami, sweet",,,Umami-Enhancing,0.167121288,MSg,,Soybean,1,Guowan Su,2024/1/31
+Glu-Ala,EA,https://doi.org/10.1016/j.fbio.2024.103661,"sour, sweet",,,Umami-Enhancing,0.09990422,MSg,,Soybean,1,Guowan Su,2024/1/31
+Thr-Pro-Pro-Lys-Ile-Asp,TPPKID,https://doi.org/10.1016/j.foodres.2024.114139,,0.490596124,,Salt-Enhancing,0.281078628,,,Chicken,1,Yuyu Zhang,2024/2/28
+Pro-Lys-Glu-Ser-Glu-Lys-Pro-Asn,PKESEKPN,https://doi.org/10.1016/j.foodres.2024.114139,,0.391644065,,Salt-Enhancing,0.244867787,,,Chicken,1,Yuyu Zhang,2024/2/28
+Thr-Glu-Asp-Trp-Gly-Arg,TEDWGR,https://doi.org/10.1016/j.foodres.2024.114139,,0.431567245,,Salt-Enhancing,0.400903015,,,Chicken,1,Yuyu Zhang,2024/2/28
+Leu-Pro-Leu-Gln-Asp-Ala-His,LPLQDAH,https://doi.org/10.1016/j.foodres.2024.114139,,0.332176387,,Salt-Enhancing,0.283279438,,,Chicken,1,Yuyu Zhang,2024/2/28
+Asn-Glu-Phe-Gly-Tyr-Ser-Asn-Arg,NEFGYSNR,https://doi.org/10.1016/j.foodres.2024.114139,,0.278323749,,Salt-Enhancing,0.131002728,,,Chicken,1,Yuyu Zhang,2024/2/28
+Leu-Pro-Leu-Gln-Asp,LPLQD,https://doi.org/10.1016/j.foodres.2024.114139,,0.452801661,,Salt-Enhancing,0.40472334,,,Chicken,1,Yuyu Zhang,2024/2/28
+Asn-Lys-Phe,NKF,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Umam, Astringency",0.46,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Leu-Gly-Leu-Arg,LGLR,https://doi.org/10.1016/j.foodchem.2024.139216,"Bitterness, Umami",0.39,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Leu-Glu-Phe,LEF,https://doi.org/10.1016/j.foodchem.2024.139216,Umami,0.46,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Val-Asp-Phe,VDF,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Astringency",0.24,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Arg-Arg-Leu-Leu,RRLL,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Bitterness, Umami, Astringency",0.13,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Trp-Asp-Leu,WDL,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Saltiness",0.16,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Asn-Met-Lys-Phe,NMKF,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Saltiness, Umami",0.2,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Phe-Asp-Ser-Leu,FDSL,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Sweetness, Umami",0.5,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Gln-Phe-Leu-Arg,QFLR,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Sweetness, Bitterness, Umami",0.37,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Phe-Asp-Gly-Lys,FDGK,https://doi.org/10.1016/j.foodchem.2024.139216,"Sourness, Saltiness, Umami, Astringency",0.32,,Salt-Enhancing,,,,Yeast,1,Yuyu Zhang,2024/8/15
+Asp-Phe-Asn-Ala-Leu-Pro-Phe-Lys,DFNALPFK,https://doi.org/10.3390/foods13070995,"Astringent, umami",0.38,,Salt-Enhancing,0.22,NaCl,0.50%,Straw Mushroom,1,Chuang Yu,2024/2/24
+Tyr-Asn-Glu-Asp-Asn-Gly-Ile-Val-Lys,YNEDNGIVK,https://doi.org/10.3390/foods13070995,Astringent,0.45,,Salt-Enhancing,0.33,NaCl,0.50%,Straw Mushroom,1,Chuang Yu,2024/2/24
+Val-Pro-Gly-Gly-Gln-Glu-Ile-Lys-Asp-Arg,VPGGQEIKDR,https://doi.org/10.3390/foods13070995,"Astringent,Umami",0.56,,Salt-Enhancing,0.41,NaCl,0.50%,Straw Mushroom,1,Chuang Yu,2024/2/24
+Lys-Glu-Asp-Gly-Lys,KEDGK,https://doi.org/10.1016/j.foodchem.2024.139035,,,,Salt-Enhancing,,NaCl,0.35%,bovine bone,1,"Cen Zhang, Chaogeng Xiao",2024/3/19
+Arg-Arg-Arg-Arg-Arg,RRRRR,https://doi.org/10.1016/j.foodchem.2024.139035,,,,Salt-Enhancing,,NaCl,0.35%,bovine bone,1,"Cen Zhang, Chaogeng Xiao",2024/3/19
+Lys-Glu-Arg,KER,https://doi.org/10.1016/j.foodchem.2024.139035,,,,Salt-Enhancing,,NaCl,0.35%,bovine bone,1,"Cen Zhang, Chaogeng Xiao",2024/3/19
+Arg-Glu-Glu,REE,https://doi.org/10.1016/j.foodchem.2024.139035,,,,Salt-Enhancing,,NaCl,0.35%,bovine bone,1,"Cen Zhang, Chaogeng Xiao",2024/3/19
+Glu-Glu-Leu,EEL,https://doi.org/10.1016/j.foodchem.2024.139035,,,,Salt-Enhancing,,NaCl,0.35%,bovine bone,1,"Cen Zhang, Chaogeng Xiao",2024/3/19
+Lys-Glu-Met-Gln-Lys-Asn,KEMQKN,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Asn-Gly-Lys-Glu-Thr,NGKET,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Arg-Gly-Glu-Pro-Asn-Asn-Asp,RGEPNND,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Leu-Ser-Glu-Arg-Tyr-Pro,LSERYP,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Asn-Arg-Thr-Phe,NRTF,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Thr-Tyr-Leu-Pro-Val-His,TYLPVH,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Glu-Val,EV,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Ala-Gly-Ala-Gly-Pro-Thr-Pro,AGAGPTP,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Gly-Pro-Ala-Gly-Pro-Arg,GPAGPR,https://doi.org/10.1016/j.foodchem.2022.134886,,,,Salt-Enhancing,,Ruditapes philippinarum,,,0,"Yali Dang, Xinchang Gao",2022/11/11
+Gly-Gly-Ile-Ser-Thr-Gly-Asn-Leu-Asn,GGISTGNLN,https://doi.org/10.1021/acs.jafc.2c06237,sourness and astringent,0.59,,Salt-Enhancing,,,,Yeast Extract,1,Yuyu ZHang,2022/11/2
+Ser-Ser-Ala-Val-Lys,SSAVK,https://doi.org/10.1021/acs.jafc.2c06237,Umami,0.35,,Salt-Enhancing,,,,Yeast Extract,1,Yuyu ZHang,2022/11/2
+Pro-Lys-Leu-Leu-Leu-Leu-Pro-Lys-Pro,PKLLLLPKP,https://doi.org/10.1021/acs.jafc.2c06237,"sourness, umami",0.18,,Salt-Enhancing,,,,Yeast Extract,1,Yuyu ZHang,2022/11/2
+Leu-Val-Lys-Gly-Gly-Leu-Ile-Pro,LVKGGLIP,https://doi.org/10.1021/acs.jafc.2c06237,"umami, bitterness",0.28,,Salt-Enhancing,,,,Yeast Extract,1,Yuyu ZHang,2022/11/2
+Glu-Glu,EE,https://doi.org/10.1016/j.bbrc.2014.11.114,,,,Bitter-Masking,,TAS2R16,Salicin,,0.5,Mee-Ra Rhyu,2015/1/9
+Glu-Ser,ES,https://doi.org/10.1016/j.bbrc.2014.11.114,,,,Bitter-Masking,,TAS2R16,Salicin,,0.5,Mee-Ra Rhyu,2015/1/9
+Asp-Glu-Ser,DES,https://doi.org/10.1016/j.bbrc.2014.11.114,,,,Bitter-Masking,,TAS2R16,Salicin,,0.5,Mee-Ra Rhyu,2015/1/9
+Gly-Gly-Ile-Ser-Thr-Gly-Asn-Leu-Asn,GGISTGNLN,https://doi.org/10.1016/j.bbrc.2014.11.114,,,,Bitter-Masking,,TAS2R16,Salicin,,0.5,Mee-Ra Rhyu,2015/1/9
+Cys-Ser-Arg-His,CSRH,https://doi.org/10.1007/s11947-023-03278-9,,,,Salt-Enhancing,,NaCl,0.40%,Sea Cucumber,1,"Xuepeng Li, Jianrong Li",2023/11/29
+Lys-Asp-Ile-Asn-Asn-Arg-Phe,KDINNRF,https://doi.org/10.1007/s11947-023-03278-9,,,,Salt-Enhancing,,NaCl,0.40%,Sea Cucumber,1,"Xuepeng Li, Jianrong Li",2023/11/29
+Ala-Asp-His-Asp-Leu-Pro-Phe,ADHDLPF,https://doi.org/10.1016/j.lwt.2023.115430,,0.307,1 g/L,Salt-Enhancing,,NaCl,1 g/L,Lentinula edodes,1,Yan Yang,2023/10/23
+Asp-Ile-Gln-Pro-Glu-Glu-Arg,DIQPEER,https://doi.org/10.1016/j.lwt.2023.115430,,0.282,1 g/L,Salt-Enhancing,,NaCl,1 g/L,Lentinula edodes,1,Yan Yang,2023/10/23
+Asp-Glu-Pro-Leu-Ile-Val-Trp,DEPLIVW,https://doi.org/10.1016/j.lwt.2023.115430,,0.144,1 g/L,Salt-Enhancing,,NaCl,1 g/L,Lentinula edodes,1,Yan Yang,2023/10/23
+Leu-Pro-Asp-Glu-Pro-Ser-Arg,LPDEPSR,https://doi.org/10.1016/j.lwt.2023.115430,,0.516,1 g/L,Salt-Enhancing,,NaCl,1 g/L,Lentinula edodes,1,Yan Yang,2023/10/23
+γ-Glu-Leu,γEL,https://doi.org/10.1021/acs.jafc.2c04919,,,,Umami-Enhancing,,STC-1(T1R1/T1R3),,,0.5,Juncai Tu,2022/11/1
+γ-Glu-Val,γEV,https://doi.org/10.1021/acs.jafc.2c04919,,,,Umami-Enhancing,,STC-1(T1R1/T1R3),,,0.5,Juncai Tu,2022/11/1
+γ-Glu-γ-Glu-Val,γEγEV,https://doi.org/10.1021/acs.jafc.2c04919,,,,Umami-Enhancing,,STC-1(T1R1/T1R3),,,0.5,Juncai Tu,2022/11/1
+Gly-Val-Asp-Thr-Lys,GVDTK,CN202110215369.4,,,,Bitter-Masking,,T2R14,,,0,,
+Asp-Asp-Asn-Lys,DDNK,CN202110215489.4,,,,Bitter-Masking,,T2R14,,,0,,
+Asp-Ala-Phe,DAF,CN202310849863.5,,,,Salt-Enhancing,,,,,1,,
+Arg-Pro-Ala-Leu,RPAL,CN202310849863.5,,,,Salt-Enhancing,,,,,1,,
+Ile-Pro-Val-Met,IPVM,CN202310849863.5,,,,Salt-Enhancing,,,,,1,,
+Gln-Ile-Phe,QIF,CN202310849863.5,,,,Salt-Enhancing,,,,,1,,
+Asp-Leu,DL,CN202210756898.X,,,,Salt-Enhancing,,,,dried salted ham,0.5,,
+Phe-Met-Ser-Ala-Leu-Phe,FMSALF,CN202210756898.X,,,,Salt-Enhancing,,,,dried salted ham,0.5,,
+His-Val-Arg-Arg-Lys,HVRRK,CN202210756898.X,,,,Salt-Enhancing,,,,dried salted ham,0.5,,
+Phe-Ala-Asp-Leu,FADL,CN202311769318.1,Umami,0.775,2,Salt-Enhancing,,NaCl,0.30%,,1,,
+Phe-Asp-Arg-Leu,FDRL,CN202311769318.1,Umami,0.3999,2,Salt-Enhancing,,NaCl,0.30%,,1,,
+Tyr-Gln,YQ,WO2022177418A1,Umami,,,Umami-Enhancing,,,,,1,,
+Tyr-Trp,YW,WO2022177418A1,Umami,,,Umami-Enhancing,,,,,1,,
+Ser-Pro-Asp,SPD,CN201510823306.1,Sour,1,5 g/l,Kokumi-Enhancing,0.5,Chicken Broth,,,1,,
+Leu-Ala-Asp,LAD,CN201510823306.1,"Sour, Bitter",1,5 g/l,Kokumi-Enhancing,0.3,Chicken Broth,,,1,,
+Ala-Leu-Asp,ALD,CN201510823306.1,Sour,1,5 g/l,Umami-Enhancing,0.3,Chicken Broth,,,1,,
+Ala-Gly-Asp-Asp-Ala-Pro-Arg-Ala-Val-Phe,AGDDAPRAVF,"	WOCA19050186",,,,Bitter-Masking,,"T2R4, T2R14",,,0.5,,
+Glu-Thr-Ser-Ala-Arg-His-Leu,ETSARHL,"	WOCA19050186",,,,Bitter-Masking,,"T2R4, T2R14",,,0.5,,
+Asp-Val-Ile-Leu-Pro-Val-Pro-Ala-Phe,DVILPVPAF,Xueke Zhou,Umami,,,Umami-Enhancing,,MSG,0.05 mg/ml,,1,,
+Thr-Val-Ala-Gly-Gly-Ala-Trp-Thr-Tyr-Asn-Thr-Thr-Ser-Ala-Val-Thr-Val-Lys,TVAGGAWTYNTTSAVTVK,Xueke Zhou,Umami,,,Umami-Enhancing,,MSG,0.05 mg/ml,,1,,
+Ala-Met-Leu-Glu-Gln-Val-Ala-Met-Thr-Asp-Lys,AMLEQVAMTDK,Xueke Zhou,Umami,,,Umami-Enhancing,,MSG,0.05 mg/ml,,1,,
+Gly-Gly-Lys-Leu-Val-Val-Asp-Gly-His-Ala-Ile-Thr,GGKLVVDGHAIT,Xueke Zhou,Umami,,,Umami-Enhancing,,MSG,0.05 mg/ml,,1,,
+Ile-Gly-Ala-Glu-Val-Tyr-His-Asn-Leu-Lys,IGAEVYHNLK,Xueke Zhou,Umami,,,Umami-Enhancing,,MSG,0.05 mg/ml,,1,,
+,需要查看结构衍生物的表格，看看里面有哪些成分这里没有的，需要进行补充,,,,,,,,,,,,

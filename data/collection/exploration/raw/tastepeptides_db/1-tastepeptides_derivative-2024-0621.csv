@@ -1,0 +1,976 @@
+﻿PepName,Name in Research,Derivative Method,Smiles,Lib/DOI,Intrinsic Taste,Intrinsic Threshold(mM),Added Concentration (mM) ,Modulating Properties,Modulating Threshold(mM),Source,Vitro_verit,Corresponding Author,Publication
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Umami-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sweet-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Salty-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sour-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Mouthfull,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Kokumi-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Umami-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sweet-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Salty-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Sour-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Mouthfull,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.fshw.2022.06.015,/,/,2,Kokumi-Enhancing,/,/,1,"Xiaofang Zeng, Weidong Bai",2022/7/18
+N-lactoyl-Gly,N-l-Lac-l-Gly,Lactoyl,O=C(O)CNC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Astringent,0.624,0.0033,/,>5.5,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Gly,N-l-Lac-l-Gly,Lactoyl,O=C(O)CNC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Bitter,1.71,0.0033,/,>5.5,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Ala,N-l-Lac-l-Ala,Lactoyl,O=C(O)[C@H](C)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,0.535,0.0029,/,>5.5,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Glu,N-l-Lac-l-Glu,Lactoyl,O=C(O)[C@H](CCC(O)=O)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,1.754,0.004,Mouthfull,0.157,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Glu,N-l-Lac-l-Glu,Lactoyl,O=C(O)[C@H](CCC(O)=O)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,1.754,0.004,Increasing complexity,0.157,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Gln,N-l-Lac-l-Gln,Lactoyl,O=C(O)[C@H](CCC(N)=O)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,6.343,0.0125,Mouthfull,0.237,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Gln,N-l-Lac-l-Gln,Lactoyl,O=C(O)[C@H](CCC(N)=O)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,6.343,0.0125,Increasing complexity,0.237,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Asp,N-l-Lac-l-Asp,Lactoyl,O=C(O)[C@H](CC(O)=O)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Sour,/,0.0006,Modulating complexity,0.361,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Asp,N-l-Lac-l-Asp,Lactoyl,O=C(O)[C@H](CC(O)=O)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,2.711,0.0006,Modulating complexity,0.361,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-lactoyl-Asn,N-l-Lac-l-Asn,Lactoyl,O=C(O)[C@H](CC(N)=O)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,4.886,0.0094,Modulating complexity,0.373,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Gly,N-Suc-Gly,Succinoyl,O=C(NCC(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.732,0.0013,Increasing complexity,0.256,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Ala,N-Suc-l-Ala,Succinoyl,O=C(N[C@@H](C)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.498,0.0011,Increasing complexity,0.048,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Glu,N-Suc-l-Glu,Succinoyl,O=C(N[C@@H](CCC(O)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,1.935,0.0015,Mouthfull,0.017,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Glu,N-Suc-l-Glu,Succinoyl,O=C(N[C@@H](CCC(O)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,1.935,0.0015,Increasing complexity,0.017,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Glu,N-Suc-l-Glu,Succinoyl,O=C(N[C@@H](CCC(O)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,1.935,0.0015,Long-lasting,0.017,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Gln,N-Suc-l-Gln,Succinoyl,O=C(N[C@@H](CCC(N)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.245,0.0039,Mouthfull,0.051,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Gln,N-Suc-l-Gln,Succinoyl,O=C(N[C@@H](CCC(N)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,4.245,0.0039,Volume,0.051,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Asp,N-Suc-l-Asp,Succinoyl,O=C(N[C@@H](CC(O)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Sour,3.641,0.0003,/,>5.5,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Asn,N-Suc-l-Asn,Succinoyl,O=C(N[C@@H](CC(N)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,3.047,0.0007,Mouthfull,0.061,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Asn,N-Suc-l-Asn,Succinoyl,O=C(N[C@@H](CC(N)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Umami,3.047,0.0007,Increasing complexity,0.061,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Val,N-Suc-l-Val,Succinoyl,O=C(N[C@@H](C(C)C)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Tongue-covering,2.971,0.0006,/,>5.5,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Leu,N-Suc-l-Leu,Succinoyl,O=C(N[C@@H](CC(C)C)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Bitter,6.611,0.0001,/,>5.5,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Ile,N-Suc-l-Ile,Succinoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Bitter,3.353,/,/,>5.5,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Phe,N-Suc-l-Phe,Succinoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Astringent,0.342,0.0004,Tongue-covering,0.287,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+N-succinoyl-Phe,N-Succinoyl-Phe,Succinoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)CCC(O)=O,https://doi.org/10.1021/acs.jafc.2c02623,Bitter,8.46,0.0004,"Fullness, Volume, Complexity",0.287,Traditional Korean Fermented Dish Kimchi,1,Thomas Hofmann,2022/6/8
+γ-Glu-Asn-Phe,γ-Glu-Asn-Phe,γ,NC(CCC(O)=O)CCC(NC(C[C@@H](C(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)N)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,1.97,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Asn-Phe,γ-Glu-Asn-Phe,γ,NC(CCC(O)=O)CCC(NC(C[C@@H](C(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)N)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,1.94,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Asn-Phe,γ-Glu-Asn-Phe,γ,NC(CCC(O)=O)CCC(NC(C[C@@H](C(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)N)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,0.8,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Val,γ-Glu-Leu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,2.01,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Val,γ-Glu-Leu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,2.06,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Val,γ-Glu-Leu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,0.9,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Tyr,γ-Glu-Leu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,1.73,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Tyr,γ-Glu-Leu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,1.85,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Leu-Tyr,γ-Glu-Leu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,0.69,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Leu,γ-Glu-Gly-Leu,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,2.07,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Leu,γ-Glu-Gly-Leu,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,2.29,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Leu,γ-Glu-Gly-Leu,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,1.03,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Phe,γ-Glu-Gly-Phe,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,1.97,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Phe,γ-Glu-Gly-Phe,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,2.18,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Phe,γ-Glu-Gly-Phe,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,0.88,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Tyr,γ-Glu-Gly-Tyr,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,1.7,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Tyr,γ-Glu-Gly-Tyr,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,1.72,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gly-Tyr,γ-Glu-Gly-Tyr,γ,NC(CCC(O)=O)CCC(NCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,0.72,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Val-Val,γ-Glu-Val-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,1.83,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Val-Val,γ-Glu-Val-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,1.65,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Val-Val,γ-Glu-Val-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,0.73,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gln-Tyr,γ-Glu-Gln-Tyr,γ,NC(CCC(O)=O)CCC(NC(CC[C@@H](C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)N)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Umami,1.67,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gln-Tyr,γ-Glu-Gln-Tyr,γ,NC(CCC(O)=O)CCC(NC(CC[C@@H](C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)N)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Salty,1.69,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Gln-Tyr,γ-Glu-Gln-Tyr,γ,NC(CCC(O)=O)CCC(NC(CC[C@@H](C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)N)=O)=O,https://doi.org/10.1016/j.foodchem.2023.136988,/,/,1 mg/mL,Kokumi,0.68,pea,1,"Weidong Bai, Yuyu Zhang",2023/7/24
+γ-Glu-Ala,γ-Glu-Ala,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Cys-Gly,γ-Glu-Cys-Gly,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Cys,γ-Glu-Cys,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Val-Gly,γ-Glu-Val-Gly,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Glu,γ-Glu-Glu,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Phe,γ-Glu-Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Gly,γ-Glu-Gly,γ,NC(CCC(O)=O)CCC(NCC(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Met,γ-Glu-Met,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Gln,γ-Glu-Gln,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(N)=O)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Val,γ-Glu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Trp,γ-Glu-Trp,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+γ-Glu-Tyr,γ-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1016/j.meatsci.2023.109323,/,/,/,/,/,dry-cured ham,1,Leticia Mora,2023/12/1
+N-acetyl-Val,N-acetyl-Val,Acetyl,O=C(O)[C@H](C(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,0.63(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,Acetyl,O=C(O)[C@H](C(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,0.63(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,Acetyl,O=C(O)[C@H](C(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,0.63(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,Acetyl,O=C(O)[C@H](C(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,0.63(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,Acetyl,O=C(O)[C@H](C(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,0.63(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Val,N-acetyl-Val,Acetyl,O=C(O)[C@H](C(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,0.63(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,Acetyl,O=C(O)[C@H]([C@@H](C)CC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,Acetyl,O=C(O)[C@H]([C@@H](C)CC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,Acetyl,O=C(O)[C@H]([C@@H](C)CC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,Acetyl,O=C(O)[C@H]([C@@H](C)CC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,Acetyl,O=C(O)[C@H]([C@@H](C)CC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Ile,N-acetyl-Ile,Acetyl,O=C(O)[C@H]([C@@H](C)CC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Leu,N-acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,Acetyl,O=C(O)[C@H](CCSC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,Acetyl,O=C(O)[C@H](CCSC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,Acetyl,O=C(O)[C@H](CCSC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,Acetyl,O=C(O)[C@H](CCSC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,Acetyl,O=C(O)[C@H](CCSC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Met,N-acetyl-Met,Acetyl,O=C(O)[C@H](CCSC)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,1.25(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,2.50(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Bitterness-Masking,2.50(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,2.50(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Salty,2.50(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Salty,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,2.50(g/L),/,1,Chun Cui,2023/11/6
+N-acetyl-Phe,N-acetyl-Phe,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,https://doi.org/10.1021/acs.jafc.3c03239,Bitter,2.5(g/L),0.5%（m/v，pH 7.0）,Umami,2.50(g/L),/,1,Chun Cui,2023/11/6
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Astringent,100 mg/L,50 mg/L ,Mouthfull,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Kokumi,100 mg/L,50 mg/L ,Mouthfull,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Bitter,400 mg/L,50 mg/L ,Mouthfull,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Astringent,100 mg/L,50 mg/L ,Umami,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Kokumi,100 mg/L,50 mg/L ,Umami,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Bitter,400 mg/L,50 mg/L ,Umami,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Astringent,100 mg/L,50 mg/L ,Continuity,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Kokumi,100 mg/L,50 mg/L ,Continuity,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+N-lactoyl-Met,N-lactoyl-Met,Lactoyl,O=C(O)[C@H](CCSC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c03054,Bitter,400 mg/L,50 mg/L ,Continuity,/,tomatoes and cheese,1,"Chun Cui, Laihao Li",2023/9/26
+γ-D-Glu-Val,γ-D-Glu-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Val,γ-D-Glu-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Val,γ-D-Glu-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]2-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]2-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]2-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]3-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]3-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Val,γ-[D-Glu]3-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Met,γ-D-Glu-L-Val,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Met,γ-D-Glu-L-Met,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Met,γ-D-Glu-L-Met,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]2-L-Met,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]2-L-Met,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]3-L-Met,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Met,γ-[D-Glu]3-L-Met,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Phe,γ-D-Glu-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Phe,γ-D-Glu-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-Phe,γ-D-Glu-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]2-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]2-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]2-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]3-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Mouthfull,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]3-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Thickness,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-D-Glu-γ-D-Glu-γ-D-Glu-Phe,γ-[D-Glu]3-L-Phe,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O,https://doi.org/10.1002/fsn3.1845,/,/,/,Umami,/,Bacillus amyloliquefaciens,1,"Weidong Bai, Xiaofeng Zeng",2020/9/20
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1371/journal.pone.0034489,Kokumi,/,100 µM,/,/,/,0.5,Yutaka Maruyama,2012/4/12
+γ-Glu-Cys-Gly,γECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,/,/,0.08%,Thickness,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Cys-Gly,γECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,/,/,0.08%,Mouthfull,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Cys-Gly,γECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Sweet,/,0.10%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Cys-Gly,γECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Salty,/,0.10%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Cys-Gly,γECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Thickness,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Cys-Gly,γECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Continuity,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Cys-Gly,γECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Mouthfulness,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,/,/,0.01%,Thickness,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,/,/,0.01%,Mouthfull,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Sweet,/,0.10%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Salty,/,0.10%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Thickness,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Continuity,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Gly,γEVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Mouthfulness,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Leu,γEVL,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Thickness,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Leu,γEVL,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Continuity,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+γ-Glu-Val-Leu,γEVL,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1074/jbc.M109.029165,Mouthfulness,/,0.02%,/,/,/,1,Yuzuru Eto,2009/11/5
+N-Formyl-glutamic Acid,N-Formyl-glutamic Acid,Formyl,O=CN[C@@H](CCC(O)=O)C(O)=O,https://doi.org/10.1021/acs.jafc.7b05633,Umami,/,/,/,/,Corn Sauce,0,Joséphine Charve*Orcid,2018/2/3
+N-acetyl-glutamine,N-Acetyl-glutamine,Acetyl,O=C(N)CC[C@@H](C(O)=O)NC(C)=O,https://doi.org/10.1021/acs.jafc.7b05633,Umami,/,/,/,/,Corn Sauce,0,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Glu,γ-Glu-Glu,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Glu,γ-Glu-Glu,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Umami,5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Glu,γ-Glu-Glu,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Kokumi,0.0175,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Met,γ-Glu-Met,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,2.5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Met,γ-Glu-Met,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Kokumi,0.005,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-His,γ-Glu-His,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CNC=N1)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,2.5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-His,γ-Glu-His,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CNC=N1)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Kokumi,0.01,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Gln,γ-Glu-Gln,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(N)=O)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,2.5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Gln,γ-Glu-Gln,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(N)=O)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Kokumi,0.0075,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Ala,γ-Glu-Ala,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,0.9,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Gly,γ-Glu-Gly,γ,NC(CCC(O)=O)CCC(NCC(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,1.25,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Gly,γ-Glu-Gly,γ,NC(CCC(O)=O)CCC(NCC(O)=O)=O,https://doi.org/10.1021/jf803376d,Kokumi,0.0175,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,9.4,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Kokumi,0.005,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Val,γ-Glu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,3.3,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Phe,γ-Glu-Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,2.5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Tyr,γ-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Astringent,2.5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Tyr,γ-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1021/jf803376d,Bitter,5,/,/,/,Matured Gouda Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Thr,γ-Glu-Thr,γ,NC(CCC(O)=O)CCC(N[C@@H]([C@H](O)C)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.6b00112,Astringent,0.3,/,/,/,Parmesan Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Asp,γ-Glu-Asp,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(O)=O)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.6b00112,Astringent,0.9,/,/,/,Parmesan Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Lys,γ-Glu-Lys,γ,NC(CCC(O)=O)CCC(N[C@@H](CCCCN)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.6b00112,Umami,2,/,/,/,Parmesan Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Trp,γ-Glu-Trp,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.6b00112,Umami,2,/,/,/,Parmesan Cheese,1,Joséphine Charve*Orcid,2018/2/3
+γ-Glu-Ile,γ-Glu-Ile,γ,NC(CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.6b00112,Astringent,5,/,/,/,Parmesan Cheese,1,Joséphine Charve*Orcid,2018/2/3
+N-acetyl-Glu,N-acetylglutamic acid (NAG),Acetyl,O=C(O)CC[C@@H](C(O)=O)NC(C)=O,https://doi.org/10.1021/jf400112b,Bitter,0.07,/,/,/,Hongarebushi,1,Joséphine Charve*Orcid,2018/2/3
+N-acetyl-Ala,N-acetylalanine,Acetyl,C[C@@H](C(O)=O)NC(C)=O,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi,0.33,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Ile,N-acetylisoleucine,Acetyl,CC[C@H](C)[C@@H](C(O)=O)NC(C)=O,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi,1.53,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Leu,N-acetylleucine,Acetyl,CC(C)C[C@@H](C(O)=O)NC(C)=O,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,Kokumi,1.72,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Met,N-acetylmethionine,Acetyl,CSCC[C@@H](C(O)=O)NC(C)=O,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,kokumi,1.81,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Phe,N-acetylphenylalanine,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,kokumi,1.64,/,1,Thorsten Koenig,2013/3/9
+N-acetyl-Tyr,N-acetyltyrosine,Acetyl,OC1=CC=C(C=C1)C[C@@H](C(O)=O)NC(C)=O,https://doi.org/10.1021/acs.jafc.9b01832,/,>2,/,kokumi,1.1,/,1,Thorsten Koenig,2013/3/9
+N-lactoyl-Val,N-l-Lac-l-Val,Lactoyl,O=C(O)[C@H](C(C)C)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Umami,/,/,Umami,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Val,N-l-Lac-l-Val,Lactoyl,O=C(O)[C@H](C(C)C)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Sweet,/,/,Sweet,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Val,N-l-Lac-l-Val,Lactoyl,O=C(O)[C@H](C(C)C)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Kokumi,/,/,Kokumi,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Leu,N-l-Lac-l-Leu,Lactoyl,O=C(O)[C@H](CC(C)C)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Umami,/,/,Umami,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Leu,N-l-Lac-l-Leu,Lactoyl,O=C(O)[C@H](CC(C)C)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Sweet,/,/,Sweet,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Leu,N-l-Lac-l-Leu,Lactoyl,O=C(O)[C@H](CC(C)C)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Kokumi,/,/,Kokumi,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Ile,N-l-Lac-l-Ile,Lactoyl,O=C(O)[C@H]([C@@H](C)CC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Umami,/,/,Umami,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Ile,N-l-Lac-l-Ile,Lactoyl,O=C(O)[C@H]([C@@H](C)CC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Sweet,/,/,Sweet,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Ile,N-l-Lac-l-Ile,Lactoyl,O=C(O)[C@H]([C@@H](C)CC)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.3c04282,Kokumi,/,/,Kokumi,/,Vegetable Proteins,1,"Chun Cui, Jucai Xu, Laihao Li",2023/11/28
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,Sour,100 mg/L,/,Sour,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,Sweet,200 mg/L,/,Sweet,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,Bitter,400 mg/L,/,Bitterness-Masking,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,Salty,200 mg/L,/,Salty-Enhancing,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,Umami,100 mg/L,/,Umami-Enhancing,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,Salty,200 mg/L,/,Continuity,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,/,/,/,Continuity,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Phe,N-l-Lac-l-Phe,Lactoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c00530,/,/,/,Continuity,/,/,1,"Chun Cui, Laihao Li, Shan He",2022/4/22
+N-lactoyl-Trp,N-l-Lac-l-Trp,Lactoyl,O=C(O)[C@H](CC1=CNC2=CC=CC=C12)NC(C(C)O)=O,https://doi.org/10.1021/acs.jafc.2c07807,/,/,/,Bitterness-Masking,/,,,"Chun Cui, Jucai Xu, Laihao Li",2023/1/23
+β-alanyl-N-methyl-His,β-alanyl-N-methyl-l-histidine,β,O=C(O)[C@H](CC1=CNC=N1)NC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Umami,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-N-methyl-His,β-alanyl-N-methyl-l-histidine,β,O=C(O)[C@H](CC1=CNC=N1)NC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Sourness-Masking Effects,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-N-methyl-His,β-alanyl-N-methyl-l-histidine,β,O=C(O)[C@H](CC1=CNC=N1)NC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Thichness-Masking Effects,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-His,β-alanyl-l-histidine,β,O=C(O)[C@H](CC1=CN(C)C=N1)NC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Umami,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-His,β-alanyl-l-histidine,β,O=C(O)[C@H](CC1=CN(C)C=N1)NC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Sourness-Masking Effects,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-His,β-alanyl-l-histidine,β,O=C(O)[C@H](CC1=CN(C)C=N1)NC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Thichness-Masking Effects,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-Gly,β-alanylglycine,β,O=C(O)CNC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Umami,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-Gly,β-alanylglycine,β,O=C(O)CNC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Sourness-Masking Effects,/,/,1,Thomas Hofmann,2009/10/9
+β-alanyl-Gly,β-alanylglycine,β,O=C(O)CNC(CCN)=O,https://doi.org/10.1021/jf900948r,/,/,/,Thichness-Masking Effects,/,/,1,Thomas Hofmann,2009/10/9
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1021/jf071276u,/,9.4,/,Kokumi,0.8,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Val,γ-Glu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1021/jf071276u,/,3.3,/,Kokumi,0.4,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Cys-β-Ala,γ-Glu-Cys-β-Ala,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(N[C@@H](C)CC(O)=O)=O)=O,https://doi.org/10.1021/jf071276u,/,3.8,/,Kokumi,0.2,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Cys-Gly,γ-Glu-Cys-Gly,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1021/jf071276u,/,3.1,/,Kokumi,0.2,/,1,Thomas Hofmann,2007/7/7
+γ-Glu-Ala,γ-Glu-Ala,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,,,,No-Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Tyr,γ-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Glu-Tyr,γ-Glu-α-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-γ-Glu-Tyr,γ-[Glu]2-Tyr,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Glu-Glu-Tyr,γ-Glu-α-[Glu]2-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(N[C@@H](CCC(O)=O)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-γ-Glu-γ-Glu-Tyr,γ-[Glu]3-Tyr,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Glu-Glu-Glu-Tyr,γ-Glu-α-[Glu]3-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(N[C@@H](CCC(O)=O)C(N[C@@H](CCC(O)=O)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Tyr,γ-[Glu]4-Tyr,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1080/09168451.2020.1743169,/,/,/,Kokumi,/,/,0.5,Keisuke Ito,2020/7/2
+γ-Glu-Glu,γ-Glu-Glu,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+pGlu-Asp,pGlu-Asp,pGlu,O=C1CCC(C(N[C@@H](CC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+N-acetyl-Glu,N-acetyl-Glu,Acetyl,O=C(O)[C@H](CCC(O)=O)NC(C)=O,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+N-succinoyl-Glu,Suc-Glu,Succinoyl,O=C(N[C@@H](CCC(O)=O)C(O)=O)CCC(O)=O,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+pGlu-Glu,pGlu-Glu,pGlu,O=C1CCC(C(N[C@@H](CCC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+pGlu-Pro,pGlu-Pro,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(O)=O)=O)N1,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+pGlu-Val,pGlu-Val,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(O)=O)=O)N1,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+γ-Glu-Ile,γ-Glu-Ile,γ,NC(CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(O)=O)=O,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+γ-Glu-Phe,γ-Glu-Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+N-lactoyl-Val,N-lactoyl-Val,Lactoyl,O=C(O)[C@H](C(C)C)NC(C(C)O)=O,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+pGlu-Ile,pGlu-Ile,pGlu,O=C1CCC(C(N[C@@H]([C@@H](C)CC)C(O)=O)=O)N1,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+pGlu-Leu,pGlu-Leu,pGlu,O=C1CCC(C(N[C@@H](CC(C)C)C(O)=O)=O)N1,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+pGlu-Phe,pGlu-Phe,pGlu,O=C1CCC(C(N[C@@H](CC2=CC=CC=C2)C(O)=O)=O)N1,https://doi.org/10.1002/cbdv.201300150,/,/,/,/,/,Soy Sauce,0.5,Eric Frerot,2012/10/16
+γ-Glu-Cys-Gly,γ-Glu-Cys-Gly,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1002/jsfa.7058,Kokumi,/,/,/,/,yeast,0.5,Huanlu Song,2014/12/26
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1002/jsfa.7058,Kokumi,/,/,/,/,yeast,0.5,Huanlu Song,2014/12/26
+γ-Glu-Val,γ-Glu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1002/jsfa.7058,Kokumi,/,/,/,/,yeast,0.5,Huanlu Song,2014/12/26
+γ-Glu-Tyr,γ-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1002/jsfa.7058,Kokumi,/,/,/,/,yeast,0.5,Huanlu Song,2014/12/26
+γ-l-glutamyl-β-alanyl-His,γ-l-glutamyl-β-alanyl-l-histidine,γ,O=C(O)[C@H](CC1=CNC=N1)NC(CCNC(CC[C@@H](C(O)=O)N)=O)=O,https://doi.org/10.1021/acs.jafc.1c06965,/,/,/,Sweet,/,/,1,Hideyuki Suzuki,2022/1/4
+γ-Glu-Tyr,γ-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1080/09168451.2017.1372179,Kokumi,,,/,,Soybean,1,Masayuki Shibata,2017/11/2
+γ-Glu-Phe,γ-Glu-Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1080/09168451.2017.1372179,Kokumi,,,/,,Soybean,1,Masayuki Shibata,2017/11/2
+γ-Glu-Phe,γ-Glu-Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,2.5,,/,,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-Phe,γ-[Glu]2-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.34,,/,,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]3-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.58,,/,,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]4-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.69,,/,,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]5-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCCO)CCC(N[C@@H](CCCO)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,Astringent,3.92,,/,,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-Phe,γ-Glu-Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,0.89,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-Phe,γ-[Glu]2-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,1.01,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]3-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,1.22,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]4-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,1.34,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]5-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCCO)CCC(N[C@@H](CCCO)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,1.42,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-Phe,γ-Glu-Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,0.78,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-Phe,γ-[Glu]2-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,0.96,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]3-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,1.1,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]4-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,1.25,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-γ-Glu-Phe,γ-[Glu]5-Phe,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CCCO)CCC(N[C@@H](CCCO)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.7b03419,/,,,Umami,1.33,Bacillus amyloliquefaciens,1,Chun Cui,2017/9/13
+γ-L-glutamyl-Cys-Gly,γ-L-glutamyl-L-cysteinylglycine,γ,O=C(O)CNC([C@H](CS)NC(CC[C@@H](C(O)=O)N)=O)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-S-(2-propenyl)-Cys,γ-L-glutamyl-S-(2-propenyl)-L-cysteine,γ,O=C(O)[C@H](CSCC=C)NC(CC[C@@H](C(O)=O)N)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-S-(2-propenyl)-L-cysteine sulfoxide,γ-L-glutamyl-S-(2-propenyl)-L-cysteine sulfoxide,γ,O=C(O)[C@H](CS(CC=C)=O)NC(CC[C@@H](C(O)=O)N)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-S-(E-1-propenyl)-L-cysteine sulfoxide,γ-L-glutamyl-S-(E-1-propenyl)-L-cysteine sulfoxide,γ,O=C(O)[C@H](CS(/C=C/C)=O)NC(CC[C@@H](C(O)=O)N)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-Cys,γ-L-glutamyl-L-cysteine,γ,SC[C@@H](C(O)=O)NC(CC[C@@H](C(O)=O)N)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-Met,γ-L-glutamyl-L-methionine,γ,CSCC[C@@H](C(O)=O)NC(CC[C@@H](C(O)=O)N)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+α-L-glutamyl-S-(2-propenyl)-L-cysteine,α-L-glutamyl-S-(2-propenyl)-L-cysteine,/,O=C(O)[C@H](CSCC=C)NC([C@H](CCC(O)=O)N)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-S-methyl-Cys,γ-L-glutamyl-S-methyl-L-cysteine,γ,O=C(O)[C@H](CSC)NC(CC[C@@H](C(O)=O)N)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-S-methyl-Cys-Gly,γ-L-glutamyl-S-methyl-L-cysteinylglycine,γ,O=C(O)CNC([C@H](CSC)NC(CC[C@@H](C(O)=O)N)=O)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-L-Val-Gly,γ-L-glutamyl-L-valylglycine,γ,O=C(O)CNC([C@H](C(C)C)NC(CC[C@@H](C(O)=O)N)=O)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-L-glutamyl-L-norvalylglycine,γ-L-glutamyl-L-norvalylglycine,γ,O=C(O)CNC([C@H](CCC)NC(CC[C@@H](C(O)=O)N)=O)=O,https://doi.org/10.1080/09168451.2018.1436433,Continuity,,,/,,,1,Yusuke Amino,2018/3/4
+γ-Glu-Val,γ-Glu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3.3,/,Umami,0.55,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-Val,γ-Glu-Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3.3,/,Umami,0.4,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Val,γ-[Glu]2-Val,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3,/,Umami,0.72,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Val,γ-[Glu]2-Val,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,3,/,Umami,0.65,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]3-Val,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.89,/,Umami,0.76,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]3-Val,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.89,/,Umami,0.73,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]4-Val,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.6,/,Umami,0.88,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Val,γ-[Glu]4-Val,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.6,/,Umami,0.85,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-Met,γ-Glu-Met,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.5,/,Umami,0.59,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-Met,γ-Glu-Met,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.5,/,Umami,0.005,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Met,γ-[Glu]2-Met,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.61,/,Umami,0.69,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-Met,γ-[Glu]2-Met,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.61,/,Umami,0.61,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]3-Met,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.58,/,Umami,0.72,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]3-Met,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.58,/,Umami,0.72,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]4-Met,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.49,/,Umami,0.85,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+γ-Glu-γ-Glu-γ-Glu-γ-Glu-Met,γ-[Glu]4-Met,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2017.11.096,Astringent,2.49,/,Umami,0.89,Bacillus amyloliquefaciens,1,"Juan Yang, Chun Cui",2019/5/1
+Fru-pGlu,Fru-pGlu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN(C(C(O)=O)CC2)C2=O)OC1)O,10.1271/bbb.110041,Astringent,2.6,/,/,/,Japanese Soy Sauce,1,Osamu NISHIMURA,2011/7/23
+Fru-Val,Fru-Val,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C(C)C)C(O)=O)OC1)O,10.1271/bbb.110041,Bitter,1.8,/,/,/,Japanese Soy Sauce,1,Osamu NISHIMURA,2011/7/23
+Fru-Met,Fru-Met,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCSC)C(O)=O)OC1)O,10.1271/bbb.110041,Astringent,1.6,/,/,/,Japanese Soy Sauce,1,Osamu NISHIMURA,2011/7/23
+pGlu-Gln,pGlu-Gln,pGlu,O=C(N[C@@H](CCC(N)=O)C(O)=O)[C@H](CC1)NC1=O,10.1271/bbb.110041,Sweet,1.9,/,/,/,Japanese Soy Sauce,1,Osamu NISHIMURA,2011/7/23
+pGlu-Gly,pGlu-Gly,pGlu,O=C(NCC(O)=O)[C@H](CC1)NC1=O,10.1271/bbb.110041,Sweet,2.2,/,/,/,Japanese Soy Sauce,1,Osamu NISHIMURA,2011/7/23
+1-deoxy-d-fructosyl-N-β-alanyl-His,1-deoxy-d-fructosyl-N-β-alanyl-L-histidine,Amadori,O=C(N[C@@H](CC1=CN=CN1)C(O)=O)CCNCC2(O)C(O)C(O)C(O)CO2,https://doi.org/10.1021/acs.jafc.7b05089,Kokumi,0.01,4.4,/,/,Pot-au-Feu,1,Thomas Hofmann,2017/12/4
+dipotassium N-(d-glucos-1-yl)-l-glutamate,dipotassium N-(d-glucos-1-yl)-l-glutamate,Amadori,O[C@H]1C(O)[C@@H](O)[C@H](NC(CCC(O[K])=O)C(O[K])=O)O[C@@H]1CO,https://doi.org/10.1021/jf0344441,Umami,1.6,10 mM,Umami,/,/,1,Thomas Hofmann,2003/7/19
+dipotassium N-(d-glucos-1-yl)-l-glutamate,dipotassium N-(d-glucos-1-yl)-l-glutamate,Amadori,O[C@H]1C(O)[C@@H](O)[C@H](NC(CCC(O[K])=O)C(O[K])=O)O[C@@H]1CO,https://doi.org/10.1021/jf0344441,Umami,1.6,10 mM,Umami,/,/,1,Thomas Hofmann,2003/7/19
+N-(1-deoxyfructos-1-yl)-l-glutamate,N-(1-deoxyfructos-1-yl)-l-glutamate,Amadori,O[C@H]1[C@H](O)[C@H](O)[C@@](O)(CNC(CCC(O)=O)C(O)=O)OC1,https://doi.org/10.1021/jf0344441,Umami,1.6,10 mM,Umami,/,/,1,Thomas Hofmann,2003/7/19
+Fru-Gly,D-Fructose-glycine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CC(C(O)=O)N)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Burnt/caramel,/,100-220℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Arg,D-Fructose-arginine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCCNC(N)=N)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,/,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-His,D-Fructose-histidine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CNC=N2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,/,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Phe,D-Fructose-phenylalanine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CC=CC=C2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Chocolate,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Val,D-Fructose-valine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C(C)C)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,/,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-βAla,D-Fructose-β-alanine,Amadori,C[C@@H](CC(O)=O)NC[C@@]1(O)OC[C@@H](O)[C@@H](O)[C@@H]1O,https://doi.org/10.1016/S0065-2318(10)64006-1,/,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Nɛ-d-Fructose-Nα-formyl-L-lysine,Nɛ-d-Fructose-Nα-formyl-L-lysine,Amadori,UK,https://doi.org/10.1016/S0065-2318(10)64006-1,/,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+"N,N-Di-D-fructose-glycine","N,N-Di-D-fructose-glycine",Amadori,UK,https://doi.org/10.1016/S0065-2318(10)64006-1,/,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Maltulose-Ala,Maltulose-alanine,Amadori,O[C@H]1[C@H](O)[C@H](O)CO[C@@]1(CCN[C@@H](C)C(O)=O)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Caramel,,130℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Lactulose-Ala,Lactulose-alanine,Lactoyl,UK,https://doi.org/10.1016/S0065-2318(10)64006-1,Caramel,,>100℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Lactulose-Pro,Lactulose-proline,Lactoyl,UK,https://doi.org/10.1016/S0065-2318(10)64006-1,Nutty,,>100℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+L-Rhamnulose–l-methionine,L-Rhamnulose–l-methionine,Lactoyl,UK,https://doi.org/10.1016/S0065-2318(10)64006-1,Fried potatoes,,>100℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Ala,D-Fructose-alanine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Caramel,/,100-220℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Lys,D-Fructose-lysine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCCCN)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bread,/,100-220℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Met,D-Fructose-methionine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCSC)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Fried potatoes,/,100-220℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Phe,D-Fructose-phenylalanine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CC=CC=C2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Chocolate,/,100-220℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Pro,D-Fructose-proline,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN2[C@@H](CCC2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Nutty/caramel,/,100-240℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Thr,D-Fructose-threonine,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H]([C@H](O)C)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Burnt,/,100-220℃,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Ala,D-Fructose-Ala,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sweet,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-βAla,D-Fructose-βAla,Amadori,C[C@@H](CC(O)=O)NC[C@@]1(O)OC[C@@H](O)[C@@H](O)[C@@H]1O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sweet,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Gly,D-Fructose-Gly,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CC(C(O)=O)N)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sweet,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Pro,D-Fructose-Pro,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN2[C@@H](CCC2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sweet,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-His,D-Fructose-His,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CNC=N2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Ile,D-Fructose-Ile,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H]([C@@H](C)CC)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Leu,D-Fructose-Leu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC(C)C)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Trp,D-Fructose-Trp,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CNC3=CC=CC=C23)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Tyr,D-Fructose-Tyr,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CC=C(C=C2)O)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Lys,D-Fructose-Lys,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCCCN)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sweet,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Lys,D-Fructose-Lys,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCCCN)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Pro,D-Fructose-Pro,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN2[C@@H](CCC2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sweet,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Pro,D-Fructose-Pro,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN2[C@@H](CCC2)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Val,D-Fructose-Val,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C(C)C)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sweet,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Val,D-Fructose-Val,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C(C)C)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Bitter,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Asp,D-Fructose-Asp,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC(O)=O)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sour,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Asp,D-Fructose-Asp,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC(O)=O)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Umami,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Glu,D-Fructose-Glu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCC(O)=O)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sour,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Glu,D-Fructose-Glu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCC(O)=O)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Umami,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Ser,D-Fructose-Ser,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CO)C(O)=O)OC1)O,https://doi.org/10.1016/S0065-2318(10)64006-1,Sour,/,/,/,/,/,1,Thomas P. Mawhinney,2010/9/15
+Fru-Asp,Fru-Asp,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC(O)=O)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Asn,Fru-Asn,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC(N)=O)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Ser,Fru-Ser,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CO)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Cys,Fru-Cys,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CS)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Gly,Fru-Gly,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CC(C(O)=O)N)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Glu,Fru-Glu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCC(O)=O)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Thr,Fru-Thr,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H]([C@H](O)C)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Ala,Fru-Ala,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-pGlu,Fru-pGlu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN(C(C(O)=O)CC2)C2=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Pro,Fru-Pro,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN2[C@@H](CCC2)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Lys,Fru-Lys,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCCCN)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Val,Fru-Val,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](C(C)C)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Met,Fru-Met,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCSC)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Arg,Fru-Arg,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCCNC(N)=N)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-His,Fru-His,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CNC=N2)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Tyr,Fru-Tyr,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CC=C(C=C2)O)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Ile,Fru-Ile,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H]([C@@H](C)CC)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Leu,Fru-Leu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC(C)C)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Phe,Fru-Phe,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CC=CC=C2)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+Fru-Trp,Fru-Trp,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CC2=CNC3=CC=CC=C23)C(O)=O)OC1)O,https://doi.org/10.1016/j.foodchem.2017.02.007,/,/,/,/,/,soy sauce,0,Hiroshi Katayama,2017/2/13
+γ-Glu-Glu,γ-Glu-Glu,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1002/jsfa.10626,Astringent,0.018 g kg-1,/,Kokumi,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1002/jsfa.10626,Astringent,0.8~3.2g kg-1,/,Kokumi,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Cys,γ-Glu-Cys,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(O)=O)=O,https://doi.org/10.1002/jsfa.10626,Astringent,0.15%,/,Kokumi,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Cys,γ-Glu-Cys,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(O)=O)=O,https://doi.org/10.1002/jsfa.10626,Astringent,0.15%,/,Umami,/,Soy Sauce,1,Chun Cui,2020/7/1
+γ-Glu-Tyr,γ-Glu-Tyr,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1016/j.fm.2013.02.013,/,/,/,/,/,Parmigiano-Reggiano,0,"Stefano Sforza, Monica Gatti",2023/3/7
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminopropionic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminopropionic acid,Methyl,O=C1N/C(N(C)C1)=N/C(O[C]O)C,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.209,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4-hydroxybutanoic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4-hydroxybutanoic acid,Methyl,O=C(O)[C@H](/N=C1NC(CN\1C)=O)CCO,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.076,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxy-pentanoic lactone","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxy-pentanoic lactone",Methyl,O=C1[C@@H](N=C2NC(CN2C)=O)C[C@@H](O)CO1,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.489,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxypentanoic acid","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5-dihydroxypentanoic acid",Methyl,O=C(O)[C@H](/N=C1NC(CN\1C)=O)C[C@H](O)CO,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.159,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminobutanoic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminobutanoic acid,Methyl,O=C1N/C(N(C)C1)=N/C(O[C]O)CC,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.129,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-5-hydroxypentanoic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-5-hydroxypentanoic acid,Methyl,O=C(O)[C@H](/N=C1NC(CN\1C)=O)CCCO,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.105,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxy-hexanoic lactone","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxy-hexanoic lactone",Methyl,O=C1N/C(N(C)C1)=N/C(CC(O)C(CO)O2)C2=O,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,>1,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxyhexanoic acid","N-(1-Methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxyhexanoic acid",Methyl,O=C1N/C(N(C)C1)=N\C(CC(C(CO)O)O)C(O)=O,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.278,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminoacetic acid,N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminoacetic acid,Methyl,O=C(O)C/N=C1NC(CN/1C)=O,https://doi.org/10.1021/jf201685m,/,>1,/,Umami,0.031,Yeast Extracts,1,Thomas Hofmann,2011/6/25
+"N-(1-Methyl-4-hydroxy-3-imidazolin-2,2-ylidene)alanine","N-(1-methyl-4-hydroxy-3-imidazolin-2,2-ylidene)alanine",Methyl,NCCC(NC(CC1=CN(C)C=N1)C(O)=O)=O,https://doi.org/10.1021/jf100591c,Umami,8.56,2.43,/,/,Beef Juice,1,Thomas Hofmann,2010/4/26
+β-alanyl-l-histidine,β-alanyl-l-histidine,Methyl,NCCC(NC(CC1=CNC=N1)C(O)=O)=O,https://doi.org/10.1021/jf100591c,Umami,22.7,15.39,/,/,Beef Juice,1,Thomas Hofmann,2010/4/26
+N-(1-Methyl-4-oxoimidazolidin-2-ylidene)aminopropionic acid,N-(1-methyl-4-oxoimidazolidin-2-ylidene)aminopropionic acid,Methyl,C[C@@H](C(O)=O)/N=C1NC(CN/1C)=O,https://doi.org/10.1021/jf100591c,Umami,0.209,0.411,/,/,Beef Juice,1,Thomas Hofmann,2010/4/26
+N-(1-methyl-4-oxoimidazolidin-2-ylidene)aminoacetic acid,N-(1-methyl-4-oxoimidazolidin-2-ylidene)aminoacetic acid,Methyl,O=C(O)C/N=C1NC(CN/1C)=O,https://doi.org/10.1021/jf100591c,Umami,0.031,0.032,/,/,Beef Juice,1,Thomas Hofmann,2010/4/26
+"N-(1-methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxyhexanoic acid","N-(1-methyl-4-oxoimidazolidin-2-ylidene)amino-4,5,6-trihydroxyhexanoic acid",Methyl,O=C1N/C(N(C)C1)=N\C(CC(C(CO)O)O)C(O)=O,https://doi.org/10.1021/jf100591c,Umami,0.278,0.028,/,/,Beef Juice,1,Thomas Hofmann,2010/4/26
+N-(N'-formyl)carbamyl -L-alpha-aspartyl -L-phenylalanine methyl ester,N-(N'-formyl)carbamyl -L-alpha-aspartyl -L-phenylalanine methyl ester,Formyl,O=C(OC)[C@H](CC1=CC=CC=C1)NC([C@H](CC(O)=O)NC(NC=O)=O)=O,,Sweet,,,/,,,1,,
+N-(N'-formyl) carbamyl-L- alpha-aspartyl-L-phenylglycine methyl ester,N-(N'-formyl) carbamyl-L- alpha-aspartyl-L-phenylglycine methyl ester,Formyl,O=C(OC)[C@H](C([C@H](CC(O)=O)N)=O)N(C1=CC=CC=C1)C(NC=O)=O,,Sweet,,,/,,,1,,
+4-amino-5-(cyclohexyloxy)quinoline-3-carboxylic acid,4-amino-5-(cyclohexyloxy)quinoline-3-carboxylic acid,/,O=C(C1=C(N)C2=C(OC3CCCCC3)C=CC=C2N=C1)O,FSTA:2016-12-Tv3869,Sweet,,,/,,,1,,
+FM-Ala,FM-Ala,Amadori,O=C([CH]N[C@@H](C)C(O)=O)C1=CC=CO1,https://doi.org/10.1021/jf061821b,/,/,/,/,/,Hypoallergenic Infant Formulas,1,Thomas Henle,2007/1/12
+FM-Val,FM-Val,Amadori,O=C([CH]N[C@@H](C(C)C)C(O)=O)C1=CC=CO1,https://doi.org/10.1021/jf061821b,/,/,/,/,/,Hypoallergenic Infant Formulas,1,Thomas Henle,2007/1/12
+FM-Ile,FM-Ile,Amadori,O=C([CH]N[C@@H]([C@@H](C)CC)C(O)=O)C1=CC=CO1,https://doi.org/10.1021/jf061821b,/,/,/,/,/,Hypoallergenic Infant Formulas,1,Thomas Henle,2007/1/12
+FM-Leu,FM-Leu,Amadori,O=C([CH]N[C@@H](CC(C)C)C(O)=O)C1=CC=CO1,https://doi.org/10.1021/jf061821b,/,/,/,/,/,Hypoallergenic Infant Formulas,1,Thomas Henle,2007/1/12
+FM-Lys,FM-Lys,Amadori,O=C([CH]N[C@@H](CCCCN)C(O)=O)C1=CC=CO1,https://doi.org/10.1021/jf061821b,/,/,/,/,/,Hypoallergenic Infant Formulas,1,Thomas Henle,2007/1/12
+α-FM-Lys,α-FM-Lys,Amadori,O=C(C1=CC=CO1)CNCCCC[C@H](C(O)=O)N,https://doi.org/10.1021/jf061821b,/,/,/,/,/,Hypoallergenic Infant Formulas,1,Thomas Henle,2007/1/12
+pGlu-Asn-Pro-Gln,pyroGlu-Asn-Pro-Gln,pGlu,O=C1CCC(C(N[C@@H](CC(N)=O)C(N2[C@@H](CCC2)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln-Gln-Pro-Gln,pyroGlu-Gln-Gln-Pro-Gln,pGlu,O=C1CCC(C(N[C@@H](CCC(N)=O)C(N[C@@H](CCC(N)=O)C(N2[C@@H](CCC2)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln-Pro-Gln,pyroGlu-Gln-Pro-Gln,pGlu,O=C1CCC(C(N[C@@H](CCC(N)=O)C(N2[C@@H](CCC2)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln-Pro-Gly-Gln-Gly-Gln,pyroGlu-Gln-Pro-Gly-Gln-Gly-Gln,pGlu,O=C1CCC(C(N[C@@H](CCC(N)=O)C(N2[C@@H](CCC2)C(NCC(N[C@@H](CCC(N)=O)C(NCC(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln,pyroGlu-Gln,pGlu,O=C(N[C@@H](CCC(N)=O)C(O)=O)[C@H](CC1)NC1=O,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln-Pro,pyroGlu-Gln-Pro,pGlu,O=C1CCC(C(N[C@@H](CCC(N)=O)C(N2[C@@H](CCC2)C(O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Ile-Pro-Gln,pyroGlu-Ile-Pro-Gln,pGlu,O=C1CCC(C(N[C@@H]([C@@H](C)CC)C(N2[C@@H](CCC2)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Ile-Pro,pyroGlu-Ile-Pro,pGlu,O=C1CCC(C(N[C@@H]([C@@H](C)CC)C(N2[C@@H](CCC2)C(O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln-Pro-Leu,pyroGlu-Gln-Pro-Leu,pGlu,O=C1CCC(C(N[C@@H](CCC(N)=O)C(N2[C@@H](CCC2)C(N[C@@H](CC(C)C)C(O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln-Phe-Pro-Gln,pyroGlu-Gln-Phe-Pro-Gln,pGlu,O=C1CCC(C(N[C@@H](CCC(N)=O)C(N[C@@H](CC2=CC=CC=C2)C(N3[C@@H](CCC3)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Ser-Phe-Pro-Gln,pyroGlu-Ser-Phe-Pro-Gln,pGlu,O=C1CCC(C(N[C@@H](CO)C(N[C@@H](CC2=CC=CC=C2)C(N3[C@@H](CCC3)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Phe-Pro-Gln,pyroGlu-Phe-Pro-Gln,pGlu,O=C1CCC(C(N[C@@H](CC2=CC=CC=C2)C(N3[C@@H](CCC3)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu-Gln-Pro-Pro-Phe-Ser,pyroGlu-Gln-Pro-Pro-Phe-Ser,pGlu,O=C1CCC(C(N[C@@H](CCC(N)=O)C(N2[C@@H](CCC2)C(N3[C@@H](CCC3)C(N[C@@H](CC4=CC=CC=C4)C(N[C@@H](CO)C(O)=O)=O)=O)=O)=O)=O)N1,https://doi.org/10.1021/jf020528i,/,/,/,/,/,Wheat Gluten,1,Kozo Ohtsuki,2002/11/27
+pGlu,pGlu,pGlu,O=C1CCC(C(O)=O)N1,https://doi.org/10.1021/jf010989o,,/,,/,,Wheat Gluten,0,Renato Amadò,2002/2/16
+pGlu-Pro-Ser,pGlu-Pro-Ser,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(N[C@@H](CO)C(O)=O)=O)=O)N1,https://doi.org/10.1021/jf010989o,,/,,/,,Wheat Gluten,0,Renato Amadò,2002/2/16
+pGlu-Pro,pGlu-Pro,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(O)=O)=O)N1,https://doi.org/10.1021/jf010989o,,/,,/,,Wheat Gluten,0,Renato Amadò,2002/2/16
+pGlu-Pro-Glu,pGlu-Pro-Glu,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(N[C@@H](CCC(O)=O)C(O)=O)=O)=O)N1,https://doi.org/10.1021/jf010989o,,/,,/,,Wheat Gluten,0,Renato Amadò,2002/2/16
+pGlu-Pro-Gln,pGlu-Pro-Gln,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)N1,https://doi.org/10.1021/jf010989o,,/,,/,,Wheat Gluten,0,Renato Amadò,2002/2/16
+γ-Glu-Leu,γ-Glu-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c01688,Kokumi,0.005,,/,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+γ-Glu-Gln,γ-Glu-Gln,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(N)=O)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c01688,Kokumi,0.0075,,/,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+γ-Glu-Glu,γ-Glu-Glu,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c01688,Kokumi,0.0175,,/,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+γ-Glu-Gly,γ-Glu-Gly,γ,NC(CCC(O)=O)CCC(NCC(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c01688,Kokumi,0.0175,,/,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+γ-Glu-Met,γ-Glu-Met,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c01688,Kokumi,0.005,,/,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+γ-Glu-His,γ-Glu-His,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CNC=N1)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c01688,Kokumi,0.01,,/,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+γ-Glu-Ala,γ-Glu-Ala,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c01688,Astringent,0.9,,/,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+pGlu-Pro,pyroGlu-Pro,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.2c01688,Umami,0.3,,Umami-Enhancing,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+pGlu-Glu,pyroGlu-Glu,pGlu,O=C1CCC(C(N[C@@H](CCC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.2c01688,Umami,0.21,,Umami-Enhancing,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+pGlu-Gln,pyroGlu-Gln,pGlu,O=C(N[C@@H](CCC(N)=O)C(O)=O)[C@H](CC1)NC1=O,https://doi.org/10.1021/acs.jafc.2c01688,Umami,0.25,,Umami-Enhancing,,Soy Sauce,1,Thomas Hofmann,2022/5/20
+Fru-Glu,Fru-Glu,Amadori,O[C@H]1[C@@H](O)[C@@H]([C@@](O)(CN[C@@H](CCC(O)=O)C(O)=O)OC1)O,https://doi.org/10.1021/jf501173r,Umami,,,Umami-Enhancing,,Soy Sauce,1,Eiichiro Fukusaki,2014/6/21
+S-((4-amino-2-methylpyrimidin-5-yl)methyl)formamide,S-((4-amino-2-methylpyrimidin-5-yl)methyl)formamide,Formyl,,https://doi.org/10.1021/acs.jafc.9b01832,/,/,/,kokumi,>1,/,1,Thomas Hofmann,2019/4/30
+S-((4-amino-2-methylpyrimidin-5-yl)methyl)-l-cysteine,S-((4-amino-2-methylpyrimidin-5-yl)methyl)-l-cysteine,Formyl,,https://doi.org/10.1021/acs.jafc.9b01832,Astringent,0.48,/,kokumi,0.12,/,1,Thomas Hofmann,2019/4/30
+N-Suc-Tyr,N-Suc-Tyr,Succinoyl,O=C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Bitterness-Masking,/,/,1,Chun Cui,2024/5/16
+N-Suc-Trp,N-Suc-Trp,Succinoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Bitterness-Masking,/,/,1,Chun Cui,2024/5/16
+N-Suc-Phe,N-Suc-Phe,Succinoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Bitterness-Masking,/,/,1,Chun Cui,2024/5/16
+N-Suc-Tyr,N-Suc-Tyr,Succinoyl,O=C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Salty-Enhancing,/,/,1,Chun Cui,2024/5/16
+N-Suc-Trp,N-Suc-Trp,Succinoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Salty-Enhancing,/,/,1,Chun Cui,2024/5/16
+N-Suc-Phe,N-Suc-Phe,Succinoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.139661,Umami,/,1 mg/L,Salty-Enhancing,/,/,1,Chun Cui,2024/5/16
+N-lactoyl-Leu,Lac-Leu,Lactoyl,O=C(O)[C@H](CC(C)C)NC(C(C)O)=O,https://doi.org/10.1016/j.foodchem.2024.139670,Sour,0.08 mg/mL,,Umami-Enhancing,0.16 mg/mL,,1,Yunzi Feng,2024/5/30
+N-lactoyl-Leu,Lac-Leu,Lactoyl,O=C(O)[C@H](CC(C)C)NC(C(C)O)=O,https://doi.org/10.1016/j.foodchem.2024.139670,Bitter,0.08 mg/mL,,Umami-Enhancing,0.16 mg/mL,,1,Yunzi Feng,2024/5/30
+N-lactoyl-Leu,Lac-Leu,Lactoyl,O=C(O)[C@H](CC(C)C)NC(C(C)O)=O,https://doi.org/10.1016/j.foodchem.2024.139670,Astringent,0.08 mg/mL,,Umami-Enhancing,0.16 mg/mL,,1,Yunzi Feng,2024/5/30
+N-lactoyl-Ile,Lac-Ile,Lactoyl,O=C(O)[C@H]([C@@H](C)CC)NC(C(C)O)=O,https://doi.org/10.1016/j.foodchem.2024.139670,/,/,/,Salty-Enhancing,/,,1,,
+pGlu-Pro-Cys-Gly-Ser,pyroGlu-Pro-Cys-Gly-Ser,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(N[C@@H](CS)C(NCC(N[C@@H](CO)C(O)=O)=O)=O)=O)=O)N1,CN201610147764.2,Umami,0.3,/,Umami-Enhancing,0.5,/,1,,
+γ-Glu-γ-Glu-γ-Glu-D‑Val,γ‑L‑Glu‑γ‑L‑Glu‑γ‑L‑Glu‑D‑Val,γ,N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](CCC(O)=O)CCC(N[C@H](C(C)C)C(O)=O)=O)=O)=O,CN201810339431.9,Sweet,/,/,Sweet-enhancing,,,1,,
+N-lactoyl-Trp,Lactyltryptophan,Lactoyl,O=C(O)[C@H](NC([C@H](C)O)=O)CC1=CNC2=C1C=CC=C2,CN202211483330.1,/,/,/,Bitterness-Masking,/,/,1,,
+γ-Glu-X-Gly-1,γ-Glu-X-Gly,γ,NC(CCC(NC(C(OCC(O)=O)=O)C(C)C)=O)C(O)=O,WO2010114022A1,Kokumi,,,/,,,1,,
+γ-Glu-X-Gly-2,γ-Glu-X-Gly,γ,NC(CCC(NC(C(OCC(O)=O)=O)C(C)(C)C)=O)C(O)=O,WO2010114022A1,Kokumi,,,/,,,1,,
+γ-Glu-X-Gly-3,γ-Glu-X-Gly,γ,NC(CCC(NC(C(OCC(O)=O)=O)CC)=O)C(O)=O,WO2010114022A1,Kokumi,,,/,,,1,,
+γ-Glu-X-Gly-4,γ-Glu-X-Gly,γ,NC(CCC(NC(C(OC(C)C(O)=O)=O)C(C)C)=O)C(O)=O,WO2010114022A1,Kokumi,,,/,,,1,,
+γ-Glu-X-Gly-5,γ-Glu-X-Gly,γ,NC(CCC(NC(C(OC(C)C(O)=O)=O)C(C)(C)C)=O)C(O)=O,WO2010114022A1,Kokumi,,,/,,,1,,
+γ-Glu-X-Gly-6,γ-Glu-X-Gly,γ,NC(CCC(NC(C(OC(C)C(O)=O)=O)CC)=O)C(O)=O,WO2010114022A1,Kokumi,,,/,,,1,,
+γ-Glu-X-Gly-7,γ-Glu-X-Gly,γ,NC(CCC(NC(C(NCC(O)=O)=O)CSN=O)=O)C(O)=O,WO2010114022A1,Kokumi,,,/,,,1,,
+JP2007203679-1,JP2007203679-1,/,ClC1=CC=C(Cl)C(C(NC2=CC=C(OCC)C=C2)=O)=C1OC,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-2,JP2007203679-1,/,ClC1=CC=C(Cl)C(C(NC2=CC=C(C(OC)=O)C=C2)=O)=C1OC,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-3,JP2007203679-1,/,ClC1=CC=C(Cl)C(C(NC2=CC=C(OCC)C=C2)=O)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-4,JP2007203679-1,/,O=C(N[C@@](C(OC)=O)(CC(C)C)C)C1=CC2=CC=CC=C2S1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-5,JP2007203679-1,/,O=C(N[C@@](C(OC)=O)(CC(C)C)C)C1=CC2=CC=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-6,JP2007203679-1,/,O=C(N[C@@](C(OC)=O)(CC(C)C)C)C1=CC2=CC(OC)=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-7,JP2007203679-1,/,O=C(N[C@H](CC(C)C)COC)C1=CC2=CC(OC)=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-8,JP2007203679-1,/,O=C(NC(CC(C)C)CC)C1=CC2=CC(C)=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-9,JP2007203679-1,/,O=C(NCC([H])(C(OC)=O)C(C)C)C1=CC=C(OC=C2)C2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-10,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC2=CC(OC)=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-11,JP2007203679-1,/,O=C(NC(COC)CCC)C1=CC2=CC(Cl)=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-12,JP2007203679-1,/,O=C(NC(C(C)C)CCC)C1=CC2=CC(OC)=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-13,JP2007203679-1,/,O=C(NC(CC)CC)C1=CC2=CC(OC)=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-14,JP2007203679-1,/,COC1=CC=C(OC(C(NC(C(OC)=O)CCSC)=O)=C2)C2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-15,JP2007203679-1,/,COC1=CC=C(OC(C(N[C@]2(C)CCCCC2(C(OCC)=O)C)=O)=C3)C3=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-16,JP2007203679-1,/,COC1=CC=C(OC(C(NC(C(C)C)CC)=O)=C2)C2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-17,JP2007203679-1,/,COC1=CC=C(OC(C(NC(C(C)C)C(C)C)=O)=C2)C2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-18,JP2007203679-1,/,COC1=CC=C(OC(C(NC(CC(C)C)CCC)=O)=C2)C2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-19,JP2007203679-1,/,COC1=CC=C(OC(C(NC(CCC)COC)=O)=C2)C2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-20,JP2007203679-1,/,CC1=CC=C(OC(C(NC(CC(C)C)CCC)=O)=C2)C2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-21,JP2007203679-1,/,O=C(NC(CC)CC)C1=CC2=CC=CC=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-22,JP2007203679-1,/,C=C(CC(CCC)CCC)C1=CC=C2C(SC=N2)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-23,JP2007203679-1,/,O=C(N[C@@H](CCC)CC(C)C)C1=CC=C(O2)C(N=C2C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-24,JP2007203679-1,/,O=C(N[C@@H](CC(C)C)CCC)C1=CC=C(O2)C(N=C2C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-25,JP2007203679-1,/,CC1=NC2=CC=C(C(N[C@@H](CC(C)C)C(OC)=O)=O)C=C2O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-26,JP2007203679-1,/,O=C(NC(C(C)C)CCC)C1=CC=C(O2)C(N=C2C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-27,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(O2)C(N=C2CC)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-28,JP2007203679-1,/,O=C(N[C@@H](CC(C)C)C(OC)=O)C1=CC=C(O2)C(N=C2C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-29,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C2C(N=CO2)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-30,JP2007203679-1,/,BrC1=CC=C(C(CC(CCC)CCC)=O)O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-31,JP2007203679-1,/,CC1=C(C)C=C(C(NC(CCC)CCC)=O)O1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-32,JP2007203679-1,/,O=C(NC1CCCC(C)C1C)C2=C(C)C=CO2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-33,JP2007203679-1,/,O=C(NC1CCCCC1C)C2=CC(C)=C(C)O2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-34,JP2007203679-1,/,O=C(C1=CC2=C(N1)C=CC=C2)C[C@@](C(CC)=C)(CC(C)C)C,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-35,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC(NC=C2)=C2C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-36,JP2007203679-1,/,O=C(N[C@@](CC(C)C)(C)C(OC)=O)C1=CC2=C(NC=C2)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-37,JP2007203679-1,/,O=C(C1=CC=C2N=CC=CC2=C1)N[C@@](CC(C)C)(C)C(OC)=O,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-38,JP2007203679-1,/,CC1=CC=C(C(NC(CCC)CCC)=O)S1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-39,JP2007203679-1,/,CC1=CC=C(C(N[C@@H]2C3=CC=CC=C3CCC2)=O)S1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-40,JP2007203679-1,/,O=C(NC(C(OC)=O)(CC(C)C)[H])C1=CC=C2C=CC=CC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-41,JP2007203679-1,/,O=C(NC(CCCC)CCCC)C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-42,JP2007203679-1,/,O=C(N[C@@](C(OC)=O)([C@]([H])(C)CC)[H])C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-43,JP2007203679-1,/,O=C(NC([H])(CCCC)C(OC)=O)C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-44,JP2007203679-1,/,O=C(NC([H])(CCCC)C(OC)=O)C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-45,JP2007203679-1,/,O=C(N[C@]([H])(CC(C)C)C(OC)=O)C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-46,JP2007203679-1,/,O=C(N[C@]([H])(CC(C)C)C(OC)=O)C1=CC=C2OCCC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-47,JP2007203679-1,/,O=C(NC1C(C=CC=C2)=C2CCC1)C3=CC=C4OCOC4=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-48,JP2007203679-1,/,O=C(NC(CCC1=CC=CC=C1)C)C2=CC=C3OCOC3=C2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-49,JP2007203679-1,/,O=C(NC(CCC)C(OC)=O)C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-50,JP2007203679-1,/,C=C(C(CCC)CCC)NC1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-51,JP2007203679-1,/,O=C(N[C@]([H])(CC(C)C)C(OCCC)=O)C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-52,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C2OCCC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-53,JP2007203679-1,/,O=C(NC(CC)CCC)C1=CC=C2OCOC2=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-54,JP2007203679-1,/,CSC1=CC=C(C(NC(CCC)CC)=O)C=C1C,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-55,JP2007203679-1,/,COC1=CC=C(C(NC(CCCC)C(OC)=O)=O)C=C1Cl,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-56,JP2007203679-1,/,O=C(N[C@@H](CCC)CC)C1=CC=C(C)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-57,JP2007203679-1,/,O=C(NC(CC(C)C)C(OC)=O)C1=CC=C(C=C)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-58,JP2007203679-1,/,O=C(NC(CC)C(C)C)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-59,JP2007203679-1,/,O=C(NC(CCC)C(C)C)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-60,JP2007203679-1,/,O=C(NC(CC(C)C)C(OC)=O)C1=CC=C(SCC)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-61,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-62,JP2007203679-1,/,O=C(NC(C(C)C)C(OC)=O)C1=CC=C(C)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-63,JP2007203679-1,/,O=C(NC(CC(C)C)C(OC)=O)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-64,JP2007203679-1,/,O=C(NC(CC)CC)C1=CC=C(OCC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-65,JP2007203679-1,/,O=C(NC(CC(C)C)COC)C1=CC=C(SC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-66,JP2007203679-1,/,O=C(NCC1=CC=C(OC)C=C1OC)C2=CC=NC=C2N3C=CC=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-67,JP2007203679-1,/,O=C(NC(C(OC)=O)CC)C1=CC=C(OC)C(Cl)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-68,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(OCC)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-69,JP2007203679-1,/,O=C(NC(C(OC)=O)CC(C)C)C1=CC=C(C)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-70,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=CC(C(F)(F)F)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-71,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(CC)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-72,JP2007203679-1,/,O=C(NC(CC)CC(C)C)C1=CC=C(OCC)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-73,JP2007203679-1,/,O=C(NC(CC(C)C)C(OC)=O)C1=CC=C(C)C(OC)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-74,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-75,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-76,JP2007203679-1,/,O=C(NC(CCC1=CC=CC=C1)C)C2=CC=C(OC)C(C)=C2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-77,JP2007203679-1,/,O=C(NC1CCCCC1C)C2=CC(Cl)=C(OC)C=C2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-78,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(C=C)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-79,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(OC)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-80,JP2007203679-1,/,O=C(NC(CCC)C)C1=CC=C(OC)C(Cl)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-81,JP2007203679-1,/,O=C(NC(CCC)CC)C1=CC=C(C)C(SC)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-82,JP2007203679-1,/,O=C(NC(CC(C)C)C(OC)=O)C1=CC=C(CCCC)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-83,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=CC(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-84,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=CC(OC)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-85,JP2007203679-1,/,O=C(N[C@H](C(OC)=O)CC(C)C)C1=CC(C)=CC(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-86,JP2007203679-1,/,O=C(N[C@H](C(OC)=O)CCSC)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-87,JP2007203679-1,/,O=C(N[C@@H]1C(C=CC=C2)=C2CCC1)C3=C(O)C(OC)=CC=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-88,JP2007203679-1,/,O=C(NC(C(C)C)C(C)C)C1=CC=C(SC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-89,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(OC)C(Cl)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-90,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=CC(OC)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-91,JP2007203679-1,/,O=C(NC(CC(C)C)C(OC)=O)C1=CC=C(CCC)C=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-92,JP2007203679-1,/,O=C(NC(CC(C)C)CCC)C1=CC=C(OCC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-93,JP2007203679-1,/,O=C(N[C@H]1C(C=CC=C2)=C2CCC1)C3=C(O)C=C(OCC)C=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-94,JP2007203679-1,/,O=C(N[C@H](COC)C1=CC=CC=C1)C2=CC=C(OC)C(C)=C2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-95,JP2007203679-1,/,COC1=C(C)C=C(C(N[C@H](CC(C)C)C(OC)=O)=O)C=C1C,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-96,JP2007203679-1,/,O=C(N[C@H](CC)C1=CC=C(OC)C=C1)C2=CC=C(OC)C(C)=C2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-97,JP2007203679-1,/,O=C(N[C@H](COC)CCC)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-98,JP2007203679-1,/,O=C(N[C@H](CO)CC(C)C)C1=CC=C(OC)C(C)=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-99,JP2007203679-1,/,CC1=CC(C(N[C@H](CC(C)C)C(OC)=O)=O)=CC=C1,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-100,JP2007203679-1,/,ClC1=CC(C(N[C@H](C)C2=CC=C(C)C=C2)=O)=CC=C1OC,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-101,JP2007203679-1,/,O=C(NC(CCC)CCC)C1=CC=C(OC)C=C1O,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-102,JP2007203679-1,/,O=C(N[C@@H]1C(C=CC=C2)=C2CCC1)C3=CC(C)=C(O)C=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-103,JP2007203679-1,/,O=C(N[C@@H]1[C@@H](C(OCC)=O)CCCC1)C2=CC(Cl)=C(OC)C=C2,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-104,JP2007203679-1,/,O=C(NCC1=CC=C(OC)C=C1OC)C2=CC=CC=C2C3=CC=CC=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-105,JP2007203679-1,/,O=C(NC1C(C=CC=C2)=C2CCC1)C3=CC=C(C=C)C=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+JP2007203679-106,JP2007203679-1,/,O=C(NC1C(C=CC=C2)=C2CCC1)C3=CC(Cl)=C(OC)C=C3,WO2005015158A9; WO2005041684A3; WO2005041684A2; WO2005015158A2; WO2005015158A3;,Umami,,,/,,,1,,
+pGlu-Val-Leu,pGlu-Val-Leu,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O)N1,WO2018185318A1,Kokumi,,,/,,,1,,
+pGlu-Val-Val,pGlu-Val-Val,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](C(C)C)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val,pGlu-Val,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Phe,pGlu-Phe,pGlu,O=C1CCC(C(N[C@@H](CC2=CC=CC=C2)C(O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Gly-Ala-Ile-Phe,pGlu-Gly-Ala-Ile-Phe,pGlu,O=C1CCC(C(NCC(N[C@@H](C)C(N[C@@H]([C@@H](C)CC)C(N[C@@H](CC2=CC=CC=C2)C(O)=O)=O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Pro-Gln,pGlu-Pro-Gln,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Pro-Ser,pGlu-Pro-Ser,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(N[C@@H](CO)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Pro-Glu,pGlu-Pro-Glu,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(N[C@@H](CCC(O)=O)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Pro,pGlu-Pro,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Leu-Leu,pGlu-Val-Leu-Leu,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Gln,pGlu-Val-Gln,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CS)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Glu,pGlu-Val-Glu,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CCC(N)=O)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Val-Val,pGlu-Val-Val-Val,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](C(C)C)C(N[C@@H](C(C)C)C(O)=O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Ile,pGlu-Val-Ile,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H]([C@@H](C)CC)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Pro,pGlu-Val-Pro,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N2[C@@H](CCC2)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Ala,pGlu-Val-Ala,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](C)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Leu,pGlu-Leu,pGlu,O=C1CCC(C(N[C@@H](CC(C)C)C(O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Gly,pGlu-Val-Gly,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val,pGlu-Val,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Leu,pGlu-Val-Leu,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Val-Cys,pGlu-Val-Cys,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CS)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Cys-Gly,pGlu-Cys-Gly,pGlu,O=C1CCC(C(N[C@@H](CS)C(NCC(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Cys,pGlu-Cys,pGlu,O=C1CCC(C(N[C@@H](CS)C(O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Cys-Gly,pGlu-Cys-Gly,pGlu,O=C1CCC(C(N[C@@H](CS)C(NCC(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Cys-Cys,pGlu-Cys-Cys,pGlu,O=C1CCC(C(N[C@@H](CS)C(N[C@@H](CS)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+pGlu-Cys-Val,pGlu-Cys-Val,pGlu,O=C1CCC(C(N[C@@H](CS)C(N[C@@H](C(C)C)C(O)=O)=O)=O)N1,WO2014116750A2; WO2014116750A3,Umami,,,Umami-Enhancing,,,1,,
+WO2014208751A1-1,WO2014208751A1-1,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=C(F)C=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-2,WO2014208751A1-2,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC=CC=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-3,WO2014208751A1-3,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3CCCCC3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-4,WO2014208751A1-4,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)C3CC(C=CC=C4)=C4C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-5,WO2014208751A1-5,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)C3=CC=CS3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-6,WO2014208751A1-6,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=CS3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-7,WO2014208751A1-7,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=C(C)C=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-8,WO2014208751A1-8,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CSCC3=CC=CC=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-9,WO2014208751A1-9,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)C(C)OCC3=CC=CC=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-10,WO2014208751A1-10,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC=CC=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-11,WO2014208751A1-11,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=C(COC)C=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-12,WO2014208751A1-12,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=CC(F)=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-13,WO2014208751A1-13,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)C3CCCCC3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-14,WO2014208751A1-14,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CNC4=C3C=CC=C4)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-15,WO2014208751A1-15,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC=CC=C3)=O)C=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-16,WO2014208751A1-16,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)COCC2=CC=CC=C2)C3=CC=C(CCCC4)C4=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-17,WO2014208751A1-17,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)COCC2=CC=C(C)C=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-18,WO2014208751A1-18,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CCOCC2=CC=CC=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-19,WO2014208751A1-19,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=C(OC)C=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-20,WO2014208751A1-20,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=CC(C)=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-21,WO2014208751A1-21,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)COCC2=CC=C(F)C=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-22,WO2014208751A1-22,/,O=C(NC(C(N1CCN(C2=NC=CC=C2)CC1)=O)COCC3=CC=CC=C3)C4=CC=C(C)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-23,WO2014208751A1-23,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)CC3CCCCC3)=O)=CC=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-24,WO2014208751A1-24,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2CCCCC2)C3=CC=C(C)C(OC)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-25,WO2014208751A1-25,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)C3CCCCC3)=O)=CC=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-26,WO2014208751A1-26,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)C3CCCCC3)=O)=CC=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-27,WO2014208751A1-27,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC=CC=C3)=O)=CC=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-28,WO2014208751A1-28,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC=CC=C3)=O)=CC=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-29,WO2014208751A1-29,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC(OC)=CC(OC)=C3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-30,WO2014208751A1-30,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC(OC)=CC(OC)=C3)=O)=CC=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-31,WO2014208751A1-31,/,CC1=CC(C(NC(C(N2CCN(C3=NC=CC=C3)CC2)=O)COCC4=CC=CC=C4)=O)=CC=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-32,WO2014208751A1-32,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)COCC3=CC=CC=C3)=O)C=C1,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-33,WO2014208751A1-33,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)C3CCCCC3)=O)C=C1,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-34,WO2014208751A1-34,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=C(C)C=C3)=O)=CC=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-35,WO2014208751A1-35,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=C(C)C=C3)=O)C=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-36,WO2014208751A1-36,/,CC1=CC(C(NC(C(NCCC2=NC=CC=C2)=O)CC3=CC=CS3)=O)=CC=C1OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-37,WO2014208751A1-37,/,CC1=CC=C(C(NC(C(NCCC2=NC=CC=C2)=O)C3CCCCC3)=O)C=C1C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-38,WO2014208751A1-38,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)C2CCCCC2)C3=CC=CC(OC4=CC=CC=C4)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-39,WO2014208751A1-39,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=CC=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-40,WO2014208751A1-40,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=C(Cl)C(Cl)=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-41,WO2014208751A1-41,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=C(C3=CC=CC=C3)C=C2)C4=CC=C(C)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-42,WO2014208751A1-42,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=C(C=CC=C3)C3=C2)C4=CC=C(C)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-43,WO2014208751A1-43,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=C(C#N)C=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-44,WO2014208751A1-44,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=NC=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-45,WO2014208751A1-45,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CN=CC=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-46,WO2014208751A1-46,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=C(C=CC=C3)C3=CC=C2)C4=CC=C(C)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-47,WO2014208751A1-47,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=CC(OCC)=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-48,WO2014208751A1-48,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=CC=C(C(C3=CC=CC=C3)=O)C=C2)C4=CC=C(C)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-49,WO2014208751A1-49,/,O=C(NC(C(NCCC1=NC=CC=C1)=O)CC2=C(C)C=CC=C2)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-50,WO2014208751A1-50,/,O=C(N[C@@H](COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-51,WO2014208751A1-51,/,O=C(N[C@H](COCC1=NC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-52,WO2014208751A1-52,/,O=C(N[C@H](COCC1=NC=CC=C1)C(NCCC2=CC=CC=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-53,WO2014208751A1-53,/,O=C(NC(CSC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)C(NCCC4=NC=CC=C4)=O)C5=CC=C(C)C(C)=C5,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-54,WO2014208751A1-54,/,O=C(NC(CC1=CC=C(F)C(F)=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-55,WO2014208751A1-55,/,O=C(NC(CCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-56,WO2014208751A1-56,/,O=C(NC(C1CCCCC1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(OC)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-57,WO2014208751A1-57,/,O=C(NC(C1CCCCC1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(OC)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-58,WO2014208751A1-58,/,O=C(NC(C1CCCCC1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(OC)C=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-59,WO2014208751A1-59,/,O=C(NC(C1CCCCC1)C(NCCC2=NC=CC=C2)=O)C3=C(OC)C=CC(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-60,WO2014208751A1-60,/,O=C(NC(C1CCCCC1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C=C3OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-61,WO2014208751A1-61,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C=C3OC,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-62,WO2014208751A1-62,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(OC)C=C3C,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-63,WO2014208751A1-63,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=C(OC)C=CC(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-64,WO2014208751A1-64,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(O)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-65,WO2014208751A1-65,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(O)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-66,WO2014208751A1-66,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(N)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-67,WO2014208751A1-67,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(N)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-68,WO2014208751A1-68,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(OC)C(N)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-69,WO2014208751A1-69,/,O=C(NC(CC1=CNC2=C1C=CC=C2)C(NCCC3=NC=CC=C3)=O)C4=CC=C(OC)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-70,WO2014208751A1-70,/,O=C(NC(CC1=CNC2=C1C=CC=C2)C(NCCC3=NC=CC=C3)=O)C4=CC=C(C)C(OC)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-71,WO2014208751A1-71,/,O=C(NC(CC1=SCC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=C(C)C(OC)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-72,WO2014208751A1-72,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=NC=CC=C2)=O)C3=CC=CC(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-73,WO2014208751A1-73,/,O=C(NC(COCC1=CC=CC=C1)C(NCCC2=CC=NC=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-74,WO2014208751A1-74,/,O=C(NC(C1CCCCC1)C(NC2=CN=C(N3CCCC3)C=C2)=O)C4=CC=C(C)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-75,WO2014208751A1-75,/,O=C(NC(C1CCCCC1)C(NC2=CN=C(N3CCCC3)C=C2)=O)C4=CC=C(OC)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-76,WO2014208751A1-76,/,O=C(NC(COCC1=CC=CC=C1)C(NC2=CN=C(N3CCCC3)C=C2)=O)C4=CC=C(C)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-77,WO2014208751A1-77,/,O=C(NC(COCC1=CC=CC=C1)C(NC2=CN=C(N3CCCC3)C=C2)=O)C4=CC=C(OC)C(C)=C4,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-78,WO2014208751A1-78,/,O=C(NC(C1CCCCC1)C(NC2=CC=C(C)N=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-79,WO2014208751A1-79,/,O=C(NC(C1CCCCC1)C(NC2=CC=C(OC)N=C2)=O)C3=CC=C(C)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-80,WO2014208751A1-80,/,O=C(NC(COCC1=CC=CC=C1)C(NC2=CN=C(C)C=C2)=O)C3=CC=C(OC)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+WO2014208751A1-81,WO2014208751A1-81,/,O=C(NC(COCC1=CC=CC=C1)C(NC2=CN=C(OC)C=C2)=O)C3=CC=C(OC)C(C)=C3,WO2014208751A1,Umami,,,/,,,1,,
+γ‑Glu‑γ‑Glu‑Ile,γ‑Glu‑γ‑Glu‑Ile,γ,,CN201710511214.9,Kokumi,,300 mg/lk,Mouthfull,,,1,,
+γ‑Glu‑Val,γ‑Glu‑Val,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,WOJP18012548,Sweet,,,Sweet,,,1,,
+γ‑Glu‑X-Gly,γ‑Glu‑X-Gly,γ,,JP2018159732,/,,,Masking Effect,,,1,,
+γ‑Glu‑Phe,γ‑Glu‑Phe,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,JP2001056649,/,,,Bitterness-Masking,,,1,,
+γ-Glu-Val-Gly,γ-Glu-Val-Gly,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,WO2017141986A 1,/,,,Kokumi,,,1,,
+EP88420420-1,EP88420420-1,/,/,EP88420420,Sweet,,,/,,,1,,
+EP818463A1-1,EP818463A1-1,/,/,EP818463A1,Sweet,,,/,,,1,,
+EP81303148,EP81303148,/,,EP81303148,Sweet,,,/,,,1,,
+EP95111107,EP95111107,/,,EP95111107,Kokumi,,,/,,,1,,
+WO2021209345A1-1,WO2021209345A1-1,/,O=C(C(CCC(NC(C)C)=O)N)O,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-2,WO2021209345A1-2,/,O=C(C(CCC(NCCO)=O)N)O,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-3,WO2021209345A1-3,/,O=C(C(CCC(NCCCC(O)=O)=O)N)O,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-4,WO2021209345A1-4,/,O=C(C(CCC(NC[C@@H](C)C(O)=O)=O)N)O,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-5,WO2021209345A1-5,/,O=C(C(CCC(NCC1=CC=C(OC)C=C1)=O)N)O,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-6,WO2021209345A1-6,/,O=C(C(CCC(NCCC1=CC=C(O)C=C1)=O)N)O,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-7,WO2021209345A1-7,/,O=C(C(CCC(NC(C(O)=O)CCCNC(N)=N)=O)N)O,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-8,WO2021209345A1-8,/,O=C(NC(C(O)=O)CCCNC(N)=N)c1ccc(O)cc1,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-9,WO2021209345A1-9,/,O=C(NC[C@H](C)C(O)=O)CC[C@@H](C(O)=O)N,WO2021209345A1,/,,,Umami-Enhancing,,,1,,
+WO2021209345A1-1,WO2021209345A1-1,/,O=C(C(CCC(NC(C)C)=O)N)O,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-2,WO2021209345A1-2,/,O=C(C(CCC(NCCO)=O)N)O,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-3,WO2021209345A1-3,/,O=C(C(CCC(NCCCC(O)=O)=O)N)O,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-4,WO2021209345A1-4,/,O=C(C(CCC(NC[C@@H](C)C(O)=O)=O)N)O,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-5,WO2021209345A1-5,/,O=C(C(CCC(NCC1=CC=C(OC)C=C1)=O)N)O,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-6,WO2021209345A1-6,/,O=C(C(CCC(NCCC1=CC=C(O)C=C1)=O)N)O,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-7,WO2021209345A1-7,/,O=C(C(CCC(NC(C(O)=O)CCCNC(N)=N)=O)N)O,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-8,WO2021209345A1-8,/,O=C(NC(C(O)=O)CCCNC(N)=N)c1ccc(O)cc1,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+WO2021209345A1-9,WO2021209345A1-9,/,O=C(NC[C@H](C)C(O)=O)CC[C@@H](C(O)=O)N,WO2021209345A1,/,,,Salty-Enhancing,,,1,,
+PGLU-Pro-(X),pGlu-Pro-(X),pGlu,/,WO03043444A1,Umami,,,/,,,1,,
+US07256588-1,L-aspartyl-D-amino acid dipeptides,/,/,US07256588,Sweet,,,/,,,1,,
+N-(1-methyl-4-oxo-2-imidazolin-2-yl)alanine,N-(1-methyl-4-oxo-2-imidazolin-2-yl)alanine,/,/,JP08042772,/,,,Reduce odor,,,1,,
+N-formyl-α-D-aspartyl-p-cyanoanilide,N-formyl-α-D-aspartyl-p-cyanoanilide,Formyl,/,JP61095405,Sweet,,,/,,,1,,
+N-Lactyl-X,N-Lactyl-X,Lactoyl,/,WOIB96000723,Kokumi,,,/,,,1,,
+L-aminodicarboxylic acid aminoalkenoic acid,L-aminodicarboxylic acid aminoalkenoic acid,/,/,US06795378,Sweet,,,/,,,1,,
+3-Amino-N-substituted succinamic acids,3-Amino-N-substituted succinamic acids,/,/,US05642890,Sweet,,,/,,,1,,
+JP60205883,D-alanyl-α-L-aspartyl-L-phenylalanine methyl ester,/,/,JP60205883,Sweet,,,/,,,1,,
+JP58036886-1,JP58036886-1,/,/,JP58036886,Sweet,,,/,,,1,,
+2-amino-4-hydroxy-4-ethylcarbamoyl-4-(3-indolylmethyl)butyric acid,2-amino-4-hydroxy-4-ethylcarbamoyl-4-(3-indolylmethyl)butyric acid,/,CC1=CC2=C(C(C[C@](O)(C[C@@H](C(O)=O)N)C(O)=O)=CN2)C=C1,EP04026004,Sweet,,,/,,,1,,
+New-L-aspartyl-amino-alkene derivs,New-L-aspartyl-amino-alkene derivs,/,/,US4760175A,Sweet,,,/,,,1,,
+"N-(3, 3-DIMETHYLBUTYL)-L-ASPARTYL-D- alpha -AMINOALCANOIQUE N-(S)-1-PHENYL-1-ALCANAMIDE","N-(3, 3-DIMETHYLBUTYL)-L-ASPARTYL-D- alpha -AMINOALCANOIQUE N-(S)-1-PHENYL-1-ALCANAMIDE",/,/,WOFR97000245,Sweet,,,/,,,1,,
+EP48051A,EP48051A,/,/,EP48051A,Sweet,,,/,,,1,,
+EP88420420,EP88420420,/,/,EP88420420,Sweet,,,/,,,1,,
+N-alkyl-aspartyl-tri:peptide derivatives,N-alkyl-aspartyl-tri:peptide derivatives,/,/,JP9278792-A,Sweet,,,/,,,1,,
+L-aminodicarboxylic acid alkanes,L-aminodicarboxylic acid alkanes,/,/,US06842348,Sweet,,,/,,,1,,
+Aspartyl dipeptide amide derivatives,Aspartyl dipeptide amide derivatives,/,/,CN97117449.0,Sweet,,,/,,,1,,
+Di:peptide derivs. used as sweeteners without bitter after-taste,Di:peptide derivs. used as sweeteners without bitter after-taste,/,/,JP2108697-A,Sweet,,,/,,,1,,
+Prepn. of alpha-L-aspartyl-D-amino acid-N-(S)-alpha-alkyl benzyl-amide,Prepn. of alpha-L-aspartyl-D-amino acid-N-(S)-alpha-alkyl benzyl-amide,/,/,JP8183796-A,Sweet,,,/,,,,,
+Glu-Pro-ARP,EP-ARP,Amadori,O=C(N1[C@H](CCC1)C(O)=O)[C@@H](CCC(O)=O)NCC2(O)OCC(O)C(O)C2O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Glu-ARP,EE-ARP,Amadori,O=C(N[C@H](CCC(O)=O)C(O)=O)[C@@H](CCC(O)=O)NCC1(O)OCC(O)C(O)C1O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Ala-His-ARP,AH-ARP,Amadori,O=C(N[C@H](CC1=CNC=N1)C(O)=O)[C@@H](C)NCC2(O)[C@H](O)[C@@H](O)C(O)CO2,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His,β-AH,β,OC(C(NC(CCN)=O)CC1=CNC=N1)=O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His-ARP,β-AH-ARP,Amadori,OC(C(NC(CCNCC1(O)C(O)C(O)C(O)CO1)=O)CC2=CNC=N2)=O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Arg-Phe-Pro-His-Ala-Asp-Phe,β-RFPHADF,β,O=C(N[C@@H](CC1=CC=CC=C1)C(N2[C@@H](CCC2)C(N[C@@H](CC3=CNC=N3)C(N[C@@H](C)C(N[C@@H](CC(O)=O)C(N[C@@H](CC4=CC=CC=C4)C(O)=O)=O)=O)=O)=O)=O)[C@H](CCCNC(NCC5(O)C(O)C(O)C(O)CO5)=N)N,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Pro-ARP,EP-ARP,Amadori,O=C(N1[C@H](CCC1)C(O)=O)[C@@H](CCC(O)=O)NCC2(O)OCC(O)C(O)C2O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Glu-Glu-ARP,EE-ARP,Amadori,O=C(N[C@H](CCC(O)=O)C(O)=O)[C@@H](CCC(O)=O)NCC1(O)OCC(O)C(O)C1O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+Ala-His-ARP,AH-ARP,Amadori,O=C(N[C@H](CC1=CNC=N1)C(O)=O)[C@@H](C)NCC2(O)[C@H](O)[C@@H](O)C(O)CO2,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His,β-AH,β,OC(C(NC(CCN)=O)CC1=CNC=N1)=O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Ala-His-ARP,β-AH-ARP,Amadori,OC(C(NC(CCNCC1(O)C(O)C(O)C(O)CO1)=O)CC2=CNC=N2)=O,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+β-Arg-Phe-Pro-His-Ala-Asp-Phe,β-RFPHADF,β,O=C(N[C@@H](CC1=CC=CC=C1)C(N2[C@@H](CCC2)C(N[C@@H](CC3=CNC=N3)C(N[C@@H](C)C(N[C@@H](CC(O)=O)C(N[C@@H](CC4=CC=CC=C4)C(O)=O)=O)=O)=O)=O)=O)[C@H](CCCNC(NCC5(O)C(O)C(O)C(O)CO5)=N)N,https://doi.org/10.1021/acs.jafc.2c03084,Umami,,,Umami-Enhancing,,,1,"Chi-Tang Ho, Mouming Zhao",2022/6/20
+WO2015050538A1,WO2015050538A1,/,/,WO2015050538A1,Mouthfull,,,/,,,1,,
+WO2015049294A1,WO2015049294A1,/,/,WO2015049294A1,Mouthfull,,,/,,,1,,
+WO2015050537A1,WO2015050537A1,/,/,WO2015050537A1,Mouthfull,,,/,,,1,,
+WO2015050534A1,WO2015050534A1,/,/,WO2015050534A1,Mouthfull,,,/,,,1,,
+N-butanoyl-Leu-Val,N-butanoyl-Leu-Val,Butanoyl,O=C(N[C@H](C(C)C)C(O)=O)[C@@H](CC(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Val-Leu,N-butanoyl-Val-Leu,Butanoyl,O=C(N[C@H](CC(C)C)C(O)=O)[C@@H](C(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Phe-Val,N-butanoyl-Phe-Val,Butanoyl,O=C(N[C@@H](C(C)C)C(O)=O)[C@H](CC1=CC=CC=C1)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Ile-Ile,N-butanoyl-Ile-Ile,Butanoyl,O=C(N[C@H]([C@H](C)CC)C(O)=O)[C@@H]([C@H](C)CC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Ile-Leu,N-butanoyl-Ile-Leu,Butanoyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H]([C@@H](C)CC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Val-Phe,N-butanoyl-Val-Phe,Butanoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](C(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Leu-Ile,N-butanoyl-Leu-Ile,Butanoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CC(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Leu-Leu,N-butanoyl-Leu-Leu,Butanoyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Ile-Phe,N-butanoyl-Ile-Phe,Butanoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H]([C@@H](C)CC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-propionyl-Phe-Phe,N-propionyl-Phe-Phe,Propionyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC2=CC=CC=C2)NC(CC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Phe-Ile,N-butanoyl-Phe-Ile,Butanoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CC1=CC=CC=C1)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Leu-Phe,N-butanoyl-Leu-Phe,Butanoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Ile-Trp,N-butanoyl-Ile-Trp,Butanoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)[C@H]([C@@H](C)CC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Phe-Leu,N-butanoyl-Phe-Leu,Butanoyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC1=CC=CC=C1)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Trp-Ile,N-butanoyl-Trp-Ile,Butanoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CC1=CNC2=CC=CC=C12)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Leu-Trp,N-butanoyl-Leu-Trp,Butanoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)[C@H](CC(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Trp-Leu ,N-butanoyl-Trp-Leu ,Butanoyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC1=CNC2=CC=CC=C12)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Phe-Phe,N-butanoyl-Phe-Phe,Butanoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC2=CC=CC=C2)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Trp-Phe,N-butanoyl-Trp-Phe,Butanoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC2=CNC3=CC=CC=C23)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Phe-Trp,N-butanoyl-Phe-Trp,Butanoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)[C@H](CC3=CC=CC=C3)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Trp-Trp,N-butanoyl-Trp-Trp,Butanoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)[C@H](CC3=CNC4=CC=CC=C34)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Met-Val,N-butanoyl-Met-Val,Butanoyl,O=C(N[C@@H](C(C)C)C(O)=O)[C@H](CCSC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Met-Ile,N-butanoyl-Met-Ile,Butanoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CCSC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Met-Leu,N-butanoyl-Met-Leu,Butanoyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CCSC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Phe-Tyr,N-Acetyl-Phe-Tyr,Acetyl,O=C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)[C@H](CC2=CC=CC=C2)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Tyr-Val,N-butanoyl-Tyr-Val,Butanoyl,O=C(N[C@@H](C(C)C)C(O)=O)[C@H](CC1=CC=C(C=C1)O)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Ile-Ile,N-Acetyl-Ile-Ile,Acetyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H]([C@@H](C)CC)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Ile-Leu,N-Acetyl-Ile-Leu,Acetyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H]([C@@H](C)CC)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Tyr-Phe,N-Acetyl-Tyr-Phe,Acetyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC2=CC=C(C=C2)O)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Leu-Leu,N-Acetyl-Leu-Leu,Acetyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC(C)C)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Trp-Val,N-butanoyl-Trp-Val,Butanoyl,O=C(N[C@@H](C(C)C)C(O)=O)[C@H](CC1=CNC2=CC=CC=C12)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Ile-Tyr,N-butanoyl-Ile-Tyr,Butanoyl,O=C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)[C@H]([C@@H](C)CC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Phe-Ile,N-Acetyl-Phe-Ile,Acetyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CC1=CC=CC=C1)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Ile-Val,N-butanoyl-Ile-Val,Butanoyl,O=C(N[C@@H](C(C)C)C(O)=O)[C@H]([C@@H](C)CC)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Leu-Pro,N-butanoyl-Leu-Pro,Butanoyl,O=C(N1[C@@H](CCC1)C(O)=O)[C@H](CC(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Val-Ile,N-butanoyl-Val-Ile,Butanoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](C(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Leu-Tyr,N-butanoyl-Leu-Tyr,Butanoyl,O=C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)[C@H](CC(C)C)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Ile-Phe ,N-Acetyl-Ile-Phe ,Acetyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H]([C@@H](C)CC)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Tyr-Ile,N-butanoyl-Tyr-Ile,Butanoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CC1=CC=C(C=C1)O)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Phe-Leu,N-Acetyl-Phe-Leu,Acetyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC1=CC=CC=C1)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Tyr-Leu,N-butanoyl-Tyr-Leu,Butanoyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC1=CC=C(C=C1)O)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Leu-Phe,N-Acetyl-Leu-Phe,Acetyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC(C)C)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Phe-Pro,N-butanoyl-Phe-Pro,Butanoyl,O=C(N1[C@@H](CCC1)C(O)=O)[C@H](CC2=CC=CC=C2)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Phe-Tyr,N-butanoyl-Phe-Tyr,Butanoyl,O=C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)[C@H](CC2=CC=CC=C2)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Trp-Pro,N-butanoyl-Trp-Pro,Butanoyl,O=C(N1[C@@H](CCC1)C(O)=O)[C@H](CC2=CNC3=CC=CC=C23)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-butanoyl-Tyr-Phe,N-butanoyl-Tyr-Phe,Butanoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC2=CC=C(C=C2)O)NC(CCC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-propionyl-Phe-Ile,N-propionyl-Phe-Ile,Propionyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CC1=CC=CC=C1)NC(CC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Phe-Phe,N-Acetyl-Phe-Phe,Acetyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC2=CC=CC=C2)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-propionyl-Phe-Leu,N-propionyl-Phe-Leu,Propionyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC1=CC=CC=C1)NC(CC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Trp-Phe,N-Acetyl-Trp-Phe,Acetyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC2=CNC3=CC=CC=C23)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Phe-Trp,N-Acetyl-Phe-Trp,Acetyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)[C@H](CC3=CC=CC=C3)NC(C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-propionyl-Leu-Phe,N-propionyl-Leu-Phe,Propionyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC(C)C)NC(CC)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-isobutanoyl-Phe-Leu,N-isobutanoyl-Phe-Leu,Isobutanoyl,O=C(N[C@@H](CC(C)C)C(O)=O)[C@H](CC1=CC=CC=C1)NC(C(C)C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-isobutanoyl-Leu-Ile,N-isobutanoyl-Leu-Ile,Isobutanoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)[C@H](CC(C)C)NC(C(C)C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-isobutanoyl-Leu-phe,N-isobutanoyl-Leu-phe,Isobutanoyl,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)[C@H](CC(C)C)NC(C(C)C)=O,"	WOEP13071637",Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Valine,N-Acetyl-Val,Acetyl,[NH]C(C)=O.CC(C)[C@@H2]C(O)=O,US20140127144A1,Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-tyrosine,N-acetyl-Tyr,Acetyl,OC1=CC=C(C=C1)C[C@@H](C(O)=O)NC(C)=O,US20140127144A1,Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-isoleucine,N-acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,US20140127144A1,Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Lysine,N-Acetyl-Lys,Acetyl,NCCCC[C@@H](C(O)=O)NC(C)=O,US20140127144A1,Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Leucine,N-Acetyl-Leu,Acetyl,O=C(O)[C@H](CC(C)C)NC(C)=O,US20140127144A1,Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-phenylalanine,N-acetyl-Phe,Acetyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(C)=O,US20140127144A1,Umami,,,Umami-Enhancing,,,1,,
+N-acetyl-Glutamic Acid,N-Acetyl-Glu,Acetyl,O=C(O)[C@H](CCC(O)=O)NC(C)=O,US20140127144A1,Umami,,,Umami-Enhancing,,,1,,
+N-palmitoyl 1-amino-cyclopropyl carboxylic acid,N-palmitoyl 1-amino-cyclopropyl carboxylic acid,/,OC(C1(NC(CCCCCCCCCCCCCCC)=O)CC1)=O,WOUS13034342,Umami,,,Umami-Enhancing,,,1,,
+N-stearoyl 1-amino-cyclopropyl carboxylic acid,N-stearoyl 1-amino-cyclopropyl carboxylic acid,/,OC(C1(NC(CCCCCCCCCCCCCCCCCC)=O)CC1)=O,WOUS13034342,Umami,,,Umami-Enhancing,,,1,,
+N- oleoyl 1-amino-cyclopropyl carboxylic acid,N- oleoyl 1-amino-cyclopropyl carboxylic acid,/,OC(C1(NC(CCCCCCC/C=C\C/C=C\CCCCC)=O)CC1)=O,WOUS13034342,Umami,,,Umami-Enhancing,,,1,,
+N-decanoyl 1-amino-cyclopropyl carboxylic acid,N-decanoyl 1-amino-cyclopropyl carboxylic acid,/,O=C(O)C1(NC(CCCCCCCCC)=O)CC1,WOUS13034342,Umami,,,Umami-Enhancing,,,1,,
+N-geranoyl 1-amino-cyclopropyl carboxylic acid,N-geranoyl 1-amino-cyclopropyl carboxylic acid,/,O=C(O)C1(NC(/C=C(C)/CC/C=C(C)\C)=O)CC1,WOUS13034342,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034375-1,WOUS13034375-1,/,CSCCC(NC(CCCCCCCCC)=O)C(O)=O,WOUS13034375,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034375-2,WOUS13034375-2,/,CSCCC(NC(CCC/C=C/CCCC)=O)C(O)=O,WOUS13034375,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034375-3,WOUS13034375-3,/,CSCCC(NC(CCCCCCCCCCCCCC)=O)C(O)=O,WOUS13034375,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034375-4,WOUS13034375-4,/,CSCCC(NC(CCCCCCC/C=C/CCCCCCCC)=O)C(O)=O,WOUS13034375,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034375-5,WOUS13034375-5,/,CSCCC(NC(CCCCCCC/C=C/C/C=C/CCCCC)=O)C(O)=O,WOUS13034375,Umami,,,Umami-Enhancing,,,1,,
+WO2013149022A1-1,WO2013149022A1-1,/,OC(C1CCCN1C(/C=C(CC/C=C(C)\C)\C)=O)=O,WO2013149022A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149022A1-2,WO2013149022A1-2,/,OC(C1CCCN1C(CCCCCCCCCCCCCCC)=O)=O,WO2013149022A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149022A1-3,WO2013149022A1-3,/,OC(C1CCCN1C(CCCCCCC/C=C/CCCCCCCC)=O)=O,WO2013149022A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149022A1-4,WO2013149022A1-4,/,OC(C1CCCN1C(CCCCCCC/C=C/C/C=C/CCCCC)=O)=O,WO2013149022A1,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034388-1,WOUS13034388-1,/,C/C(C)=C/CC/C(C)=C/C(NC(C(O)=O)CO)=O,WOUS13034388,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034388-2,WOUS13034388-2,/,O=C(CCCCCCC/C=C\CCCCCCCC)NC(C(O)=O)CO,WO2013149025A1,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034388-3,WOUS13034388-3,/,OCC(C(O)=O)NC(CCCCCCCCC/C=C\CCCCCCCC)=O,WO2013149025A1,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034388-4,WOUS13034388-4,/,OCC(C(O)=O)NC(CCCCCCCCC/C=C\C/C=C\CCCCC)=O,WO2013149025A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-1,WO2013149012A1-1,/,CCCCCCCC(NC(CC(C)C)C(O)=O)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-2,WO2013149012A1-2,/,C/C(C)=C/CC/C(C)=C/C(NC(CC(C)C)C(O)=O)=C,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-3,WO2013149012A1-3,/,O=C(O)[C@H](CC(C)C)NC(CCCCCCCCCCCCCCC)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-4,WO2013149012A1-4,/,O=C(O)[C@H](CC(C)C)NC(CCCCCCC/C=C/CCCCCC)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-5,WO2013149012A1-5,/,O=C(O)[C@H](CC(C)C)NC(CCCCCCCCCCCCCCCCC)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-6,WO2013149012A1-6,/,O=C(O)[C@H](CC(C)C)NC(CCCCCCC/C=C/CCCCCCCC)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-7,WO2013149012A1-7,/,O=C(O)[C@H](CC(C)C)NC(CCCCCCC/C=C/C/C=C/CCCCC)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-8,WO2013149012A1-8,/,O=C(O)[C@H](CC(C)C)NC(CCCCCCCCCCC/C=C/CCCCCCCC)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-9,WO2013149012A1-9,/,O=C(CCCCCCC/C=C/CCCCCCCC)NC(C(CC)C)C(O)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-10,WO2013149012A1-10,/,O=C(CCCCCCCCCCCCCCC)NC(C(C)C)C(O)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-11,WO2013149012A1-11,/,O=C(CCCCCCCCCCCCCCCCC)NC(C(C)C)C(O)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-12,WO2013149012A1-12,/,O=C(CCCCCCC/C=C/CCCCCCCC)NC(C(C)C)C(O)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WO2013149012A1-13,WO2013149012A1-13,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)NC(C(C)C)C(O)=O,WO2013149012A1,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-1,WOUS13034395-1,/,O=C(O)C1(NC(CCCCCCCCC)=O)CC1,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-2,WOUS13034395-2,/,O=C(O)C1(NC(/C=C(C)/CC/C=C(C)/C)=O)CC1,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-3,WOUS13034395-3,/,O=C(O)C1(NC(CCCCCCCCCCCCCCC)=O)CC1,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-4,WOUS13034395-4,/,O=C(O)C1(NC(CCCCCCCCCCCCCCCCC)=O)CC1,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-5,WOUS13034395-5,/,O=C(O)C1(NC(CCCCCCC/C=C/CCCCCCCC)=O)CC1,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-6,WOUS13034395-6,/,O=C(O)C1(NC(CCCCCCC/C=C/C/C=C/CCCCC)=O)CC1,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-7,WOUS13034395-7,/,O=C(CCCNC(CCCCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-8,WOUS13034395-8,/,O=C(CCCNC(CCCCCCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-9,WOUS13034395-9,/,O=C(CCCNC(CC/C=C/CCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-10,WOUS13034395-10,/,O=C(CCCNC(/C=C(C)/CC/C=C(C)\C)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-11,WOUS13034395-11,/,O=C(CCCNC(CCCCCCCCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-12,WOUS13034395-12,/,O=C(CCCNC(CCCCCCCCCCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-13,WOUS13034395-13,/,O=C(CCCNC(CCCCCCC/C=C/CCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-14,WOUS13034395-14,/,O=C(CCCNC(CCCCCCCCCCCCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-15,WOUS13034395-15,/,O=C(CCCNC(CCCCCCC/C=C/CCCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-17,WOUS13034395-17,/,O=C(CCCNC(CCCCCCC/C=C/C/C=C/CCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-18,WOUS13034395-18,/,O=C(CCCNC(CCCCCCC/C=C/C/C=C/C/C=C\CC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-19,WOUS13034395-19,/,O=C(CCCNC(CCCCCCCCCCC/C=C/CCCCCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-20,WOUS13034395-20,/,OC(CCNC(CCCCCCC/C=C/CCCCCC)=O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-21,WOUS13034395-21,/,OC(CCNC(CCCCCCC/C=C/CCCCCCCC)=O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-22,WOUS13034395-22,/,O=C(CCCNC(CCCCCCC/C=C/C/C=C/CCCCC)=O)O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-23,WOUS13034395-23,/,O=CN(CCCCCCCCC)C(C(O)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-24,WOUS13034395-24,/,O=C(CC(CC/C=C(C)/C)=C)NC(C(O)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-25,WOUS13034395-25,/,O=C(CCCCCCCCCCCCCCC)NC(C(O)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-26,WOUS13034395-26,/,O=C(CCCCCCCCCCCCCCCCC)NC(C(O)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-27,WOUS13034395-27,/,O=C(CCCCCCC/C=C/CCCCCCCC)NC(C(O)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-28,WOUS13034395-28,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)NC(C(O)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-29,WOUS13034395-29,/,CCCCCCCCCC(NC(CCC(O)=O)C(O)=C)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-30,WOUS13034395-30,/,O=C(CCCCCCCCCCCCCCC)NC(CCC(O)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-31,WOUS13034395-31,/,O=C(CCCCCCC/C=C/CCCCCC)NC(CCC(O)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-32,WOUS13034395-32,/,O=C(CCCCCCCCCCCCCCCCC)NC(CCC(O)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-33,WOUS13034395-33,/,O=C(CCCCCCC/C=C/CCCCCCCC)NC(CCC(O)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-34,WOUS13034395-34,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)NC(C(O)=O)CC(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-35,WOUS13034395-35,/,O=C(CCCCCCCCC)NC(CCC(N)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-37,WOUS13034395-37,/,O=C(CC(CC/C=C(C)/C)=C)NC(CCC(N)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-38,WOUS13034395-38,/,O=C(CCCCCCCCCCCCCCC)NC(CCC(N)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-39,WOUS13034395-39,/,O=C(CCCCCCCCCCCCCCCCC)NC(CCC(N)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-40,WOUS13034395-40,/,O=C(CCCCCCC/C=C/CCCCCCCC)NC(CCC(N)=O)C(O)=C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-41,WOUS13034395-41,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)NC(CCC(N)=O)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-47,WOUS13034395-47,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)N[C@H](CCSC)C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-51,WOUS13034395-51,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)N1CCCC1C(O)=O,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-55,WOUS13034395-55,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)N[C@H](C(O)=O)CO,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-62,WOUS13034395-62,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)NC(C(O)=O)CC(C)C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+WOUS13034395-68,WOUS13034395-68,/,O=C(CCCCCCC/C=C/C/C=C/CCCCC)NC(C(O)=O)C(C)C,WOUS13034395,Umami,,,Umami-Enhancing,,,1,,
+γ-Glu-Leu,γ-EL,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val,γ-EV,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val-Gly,γ-EVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Met,γ-EM,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-Gly,γ-ECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Val,γ-E-γ-EV,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Glu,γ-EE,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gln,γ-EQ,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(N)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Met,γ-Eγ-EM,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Tyr,γ-E-γ-EY,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-β-Ala,γ-EC-β-A,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(N[C@@H](C)CC(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Tyr,γ-EY,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-His,γ-EH,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CNC=N1)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys,γ-EC,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Phe,γ-EF,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Phe,γ-E-γ-EF,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Thr,γ-ET,γ,NC(CCC(O)=O)CCC(N[C@@H]([C@H](O)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asn,γ-EN,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(N)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Arg,γ-ER,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCCNC(N)=N)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ile,γ-EI,γ,NC(CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asp,γ-ED,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(O)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gly,γ-EG,γ,NC(CCC(O)=O)CCC(NCC(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Val,γ-E-γ-EV,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Leu,γ-EL,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val,γ-EV,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-β-Ala,γ-EC-β-A,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(N[C@@H](C)CC(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Met,γ-EM,γ,NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Val-Gly,γ-EVG,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(NCC(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys-Gly,γ-ECG,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(NCC(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Cys,γ-EC,γ,NC(CCC(O)=O)CCC(N[C@@H](CS)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Met,γ-E-γ-EM,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Glu,γ-EE,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(O)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asp,γ-ED,γ,NC(CCC(O)=O)CCC(N[C@@H](CC(O)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ala,γ-EA,γ,NC(CCC(O)=O)CCC(N[C@@H](C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gln,γ-EQ,γ,NC(CCC(O)=O)CCC(N[C@@H](CCC(N)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-His,γ-EH,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CNC=N1)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Tyr,γ-EY,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Thr,γ-ET,γ,NC(CCC(O)=O)CCC(N[C@@H]([C@H](O)C)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Phe,γ-E-γ-EF,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-γ-Glu-Tyr,γ-E-γ-EY,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Arg,γ-ER,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CCCNC(N)=N)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Phe,γ-EF,γ,NC(CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ile,γ-EI,γ,NC(CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Asn,γ-EN,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(N)=O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Gly,γ-EG,γ,NC(CCC(O)=O)CCC(NCC(O)=O)=O,https://doi.org/10.1016/j.foodchem.2020.128018,Umami,,2 mM,Umami-Enhancing,,,1,"Xiaofeng Zeng, Weidong Bai",2020/9/12
+γ-Glu-Ala-Lys,γ-Glu-Ala-Lys,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](C)C(N[C@@H](CCCCN)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.61,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Asn-Leu,γ-Glu-Asn-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(N)=O)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Lys,γ-Glu-Ile-Lys,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCCCN)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.71,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Ile,γ-Glu-Ala-Ile,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](C)C(N[C@@H]([C@@H](C)CC)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,2.16,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Leu-Leu,γ-Glu-Leu-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Phe-Leu,γ-Glu-Phe-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.84,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Thr-Leu,γ-Glu-Thr-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@H](O)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Met,γ-Glu-Ile-Met,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Val-Leu,γ-Glu-Val-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ser-Tyr,γ-Glu-Ser-Tyr,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CO)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Umami-Enhancing,2.09,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Lys,γ-Glu-Ala-Lys,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](C)C(N[C@@H](CCCCN)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.65,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Asn-Leu,γ-Glu-Asn-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(N)=O)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Lys,γ-Glu-Ile-Lys,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCCCN)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.72,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Ile,γ-Glu-Ala-Ile,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](C)C(N[C@@H]([C@@H](C)CC)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,2.23,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Leu-Leu,γ-Glu-Leu-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Phe-Leu,γ-Glu-Phe-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.81,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Thr-Leu,γ-Glu-Thr-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@H](O)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Met,γ-Glu-Ile-Met,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.89,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Val-Leu,γ-Glu-Val-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.96,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ser-Tyr,γ-Glu-Ser-Tyr,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CO)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Salty-Enhancing,1.67,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Lys,γ-Glu-Ala-Lys,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](C)C(N[C@@H](CCCCN)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.67,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Asn-Leu,γ-Glu-Asn-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(N)=O)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.87,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Lys,γ-Glu-Ile-Lys,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCCCN)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.73,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ala-Ile,γ-Glu-Ala-Ile,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](C)C(N[C@@H]([C@@H](C)CC)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,1,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Leu-Leu,γ-Glu-Leu-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.85,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Phe-Leu,γ-Glu-Phe-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC1=CC=CC=C1)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.83,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Thr-Leu,γ-Glu-Thr-Leu,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@H](O)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.91,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ile-Met,γ-Glu-Ile-Met,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H]([C@@H](C)CC)C(N[C@@H](CCSC)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.87,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Val-Leu,γ-Glu-Val-Leu,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.98,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+γ-Glu-Ser-Tyr,γ-Glu-Ser-Tyr,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CO)C(N[C@@H](CC1=CC=C(C=C1)O)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.3c01467,,,,Kokumi-Enhancing,0.71,,1,"Xiaofeng Zeng, Juan Yang",2023/5/11
+L-Theanine,L-Theanine,/,/,10.3390/ijms21197045,,,,Bitterness-Masking,,,0.5,Takumi Misaka,2020/9/20
+GABA,GABA,γ,,https://doi.org/10.1074/jbc.M114.576975,,,,Bitterness-Masking,,,0.5,Prashen Chelikani,2014/9/5
+pGlu-Cys,pGlu-Cys,pGlu,O=C1CCC(C(N[C@@H](CS)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.011,,kokumi,0.75,,1,John P. Munafo Jr,2021/10/4
+pGlu-Val,pGlu-Val,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.023,,kokumi,1.75,,1,John P. Munafo Jr,2021/10/4
+pGlu-Asp,pGlu-Asp,pGlu,O=C1CCC(C(N[C@@H](CC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.049,,Umami-Enhancing,0.35,,1,John P. Munafo Jr,2021/10/4
+pGlu-Glu,pGlu-Glu,pGlu,O=C1CCC(C(N[C@@H](CCC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.002,,Umami-Enhancing,0.34,,1,John P. Munafo Jr,2021/10/4
+pGlu-Pro,pGlu-Pro,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.058,,Umami-Enhancing,0.31,,1,John P. Munafo Jr,2021/10/4
+pGlu-Cys,pGlu-Cys,pGlu,O=C1CCC(C(N[C@@H](CS)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.011,,Salty-Enhancing,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Val,pGlu-Val,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.023,,Salty-Enhancing,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Asp,pGlu-Asp,pGlu,O=C1CCC(C(N[C@@H](CC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.049,,Salty-Enhancing,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Glu,pGlu-Glu,pGlu,O=C1CCC(C(N[C@@H](CCC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.002,,Salty-Enhancing,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Pro,pGlu-Pro,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.1c04479,,0.058,,Salty-Enhancing,,,1,John P. Munafo Jr,2021/10/4
+pGlu-Pro,pEP,pGlu,O=C1CCC(C(N2[C@@H](CCC2)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,0.3,,Umami-Enhancing,,,1,Thomas Hofmann,2019/3/27
+pGlu-Glu,pEE,pGlu,O=C1CCC(C(N[C@@H](CCC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,0.32,,Umami-Enhancing,,,1,Thomas Hofmann,2019/3/27
+pGlu-Gln,pEQ,pGlu,O=C(N[C@@H](CCC(N)=O)C(O)=O)[C@H](CC1)NC1=O,https://doi.org/10.1021/acs.jafc.9b00905,,0.35,,Umami-Enhancing,,,1,Thomas Hofmann,2019/3/27
+pGlu-Arg,pER,pGlu,O=C1CCC(C(N[C@@H](CCCNC(N)=N)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,0.55,,Umami-Enhancing,,,1,Thomas Hofmann,2019/3/27
+pGlu-Ser,pES,pGlu,O=C1CCC(C(N[C@@H](CO)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,0.86,,Umami-Enhancing,,,1,Thomas Hofmann,2019/3/27
+pGlu-Lys,pEK,pGlu,O=C1CCC(C(N[C@@H](CCCCN)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,1.2,,increasing complexity,,,1,Thomas Hofmann,2019/3/27
+pGlu-Phe,pEF,pGlu,O=C1CCC(C(N[C@@H](CC2=CC=CC=C2)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,1.3,,Umami-Enhancing,,,1,Thomas Hofmann,2019/3/27
+pGlu-Val,pEV,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,1.8,,kokumi,,,1,Thomas Hofmann,2019/3/27
+pGlu-Ala,pEA,pGlu,O=C1CCC(C(N[C@@H](C)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.9b00905,,2.7,,increasing complexity,,,1,Thomas Hofmann,2019/3/27
+pGlu-Glu,pgluE,pGlu,O=C1CCC(C(N[C@@H](CCC(O)=O)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.3c05911,,646 μmol/L,,Salty-Enhancing,,yeast,1,John P. Munafo Jr,2023/12/18
+pGlu-Val,pgluV,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.3c05911,,77  μmol/L,,Salty-Enhancing,,yeast,1,John P. Munafo Jr,2023/12/18
+pGlu-Val-Leu,pgluVL,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CC(C)C)C(O)=O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.3c05911,,273  μmol/L,,Salty-Enhancing,,yeast,1,John P. Munafo Jr,2023/12/18
+pGlu-Val-Cys,pgluVC,pGlu,O=C1CCC(C(N[C@@H](C(C)C)C(N[C@@H](CS)C(O)=O)=O)=O)N1,https://doi.org/10.1021/acs.jafc.3c05911,,221 μmol/L,,Salty-Enhancing,,yeast,1,John P. Munafo Jr,2023/12/18
+γ-Glu-Leu,γEL,γ,N[C@@H](CCC(O)=O)CCC(N[C@@H](CC(C)C)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c04919,,,,Umami-Enhancing,,,0.5,Jucai Tu,2022/11/1
+γ-Glu-Val,γEV,γ,NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.2c04919,,,,Umami-Enhancing,,,0.5,Jucai Tu,2022/11/1
+γ-Glu-γ-Glu-Val,γEγEV,γ,NC(CCC(O)=O)CCC(NC(CCC(O)=O)CCC(N[C@@H](C(C)C)C(O)=O)=O)=O,https://doi.org/10.1021/acs.jafc.2c04919,,,,Umami-Enhancing,,,0.5,Jucai Tu,2022/11/1
+N-succinoyl-Trp,N-succinyl-L-tryptophan,Succinoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.140131,Umami,/,1 mg/L ,Long-lasting,/,/,1,Chun Cui,2024/5/16
+N-succinoyl-Trp,N-succinyl-L-tryptophan,Succinoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.140131,Umami,/,1 mg/L ,Salt-Enhancing,/,/,1,Chun Cui,2024/5/16
+N-succinoyl-Trp,N-succinyl-L-tryptophan,Succinoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.140131,Umami,/,1 mg/L ,Kokumi-Enhancing,/,/,1,Chun Cui,2024/5/16
+N-succinoyl-Trp,N-succinyl-L-tryptophan,Succinoyl,O=C(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.140131,Umami,/,1 mg/L ,Umami-Enhancing,/,/,1,Chun Cui,2024/5/16
+N-butanoyl-Phe,N-butyryl phenylalanine,Butanoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(CCC)=O,https://doi.org/10.1016/j.foodchem.2024.139910,Umami,/,,Umami-Enhancing,/,/,1,Chun Cui,2024/6/3
+N-butanoyl-Phe,N-butyryl phenylalanine,Butanoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(CCC)=O,https://doi.org/10.1016/j.foodchem.2024.139910,Umami,/,,Salt-Enhancing,/,/,1,Chun Cui,2024/6/3
+N-butanoyl-Phe,N-butyryl phenylalanine,Butanoyl,O=C(O)[C@H](CC1=CC=CC=C1)NC(CCC)=O,https://doi.org/10.1016/j.foodchem.2024.139910,Umami,/,,Bitterness-Masking,/,/,1,Chun Cui,2024/6/3
+N-Suc-Phe,N-succinyl-L-phenylalanine,,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.140747,Umami,/,/,Salt-Enhancing,/,/,1,Chun Cui,2024/8/8
+N-Suc-Phe,N-succinyl-L-phenylalanine,,O=C(N[C@@H](CC1=CC=CC=C1)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.140747,Umami,/,/,Umami-Enhancing,/,/,1,Chun Cui,2024/8/8
+N-Lau-Phe,N-Lauroyl Phenylalanine,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.4c02712,/,/,/,Umami-Enhancing,/,/,1,Chun Cui,2024/8/6
+N-Lau-Phe,N-Lauroyl Phenylalanine,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.4c02712,/,/,/,Salty-Enhancing,/,/,1,Chun Cui,2024/8/6
+N-Lau-Phe,N-lauroyl-phenylalanine,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O,https://doi.org/10.1021/acs.jafc.4c02712,/,/,/,Kokumi-Enhancing,/,/,1,Chun Cui,2024/8/6
+N-Lau-Trp,N-lauroyl-tryptophan,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Long-lasting,,/,1,Chun Cui,2024/10/1
+N-Lau-Trp,N-lauroyl-tryptophan,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Umami-Enhancing,,/,1,Chun Cui,2024/10/1
+N-Lau-Trp,N-lauroyl-tryptophan,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Bitterness-Masking,,/,1,Chun Cui,2024/10/1
+N-Lau-Trp,N-lauroyl-tryptophan,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Long-lasting,,/,1,Chun Cui,2024/10/1
+N-Lau-Trp,N-lauroyl-tryptophan,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Umami-Enhancing,,/,1,Chun Cui,2024/10/1
+N-Lau-Trp,N-lauroyl-tryptophan,Lauroyl,CCCCCCCCCCCC(N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Bitterness-Masking,,/,1,Chun Cui,2024/10/1
+N-Lau-Tyr,N-lauroyl-tyrosine,Lauroyl,CCCCCCCCCCCC(N[C@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Long-lasting,,/,1,Chun Cui,2024/10/1
+N-Lau-Tyr,N-lauroyl-tyrosine,Lauroyl,CCCCCCCCCCCC(N[C@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Umami-Enhancing,,/,1,Chun Cui,2024/10/1
+N-Lau-Tyr,N-lauroyl-tyrosine,Lauroyl,CCCCCCCCCCCC(N[C@H](CC1=CC=C(C=C1)O)C(O)=O)=O,https://doi.org/10.1016/j.foodchem.2024.141419,/,/,/,Bitterness-Masking,,/,1,Chun Cui,2024/10/1
+N-succinoyl-Ile,N-succinyl-L-isoleucine,Succinoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.141478,/,/,/,Long-lasting,,/,1,Chun Cui,2024/10/10
+N-succinoyl-Ile,N-succinyl-L-isoleucine,Succinoyl,O=C(N[C@@H]([C@@H](C)CC)C(O)=O)CCC(O)=O,https://doi.org/10.1016/j.foodchem.2024.141478,/,/,/,Umami-Enhancing,,/,1,Chun Cui,2024/10/10

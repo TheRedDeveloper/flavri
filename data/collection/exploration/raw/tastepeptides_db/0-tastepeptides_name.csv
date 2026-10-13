@@ -1,0 +1,13 @@
+﻿Abbreviation,Description
+PepName,The name of the database record
+Name in Research,Name recorded in the reported literature
+Lib/DOI,Document ID
+Intrinsic taste,Intrinsic taste
+Intrinsic Threshold(mM),Intrinsic Threshold(mM)
+Added Concentration(mM) ,Concentrations for synergistic effects
+Modulating Properties,The effect of synergy
+Modulating Threshold(mM),Recognition threshold in solution
+Modulating Object,Solution
+Solvent Formulation（W/V）,Solvent Formulation（W/V）
+Source,Source
+Vitro_verit,Whether it has been verified by chemical synthesis
