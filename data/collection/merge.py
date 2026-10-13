@@ -164,7 +164,7 @@ def merge_pairs() -> pd.DataFrame:
     """
     Merges taste and odor pair datasets into flavri_multimodal_pairs.csv.
     Universe: Union of taste pairs (685) and odor pairs (58,458) -> 59,143 expected rows.
-    Columns (301): smiles_a, smiles_b, ratio_a, ratio_b, 148 delta_<channel>, 148 mask_<channel>, pair_source.
+    Columns (299): smiles_a, smiles_b, 148 delta_<channel>, 148 mask_<channel>, pair_source.
     """
     print(f"Reading taste pairs from {TASTE_PAIRS_CSV}...")
     df_taste = pd.read_csv(TASTE_PAIRS_CSV)
@@ -184,8 +184,6 @@ def merge_pairs() -> pd.DataFrame:
         row = {
             "smiles_a": s_a,
             "smiles_b": s_b,
-            "ratio_a": 0.5,
-            "ratio_b": 0.5,
         }
         # Taste channels
         for t_raw, t_col in zip(RAW_TASTE_CHANNELS, TASTE_CHANNELS):
@@ -206,8 +204,6 @@ def merge_pairs() -> pd.DataFrame:
         row = {
             "smiles_a": s_a,
             "smiles_b": s_b,
-            "ratio_a": 0.5,
-            "ratio_b": 0.5,
         }
         # Taste channels unmeasured
         for t_col in TASTE_CHANNELS:
@@ -220,9 +216,9 @@ def merge_pairs() -> pd.DataFrame:
         row["pair_source"] = str(o_row["pair_source"])
         rows.append(row)
 
-    # Establish ordered column list: smiles_a, smiles_b, ratio_a, ratio_b + 148 delta_ + 148 mask_ + pair_source
+    # Establish ordered column list: smiles_a, smiles_b + 148 delta_ + 148 mask_ + pair_source
     col_order = (
-        ["smiles_a", "smiles_b", "ratio_a", "ratio_b"]
+        ["smiles_a", "smiles_b"]
         + [f"delta_{ch}" for ch in ALL_CHANNELS]
         + [f"mask_{ch}" for ch in ALL_CHANNELS]
         + ["pair_source"]
@@ -235,7 +231,7 @@ def merge_pairs() -> pd.DataFrame:
     if len(df_merged_pairs) < initial_count:
         print(f"Deduplicated pairs: {initial_count} -> {len(df_merged_pairs)}")
 
-    assert len(df_merged_pairs.columns) == 301, f"Expected 301 columns, got {len(df_merged_pairs.columns)}"
+    assert len(df_merged_pairs.columns) == 299, f"Expected 299 columns, got {len(df_merged_pairs.columns)}"
     return df_merged_pairs
 
 

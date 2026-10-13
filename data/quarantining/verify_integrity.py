@@ -46,16 +46,16 @@ def verify_all():
     df_pte = pd.read_csv(PAIR_TEST)
 
     print(f"Multimodal Singles: {len(df_ms)} rows, {len(df_ms.columns)} cols (Expected: 15,905 rows, 299 cols)")
-    print(f"Multimodal Pairs:   {len(df_mp)} rows, {len(df_mp.columns)} cols (Expected: 59,143 rows, 301 cols)")
+    print(f"Multimodal Pairs:   {len(df_mp)} rows, {len(df_mp.columns)} cols (Expected: 59,143 rows, 299 cols)")
     print(f"Singles Train:      {len(df_st)} rows, {len(df_st.columns)} cols")
     print(f"Singles Test:       {len(df_ste)} rows, {len(df_ste.columns)} cols")
     print(f"Pair Train:         {len(df_pt)} rows, {len(df_pt.columns)} cols")
-    print(f"Pair Test:          {len(df_pte)} rows, {len(df_pte.columns)} cols (cold_type included: 302 cols)")
+    print(f"Pair Test:          {len(df_pte)} rows, {len(df_pte.columns)} cols (cold_type included: 300 cols)")
 
     assert len(df_ms) == 15905, f"Expected 15905 singles rows, got {len(df_ms)}"
     assert len(df_ms.columns) == 299, f"Expected 299 singles cols, got {len(df_ms.columns)}"
     assert len(df_mp) == 59143, f"Expected 59143 pairs rows, got {len(df_mp)}"
-    assert len(df_mp.columns) == 301, f"Expected 301 pairs cols, got {len(df_mp.columns)}"
+    assert len(df_mp.columns) == 299, f"Expected 299 pairs cols, got {len(df_mp.columns)}"
     assert len(df_st) + len(df_ste) == len(df_ms), "Singles partition does not sum to total singles!"
     assert len(df_pt) + len(df_pte) == len(df_mp), "Pairs partition does not sum to total pairs!"
 
@@ -83,8 +83,7 @@ def verify_all():
     assert (df_mp["smiles_a"] <= df_mp["smiles_b"]).all(), "Violated canonical pair ordering in multimodal pairs!"
     assert (df_pt["smiles_a"] <= df_pt["smiles_b"]).all(), "Violated canonical pair ordering in pair train!"
     assert (df_pte["smiles_a"] <= df_pte["smiles_b"]).all(), "Violated canonical pair ordering in pair test!"
-    assert ((df_mp["ratio_a"] == 0.5) & (df_mp["ratio_b"] == 0.5)).all(), "Ratios must be 0.5!"
-    print("[PASS] 100% of pairs satisfy smiles_a <= smiles_b and ratio_a == ratio_b == 0.5!")
+    print("[PASS] 100% of pairs satisfy smiles_a <= smiles_b!")
 
     # 5. Check Zero-Leakage & Cold-Start Invariants
     print("\n--- 4. Checking Zero-Leakage & Cold-Start Invariants ---")
