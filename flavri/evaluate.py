@@ -71,11 +71,11 @@ def evaluate_singles(
     for c in range(NUM_TASTE):
         mask_c = taste_masks[:, c] > 0
         if mask_c.sum() >= 10:
-            y_true = taste_targets[mask_c, c]
+            y_true_bin = (taste_targets[mask_c, c] >= 0.5).astype(int)
             y_pred = taste_preds[mask_c, c]
-            if len(np.unique(y_true)) > 1:
+            if len(np.unique(y_true_bin)) > 1:
                 try:
-                    auc = roc_auc_score(y_true, y_pred)
+                    auc = roc_auc_score(y_true_bin, y_pred)
                     taste_aurocs.append(auc)
                 except Exception:
                     pass

@@ -47,9 +47,28 @@ class FlavriMultimodalModel(nn.Module):
             dropout=dropout,
         )
 
+        # Hybrid Morgan / ECFP4 Fingerprint Projector & Fusion
+        self.fp_dim = 512
+        self.fp_proj = nn.Sequential(
+            nn.Linear(self.fp_dim, 128),
+            nn.LayerNorm(128),
+            nn.SiLU(),
+            nn.Dropout(dropout),
+        )
+        self.fusion = nn.Sequential(
+            nn.Linear(hidden_dim + 128, hidden_dim),
+            nn.LayerNorm(hidden_dim),
+            nn.SiLU(),
+        )
+
     def encode(self, batch_graph: BatchMolGraph) -> torch.Tensor:
         """Encodes graph batch to latent vectors z in R^(B, 256)."""
-        return self.backbone(batch_graph)
+        z_graph = self.backbone(batch_graph)
+        if hasattr(batch_graph, "fps") and batch_graph.fps is not None:
+            z_fp = self.fp_proj(batch_graph.fps)
+            z = self.fusion(torch.cat([z_graph, z_fp], dim=-1))
+            return z
+        return z_graph
 
     def predict_singles(self, batch_graph: BatchMolGraph) -> Tuple[torch.Tensor, torch.Tensor]:
         """

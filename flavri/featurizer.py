@@ -8,6 +8,9 @@ from typing import List, Tuple, Dict, Any, Optional
 import numpy as np
 import torch
 from rdkit import Chem
+from rdkit.Chem import rdFingerprintGenerator
+
+_MORGAN_GEN = rdFingerprintGenerator.GetMorganGenerator(radius=2, fpSize=512)
 
 
 # ---------------------------------------------------------------------------
@@ -134,6 +137,9 @@ class MolGraph:
         # Fallback for single atom without bonds
         if self.n_atoms == 0:
             raise ValueError(f"SMILES has 0 atoms: {smiles}")
+
+        # Morgan / ECFP4 fingerprint (512 bits)
+        self.fp: np.ndarray = _MORGAN_GEN.GetFingerprintAsNumPy(mol).astype(np.float32)
 
         # Atom features: (n_atoms, ATOM_FDIM)
         self.f_atoms: List[List[float]] = [
@@ -269,6 +275,7 @@ class BatchMolGraph:
         self.b2u = torch.tensor(b2u_list, dtype=torch.long, device=device)
         self.b2b = b2b_tensor.to(device)
         self.a2b = a2b_tensor.to(device)
+        self.fps = torch.tensor(np.stack([g.fp for g in mol_graphs]), dtype=torch.float32, device=device)
 
 
 # In-memory graph cache to eliminate redundant RDKit featurization

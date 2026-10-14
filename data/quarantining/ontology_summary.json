@@ -1,0 +1,359 @@
+{
+  "num_channels": 137,
+  "hierarchy_pairs_count": 31,
+  "antagonism_pairs_count": 2179,
+  "sample_hierarchy": [
+    {
+      "parent": "fruity",
+      "child": "apple",
+      "p_parent_given_child": 0.9004,
+      "parent_count": 1707,
+      "child_count": 281
+    },
+    {
+      "parent": "fruity",
+      "child": "apricot",
+      "p_parent_given_child": 0.9275,
+      "parent_count": 1707,
+      "child_count": 69
+    },
+    {
+      "parent": "fruity",
+      "child": "banana",
+      "p_parent_given_child": 0.9746,
+      "parent_count": 1707,
+      "child_count": 118
+    },
+    {
+      "parent": "meaty",
+      "child": "beefy",
+      "p_parent_given_child": 0.8718,
+      "parent_count": 266,
+      "child_count": 39
+    },
+    {
+      "parent": "fruity",
+      "child": "berry",
+      "p_parent_given_child": 0.8904,
+      "parent_count": 1707,
+      "child_count": 146
+    },
+    {
+      "parent": "fruity",
+      "child": "brandy",
+      "p_parent_given_child": 0.9189,
+      "parent_count": 1707,
+      "child_count": 37
+    },
+    {
+      "parent": "woody",
+      "child": "cedar",
+      "p_parent_given_child": 0.9787,
+      "parent_count": 624,
+      "child_count": 47
+    },
+    {
+      "parent": "odor_sweet",
+      "child": "cherry",
+      "p_parent_given_child": 0.8243,
+      "parent_count": 1287,
+      "child_count": 74
+    },
+    {
+      "parent": "spicy",
+      "child": "clove",
+      "p_parent_given_child": 0.8387,
+      "parent_count": 425,
+      "child_count": 31
+    },
+    {
+      "parent": "green",
+      "child": "cortex",
+      "p_parent_given_child": 0.8431,
+      "parent_count": 1306,
+      "child_count": 51
+    },
+    {
+      "parent": "green",
+      "child": "cucumber",
+      "p_parent_given_child": 0.9268,
+      "parent_count": 1306,
+      "child_count": 41
+    },
+    {
+      "parent": "green",
+      "child": "grassy",
+      "p_parent_given_child": 0.85,
+      "parent_count": 1306,
+      "child_count": 60
+    },
+    {
+      "parent": "odor_sweet",
+      "child": "hawthorn",
+      "p_parent_given_child": 0.8276,
+      "parent_count": 1287,
+      "child_count": 29
+    },
+    {
+      "parent": "nutty",
+      "child": "hazelnut",
+      "p_parent_given_child": 0.8,
+      "parent_count": 319,
+      "child_count": 45
+    },
+    {
+      "parent": "fruity",
+      "child": "juicy",
+      "p_parent_given_child": 0.86,
+      "parent_count": 1707,
+      "child_count": 50
+    },
+    {
+      "parent": "green",
+      "child": "leafy",
+      "p_parent_given_child": 0.8934,
+      "parent_count": 1306,
+      "child_count": 122
+    },
+    {
+      "parent": "floral",
+      "child": "lily",
+      "p_parent_given_child": 0.8657,
+      "parent_count": 996,
+      "child_count": 67
+    },
+    {
+      "parent": "green",
+      "child": "melon",
+      "p_parent_given_child": 0.8235,
+      "parent_count": 1306,
+      "child_count": 119
+    },
+    {
+      "parent": "floral",
+      "child": "muguet",
+      "p_parent_given_child": 0.8868,
+      "parent_count": 996,
+      "child_count": 53
+    },
+    {
+      "parent": "floral",
+      "child": "orangeflower",
+      "p_parent_given_child": 0.871,
+      "parent_count": 996,
+      "child_count": 31
+    },
+    {
+      "parent": "fruity",
+      "child": "peach",
+      "p_parent_given_child": 0.8462,
+      "parent_count": 1707,
+      "child_count": 78
+    },
+    {
+      "parent": "fruity",
+      "child": "pear",
+      "p_parent_given_child": 0.9558,
+      "parent_count": 1707,
+      "child_count": 113
+    },
+    {
+      "parent": "fruity",
+      "child": "pineapple",
+      "p_parent_given_child": 0.9722,
+      "parent_count": 1707,
+      "child_count": 180
+    },
+    {
+      "parent": "fruity",
+      "child": "plum",
+      "p_parent_given_child": 0.9245,
+      "parent_count": 1707,
+      "child_count": 53
+    },
+    {
+      "parent": "fruity",
+      "child": "raspberry",
+      "p_parent_given_child": 0.8421,
+      "parent_count": 1707,
+      "child_count": 38
+    }
+  ],
+  "sample_antagonism": [
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "alliaceous",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 118
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "almond",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 77
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "amber",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 96
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "animal",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 106
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "anisic",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 100
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "buttery",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 129
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "cabbage",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 42
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "cedar",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 47
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "cherry",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 74
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "cinnamon",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 58
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "citrus",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 339
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "clean",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 91
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "coconut",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 79
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "cooked",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 79
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "odor_cooling",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 76
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "coumarinic",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 64
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "cucumber",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 41
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "dairy",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 111
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "fishy",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 67
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "fruit skin",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 47
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "garlic",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 107
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "geranium",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 53
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "grapefruit",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 72
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "hazelnut",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 45
+    },
+    {
+      "desc_a": "alcoholic",
+      "desc_b": "honey",
+      "joint_pos": 0,
+      "count_a": 98,
+      "count_b": 135
+    }
+  ]
+}

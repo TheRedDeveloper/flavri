@@ -107,8 +107,14 @@ def main():
     console.print(f"[dim]Total trainable parameters: {total_params:,}[/dim]\n")
 
     # Optimizer & Scheduler
+    stage1_params = (
+        list(model.backbone.parameters())
+        + list(model.fp_proj.parameters())
+        + list(model.fusion.parameters())
+        + list(model.single_head.parameters())
+    )
     optimizer = torch.optim.AdamW(
-        list(model.backbone.parameters()) + list(model.single_head.parameters()),
+        stage1_params,
         lr=args.lr,
         weight_decay=args.weight_decay,
     )
