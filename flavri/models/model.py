@@ -1,29 +1,34 @@
 """
 flavri.models.model
-Unified FLAVRI Multimodal Chemosensory Model.
-Decoupled 2-Stage D-MPNN with Commutative Mixture Synergy and Blending Law.
+FLAVRI 2.0 Unified Multimodal Chemosensory Architecture:
+- Backbone: Scaled 6-Layer D-MPNN (384d) with Multi-Head Attentive Readout
+- Hybrid Feature Conditioning: Morgan / ECFP4 Fingerprint Projection (512d -> 128d -> 384d)
+- Auxiliary Task Head: Persistent Chemical Reconstruction Head (Masked Atom/Bond features)
+- Task Heads: SingleMoleculeHead (148 Channels) & CommutativeSynergyHead (Pairwise Interaction)
 """
 
-from typing import List, Tuple, Optional, Dict
+from typing import Tuple, Optional, Any
 import torch
 import torch.nn as nn
-
-from flavri.featurizer import BatchMolGraph, mol2graph
 from flavri.constants import NUM_CHANNELS
+from flavri.featurizer import BatchMolGraph
 from flavri.models.dmpnn import DMPNNBackbone
 from flavri.models.heads import SingleMoleculeHead, CommutativeSynergyHead
+from flavri.models.chem_head import ChemicalReconstructionHead
 
 
 class FlavriMultimodalModel(nn.Module):
     """
-    Decoupled 2-Stage Multimodal Chemosensory Architecture:
-    Stage 1: D-MPNN Backbone -> Latent z in R^256 -> SingleMoleculeHead -> V in [0, 1]^148
-    Stage 2: CommutativeSynergyHead -> Delta in [-1, +1]^148 -> Mixture Blending Law
+    Decoupled Multimodal Chemosensory Architecture (FLAVRI 2.0):
+    - D-MPNN Backbone (384d, depth 6) + Multi-Head Attentive Readout (4 heads)
+    - Persistent Chemical Reconstruction Head (133-dim atom features)
+    - SingleMoleculeHead (148 channels)
+    - CommutativeSynergyHead (exact symmetry & identity neutrality)
     """
     def __init__(
         self,
-        hidden_dim: int = 256,
-        depth: int = 4,
+        hidden_dim: int = 384,
+        depth: int = 6,
         num_channels: int = NUM_CHANNELS,
         dropout: float = 0.1,
     ):
@@ -34,6 +39,11 @@ class FlavriMultimodalModel(nn.Module):
         self.backbone = DMPNNBackbone(
             hidden_dim=hidden_dim,
             depth=depth,
+            dropout=dropout,
+            num_readout_heads=4,
+        )
+        self.chem_head = ChemicalReconstructionHead(
+            hidden_dim=hidden_dim,
             dropout=dropout,
         )
         self.single_head = SingleMoleculeHead(
@@ -61,25 +71,43 @@ class FlavriMultimodalModel(nn.Module):
             nn.SiLU(),
         )
 
-    def encode(self, batch_graph: BatchMolGraph) -> torch.Tensor:
-        """Encodes graph batch to latent vectors z in R^(B, 256)."""
-        z_graph = self.backbone(batch_graph)
+    def encode(self, batch_graph: BatchMolGraph, return_atom_h: bool = False) -> Any:
+        """
+        Encodes graph batch to latent vectors z in R^(B, hidden_dim).
+        Optionally returns per-atom representations atom_h in R^(total_atoms, hidden_dim).
+        """
+        z_graph, atom_h = self.backbone(batch_graph)
         if hasattr(batch_graph, "fps") and batch_graph.fps is not None:
             z_fp = self.fp_proj(batch_graph.fps)
             z = self.fusion(torch.cat([z_graph, z_fp], dim=-1))
-            return z
-        return z_graph
+        else:
+            z = z_graph
 
-    def predict_singles(self, batch_graph: BatchMolGraph) -> Tuple[torch.Tensor, torch.Tensor]:
+        if return_atom_h:
+            return z, atom_h
+        return z
+
+    def predict_singles(
+        self,
+        batch_graph: BatchMolGraph,
+        return_atom_h: bool = False,
+    ) -> Any:
         """
         Predicts sensory profiles for single molecules.
         Returns:
-            z: (B, 256) latent vectors
+            z: (B, hidden_dim) latent vectors
             v: (B, 148) single molecule sensory profiles in [0, 1]
+            atom_h: (total_atoms, hidden_dim) if return_atom_h=True
         """
-        z = self.encode(batch_graph)
+        z, atom_h = self.encode(batch_graph, return_atom_h=True)
         v = self.single_head(z)
+        if return_atom_h:
+            return z, v, atom_h
         return z, v
+
+    def predict_chemistry(self, atom_h: torch.Tensor) -> torch.Tensor:
+        """Predicts ground truth atom features from atom representations."""
+        return self.chem_head(atom_h)
 
     def predict_synergy(self, z_a: torch.Tensor, z_b: torch.Tensor) -> torch.Tensor:
         """
@@ -125,7 +153,7 @@ class FlavriMultimodalModel(nn.Module):
         2. Indexes z_A and z_B.
         3. Computes V_A, V_B, Delta_AB, and y_blend.
         """
-        z_unique = self.encode(unique_graphs)  # (N_unique, 256)
+        z_unique = self.encode(unique_graphs)  # (N_unique, hidden_dim)
         v_unique = self.single_head(z_unique)  # (N_unique, 148)
 
         z_a = z_unique[idx_a]
@@ -134,7 +162,7 @@ class FlavriMultimodalModel(nn.Module):
         v_b = v_unique[idx_b]
 
         delta_ab = self.predict_synergy(z_a, z_b)
-        
+
         if w_a is None:
             w_a = torch.full((len(idx_a), 1), 0.5, device=idx_a.device)
         if w_b is None:

@@ -20,6 +20,7 @@ from scipy.stats import pearsonr, spearmanr
 FLAVRI_DIR = Path("c:/Users/RedDev/clones/flavri")
 sys.path.insert(0, str(FLAVRI_DIR))
 
+import argparse
 from flavri.constants import (
     NUM_CHANNELS,
     NUM_TASTE,
@@ -35,17 +36,28 @@ from flavri.models import FlavriMultimodalModel
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Evaluate FLAVRI Checkpoint")
+    parser.add_argument(
+        "--checkpoint",
+        type=str,
+        default="checkpoints/stage2/best_model.pt",
+        help="Path to checkpoint to evaluate (e.g. checkpoints/stage2/best_model.pt or checkpoints/stage2/swa_model.pt)"
+    )
+    args = parser.parse_args()
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("=" * 70)
-    print("FLAVRI STAGE 2 COMPREHENSIVE BENCHMARK & INFERENCE")
+    print("FLAVRI COMPREHENSIVE BENCHMARK & INFERENCE")
     print(f"Device: {device}")
     print("=" * 70)
 
-    ckpt_path = FLAVRI_DIR / "checkpoints/stage2/best_model.pt"
+    ckpt_path = Path(args.checkpoint)
+    if not ckpt_path.is_absolute():
+        ckpt_path = FLAVRI_DIR / ckpt_path
     print(f"Loading checkpoint: {ckpt_path}")
     checkpoint = torch.load(str(ckpt_path), map_location=device, weights_only=False)
 
-    model = FlavriMultimodalModel().to(device)
+    model = FlavriMultimodalModel(hidden_dim=384, depth=6).to(device)
     model.load_state_dict(checkpoint["model_state_dict"])
     model.eval()
     print("Model loaded successfully.")

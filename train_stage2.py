@@ -1,8 +1,9 @@
 """
 train_stage2.py
-FLAVRI Stage 2: Joint Multi-Task Mixture Synergy & Pure Singles Anchoring.
-Trains the Commutative Synergy Head while co-adapting the unfrozen D-MPNN backbone,
-anchored by simultaneous single molecule ground-truth batches with ASL + Ranking loss.
+FLAVRI Stage 2: Joint Multi-Task Mixture Synergy & Pure Singles Anchoring (FLAVRI 2.0).
+Trains the Commutative Synergy Head while co-adapting the unfrozen 6-layer D-MPNN backbone (384d),
+anchored by simultaneous single molecule ground-truth batches under Calibrated Pos-Weighted BCE,
+Plackett-Luce Ranking, and Persistent Chemistry Regularization.
 """
 
 import sys
@@ -14,6 +15,7 @@ from pathlib import Path
 import numpy as np
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from rich.console import Console
 from rich.panel import Panel
@@ -26,7 +28,7 @@ if str(REPO_ROOT) not in sys.path:
 
 from flavri.constants import NUM_CHANNELS
 from flavri.models import FlavriMultimodalModel
-from flavri.losses import FlavriMultimodalLoss, FlavriSinglesLoss
+from flavri.losses import FlavriMultimodalLoss, FlavriSinglesLoss, ChemicalReconstructionLoss
 from flavri.data import FlavriPairsDataset, PairsCollator, FlavriSinglesDataset, SinglesCollator
 from flavri.evaluate import evaluate_pairs, evaluate_singles
 
@@ -41,14 +43,16 @@ def parse_args():
     parser.add_argument("--synergy_lr", type=float, default=5e-4, help="Synergy head learning rate")
     parser.add_argument("--weight_decay", type=float, default=1e-5, help="AdamW weight decay")
     parser.add_argument("--single_weight", type=float, default=0.5, help="Weight for pure singles anchoring loss")
+    parser.add_argument("--aux_chem_weight", type=float, default=0.05, help="Weight for persistent chemical reconstruction loss")
     parser.add_argument("--id_reg_weight", type=float, default=0.05, help="Weight for identity self-penalty")
-    parser.add_argument("--hidden_dim", type=int, default=256, help="Hidden dimension")
-    parser.add_argument("--depth", type=int, default=4, help="D-MPNN depth")
+    parser.add_argument("--hidden_dim", type=int, default=384, help="Hidden dimension")
+    parser.add_argument("--depth", type=int, default=6, help="D-MPNN depth")
     parser.add_argument("--stage1_ckpt", type=str, default="checkpoints/stage1/best_model.pt", help="Stage 1 model path")
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage2", help="Checkpoint directory")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--num_workers", type=int, default=0, help="DataLoader workers")
     parser.add_argument("--dry_run", action="store_true", help="Run 1 quick epoch to verify end-to-end pipeline")
+    parser.add_argument("--continue", "--continue_training", "--resume", action="store_true", dest="resume", help="Continue training from latest checkpoint")
     return parser.parse_args()
 
 
@@ -64,11 +68,12 @@ def main():
     gpu_name = torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU"
 
     console.print(Panel(
-        f"[bold cyan]FLAVRI Stage 2: Joint Multi-Task Mixture & Singles Training[/bold cyan]\n"
+        f"[bold cyan]FLAVRI Stage 2: Joint Multi-Task Mixture & Singles Training (FLAVRI 2.0)[/bold cyan]\n"
         f"[green]Device:[/green] {device} ({gpu_name})\n"
+        f"[green]Architecture:[/green] 6-Layer D-MPNN ({args.hidden_dim}d) + Multi-Head Attentive Readout\n"
         f"[green]Epochs:[/green] {args.epochs} | [green]Batch Size:[/green] {args.batch_size}\n"
         f"[green]Backbone LR:[/green] {args.backbone_lr} | [green]Synergy Head LR:[/green] {args.synergy_lr}\n"
-        f"[green]Singles Anchoring Weight:[/green] {args.single_weight}\n"
+        f"[green]Singles Anchoring Weight:[/green] {args.single_weight} | [green]Chemical Anchor Weight:[/green] {args.aux_chem_weight}\n"
         f"[green]Stage 1 Checkpoint:[/green] {Path(args.stage1_ckpt).resolve()}\n"
         f"[green]Output Checkpoint Dir:[/green] {ckpt_dir.resolve()}",
         border_style="cyan"
@@ -139,11 +144,15 @@ def main():
     else:
         console.print(f"[bold yellow]Warning: Stage 1 checkpoint not found at {stage1_path}. Initializing from scratch.[/bold yellow]")
 
+    total_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    console.print(f"[dim]Total model parameters: {total_params:,}[/dim]\n")
+
     # Differential parameter groups
     param_groups = [
         {"params": model.backbone.parameters(), "lr": args.backbone_lr},
         {"params": model.fp_proj.parameters(), "lr": args.backbone_lr},
         {"params": model.fusion.parameters(), "lr": args.backbone_lr},
+        {"params": model.chem_head.parameters(), "lr": args.backbone_lr},
         {"params": model.single_head.parameters(), "lr": args.backbone_lr},
         {"params": model.synergy_head.parameters(), "lr": args.synergy_lr},
     ]
@@ -152,7 +161,29 @@ def main():
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=1e-6)
 
     mix_loss_fn = FlavriMultimodalLoss(mix_neg_weight=0.2)
-    singles_loss_fn = FlavriSinglesLoss(rank_weight=0.5)
+    singles_loss_fn = FlavriSinglesLoss(rank_weight=0.5, hier_weight=0.1, antag_weight=0.05, device=device).to(device)
+    chem_loss_fn = ChemicalReconstructionLoss(device=device)
+
+    start_epoch = 1
+    best_composite = -2.0
+
+    if args.resume:
+        latest_path = ckpt_dir / "latest_model.pt"
+        if latest_path.exists():
+            console.print(f"[bold green]Resuming Stage 2 training from {latest_path}...[/bold green]")
+            ckpt = torch.load(latest_path, map_location=device, weights_only=False)
+            model.load_state_dict(ckpt["model_state_dict"])
+            optimizer.load_state_dict(ckpt["optimizer_state_dict"])
+            start_epoch = ckpt["epoch"] + 1
+            if "val_pairs" in ckpt and "val_singles" in ckpt:
+                best_composite = ckpt["val_pairs"]["half_cold"]["pearson_r"] + 0.5 * (
+                    ckpt["val_singles"]["taste_macro_auroc"] + ckpt["val_singles"]["odor_macro_auroc"]
+                )
+            for _ in range(ckpt["epoch"]):
+                scheduler.step()
+            console.print(f"[green]Resuming at Epoch {start_epoch:02d}[/green]")
+        else:
+            console.print(f"[bold yellow]Warning: Checkpoint not found at {latest_path}. Starting from epoch 1.[/bold yellow]")
 
     # CSV Logger
     csv_headers = [
@@ -168,13 +199,14 @@ def main():
         "odor_top5_prec",
         "time_sec",
     ]
-    with open(log_csv_path, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(csv_headers)
+    if not log_csv_path.exists() or (not args.resume and start_epoch == 1):
+        with open(log_csv_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(csv_headers)
 
-    best_composite = -2.0
+    batches_per_epoch = 5 if args.dry_run else len(pair_train_loader)
 
-    for epoch in range(1, epochs + 1):
+    for epoch in range(start_epoch, epochs + 1):
         epoch_start = time.time()
         model.train()
         train_loss_accum = 0.0
@@ -192,9 +224,11 @@ def main():
             console=console,
             transient=True,
         ) as progress:
-            task = progress.add_task("training", total=len(pair_train_loader), loss=0.0)
+            task = progress.add_task("training", total=batches_per_epoch, loss=0.0)
 
-            for batch in pair_train_loader:
+            for batch_idx, batch in enumerate(pair_train_loader):
+                if args.dry_run and batch_idx >= 5:
+                    break
                 optimizer.zero_grad()
                 unique_graphs = batch["unique_graphs"]
                 idx_a = batch["idx_a"]
@@ -216,15 +250,30 @@ def main():
                 is_mix = torch.ones(batch_size, dtype=torch.bool, device=device)
                 mix_loss = mix_loss_fn(y_blend, pred_deltas, true_blend, masks, is_mix, deltas_true=deltas)
 
-                # 2. Pure Singles Anchoring Forward Pass (ASL + Ranking Loss)
-                _, single_preds = model.predict_singles(single_batch["graphs"])
+                # 2. Pure Singles Anchoring Forward Pass (Calibrated Focal BCE + Ranking + Ontology)
+                s_graphs = single_batch["graphs"]
+                total_s_atoms = s_graphs.total_atoms
+                s_mask_idx = torch.rand(total_s_atoms, device=device) < 0.10
+                true_s_atoms = s_graphs.f_atoms.clone()
+                s_graphs.f_atoms[s_mask_idx] = 0.0
+
+                _, single_preds, atom_h = model.predict_singles(s_graphs, return_atom_h=True)
                 single_loss = singles_loss_fn(single_preds, single_batch["targets"], single_batch["masks"])
+
+                # Persistent chemical reconstruction anchor
+                pred_chem = model.predict_chemistry(atom_h)
+                chem_loss = chem_loss_fn(pred_chem, true_s_atoms, s_mask_idx)
 
                 # 3. Identity penalty on unique molecule embeddings
                 z_unique = model.encode(unique_graphs)
                 id_loss = model.synergy_head.compute_identity_penalty(z_unique)
 
-                total_loss = mix_loss + args.single_weight * single_loss + args.id_reg_weight * id_loss
+                total_loss = (
+                    mix_loss
+                    + args.single_weight * single_loss
+                    + args.aux_chem_weight * chem_loss
+                    + args.id_reg_weight * id_loss
+                )
 
                 total_loss.backward()
                 nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
