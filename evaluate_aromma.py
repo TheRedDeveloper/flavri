@@ -177,7 +177,26 @@ def main():
         sig = np.abs(t_act) >= 0.05
         dir_acc = (np.sign(p_act[sig]) == np.sign(t_act[sig])).mean() if sig.sum() > 0 else 1.0
 
+        # Blend MAE
+        # True blend = clip(0.5*(P_a + P_b) + t_delta, 0, 1)
+        # Pred blend = p_mix
+        idx_arr = np.array(idx_cohort)
+        pred_mix_137 = np.zeros((len(idx_cohort), len(ODOR_CHANNELS)), dtype=np.float32)
+        true_linear_137 = np.zeros((len(idx_cohort), len(ODOR_CHANNELS)), dtype=np.float32)
+        for k, orig_idx in enumerate(idx_cohort):
+            a_smi = pairs_a[orig_idx]
+            b_smi = pairs_b[orig_idx]
+            for c_idx, ch in enumerate(ODOR_CHANNELS):
+                main_idx, _ = odor_ch_to_aromma[ch]
+                pred_mix_137[k, c_idx] = p_mix_152[orig_idx, main_idx]
+                true_linear_137[k, c_idx] = 0.5 * (smi_to_p[a_smi][main_idx] + smi_to_p[b_smi][main_idx])
+        
+        true_blend_137 = np.clip(true_linear_137 + t_delta[idx_arr], 0.0, 1.0)
+        mask_cohort = p_mask[idx_arr] > 0
+        blend_mae = np.mean(np.abs(pred_mix_137[mask_cohort] - true_blend_137[mask_cohort]))
+
         print(f"\nAROMMA [{cohort} ({len(idx_cohort)} pairs)]:")
+        print(f"  Blend MAE:        {blend_mae:.4f}")
         print(f"  Pearson r:        {r_val:.4f}")
         print(f"  Spearman rho:     {rho_val:.4f}")
         print(f"  Synergy F1:       {f1_val:.4f}")

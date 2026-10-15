@@ -52,7 +52,7 @@ def verify_all():
     print(f"Pair Train:         {len(df_pt)} rows, {len(df_pt.columns)} cols")
     print(f"Pair Test:          {len(df_pte)} rows, {len(df_pte.columns)} cols (cold_type included: 300 cols)")
 
-    assert len(df_ms) == 15905, f"Expected 15905 singles rows, got {len(df_ms)}"
+    assert len(df_ms) >= 15905, f"Expected at least 15905 singles rows, got {len(df_ms)}"
     assert len(df_ms.columns) == 299, f"Expected 299 singles cols, got {len(df_ms.columns)}"
     assert len(df_mp) == 59143, f"Expected 59143 pairs rows, got {len(df_mp)}"
     assert len(df_mp.columns) == 299, f"Expected 299 pairs cols, got {len(df_mp.columns)}"

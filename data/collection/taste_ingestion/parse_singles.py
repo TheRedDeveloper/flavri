@@ -131,7 +131,7 @@ def parse_bitterdb() -> List[Dict[str, Any]]:
         records.append({
             "smiles": smi,
             "source": "BitterDB_2024",
-            "observations": {"bitter": potency}
+            "observations": {"bitter": potency, "sweet": 0.0}
         })
 
     print(f"[BitterDB] Parsed {len(records)} records.")
@@ -317,62 +317,118 @@ def parse_umamimeta() -> List[Dict[str, Any]]:
 
 
 def parse_virtuous_umami() -> List[Dict[str, Any]]:
-    """Dataset 8B: VirtuousUmami."""
-    path = RAW_ROOT / "virtuous_umami" / "data" / "Umami_training_dataset.csv"
+    """Dataset 8B: VirtuousUmami (Train & Test)."""
     records = []
-    if not path.exists():
-        return records
-
-    df = pd.read_csv(path)
-    for _, row in df.iterrows():
-        smi = canonicalize_smiles(row.get("Std_SMILES") or row.get("Parent_SMILES"))
-        if not smi:
+    for fname in ["Umami_training_dataset.csv", "Umami_testing_dataset.csv"]:
+        path = RAW_ROOT / "virtuous_umami" / "data" / fname
+        if not path.exists():
             continue
-        taste = str(row.get("TASTE", "")).strip().lower()
-        records.append({
-            "smiles": smi,
-            "source": "VirtuousUmami",
-            "observations": {"umami": 1.0 if taste == "umami" else 0.0}
-        })
+
+        df = pd.read_csv(path)
+        for _, row in df.iterrows():
+            smi = canonicalize_smiles(row.get("Std_SMILES") or row.get("Parent_SMILES"))
+            if not smi:
+                continue
+            taste = str(row.get("TASTE", "")).strip().lower()
+            records.append({
+                "smiles": smi,
+                "source": f"VirtuousUmami_{fname[:5]}",
+                "observations": {"umami": 1.0 if taste == "umami" else 0.0}
+            })
 
     print(f"[VirtuousUmami] Parsed {len(records)} records.")
     return records
 
 
+def _read_fasta_sequences(fpath: Path) -> List[str]:
+    """Helper to read sequences from FASTA or line-delimited text."""
+    if not fpath.exists():
+        return []
+    seqs = []
+    with open(fpath, "r", encoding="utf-8", errors="ignore") as f:
+        curr = []
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith(">"):
+                if curr:
+                    seqs.append("".join(curr))
+                    curr = []
+            else:
+                curr.append(line)
+        if curr:
+            seqs.append("".join(curr))
+    return seqs
+
+
 def parse_iumami_benchmark() -> List[Dict[str, Any]]:
-    """Dataset 8C: iUmami Benchmark Dataset."""
-    path = RAW_ROOT / "iumami_benchmark" / "3 datasets_2.xlsx"
+    """Dataset 8C: Authentic UMP442 iUmami Benchmark (302 non-umami, 140 umami)."""
+    iu_dir = RAW_ROOT / "iumami_benchmark" / "iUmami"
     records = []
-    if not path.exists():
+    if not iu_dir.exists():
+        print(f"[WARN] Not found: {iu_dir}")
         return records
 
-    try:
-        xl = pd.ExcelFile(path)
-        for sheet in xl.sheet_names:
-            df = xl.parse(sheet)
-            smi_col = None
-            lbl_col = None
-            for c in df.columns:
-                vals = df[c].dropna().astype(str).tolist()[:10]
-                if any(re.search(r"[CNOcno=#[\]()]{5,}", v) for v in vals):
-                    smi_col = c
-                if any(v.lower() in ("positive", "negative", "1", "0") for v in vals):
-                    lbl_col = c
-            if smi_col and lbl_col:
-                for _, row in df.iterrows():
-                    smi = canonicalize_smiles(row.get(smi_col))
-                    if not smi:
-                        continue
-                    lbl = str(row.get(lbl_col, "")).lower()
-                    records.append({
-                        "smiles": smi,
-                        "source": f"iUmami_{sheet}",
-                        "observations": {"umami": 1.0 if "pos" in lbl or lbl == "1" else 0.0}
-                    })
-    except Exception as e:
-        print(f"[WARN] Error reading iUmami: {e}")
+    neg_files = [("train-negative.txt", "iUmami_TR_neg"), ("test-negative.txt", "iUmami_TS_neg")]
+    pos_files = [("train-positive.txt", "iUmami_TR_pos"), ("test-positive.txt", "iUmami_TS_pos")]
 
-    print(f"[iUmami] Parsed {len(records)} records.")
+    for fname, src in neg_files:
+        for seq in _read_fasta_sequences(iu_dir / fname):
+            smi = parse_peptide_sequence(seq)
+            if smi:
+                records.append({
+                    "smiles": smi,
+                    "source": src,
+                    "observations": {"umami": 0.0}
+                })
+
+    for fname, src in pos_files:
+        for seq in _read_fasta_sequences(iu_dir / fname):
+            smi = parse_peptide_sequence(seq)
+            if smi:
+                records.append({
+                    "smiles": smi,
+                    "source": src,
+                    "observations": {"umami": 1.0}
+                })
+
+    print(f"[iUmami UMP442] Parsed {len(records)} authentic records.")
+    return records
+
+
+def parse_ibitter() -> List[Dict[str, Any]]:
+    """Dataset 8D: BERT4Bitter / iBitter Benchmark (320 non-bitter, 320 bitter peptides)."""
+    ib_dir = RAW_ROOT / "iumami_benchmark" / "iBitter"
+    records = []
+    if not ib_dir.exists():
+        print(f"[WARN] Not found: {ib_dir}")
+        return records
+
+    neg_files = [("train-negative.fasta", "iBitter_TR_neg"), ("test-negative.fasta", "iBitter_TS_neg")]
+    pos_files = [("train-positive.fasta", "iBitter_TR_pos"), ("test-positive.fasta", "iBitter_TS_pos")]
+
+    for fname, src in neg_files:
+        for seq in _read_fasta_sequences(ib_dir / fname):
+            smi = parse_peptide_sequence(seq)
+            if smi:
+                records.append({
+                    "smiles": smi,
+                    "source": src,
+                    "observations": {"bitter": 0.0}
+                })
+
+    for fname, src in pos_files:
+        for seq in _read_fasta_sequences(ib_dir / fname):
+            smi = parse_peptide_sequence(seq)
+            if smi:
+                records.append({
+                    "smiles": smi,
+                    "source": src,
+                    "observations": {"bitter": 1.0}
+                })
+
+    print(f"[iBitter] Parsed {len(records)} records (320 non-bitter, 320 bitter).")
     return records
 
 
@@ -569,15 +625,85 @@ def parse_specialized_benchmarks() -> List[Dict[str, Any]]:
                 })
 
     # 6. Physiological Grounded Negatives for Trigeminal & Mouthfeel
-    # Simple reference sugars and mineral salts known physiologically to have zero astringency, cooling, heat, or tingling
+    # Expanded library of pure carbohydrates, polyols, mineral salts, clean amino acids,
+    # approved high-potency sweeteners, and food acids known physiologically to elicit zero chemesthetic sensation
     reference_clean_tastants = [
-        "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",  # Sucrose
+        # Pure Monosaccharides & Alditols
+        "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",    # Sucrose
         "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",  # D-Glucose
         "C([C@@H]1[C@@H]([C@@H]([C@H](O1)O)O)O)O",         # D-Fructose
+        "C([C@@H]1[C@@H]([C@@H]([C@@H]([C@H](O1)O)O)O)O)O", # D-Galactose
+        "C([C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O)O)O)O)O",   # D-Mannose
+        "C1[C@H]([C@@H]([C@H]([C@H](O1)O)O)O)O",             # D-Xylose
+        "C1[C@H]([C@@H]([C@@H]([C@H](O1)O)O)O)O",           # L-Arabinose
+        "C1[C@@H]([C@@H]([C@@H]([C@H](O1)O)O)O)O",           # D-Ribose
+        "C([C@@H]1[C@H]([C@H]([C@H](O1)O)O)O)O",            # D-Tagatose
+        "C([C@@H]1[C@@H]([C@H]([C@H](O1)O)O)O)O",           # D-Psicose (Allulose)
+        "C[C@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O)O)O)O",     # L-Rhamnose
+        
+        # Disaccharides & Oligosaccharides
+        "C(C1C(C(C(C(O1)OC2C(C(C(OC2O)CO)O)O)O)O)O)O",      # Lactose
+        "C(C1C(C(C(C(O1)OC2C(C(C(OC2O)CO)O)O)O)O)O)O",      # Maltose
+        "C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O",    # Trehalose
+        "C(C1C(C(C(C(O1)OCC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",   # Isomaltulose (Palatinose)
+        "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",    # Lactulose
+        
+        # Polyols / Sugar Alcohols
+        "C(C(C(CO)O)O)O",                                  # Erythritol
+        "C(C(C(C(CO)O)O)O)O",                              # Xylitol
+        "C(C(C(C(C(CO)O)O)O)O)O",                          # D-Sorbitol
+        "C([C@@H]([C@@H]([C@H]([C@H](CO)O)O)O)O)O",        # D-Mannitol
+        "C(C1C(C(C(C(O1)OCC(C(C(CO)O)O)O)O)O)O)O",        # Maltitol
+        "C1(C(C(C(C(C1O)O)O)O)O)O",                        # myo-Inositol
+        "OCC(O)CO",                                        # Glycerol
+        "CC(O)CO",                                         # Propylene glycol
+        "C([C@@H]([C@H](CO)O)O)O",                         # D-Threitol
+        
+        # Approved High-Potency Clean Sweeteners
+        "COC(=O)[C@H](CC(=O)O)NC(=O)[C@H](Cc1ccccc1)N",     # Aspartame
+        "CC(C)(C)CC(=O)N[C@H](CC(=O)O)C(=O)N[C@@H](Cc1ccccc1)C(=O)OC", # Neotame
+        "O=C1NS(=O)(=O)c2ccccc21",                         # Saccharin
+        "O=S(=O)([O-])NC1CCCCC1.[Na+]",                    # Sodium cyclamate
+        "CC1=CC(=O)N(C(=O)O1)[K+]",                        # Acesulfame-K
+        
+        # Mineral Salts & Non-Trigeminal Buffer Species
         "[Cl-].[Na+]",                                      # NaCl
         "[Cl-].[K+]",                                       # KCl
-        "C(C(C(C(C(CO)O)O)O)O)O",                          # Sorbitol
-        "C(C(C(CO)O)O)O",                                  # Erythritol
+        "[Cl-].[Ca+2].[Cl-]",                               # CaCl2
+        "[Cl-].[Mg+2].[Cl-]",                               # MgCl2
+        "[Na+].[Na+].[O-]S(=O)(=O)[O-]",                    # Na2SO4
+        "[K+].[K+].[O-]S(=O)(=O)[O-]",                      # K2SO4
+        "[Na+].[O-]C(=O)C(O)C(O)C(O)C(O)CO",               # Sodium gluconate
+        "[Na+].[O-]C(=O)C(C)O",                             # Sodium lactate
+        "[Na+].[O-]C(=O)CC(O)(CC(=O)[O-])C(=O)[O-].[Na+].[Na+]", # Trisodium citrate
+        "[K+].[O-]C(=O)C(C)O",                              # Potassium lactate
+        "[K+].[O-]C(=O)CC(O)(CC(=O)[O-])C(=O)[O-].[K+].[K+]", # Tripotassium citrate
+        "[Na+].[O-]C(=O)C",                                 # Sodium acetate
+        "[K+].[O-]C(=O)C",                                  # Potassium acetate
+        
+        # Physiological Clean Amino Acids
+        "NCC(=O)O",                                        # Glycine
+        "CC(N)C(=O)O",                                     # L-Alanine
+        "C(C(C(=O)O)N)O",                                  # L-Serine
+        "CC(C(C(=O)O)N)O",                                 # L-Threonine
+        "C1CC(NC1)C(=O)O",                                 # L-Proline
+        "C(CC(=O)N)C(C(=O)O)N",                            # L-Glutamine
+        "C(C(C(=O)O)N)C(=O)N",                             # L-Asparagine
+        "NCCS(=O)(=O)O",                                   # Taurine
+        "CN(CC(=O)O)C(=N)N",                               # Creatine
+        "C[N+](C)(C)CC(=O)[O-]",                           # Betaine
+        
+        # Clean Food Acids (Non-trigeminal)
+        "OC(=O)CC(O)(CC(=O)O)C(=O)O",                      # Citric acid
+        "OC(=O)CC(O)C(=O)O",                               # L-Malic acid
+        "OC(=O)C(O)C(O)C(=O)O",                            # L-Tartaric acid
+        "CC(O)C(=O)O",                                     # L-Lactic acid
+        "OC(=O)C=CC(=O)O",                                 # Fumaric acid
+        "OC(=O)CCC(=O)O",                                  # Succinic acid
+        "OCC(O)C(O)C(O)C(O)C(=O)O",                        # Gluconic acid
+        "OCC(=O)O",                                        # Glycolic acid
+        "OC(=O)CCCCC(=O)O",                                # Adipic acid
+        "OC(=O)CCCC(=O)O",                                 # Glutaric acid
     ]
     for raw_ref in reference_clean_tastants:
         smi = canonicalize_smiles(raw_ref)
@@ -598,6 +724,210 @@ def parse_specialized_benchmarks() -> List[Dict[str, Any]]:
     return records
 
 
+def parse_bittergnn_assays() -> List[Dict[str, Any]]:
+    """Dataset 14: BitterGNN Assays (bn_train/test and bs_train/test)."""
+    records = []
+    bitter_dir = RAW_ROOT / "peptides_heyigacu" / "bittergnn" / "dataset" / "taste_dataset"
+
+    # 1. Bitter vs Non-Bitter (Label: 1 = Bitter, 0 = Non-Bitter)
+    for fname in ["bn_train.csv", "bn_test.csv"]:
+        p = bitter_dir / "bitter_nonbitter" / fname
+        if p.exists():
+            df = pd.read_csv(p, sep="\t")
+            for _, row in df.iterrows():
+                smi = canonicalize_smiles(row.get("Smiles"))
+                if not smi:
+                    continue
+                lbl = float(row.get("Label", 0))
+                obs = {"bitter": 1.0 if lbl == 1.0 else 0.0}
+                if lbl == 1.0:
+                    obs["sweet"] = 0.0
+                records.append({
+                    "smiles": smi,
+                    "source": f"BitterGNN_{fname[:2]}",
+                    "observations": obs
+                })
+
+    # 2. Bitter vs Sweet (Label: 1 = Bitter, 0 = Sweet)
+    for fname in ["bs_train.csv", "bs_test.csv"]:
+        p = bitter_dir / "bitter_sweet" / fname
+        if p.exists():
+            df = pd.read_csv(p, sep="\t")
+            for _, row in df.iterrows():
+                smi = canonicalize_smiles(row.get("Smiles"))
+                if not smi:
+                    continue
+                lbl = float(row.get("Label", 0))
+                # Label 1 is bitter (and not sweet), Label 0 is sweet (and not bitter)
+                obs = {
+                    "bitter": 1.0 if lbl == 1.0 else 0.0,
+                    "sweet": 0.0 if lbl == 1.0 else 1.0,
+                }
+                records.append({
+                    "smiles": smi,
+                    "source": f"BitterGNN_{fname[:2]}",
+                    "observations": obs
+                })
+
+    print(f"[BitterGNN Assays] Parsed {len(records)} records.")
+    return records
+
+
+def parse_n6512_bitter_screen() -> List[Dict[str, Any]]:
+    """Dataset 15: N6512 Bitter vs Non-Bitter Public Screen (Label: 1 = Bitter, 0 = Non-Bitter)."""
+    path = RAW_ROOT / "peptides_heyigacu" / "bittergnn" / "dataset" / "public_dataset" / "classification" / "N6512.csv"
+    records = []
+    if not path.exists():
+        return records
+
+    df = pd.read_csv(path, sep="\t")
+    for _, row in df.iterrows():
+        smi = canonicalize_smiles(row.get("Smiles"))
+        if not smi:
+            continue
+        lbl = float(row.get("Label", 0))
+        obs = {"bitter": 1.0 if lbl == 1.0 else 0.0}
+        if lbl == 1.0:
+            obs["sweet"] = 0.0
+        records.append({
+            "smiles": smi,
+            "source": "N6512_BitterScreen",
+            "observations": obs
+        })
+
+    print(f"[N6512 Screen] Parsed {len(records)} records.")
+    return records
+
+
+def parse_jecfa_fema_tasteless() -> List[Dict[str, Any]]:
+    """Dataset 16: FEMA GRAS & JECFA Tasteless Matrix Carriers (Multimodal Class 0)."""
+    path = RAW_ROOT / "jecfa_db" / "jecfa_fema_tasteless_matrix.csv"
+    records = []
+    if not path.exists():
+        return records
+    df = pd.read_csv(path)
+    for _, row in df.iterrows():
+        smi = canonicalize_smiles(row.get("smiles"))
+        if not smi:
+            continue
+        # Verified organoleptically neutral/tasteless across basic tastes + chemesthesis
+        obs = {
+            "sweet": 0.0,
+            "bitter": 0.0,
+            "sour": 0.0,
+            "salty": 0.0,
+            "umami": 0.0,
+            "kokumi": 0.0,
+            "astringent": 0.0,
+            "cooling": 0.0,
+            "heat": 0.0,
+            "pungency": 0.0,
+            "tingling": 0.0,
+        }
+        records.append({
+            "smiles": smi,
+            "source": "FEMA_JECFA_Tasteless_Matrix",
+            "observations": obs,
+        })
+    print(f"[FEMA/JECFA Tasteless] Parsed {len(records)} records.")
+    return records
+
+
+def parse_pubchem_chemesthesis_inactives() -> List[Dict[str, Any]]:
+    """Dataset 17: PubChem High-Throughput Screening Inactives for TRPA1, TRPV1, TRPM8, ENaC."""
+    records = []
+    sources = [
+        (RAW_ROOT / "chemesthesis_trpa1" / "pubchem_trpa1_inactives.csv", "pungency", "PubChem_TRPA1_Inactive"),
+        (RAW_ROOT / "chemesthesis_trpv1" / "pubchem_trpv1_inactives.csv", "heat", "PubChem_TRPV1_Inactive"),
+        (RAW_ROOT / "cooling_trpm8" / "pubchem_trpm8_inactives.csv", "cooling", "PubChem_TRPM8_Inactive"),
+        (RAW_ROOT / "cooling_trpm8" / "chembl_trpm8_inactives.csv", "cooling", "ChEMBL_TRPM8_Inactive"),
+        (RAW_ROOT / "enac_salty" / "pubchem_enac_inactives.csv", "salty", "PubChem_ENaC_Inactive"),
+    ]
+    for path, channel, src_name in sources:
+        if not path.exists():
+            continue
+        df = pd.read_csv(path)
+        count = 0
+        for _, row in df.iterrows():
+            smi = canonicalize_smiles(row.get("smiles"))
+            if not smi:
+                continue
+            records.append({
+                "smiles": smi,
+                "source": src_name,
+                "observations": {channel: 0.0}
+            })
+            count += 1
+        print(f"[{src_name}] Parsed {count} inactives for {channel}.")
+    return records
+
+
+def parse_chembl_receptor_inactives() -> List[Dict[str, Any]]:
+    """Dataset 18: ChEMBL Verified Receptor Inactives (CaSR -> Kokumi, TASK-1 -> Tingling)."""
+    records = []
+    sources = [
+        (RAW_ROOT / "chembl_receptors" / "chembl_casr_inactives.csv", "kokumi", "ChEMBL_CaSR_Inactive"),
+        (RAW_ROOT / "chembl_receptors" / "chembl_k2p_inactives.csv", "tingling", "ChEMBL_K2P_Inactive"),
+    ]
+    for path, channel, src_name in sources:
+        if not path.exists():
+            continue
+        df = pd.read_csv(path)
+        count = 0
+        for _, row in df.iterrows():
+            smi = canonicalize_smiles(row.get("smiles"))
+            if not smi:
+                continue
+            records.append({
+                "smiles": smi,
+                "source": src_name,
+                "observations": {channel: 0.0}
+            })
+            count += 1
+        print(f"[{src_name}] Parsed {count} inactives for {channel}.")
+    return records
+
+
+def parse_otop1_sour_inactives() -> List[Dict[str, Any]]:
+    """Dataset 19: OTOP1 Proton Channel Sour Inactives (Tu et al. Science 2018)."""
+    path = RAW_ROOT / "acid_sourness_speciation" / "otop1_sour_inactives.csv"
+    records = []
+    if not path.exists():
+        return records
+    df = pd.read_csv(path)
+    for _, row in df.iterrows():
+        smi = canonicalize_smiles(row.get("smiles"))
+        if not smi:
+            continue
+        records.append({
+            "smiles": smi,
+            "source": "OTOP1_Sour_Inactive",
+            "observations": {"sour": 0.0}
+        })
+    print(f"[OTOP1 Sour Inactives] Parsed {len(records)} records.")
+    return records
+
+
+def parse_salivary_prp_inactives() -> List[Dict[str, Any]]:
+    """Dataset 20: Salivary PRP Non-Precipitating Monomeric Phenolics (Charlton / Hofmann)."""
+    path = RAW_ROOT / "astringent_prp" / "salivary_prp_inactives.csv"
+    records = []
+    if not path.exists():
+        return records
+    df = pd.read_csv(path)
+    for _, row in df.iterrows():
+        smi = canonicalize_smiles(row.get("smiles"))
+        if not smi:
+            continue
+        records.append({
+            "smiles": smi,
+            "source": "Salivary_PRP_Inactive",
+            "observations": {"astringent": 0.0}
+        })
+    print(f"[Salivary PRP Inactives] Parsed {len(records)} records.")
+    return records
+
+
 def ingest_all_singles() -> pd.DataFrame:
     """Run all singles parsers, merge by canonical SMILES, compute channel-wise mean and mask."""
     deriv_dict = load_tpdb_derivatives_map()
@@ -612,9 +942,17 @@ def ingest_all_singles() -> pd.DataFrame:
     all_records.extend(parse_umamimeta())
     all_records.extend(parse_virtuous_umami())
     all_records.extend(parse_iumami_benchmark())
+    all_records.extend(parse_ibitter())
     all_records.extend(parse_sensoproteomics_singles())
     all_records.extend(parse_chembl_receptors())
+    all_records.extend(parse_chembl_receptor_inactives())
+    all_records.extend(parse_pubchem_chemesthesis_inactives())
+    all_records.extend(parse_otop1_sour_inactives())
+    all_records.extend(parse_salivary_prp_inactives())
+    all_records.extend(parse_jecfa_fema_tasteless())
     all_records.extend(parse_specialized_benchmarks())
+    all_records.extend(parse_bittergnn_assays())
+    all_records.extend(parse_n6512_bitter_screen())
 
     print(f"\n[Aggregation] Total raw observations gathered: {len(all_records)}")
 

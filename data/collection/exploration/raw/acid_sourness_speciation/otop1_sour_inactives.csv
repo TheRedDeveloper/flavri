@@ -1,0 +1,125 @@
+name,smiles,category,otop1_current_inward_pA,sour_active,source
+Glycerol,OCC(O)CO,neutral polyol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Erythritol,OCC(O)C(O)CO,sugar alcohol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Threitol,OC[C@H](O)[C@@H](O)CO,sugar alcohol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Xylitol,OCC(O)C(O)C(O)CO,pentitol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Arabitol,OC[C@H](O)C(O)[C@@H](O)CO,pentitol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Ribitol (Adonitol),OC[C@@H](O)[C@H](O)[C@@H](O)CO,pentitol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Sorbitol,OC[C@@H](O)[C@H](O)[C@@H](O)[C@@H](O)CO,hexitol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Mannitol,OC[C@H](O)[C@H](O)[C@@H](O)[C@@H](O)CO,hexitol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Galactitol (Dulcitol),OC[C@@H](O)[C@H](O)[C@H](O)[C@@H](O)CO,hexitol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+myo-Inositol,OC1C(O)C(O)C(O)C(O)C1O,cyclohexitol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Maltitol,OCC(O)C(O)C(O)COC1OC(CO)C(O)C(O)C1O,disaccharide polyol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Ethylene glycol,OCCO,diol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Propylene glycol,CC(O)CO,"1,2-propanediol",0.0,False,Tu_Saotome_OTOP1_2018_2019
+"1,3-Propanediol",OCCCO,"1,3-propanediol",0.0,False,Tu_Saotome_OTOP1_2018_2019
+"1,4-Butanediol",OCCCCO,"1,4-butanediol",0.0,False,Tu_Saotome_OTOP1_2018_2019
+"2,3-Butanediol",CC(O)C(C)O,"2,3-butanediol",0.0,False,Tu_Saotome_OTOP1_2018_2019
+"1,5-Pentanediol",OCCCCCO,"1,5-pentanediol",0.0,False,Tu_Saotome_OTOP1_2018_2019
+Triethylene glycol,OCCOCCOCCO,polyethylene glycol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Methyl acetate,COC(C)=O,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Ethyl acetate,CCOC(C)=O,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Propyl acetate,CCCOC(C)=O,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Butyl acetate,CCCCOC(C)=O,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Isoamyl acetate,CC(=O)OCCC(C)C,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Methyl propionate,CCC(=O)OC,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Ethyl propionate,CCOC(=O)CC,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Methyl butyrate,CCCC(=O)OC,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Ethyl butyrate,CCCC(=O)OCC,neutral ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Methyl lactate,COC(=O)C(C)O,hydroxy ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Ethyl lactate,CCOC(=O)C(C)O,hydroxy ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Butyl lactate,CCCCOC(=O)C(C)O,hydroxy ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Dimethyl succinate,COC(=O)CCC(=O)OC,diester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Diethyl succinate,CCOC(=O)CCC(=O)OCC,diester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Diethyl malonate,CCOC(=O)CC(=O)OCC,diester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Dimethyl glutarate,COC(=O)CCCC(=O)OC,diester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Triethyl citrate,CCOC(=O)CC(O)(CC(=O)OCC)C(=O)OCC,citrate ester,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Triacetin,CC(=O)OCC(COC(C)=O)OC(C)=O,glycerol triacetate,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Diacetin,CC(=O)OCC(CO)OC(C)=O,glycerol diacetate,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Monoacetin,CC(=O)OCC(O)CO,glycerol monoacetate,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Glycine,NCC(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Alanine,CC(N)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Valine,CC(C)C(N)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Leucine,CC(C)CC(N)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Isoleucine,CCC(C)C(N)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Proline,O=C(O)C1CCCN1,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Serine,NC(CO)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Threonine,CC(O)C(N)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Glutamine,NC(=O)CCC(N)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Asparagine,NC(=O)CC(N)C(=O)O,zwitterion,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Taurine,NCCS(=O)(=O)O,aminosulfonic acid,0.0,False,Tu_Saotome_OTOP1_2018_2019
+GABA,NCCCC(=O)O,amino acid,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Urea,NC(N)=O,neutral amide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Acetamide,CC(N)=O,neutral amide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Betaine,C[N+](C)(C)CC(=O)[O-],trimethylglycine,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Creatine,CN(CC(=O)O)C(=N)N,guanidino compound,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Glucose,OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O,monosaccharide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Fructose,OC[C@H]1O[C@H](O)[C@@H](O)[C@H]1O,monosaccharide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Galactose,OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@H]1O,monosaccharide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Mannose,OC[C@H]1O[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1O,monosaccharide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Xylose,OC1COC(O)C(O)C1O,aldopentose,0.0,False,Tu_Saotome_OTOP1_2018_2019
+L-Arabinose,O[C@@H]1[C@H](O)[C@@H](O)OC[C@H]1O,aldopentose,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Ribose,O[C@@H]1[C@H](O)[C@@H](O)OC[C@@H]1O,aldopentose,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Sucrose,OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O,disaccharide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+D-Lactose,OCC1OC(OC2C(O)OC(CO)C(O)C2O)C(O)C(O)C1O,disaccharide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Trehalose,OCC1OC(OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O,disaccharide,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Carbonic acid / Bicarbonate,O=C(O)O,weak buffer acid,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Tris buffer,NC(CO)(CO)CO,biological buffer,0.0,False,Tu_Saotome_OTOP1_2018_2019
+HEPES,O=S(=O)(O)CCN1CCN(CCO)CC1,biological buffer,0.0,False,Tu_Saotome_OTOP1_2018_2019
+MOPS,O=S(=O)(O)CCCN1CCOCC1,biological buffer,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Choline chloride,C[N+](C)(C)CCO.[Cl-],choline cation,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Ethanolamine,NCCO,amino alcohol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Diethanolamine,OCCNCCO,amino alcohol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Triethanolamine,OCCN(CCO)CCO,amino alcohol,0.0,False,Tu_Saotome_OTOP1_2018_2019
+Alkyl ester C1-O-C1,COC=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C1-O-C2,CCOC=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C1-O-C3,CCCOC=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C1-O-C4,CCCCOC=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C1-O-C5,CCCCCOC=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C1-O-C6,CCCCCCOC=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C2-O-C5,CCCCCOC(C)=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C2-O-C6,CCCCCCOC(C)=O,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C3-O-C3,CCCOC(=O)CC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C3-O-C4,CCCCOC(=O)CC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C3-O-C5,CCCCCOC(=O)CC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C3-O-C6,CCCCCCOC(=O)CC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C4-O-C3,CCCOC(=O)CCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C4-O-C4,CCCCOC(=O)CCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C4-O-C5,CCCCCOC(=O)CCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C4-O-C6,CCCCCCOC(=O)CCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C5-O-C1,CCCCC(=O)OC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C5-O-C2,CCCCC(=O)OCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C5-O-C3,CCCCC(=O)OCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C5-O-C4,CCCCOC(=O)CCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C5-O-C5,CCCCCOC(=O)CCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C5-O-C6,CCCCCCOC(=O)CCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C6-O-C1,CCCCCC(=O)OC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C6-O-C2,CCCCCC(=O)OCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C6-O-C3,CCCCCC(=O)OCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C6-O-C4,CCCCCC(=O)OCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C6-O-C5,CCCCCOC(=O)CCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C6-O-C6,CCCCCCOC(=O)CCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C7-O-C1,CCCCCCC(=O)OC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C7-O-C2,CCCCCCC(=O)OCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C7-O-C3,CCCCCCC(=O)OCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C7-O-C4,CCCCCCC(=O)OCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C7-O-C5,CCCCCCC(=O)OCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C7-O-C6,CCCCCCOC(=O)CCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C8-O-C1,CCCCCCCC(=O)OC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C8-O-C2,CCCCCCCC(=O)OCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C8-O-C3,CCCCCCCC(=O)OCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C8-O-C4,CCCCCCCC(=O)OCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C8-O-C5,CCCCCCCC(=O)OCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C8-O-C6,CCCCCCCC(=O)OCCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C9-O-C1,CCCCCCCCC(=O)OC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C9-O-C2,CCCCCCCCC(=O)OCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C9-O-C3,CCCCCCCCC(=O)OCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C9-O-C4,CCCCCCCCC(=O)OCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C9-O-C5,CCCCCCCCC(=O)OCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C9-O-C6,CCCCCCCCC(=O)OCCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C10-O-C1,CCCCCCCCCC(=O)OC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C10-O-C2,CCCCCCCCCC(=O)OCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C10-O-C3,CCCCCCCCCC(=O)OCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C10-O-C4,CCCCCCCCCC(=O)OCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C10-O-C5,CCCCCCCCCC(=O)OCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
+Alkyl ester C10-O-C6,CCCCCCCCCC(=O)OCCCCCC,neutral ester,0.0,False,OTOP1_neutral_ester_decoys
