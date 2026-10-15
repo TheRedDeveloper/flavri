@@ -29,7 +29,7 @@ if str(REPO_ROOT) not in sys.path:
 from flavri.constants import NUM_CHANNELS
 from flavri.models import FlavriMultimodalModel
 from flavri.losses import FlavriMultimodalLoss, FlavriSinglesLoss, ChemicalReconstructionLoss
-from flavri.data import FlavriPairsDataset, PairsCollator, FlavriSinglesDataset, SinglesCollator
+from flavri.data import FlavriPairsDataset, PairsCollator, FlavriSinglesDataset, SinglesCollator, ScaffoldDiverseModalitySampler
 from flavri.evaluate import evaluate_pairs, evaluate_singles
 
 console = Console()
@@ -118,10 +118,15 @@ def main():
         collate_fn=pair_test_collator,
         num_workers=args.num_workers,
     )
-    singles_train_loader = DataLoader(
-        singles_train_dataset,
+    singles_train_sampler = ScaffoldDiverseModalitySampler(
+        singles_train_csv,
         batch_size=args.batch_size,
         shuffle=True,
+        seed=args.seed,
+    )
+    singles_train_loader = DataLoader(
+        singles_train_dataset,
+        batch_sampler=singles_train_sampler,
         collate_fn=singles_collator,
         num_workers=args.num_workers,
     )

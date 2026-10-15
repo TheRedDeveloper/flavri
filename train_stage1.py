@@ -28,7 +28,7 @@ if str(REPO_ROOT) not in sys.path:
 from flavri.constants import NUM_CHANNELS
 from flavri.models import FlavriMultimodalModel
 from flavri.losses import FlavriSinglesLoss, ChemicalReconstructionLoss
-from flavri.data import FlavriSinglesDataset, SinglesCollator
+from flavri.data import FlavriSinglesDataset, SinglesCollator, ScaffoldDiverseModalitySampler
 from flavri.evaluate import evaluate_singles
 
 console = Console()
@@ -87,10 +87,15 @@ def main():
     console.print(f"[bold green]Datasets loaded:[/bold green] {len(train_dataset):,} train molecules, {len(test_dataset):,} test holdout molecules.")
 
     collator = SinglesCollator(device=device)
-    train_loader = DataLoader(
-        train_dataset,
+    train_sampler = ScaffoldDiverseModalitySampler(
+        train_csv,
         batch_size=args.batch_size,
         shuffle=True,
+        seed=args.seed,
+    )
+    train_loader = DataLoader(
+        train_dataset,
+        batch_sampler=train_sampler,
         collate_fn=collator,
         num_workers=args.num_workers,
     )
