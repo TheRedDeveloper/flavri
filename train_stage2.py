@@ -49,6 +49,12 @@ def parse_args():
     parser.add_argument("--depth", type=int, default=6, help="D-MPNN depth")
     parser.add_argument("--stage1_ckpt", type=str, default="checkpoints/stage1/best_model.pt", help="Stage 1 model path")
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage2", help="Checkpoint directory")
+    parser.add_argument("--use_pcgrad", action="store_true", default=True, help="Enable Projecting Conflicting Gradients between mixture and singles tasks")
+    parser.add_argument("--no_pcgrad", action="store_false", dest="use_pcgrad", help="Disable PCGrad")
+    parser.add_argument("--scheduler", type=str, default="warm_restarts", choices=["warm_restarts", "cosine"], help="LR scheduler")
+    parser.add_argument("--t_0", type=int, default=15, help="T_0 period for warm restarts")
+    parser.add_argument("--t_mult", type=int, default=2, help="T_mult factor for warm restarts")
+    parser.add_argument("--min_lr", type=float, default=1e-6, help="Minimum learning rate")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--num_workers", type=int, default=0, help="DataLoader workers")
     parser.add_argument("--dry_run", action="store_true", help="Run 1 quick epoch to verify end-to-end pipeline")
@@ -158,7 +164,12 @@ def main():
     ]
     optimizer = torch.optim.AdamW(param_groups, weight_decay=args.weight_decay)
     epochs = 1 if args.dry_run else args.epochs
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=1e-6)
+    if args.scheduler == "warm_restarts":
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(
+            optimizer, T_0=args.t_0, T_mult=args.t_mult, eta_min=args.min_lr
+        )
+    else:
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=args.min_lr)
 
     mix_loss_fn = FlavriMultimodalLoss(mix_neg_weight=0.2)
     singles_loss_fn = FlavriSinglesLoss(rank_weight=0.5, hier_weight=0.1, antag_weight=0.05, device=device).to(device)
@@ -268,16 +279,43 @@ def main():
                 z_unique = model.encode(unique_graphs)
                 id_loss = model.synergy_head.compute_identity_penalty(z_unique)
 
-                total_loss = (
-                    mix_loss
-                    + args.single_weight * single_loss
-                    + args.aux_chem_weight * chem_loss
-                    + args.id_reg_weight * id_loss
-                )
+                task_mixture = mix_loss + args.id_reg_weight * id_loss
+                task_singles = args.single_weight * single_loss + args.aux_chem_weight * chem_loss
+                total_loss = task_mixture + task_singles
 
-                total_loss.backward()
-                nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-                optimizer.step()
+                if args.use_pcgrad:
+                    # PCGrad: project conflicting gradients between mixture & singles tasks
+                    params = [p for p in model.parameters() if p.requires_grad]
+                    g_mix = torch.autograd.grad(task_mixture, params, retain_graph=True, allow_unused=True)
+                    g_sng = torch.autograd.grad(task_singles, params, retain_graph=False, allow_unused=True)
+
+                    g_mix_flat = torch.cat([g.contiguous().view(-1) if g is not None else torch.zeros_like(p).view(-1) for g, p in zip(g_mix, params)])
+                    g_sng_flat = torch.cat([g.contiguous().view(-1) if g is not None else torch.zeros_like(p).view(-1) for g, p in zip(g_sng, params)])
+
+                    dot = torch.dot(g_mix_flat, g_sng_flat)
+                    if dot < 0:
+                        # Conflicting gradients: project onto normal planes
+                        g_mix_proj = g_mix_flat - (dot / (torch.norm(g_sng_flat) ** 2 + 1e-8)) * g_sng_flat
+                        g_sng_proj = g_sng_flat - (dot / (torch.norm(g_mix_flat) ** 2 + 1e-8)) * g_mix_flat
+                    else:
+                        g_mix_proj = g_mix_flat
+                        g_sng_proj = g_sng_flat
+
+                    g_merged = g_mix_proj + g_sng_proj
+
+                    # Assign projected gradients directly to model parameters
+                    offset = 0
+                    for p in params:
+                        numel = p.numel()
+                        p.grad = g_merged[offset : offset + numel].view_as(p).clone()
+                        offset += numel
+
+                    nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+                    optimizer.step()
+                else:
+                    total_loss.backward()
+                    nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+                    optimizer.step()
 
                 batch_loss = total_loss.item()
                 train_loss_accum += batch_loss

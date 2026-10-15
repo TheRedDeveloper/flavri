@@ -40,8 +40,8 @@ def main():
     parser.add_argument(
         "--checkpoint",
         type=str,
-        default="checkpoints/stage2/best_model.pt",
-        help="Path to checkpoint to evaluate (e.g. checkpoints/stage2/best_model.pt or checkpoints/stage2/swa_model.pt)"
+        default="checkpoints/stage3/swa_model.pt",
+        help="Path to checkpoint to evaluate (e.g. checkpoints/stage1/best_model.pt, checkpoints/stage2/best_model.pt, or checkpoints/stage3/swa_model.pt)"
     )
     args = parser.parse_args()
 

@@ -245,18 +245,21 @@ class FlavriSinglesLoss(nn.Module):
 class FlavriMultimodalLoss(nn.Module):
     """
     FLAVRI 2.0 Mixture Synergy & Blend Loss:
-    - Huber on continuous taste deltas.
+    - Continuous Huber regression directly on taste & odor synergy deltas to ensure
+      linear correlation (Pearson r) and magnitude ranking.
     - Calibrated BCE on composite blend profiles with negative attenuation.
     """
     def __init__(
         self,
         mix_neg_weight: float = 0.2,
+        odor_delta_weight: float = 0.5,
         eps: float = 1e-7,
         num_taste: int = NUM_TASTE,
         num_odor: int = NUM_ODOR,
     ):
         super().__init__()
         self.mix_neg_weight = mix_neg_weight
+        self.odor_delta_weight = odor_delta_weight
         self.eps = eps
         self.num_taste = num_taste
         self.num_odor = num_odor
@@ -273,7 +276,7 @@ class FlavriMultimodalLoss(nn.Module):
         B, C = pred_probs.shape
         device = pred_probs.device
 
-        # 1. Classification BCE loss for odor blend profiles
+        # 1. Classification BCE loss for blend profiles
         t_bce = targets.clamp(min=0.0, max=1.0)
         p = pred_probs.clamp(min=self.eps, max=1.0 - self.eps)
         pos_loss = -t_bce * torch.log(p)
@@ -289,7 +292,7 @@ class FlavriMultimodalLoss(nn.Module):
 
         bce_loss = pos_loss + neg_weight * neg_loss
 
-        # 2. Continuous Huber loss for taste deltas
+        # 2. Continuous Huber loss for synergy deltas
         delta_tgt = deltas_true if deltas_true is not None else targets
         huber_loss = F.smooth_l1_loss(pred_deltas, delta_tgt, beta=0.1, reduction="none")
 
@@ -297,7 +300,11 @@ class FlavriMultimodalLoss(nn.Module):
         taste_mask[:self.num_taste] = True
         mix_taste_mask = is_mix_expanded & taste_mask.unsqueeze(0)
 
-        raw_loss = torch.where(mix_taste_mask, huber_loss, bce_loss)
+        # For taste mixture channels: Huber loss on delta
+        # For odor mixture channels: BCE blend classification + odor_delta_weight * Huber delta regression
+        odor_combined = bce_loss + self.odor_delta_weight * huber_loss
+        raw_loss = torch.where(mix_taste_mask, huber_loss, odor_combined)
+
         masked_loss = raw_loss * masks
         active_counts = masks.sum(dim=-1).clamp(min=1.0)
         return (masked_loss.sum(dim=-1) / active_counts).mean()

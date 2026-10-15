@@ -44,6 +44,10 @@ def parse_args():
     parser.add_argument("--depth", type=int, default=6, help="D-MPNN depth")
     parser.add_argument("--stage0_ckpt", type=str, default="checkpoints/stage0/best_model.pt", help="Stage 0 pre-trained weights")
     parser.add_argument("--aux_chem_weight", type=float, default=0.05, help="Weight for persistent chemical reconstruction loss")
+    parser.add_argument("--scheduler", type=str, default="warm_restarts", choices=["warm_restarts", "cosine"], help="LR scheduler")
+    parser.add_argument("--t_0", type=int, default=15, help="T_0 period for warm restarts")
+    parser.add_argument("--t_mult", type=int, default=2, help="T_mult factor for warm restarts")
+    parser.add_argument("--min_lr", type=float, default=1e-5, help="Minimum learning rate")
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage1", help="Checkpoint directory")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--num_workers", type=int, default=0, help="DataLoader workers")
@@ -129,7 +133,12 @@ def main():
     optimizer = torch.optim.AdamW(stage1_params, lr=args.lr, weight_decay=args.weight_decay)
 
     epochs = 1 if args.dry_run else args.epochs
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=1e-5)
+    if args.scheduler == "warm_restarts":
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(
+            optimizer, T_0=args.t_0, T_mult=args.t_mult, eta_min=args.min_lr
+        )
+    else:
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=args.min_lr)
     loss_fn = FlavriSinglesLoss(rank_weight=0.5, hier_weight=0.1, antag_weight=0.05, device=device).to(device)
     chem_loss_fn = ChemicalReconstructionLoss(device=device)
 

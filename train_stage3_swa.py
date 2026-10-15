@@ -52,7 +52,7 @@ def parse_args():
     parser.add_argument("--hidden_dim", type=int, default=384, help="Hidden dimension")
     parser.add_argument("--depth", type=int, default=6, help="D-MPNN depth")
     parser.add_argument("--stage2_ckpt", type=str, default="checkpoints/stage2/best_model.pt", help="Stage 2 input checkpoint")
-    parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage2", help="Checkpoint directory")
+    parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage3", help="Checkpoint directory for Stage 3 SWA")
     parser.add_argument("--output_name", type=str, default="swa_model.pt", help="SWA checkpoint output name")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--num_workers", type=int, default=0, help="DataLoader workers")
