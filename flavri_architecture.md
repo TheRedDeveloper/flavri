@@ -287,28 +287,32 @@ When assembling a batch of $B_{\text{pairs}}$ pairs:
 
 ## 7. Current Benchmark State & Historical Progression
 
-The benchmark evaluation across zero-leakage holdout test sets (`singles_test.csv` [2,570 molecules] and `pair_test.csv` [11,037 pairs]):
+The benchmark evaluation across zero-leakage holdout test sets (FLAVORI 0.2–0.6: `singles_test.csv` [2,570 molecules], `pair_test.csv` [11,037 pairs]; FLAVORI 0.7: expanded `singles_test.csv` [2,823 molecules], `pair_test.csv` [8,638 pairs]):
 
-| Chemosensory Modality | Metric | AROMMA | FLAVORI 0.2 | FLAVORI 0.3 | FLAVORI 0.4 | FLAVORI 0.5 (Training) |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Taste (Multimodal)** | **Taste Macro AUROC** | Not Supported | 0.9125 | **0.9165** | 0.9123 | *In Progress* |
-| *Taste breakdown* | *Kokumi* | N/A | **0.9388** | 0.9380 | 0.9362 | *In Progress* |
-| | *Astringent* | N/A | **0.8768** | 0.8614 | 0.8327 | *In Progress* |
-| | *Cooling (Trigeminal)* | N/A | **0.9965** | 0.9584 | 0.9723 | *In Progress* |
-| | *Heat (Trigeminal)* | N/A | 0.9905 | **0.9949** | 0.9942 | *In Progress* |
-| | *Bitter* | N/A | 0.6671 | **0.6729** | 0.6609 | *In Progress (Target: 0.85+)* |
-| | *Sour* | N/A | 0.8924 | **0.9637** | 0.9343 | *In Progress* |
-| | *Salty* | N/A | 0.9031 | 0.9873 | **0.9918** | *In Progress* |
-| | *Umami* | N/A | 0.9900 | **0.9925** | 0.9913 | *In Progress* |
-| | *Sweet* | N/A | **0.7827** | 0.7124 | 0.7222 | *In Progress* |
-| **Singles: Odor Perception** | **Odor Micro AUROC** | 0.9480 | 0.9423 | **0.9712** | 0.9176 | *In Progress* |
-| | **Odor Macro AUROC** | 0.9281 | 0.9258 | **0.9676** | 0.8997 | *In Progress* |
-| | **Odor Top-5 Precision** | 0.4907 | 0.6649 | **0.6738** | 0.6524 | *In Progress* |
-| **Mixture: Half-Cold (10,441 pairs)** | **Blend MAE (Lower is better)** | **0.0380** | 0.3309 | 0.2245 | 0.0503 | *In Progress* |
-| | **Direction Accuracy** | **90.53%** | 35.79% | 46.65% | 84.19% | *In Progress* |
-| | **Pearson r** | 0.4194 | **0.6223** | 0.3576 | 0.5356 | *In Progress* |
-| | **Spearman rho** | 0.2688 | **0.3025** | 0.2387 | 0.2992 | *In Progress* |
-| **Mixture: Double-Cold (596 pairs)** | **Blend MAE (Lower is better)** | **0.0382** | 0.3305 | 0.2186 | 0.0529 | *In Progress* |
-| | **Direction Accuracy** | **90.62%** | 35.43% | 47.94% | 82.18% | *In Progress* |
-| | **Pearson r** | 0.4261 | **0.6143** | 0.3491 | 0.5135 | *In Progress* |
-| | **Spearman rho** | 0.2679 | **0.2952** | 0.2353 | 0.2864 | *In Progress* |
+| Chemosensory Modality | Metric | AROMMA | FLAVORI 0.2 | FLAVORI 0.3 | FLAVORI 0.4 | FLAVORI 0.5 | FLAVORI 0.6 | FLAVORI 0.7 |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Taste (Multimodal)** | **Taste Macro AUROC** | Not Supported | 0.8824 * | 0.9035 * | 0.9085 * | **0.9613** | 0.9358 | 0.8957 |
+| *Taste breakdown* | *Kokumi* | N/A | 0.9430 * | 0.9605 * | 0.9641 * | **0.9943** | 0.9837 | 0.9420 |
+| | *Astringent* | N/A | 0.9430 * | **0.9695** * | **0.9695** * | 0.9655 | 0.9183 | 0.8917 |
+| | *Cooling (Trigeminal)* | N/A | 0.9610 * | 0.9677 * | 0.9609 * | 0.9610 | **0.9740** | 0.8570 |
+| | *Heat (Trigeminal)* | N/A | 0.9920 * | 0.9810 * | 0.9810 * | 0.9854 | 0.9876 | **0.9962** |
+| | *Bitter* | N/A | 0.8600 * | 0.8812 * | **0.8874** * | 0.8546 | 0.8362 | 0.8443 |
+| | *Sour* | N/A | 0.8700 * | 0.8733 * | 0.8709 * | **0.9524** | 0.9080 | 0.8796 |
+| | *Salty* | N/A | 0.8900 * | 0.8904 * | 0.9171 * | **1.0000** | 0.9979 | 0.9741 |
+| | *Umami* | N/A | 0.8500 * | 0.8604 * | 0.8641 * | **0.9165** | 0.8355 | 0.8578 |
+| | *Sweet* | N/A | 0.7200 * | 0.7472 * | 0.7615 * | **0.9632** | 0.9582 | 0.9468 |
+| **Singles: Odor Perception** | **Odor Micro AUROC** | **0.9329** | 0.7890 | 0.8619 | 0.8055 | 0.8067 | 0.8034 | 0.7724 ** |
+| | **Odor Macro AUROC** | **0.8946** | 0.7354 | 0.8043 | 0.7470 | 0.7509 | 0.7296 | 0.7250 ** |
+| | **Odor Top-5 Precision** | **0.4632** | 0.4012 | 0.4016 | 0.4081 | 0.4032 | 0.3960 | 0.3279 ** |
+| **Mixture: Half-Cold** | **Blend MAE (Lower is better)** | **0.0144** | 0.3387 | 0.2231 | 0.0652 | 0.0582 | 0.0556 | 0.0648 |
+| | **Direction Accuracy** | **94.93%** | 31.69% | 42.17% | 75.44% | 77.57% | 76.92% | 70.89% |
+| | **Pearson r** | **0.7293** | 0.5472 | 0.3069 | 0.4305 | 0.4247 | 0.4478 | 0.4118 |
+| | **Spearman rho** | **0.9106** | 0.2709 | 0.2054 | 0.2556 | 0.2669 | 0.2677 | 0.2647 |
+| **Mixture: Double-Cold** | **Blend MAE (Lower is better)** | **0.0146** | 0.3452 | 0.2154 | 0.0875 | 0.0761 | 0.0667 | 0.0729 |
+| | **Direction Accuracy** | **94.51%** | 26.83% | 37.57% | 64.79% | 66.62% | 68.60% | 65.08% |
+| | **Pearson r** | **0.7070** | 0.4456 | 0.2442 | 0.3145 | 0.3338 | 0.3512 | 0.3719 |
+| | **Spearman rho** | **0.9047** | 0.2289 | 0.1663 | 0.2037 | 0.2204 | 0.2298 | 0.2466 |
+
+*\* Denotes taste metrics evaluated on the historical pre-expansion test set (prior to the addition of confirmed negative/tasteless molecules in FLAVORI 0.5).*
+*\*\* Denotes odor singles metrics evaluated on the wider expanded dataset (TGSC + Leffingwell + MMD + OlfactionBase with 8,046 odor-active molecules).*
+

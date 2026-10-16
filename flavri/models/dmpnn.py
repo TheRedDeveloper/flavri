@@ -20,7 +20,7 @@ class MultiHeadAttentivePooling(nn.Module):
     extracting distinct structural motifs (e.g. heteroatom centers, aromatic rings, alkyl chains).
     Concatenates heads and projects to hidden_dim.
     """
-    def __init__(self, hidden_dim: int = 384, num_heads: int = 4):
+    def __init__(self, hidden_dim: int = 512, num_heads: int = 4):
         super().__init__()
         self.num_heads = num_heads
         self.hidden_dim = hidden_dim
@@ -71,14 +71,14 @@ class DMPNNBackbone(nn.Module):
     """
     Directed Message Passing Neural Network (D-MPNN) Backbone (FLAVRI 2.0).
     Produces:
-      - z: (batch_size, hidden_dim) pooled latent representation in R^384
+      - z: (batch_size, hidden_dim) pooled latent representation in R^512
       - atom_h: (total_atoms, hidden_dim) atom-level representations
     """
     def __init__(
         self,
         atom_fdim: int = ATOM_FDIM,
         bond_fdim: int = BOND_FDIM,
-        hidden_dim: int = 384,
+        hidden_dim: int = 512,
         depth: int = 6,
         dropout: float = 0.1,
         num_readout_heads: int = 4,

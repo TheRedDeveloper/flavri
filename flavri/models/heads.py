@@ -14,10 +14,10 @@ from flavri.constants import NUM_CHANNELS
 class SingleMoleculeHead(nn.Module):
     """
     Single Molecule Sensory Profile Head:
-    V_i = sigma( Linear(384 -> 148) ( GELU( Linear(384 -> 384) z_i ) ) )
+    V_i = sigma( Linear(512 -> 148) ( GELU( Linear(512 -> 512) z_i ) ) )
     Output in [0, 1]^148.
     """
-    def __init__(self, hidden_dim: int = 384, num_channels: int = NUM_CHANNELS, dropout: float = 0.1):
+    def __init__(self, hidden_dim: int = 512, num_channels: int = NUM_CHANNELS, dropout: float = 0.1):
         super().__init__()
         self.fc1 = nn.Linear(hidden_dim, hidden_dim)
         self.act = nn.GELU()
@@ -39,18 +39,18 @@ class SingleMoleculeHead(nn.Module):
 class CommutativeSynergyHead(nn.Module):
     """
     Symmetric Commutative Interaction Synergy Head:
-    Given z_A, z_B in R^384:
+    Given z_A, z_B in R^512:
       u = z_A * z_B       (Co-activation / shared mechanism)
       v = |z_A - z_B|     (Divergence / contrast)
-      [u || v] in R^768
-    Delta_AB = tanh( Linear(384 -> 148) ( GELU( Linear(768 -> 384) [u || v] ) ) )
+      [u || v] in R^1024
+    Delta_AB = tanh( Linear(512 -> 148) ( GELU( Linear(1024 -> 512) [u || v] ) ) )
     Output in [-1, +1]^148.
 
     Guarantees:
     1. Exact Commutativity: Delta_AB == Delta_BA by construction.
     2. Identity neutrality: When A == B, v = 0 and final layer bias initialized to 0.
     """
-    def __init__(self, hidden_dim: int = 384, num_channels: int = NUM_CHANNELS, dropout: float = 0.1):
+    def __init__(self, hidden_dim: int = 512, num_channels: int = NUM_CHANNELS, dropout: float = 0.1):
         super().__init__()
         self.fc1 = nn.Linear(hidden_dim * 2, hidden_dim)
         self.act = nn.GELU()

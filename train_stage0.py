@@ -1,7 +1,7 @@
 """
 train_stage0.py
 FLAVRI Stage 0: Self-Supervised Chemical Foundation Pre-training.
-Pre-trains the D-MPNN Backbone (384d, depth 6) and ChemicalReconstructionHead
+Pre-trains the D-MPNN Backbone (512d, depth 6) and ChemicalReconstructionHead
 on 500,000 clean, diverse molecules via Masked Atom Attribute Reconstruction.
 """
 
@@ -80,7 +80,7 @@ def parse_args():
     parser.add_argument("--batch_size", type=int, default=256, help="Pre-training batch size")
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate")
     parser.add_argument("--weight_decay", type=float, default=1e-5, help="AdamW weight decay")
-    parser.add_argument("--hidden_dim", type=int, default=384, help="D-MPNN hidden dimension")
+    parser.add_argument("--hidden_dim", type=int, default=512, help="D-MPNN hidden dimension")
     parser.add_argument("--depth", type=int, default=6, help="D-MPNN message passing depth")
     parser.add_argument("--data_csv", type=str, default="data/pretrain/unlabeled_500k.csv", help="Path to pre-training SMILES CSV")
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage0", help="Checkpoint directory")

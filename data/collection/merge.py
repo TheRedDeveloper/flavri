@@ -133,7 +133,11 @@ def merge_singles() -> pd.DataFrame:
             o_row = df_odor_indexed.loc[s]
             for d_raw, o_col in zip(CANONICAL_ODOR_DESCRIPTORS, ODOR_CHANNELS):
                 row[f"y_{o_col}"] = float(o_row[f"y_{d_raw}"])
-                row[f"mask_{o_col}"] = 1
+                # Propagate per-channel mask from odor singles (1 if assayed in source, 0 if unassayed)
+                if f"mask_{d_raw}" in o_row:
+                    row[f"mask_{o_col}"] = int(o_row[f"mask_{d_raw}"])
+                else:
+                    row[f"mask_{o_col}"] = 1
             o_src = o_row["sources"]
         else:
             for o_col in ODOR_CHANNELS:

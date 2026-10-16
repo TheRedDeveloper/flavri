@@ -43,6 +43,12 @@ def main():
         default="checkpoints/stage3/swa_model.pt",
         help="Path to checkpoint to evaluate (e.g. checkpoints/stage1/best_model.pt, checkpoints/stage2/best_model.pt, or checkpoints/stage3/swa_model.pt)"
     )
+    parser.add_argument(
+        "--hidden_dim",
+        type=int,
+        default=None,
+        help="Hidden dimension (auto-detected from checkpoint if omitted)",
+    )
     args = parser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -57,8 +63,19 @@ def main():
     print(f"Loading checkpoint: {ckpt_path}")
     checkpoint = torch.load(str(ckpt_path), map_location=device, weights_only=False)
 
-    model = FlavriMultimodalModel(hidden_dim=384, depth=6).to(device)
-    model.load_state_dict(checkpoint["model_state_dict"])
+    state_dict = checkpoint["model_state_dict"]
+    if args.hidden_dim is not None:
+        hidden_dim = args.hidden_dim
+    elif "hidden_dim" in checkpoint:
+        hidden_dim = checkpoint["hidden_dim"]
+    elif "backbone.W_m.weight" in state_dict:
+        hidden_dim = state_dict["backbone.W_m.weight"].shape[0]
+    else:
+        hidden_dim = 512
+
+    print(f"Model hidden_dim: {hidden_dim}")
+    model = FlavriMultimodalModel(hidden_dim=hidden_dim, depth=6).to(device)
+    model.load_state_dict(state_dict)
     model.eval()
     print("Model loaded successfully.")
 

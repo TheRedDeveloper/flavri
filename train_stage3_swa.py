@@ -39,7 +39,7 @@ console = Console()
 
 def parse_args():
     parser = argparse.ArgumentParser(description="FLAVRI Stage 3: SWA Polishing")
-    parser.add_argument("--epochs", type=int, default=15, help="Number of SWA exploration epochs")
+    parser.add_argument("--epochs", type=int, default=35, help="Number of SWA exploration epochs")
     parser.add_argument("--cycle_epochs", type=int, default=3, help="Cyclical LR restart period (epochs)")
     parser.add_argument("--batch_size", type=int, default=256, help="Batch size")
     parser.add_argument("--backbone_lr", type=float, default=5e-5, help="Peak SWA backbone learning rate")
@@ -49,7 +49,7 @@ def parse_args():
     parser.add_argument("--single_weight", type=float, default=0.5, help="Weight for pure singles anchoring loss")
     parser.add_argument("--aux_chem_weight", type=float, default=0.05, help="Weight for persistent chemical reconstruction loss")
     parser.add_argument("--id_reg_weight", type=float, default=0.05, help="Weight for identity self-penalty")
-    parser.add_argument("--hidden_dim", type=int, default=384, help="Hidden dimension")
+    parser.add_argument("--hidden_dim", type=int, default=512, help="Hidden dimension")
     parser.add_argument("--depth", type=int, default=6, help="D-MPNN depth")
     parser.add_argument("--stage2_ckpt", type=str, default="checkpoints/stage2/best_model.pt", help="Stage 2 input checkpoint")
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage3", help="Checkpoint directory for Stage 3 SWA")
@@ -340,7 +340,7 @@ def main():
             "composite_score": composite_swa,
             "hidden_dim": args.hidden_dim,
             "depth": args.depth,
-            "architecture": "FLAVRI 2.0 (384d, 6-layer D-MPNN, Multi-Head Attentive Readout)",
+            "architecture": f"FLAVRI 2.0 ({args.hidden_dim}d, 6-layer D-MPNN, Multi-Head Attentive Readout)",
         }, swa_save_path)
 
         # Summary Table

@@ -40,7 +40,7 @@ def parse_args():
     parser.add_argument("--batch_size", type=int, default=128, help="Batch size")
     parser.add_argument("--lr", type=float, default=1e-3, help="Peak learning rate")
     parser.add_argument("--weight_decay", type=float, default=1e-5, help="AdamW weight decay")
-    parser.add_argument("--hidden_dim", type=int, default=384, help="Hidden dimension")
+    parser.add_argument("--hidden_dim", type=int, default=512, help="Hidden dimension")
     parser.add_argument("--depth", type=int, default=6, help="D-MPNN depth")
     parser.add_argument("--stage0_ckpt", type=str, default="checkpoints/stage0/best_model.pt", help="Stage 0 pre-trained weights")
     parser.add_argument("--aux_chem_weight", type=float, default=0.05, help="Weight for persistent chemical reconstruction loss")

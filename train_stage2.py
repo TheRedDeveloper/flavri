@@ -1,7 +1,7 @@
 """
 train_stage2.py
 FLAVRI Stage 2: Joint Multi-Task Mixture Synergy & Pure Singles Anchoring (FLAVRI 2.0).
-Trains the Commutative Synergy Head while co-adapting the unfrozen 6-layer D-MPNN backbone (384d),
+Trains the Commutative Synergy Head while co-adapting the unfrozen 6-layer D-MPNN backbone (512d),
 anchored by simultaneous single molecule ground-truth batches under Calibrated Pos-Weighted BCE,
 Plackett-Luce Ranking, and Persistent Chemistry Regularization.
 """
@@ -45,7 +45,7 @@ def parse_args():
     parser.add_argument("--single_weight", type=float, default=0.5, help="Weight for pure singles anchoring loss")
     parser.add_argument("--aux_chem_weight", type=float, default=0.05, help="Weight for persistent chemical reconstruction loss")
     parser.add_argument("--id_reg_weight", type=float, default=0.05, help="Weight for identity self-penalty")
-    parser.add_argument("--hidden_dim", type=int, default=384, help="Hidden dimension")
+    parser.add_argument("--hidden_dim", type=int, default=512, help="Hidden dimension")
     parser.add_argument("--depth", type=int, default=6, help="D-MPNN depth")
     parser.add_argument("--stage1_ckpt", type=str, default="checkpoints/stage1/best_model.pt", help="Stage 1 model path")
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/stage2", help="Checkpoint directory")

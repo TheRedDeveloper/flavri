@@ -17,7 +17,7 @@ class ChemicalReconstructionHead(nn.Module):
     """
     def __init__(
         self,
-        hidden_dim: int = 384,
+        hidden_dim: int = 512,
         atom_fdim: int = ATOM_FDIM,
         dropout: float = 0.1,
     ):

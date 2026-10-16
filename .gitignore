@@ -12,6 +12,8 @@ __pycache__/
 *.pth
 *.pt
 checkpoints/
+checkpoints*/
+.specstory/
 
 # Environments
 .env

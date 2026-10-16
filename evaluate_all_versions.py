@@ -290,13 +290,14 @@ def main():
         print(f"\n==========================================")
         print(f"Evaluating {name} from {path}...")
         print(f"==========================================")
+        ckpt = torch.load(path, map_location=device, weights_only=False)
+        sd = ckpt["model_state_dict"] if "model_state_dict" in ckpt else ckpt
         if arch == "v2":
             model = FlavriV2Model().to(device)
         else:
-            model = FlavriMultimodalModel(hidden_dim=384, depth=6).to(device)
+            h_dim = sd["backbone.W_m.weight"].shape[0] if "backbone.W_m.weight" in sd else 512
+            model = FlavriMultimodalModel(hidden_dim=h_dim, depth=6).to(device)
 
-        ckpt = torch.load(path, map_location=device, weights_only=False)
-        sd = ckpt["model_state_dict"] if "model_state_dict" in ckpt else ckpt
         model.load_state_dict(sd, strict=False)
 
         res_singles = evaluate_singles(model, singles_loader, device)

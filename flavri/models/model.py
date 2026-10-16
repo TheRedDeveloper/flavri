@@ -1,8 +1,8 @@
 """
 flavri.models.model
 FLAVRI 2.0 Unified Multimodal Chemosensory Architecture:
-- Backbone: Scaled 6-Layer D-MPNN (384d) with Multi-Head Attentive Readout
-- Hybrid Feature Conditioning: Morgan / ECFP4 Fingerprint Projection (512d -> 128d -> 384d)
+- Backbone: Scaled 6-Layer D-MPNN (512d) with Multi-Head Attentive Readout
+- Hybrid Feature Conditioning: Morgan / ECFP4 Fingerprint Projection (512d -> 128d -> 512d)
 - Auxiliary Task Head: Persistent Chemical Reconstruction Head (Masked Atom/Bond features)
 - Task Heads: SingleMoleculeHead (148 Channels) & CommutativeSynergyHead (Pairwise Interaction)
 """
@@ -20,14 +20,14 @@ from flavri.models.chem_head import ChemicalReconstructionHead
 class FlavriMultimodalModel(nn.Module):
     """
     Decoupled Multimodal Chemosensory Architecture (FLAVRI 2.0):
-    - D-MPNN Backbone (384d, depth 6) + Multi-Head Attentive Readout (4 heads)
+    - D-MPNN Backbone (512d, depth 6) + Multi-Head Attentive Readout (4 heads)
     - Persistent Chemical Reconstruction Head (133-dim atom features)
     - SingleMoleculeHead (148 channels)
     - CommutativeSynergyHead (exact symmetry & identity neutrality)
     """
     def __init__(
         self,
-        hidden_dim: int = 384,
+        hidden_dim: int = 512,
         depth: int = 6,
         num_channels: int = NUM_CHANNELS,
         dropout: float = 0.1,

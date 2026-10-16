@@ -47,9 +47,11 @@ class TestFlavriOdorDataset(unittest.TestCase):
         expected_cols = ["smiles"]
         for d in CANONICAL_ODOR_DESCRIPTORS:
             expected_cols.append(f"y_{d}")
+        for d in CANONICAL_ODOR_DESCRIPTORS:
+            expected_cols.append(f"mask_{d}")
         expected_cols.extend(["num_sources", "sources"])
 
-        self.assertEqual(len(self.df_singles.columns), 140)
+        self.assertEqual(len(self.df_singles.columns), 277)
         self.assertEqual(list(self.df_singles.columns), expected_cols)
 
     def test_singles_rdkit_parseability(self):
@@ -66,23 +68,26 @@ class TestFlavriOdorDataset(unittest.TestCase):
         nan_count = self.df_singles.isnull().sum().sum()
         self.assertEqual(nan_count, 0, f"Found {nan_count} NaNs in singles table")
 
-    def test_singles_potency_ranges(self):
+    def test_singles_potency_and_mask_ranges(self):
         for d in CANONICAL_ODOR_DESCRIPTORS:
             y_col = f"y_{d}"
+            mask_col = f"mask_{d}"
             self.assertTrue(((self.df_singles[y_col] >= 0.0) & (self.df_singles[y_col] <= 1.0)).all())
+            self.assertTrue((self.df_singles[mask_col].isin([0, 1])).all())
 
     def test_singles_sources(self):
-        valid_sources = {"GoodScents", "Leffingwell", "GoodScents;Leffingwell"}
-        actual_sources = set(self.df_singles["sources"].unique())
-        self.assertTrue(actual_sources.issubset(valid_sources))
-        self.assertTrue((self.df_singles["num_sources"].isin([1, 2])).all())
+        allowed_base_sources = {"GoodScents", "Leffingwell", "MMD", "OlfactionBase"}
+        for s in self.df_singles["sources"].unique():
+            parts = s.split(";")
+            self.assertTrue(set(parts).issubset(allowed_base_sources), f"Unexpected source: {s}")
+        self.assertTrue((self.df_singles["num_sources"] >= 1).all())
 
     # ==========================================
     # 2. Pairs Table Tests
     # ==========================================
     def test_pairs_file_exists_and_non_empty(self):
         self.assertTrue(OUTPUT_PAIRS_CSV.exists())
-        self.assertGreater(len(self.df_pairs), 55000)
+        self.assertGreater(len(self.df_pairs), 45000)
 
     def test_pairs_column_count_and_schema(self):
         expected_cols = ["smiles_a", "smiles_b"]

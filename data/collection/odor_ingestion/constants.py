@@ -5,12 +5,15 @@ Canonical vocabulary and constants for FLAVRI_ODOR dataset construction.
 
 from pathlib import Path
 
-# Base Paths
-RAW_AROMMA_DIR = Path("C:/Users/RedDev/clones/aromma-mcp/aromma/data")
-RAW_GSLF_MERGED = RAW_AROMMA_DIR / "1_make_gslf" / "curated_GS_LF_merged_4986.csv"
-RAW_GOODSCENTS = RAW_AROMMA_DIR / "1_make_gslf" / "curated_goodcents.csv"
-RAW_LEFFINGWELL = RAW_AROMMA_DIR / "1_make_gslf" / "curated_leffingwell.csv"
-RAW_BP_DIR = RAW_AROMMA_DIR / "bp"
+# Base Paths - Self-contained within flavri repository (no dependency on aromma-mcp)
+BASE_DIR = Path(__file__).resolve().parent.parent
+RAW_ODOR_DIR = BASE_DIR / "exploration" / "raw" / "odor"
+
+RAW_GOODSCENTS = RAW_ODOR_DIR / "curated_goodcents.csv"
+RAW_LEFFINGWELL = RAW_ODOR_DIR / "curated_leffingwell.csv"
+RAW_MMD = RAW_ODOR_DIR / "mmd_alldesc_6711.csv"
+RAW_OLFACTIONBASE_ODORLESS = RAW_ODOR_DIR / "olfactionbase_odorless.csv"
+RAW_BP_DIR = RAW_ODOR_DIR / "bp"
 
 OUTPUT_DIR = Path("c:/Users/RedDev/clones/flavri/data/collection")
 OUTPUT_SINGLES_CSV = OUTPUT_DIR / "flavri_odor_singles.csv"
@@ -167,6 +170,77 @@ SYNONYM_MAP = {
     "marine": "ozone",
 }
 
+# Rigorous mapping from MMD (Merged Molecular Dataset / Sajan 2026) descriptors
+# to Canonical 137 GS-LF sensory descriptors (only clean equivalents and sublabels).
+MMD_MORPHOLOGICAL_MAP = {
+    # Morphological variants (noun -> canonical adjective)
+    "alcohol": "alcoholic",
+    "aldehyde": "aldehydic",
+    "anise": "anisic",
+    "balsam": "balsamic",
+    "beef": "beefy",
+    "butter": "buttery",
+    "camphor": "camphoreous",
+    "caramel": "caramellic",
+    "cheese": "cheesy",
+    "coumarin": "coumarinic",
+    "cream": "creamy",
+    "earth": "earthy",
+    "ether": "ethereal",
+    "fat": "fatty",
+    "fish": "fishy",
+    "grass": "grassy",
+    "jasmine": "jasmin",
+    "juice": "juicy",
+    "leaf": "leafy",
+    "malt": "malty",
+    "meat": "meaty",
+    "milk": "milky",
+    "phenol": "phenolic",
+    "rum": "rummy",
+    "smoked": "smoky",
+    "sulfur": "sulfurous",
+    "sweat": "sweaty",
+    "terpene": "terpenic",
+    "wax": "waxy",
+    "wine": "winey",
+}
+
+MMD_CLEAN_SUBLABELS_AND_SYNONYMS = {
+    # Clean sublabels (taxonomic subordinates to canonical parent)
+    "flower": "floral",
+    "lilac": "floral",
+    "gardenia": "floral",
+    "mimosa": "floral",
+    "narcissus": "floral",
+    # Direct sensory synonyms
+    "menthol": "mint",
+    "acid": "sour",
+    "marine": "ozone",
+    "watery": "fresh",
+    "neroli": "orangeflower",
+}
+
+# 16 Phantom / controversial MMD descriptors discarded to prevent label noise and blurring
+MMD_DISCARDED_PHANTOMS = {
+    "moss",         # Distinct oakmoss/lichens nuance; not generic earthy
+    "bread",        # Fermented/baked crust note; not roasted pyrazine
+    "chicken",      # Specific poultry nuance; avoid diluting meaty
+    "broth",        # Liquid savory extract
+    "plastic",      # Synthetic off-note
+    "chemical",     # Non-specific artifact
+    "jam",          # Cooked preserve; distinct from raw fruit
+    "gourmand",     # Broad umbrella term
+    "patchouli",    # Specific sesquiterpene camphoreous/woody; do not blur
+    "horseradish",  # Glucosinolate tear-gas trigeminal
+    "pepper",       # Piperine/caryophyllene distinct spice
+    "peel",         # Bitter terpene rinds
+    "rooty",        # Rhizome note
+    "licorice",     # Glycyrrhizin / anethole
+    "gasoline",     # Petroleum hydrocarbon
+    "ester",        # Broad organic chemical class
+}
+
 # 8 Phantom labels discarded from blend pairs
 DISCARD_PHANTOMS = {
     "mossy",
@@ -178,3 +252,4 @@ DISCARD_PHANTOMS = {
     "jammy",
     "thujonic",
 }
+
