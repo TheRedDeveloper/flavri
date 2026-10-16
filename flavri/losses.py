@@ -244,67 +244,22 @@ class FlavriSinglesLoss(nn.Module):
 
 class FlavriMultimodalLoss(nn.Module):
     """
-    FLAVRI 2.0 Mixture Synergy & Blend Loss:
-    - Continuous Huber regression directly on taste & odor synergy deltas to ensure
-      linear correlation (Pearson r) and magnitude ranking.
-    - Calibrated BCE on composite blend profiles with negative attenuation.
+    FLAVRI 2.0 Pure Interaction Synergy Loss:
+    Direct Continuous Huber Regression on taste and odor synergy deltas across all channels:
+      L = (1 / |M|) sum_{c in M} SmoothL1(pred_deltas_c, true_deltas_c, beta=0.1)
+    Treats taste and odor symmetrically and without artificial blend BCE artifacts.
     """
-    def __init__(
-        self,
-        mix_neg_weight: float = 0.2,
-        odor_delta_weight: float = 0.5,
-        eps: float = 1e-7,
-        num_taste: int = NUM_TASTE,
-        num_odor: int = NUM_ODOR,
-    ):
+    def __init__(self, beta: float = 0.1):
         super().__init__()
-        self.mix_neg_weight = mix_neg_weight
-        self.odor_delta_weight = odor_delta_weight
-        self.eps = eps
-        self.num_taste = num_taste
-        self.num_odor = num_odor
+        self.beta = beta
 
     def forward(
         self,
-        pred_probs: torch.Tensor,    # (B, 148) blend predictions in [0, 1]
-        pred_deltas: torch.Tensor,   # (B, 148) synergy deltas in [-1, +1]
-        targets: torch.Tensor,       # (B, 148) blend targets in [0, 1]
-        masks: torch.Tensor,         # (B, 148) active masks
-        is_mixture: torch.Tensor,    # (B,) bool
-        deltas_true: torch.Tensor = None,  # (B, 148) delta targets
+        pred_deltas: torch.Tensor,
+        deltas_true: torch.Tensor,
+        masks: torch.Tensor,
     ) -> torch.Tensor:
-        B, C = pred_probs.shape
-        device = pred_probs.device
-
-        # 1. Classification BCE loss for blend profiles
-        t_bce = targets.clamp(min=0.0, max=1.0)
-        p = pred_probs.clamp(min=self.eps, max=1.0 - self.eps)
-        pos_loss = -t_bce * torch.log(p)
-        neg_loss = -(1.0 - t_bce) * torch.log(1.0 - p)
-
-        neg_weight = torch.ones((B, C), device=device)
-        is_mix_expanded = is_mixture.unsqueeze(1).expand(B, C)
-
-        odor_mask = torch.zeros(C, dtype=torch.bool, device=device)
-        odor_mask[self.num_taste:] = True
-        mix_odor_mask = is_mix_expanded & odor_mask.unsqueeze(0)
-        neg_weight = torch.where(mix_odor_mask, torch.tensor(self.mix_neg_weight, device=device), neg_weight)
-
-        bce_loss = pos_loss + neg_weight * neg_loss
-
-        # 2. Continuous Huber loss for synergy deltas
-        delta_tgt = deltas_true if deltas_true is not None else targets
-        huber_loss = F.smooth_l1_loss(pred_deltas, delta_tgt, beta=0.1, reduction="none")
-
-        taste_mask = torch.zeros(C, dtype=torch.bool, device=device)
-        taste_mask[:self.num_taste] = True
-        mix_taste_mask = is_mix_expanded & taste_mask.unsqueeze(0)
-
-        # For taste mixture channels: Huber loss on delta
-        # For odor mixture channels: BCE blend classification + odor_delta_weight * Huber delta regression
-        odor_combined = bce_loss + self.odor_delta_weight * huber_loss
-        raw_loss = torch.where(mix_taste_mask, huber_loss, odor_combined)
-
-        masked_loss = raw_loss * masks
+        huber_loss = F.smooth_l1_loss(pred_deltas, deltas_true, beta=self.beta, reduction="none")
+        masked_loss = huber_loss * masks
         active_counts = masks.sum(dim=-1).clamp(min=1.0)
         return (masked_loss.sum(dim=-1) / active_counts).mean()

@@ -139,6 +139,24 @@ class FlavriMultimodalModel(nn.Module):
         y_blend = torch.clamp(linear_mix + synergy_term, min=0.0, max=1.0)
         return y_blend
 
+    def predict_synergy_batch(
+        self,
+        unique_graphs: BatchMolGraph,
+        idx_a: torch.Tensor,
+        idx_b: torch.Tensor,
+    ) -> torch.Tensor:
+        """
+        O(1) Graph Inference for pairwise interaction synergy deltas:
+        1. Encodes unique molecules once through backbone & fingerprint projector.
+        2. Indexes z_A and z_B.
+        3. Computes Delta_AB in [-1, +1]^148 through commutative synergy head.
+        Never calls or interferes with single_head.
+        """
+        z_unique = self.encode(unique_graphs)
+        z_a = z_unique[idx_a]
+        z_b = z_unique[idx_b]
+        return self.predict_synergy(z_a, z_b)
+
     def predict_pairs_batch(
         self,
         unique_graphs: BatchMolGraph,
@@ -151,10 +169,10 @@ class FlavriMultimodalModel(nn.Module):
         O(1) Graph Inference for a batch of mixture pairs:
         1. Encodes unique molecules once.
         2. Indexes z_A and z_B.
-        3. Computes V_A, V_B, Delta_AB, and y_blend.
+        3. Computes V_A, V_B (detached), Delta_AB, and y_blend.
         """
         z_unique = self.encode(unique_graphs)  # (N_unique, hidden_dim)
-        v_unique = self.single_head(z_unique)  # (N_unique, 148)
+        v_unique = self.single_head(z_unique).detach()  # detached: single_head is never modified by mixture passes
 
         z_a = z_unique[idx_a]
         z_b = z_unique[idx_b]

@@ -176,7 +176,7 @@ def main():
     else:
         scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=args.min_lr)
 
-    mix_loss_fn = FlavriMultimodalLoss(mix_neg_weight=0.2)
+    mix_loss_fn = FlavriMultimodalLoss()
     singles_loss_fn = FlavriSinglesLoss(rank_weight=0.5, hier_weight=0.1, antag_weight=0.05, device=device).to(device)
     chem_loss_fn = ChemicalReconstructionLoss(device=device)
 
@@ -260,11 +260,9 @@ def main():
                     singles_iter = iter(singles_train_loader)
                     single_batch = next(singles_iter)
 
-                # 1. Mixture Pair Forward Pass
-                pred_deltas, y_blend, v_a, v_b = model.predict_pairs_batch(unique_graphs, idx_a, idx_b)
-                true_blend = torch.clamp(0.5 * v_a.detach() + 0.5 * v_b.detach() + deltas, min=0.0, max=1.0)
-                is_mix = torch.ones(batch_size, dtype=torch.bool, device=device)
-                mix_loss = mix_loss_fn(y_blend, pred_deltas, true_blend, masks, is_mix, deltas_true=deltas)
+                # 1. Mixture Pair Forward Pass (Pure Synergy Deltas - zero single_head interference)
+                pred_deltas = model.predict_synergy_batch(unique_graphs, idx_a, idx_b)
+                mix_loss = mix_loss_fn(pred_deltas, deltas, masks)
 
                 # 2. Pure Singles Anchoring Forward Pass (Calibrated Focal BCE + Ranking + Ontology)
                 s_graphs = single_batch["graphs"]
