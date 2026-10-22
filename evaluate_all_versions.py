@@ -15,7 +15,7 @@ from torch.utils.data import DataLoader
 from sklearn.metrics import roc_auc_score, f1_score
 from scipy.stats import pearsonr, spearmanr
 
-REPO_ROOT = Path("c:/Users/RedDev/clones/flavri")
+REPO_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from flavri.constants import (

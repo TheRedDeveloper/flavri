@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flavri"
+version = "0.8.0"
+description = "FLAVRI 0.8: 148-Dimensional Multimodal Chemosensory Foundation Model (Olfaction, Gustation, and Chemesthesis)"
+readme = "README.md"
+authors = [
+    { name = "TheRedDeveloper" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.4.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "tqdm>=4.65.0",
+    "rich>=13.0.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+eval = [
+    "scikit-learn>=1.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/TheRedDeveloper/flavri"
+Repository = "https://github.com/TheRedDeveloper/flavri"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["flavri*"]

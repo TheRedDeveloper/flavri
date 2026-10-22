@@ -71,8 +71,8 @@ class DMPNNBackbone(nn.Module):
     """
     Directed Message Passing Neural Network (D-MPNN) Backbone (FLAVRI 2.0).
     Produces:
-      - z: (batch_size, hidden_dim) pooled latent representation in R^512
-      - atom_h: (total_atoms, hidden_dim) atom-level representations
+        - z: (batch_size, hidden_dim) pooled latent representation in R^512
+        - atom_h: (total_atoms, hidden_dim) atom-level representations
     """
     def __init__(
         self,

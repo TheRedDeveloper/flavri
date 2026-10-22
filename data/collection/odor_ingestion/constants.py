@@ -15,7 +15,7 @@ RAW_MMD = RAW_ODOR_DIR / "mmd_alldesc_6711.csv"
 RAW_OLFACTIONBASE_ODORLESS = RAW_ODOR_DIR / "olfactionbase_odorless.csv"
 RAW_BP_DIR = RAW_ODOR_DIR / "bp"
 
-OUTPUT_DIR = Path("c:/Users/RedDev/clones/flavri/data/collection")
+OUTPUT_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_SINGLES_CSV = OUTPUT_DIR / "flavri_odor_singles.csv"
 OUTPUT_PAIRS_CSV = OUTPUT_DIR / "flavri_odor_pairs.csv"
 

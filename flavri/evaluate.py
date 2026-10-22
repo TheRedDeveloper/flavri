@@ -36,10 +36,10 @@ def evaluate_singles(
     """
     Evaluates model on singles dataset (e.g. singles_test.csv).
     Computes:
-      - Odor Macro AUROC & Micro AUROC
-      - Odor Top-5 Precision
-      - Taste Macro AUROC
-      - Global Masked BCE Loss
+        - Odor Macro AUROC & Micro AUROC
+        - Odor Top-5 Precision
+        - Taste Macro AUROC
+        - Global Masked BCE Loss
     """
     model.eval()
     all_preds = []
@@ -140,11 +140,11 @@ def evaluate_pairs(
     Evaluates model on mixture pairs dataset (pair_test.csv).
     Splits results into 'half_cold', 'double_cold', and 'overall'.
     Computes:
-      - Pearson r
-      - Spearman rho
-      - Synergy F1 (binary classification: abs(delta) >= 0.1)
-      - Blend MAE
-      - Direction Accuracy (sign agreement on non-zero deltas)
+        - Pearson r
+        - Spearman rho
+        - Synergy F1 (binary classification: abs(delta) >= 0.1)
+        - Blend MAE
+        - Direction Accuracy (sign agreement on non-zero deltas)
     """
     model.eval()
     

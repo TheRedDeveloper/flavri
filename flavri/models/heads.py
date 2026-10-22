@@ -40,9 +40,9 @@ class CommutativeSynergyHead(nn.Module):
     """
     Symmetric Commutative Interaction Synergy Head:
     Given z_A, z_B in R^512:
-      u = z_A * z_B       (Co-activation / shared mechanism)
-      v = |z_A - z_B|     (Divergence / contrast)
-      [u || v] in R^1024
+        u = z_A * z_B       (Co-activation / shared mechanism)
+        v = |z_A - z_B|     (Divergence / contrast)
+        [u || v] in R^1024
     Delta_AB = tanh( Linear(512 -> 148) ( GELU( Linear(1024 -> 512) [u || v] ) ) )
     Output in [-1, +1]^148.
 

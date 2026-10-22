@@ -1,10 +1,9 @@
-# FLAVRI 2.0: Unified Multimodal Chemosensory Architecture Specification
+# FLAVRI: Unified Multimodal Chemosensory Architecture Specification
 
-**Status:** Approved System Architecture  
 **Scope:** Unified Olfactory, Gustatory, and Chemesthesis Engine  
 **Successor to:** ODOR_FLAVRI & AROMMA (ICASSP 2026)  
 **Target Dimensionality:** **148 Continuous Perceptual Dimensions** (137 Odor + 11 Taste/Trigeminal)  
-**Active Architecture Version:** FLAVRI 2.0 (384d, 6-Layer D-MPNN with 4-Head Attentive Readout, Hybrid Fingerprint Fusion, Persistent Chemical Auxiliary Head, PCGrad Multi-Task Optimization, Continuous Huber Odor Delta Regression, and Stage 3 SWA Polishing)
+**Active Architecture Version:** 512d, 6-Layer D-MPNN with 4-Head Attentive Readout, Hybrid Fingerprint Fusion, Persistent Chemical Auxiliary Head, PCGrad Multi-Task Optimization, Continuous Huber Odor Delta Regression, and Stage 3 SWA Polishing
 
 ---
 

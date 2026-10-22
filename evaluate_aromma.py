@@ -13,8 +13,8 @@ import torch
 from scipy.stats import pearsonr, spearmanr
 from sklearn.metrics import f1_score, roc_auc_score
 
-AROMMA_DIR = Path("c:/Users/RedDev/clones/aromma-mcp")
-FLAVRI_DIR = Path("c:/Users/RedDev/clones/flavri")
+FLAVRI_DIR = Path(__file__).resolve().parent
+AROMMA_DIR = FLAVRI_DIR.parent / "aromma-mcp"
 
 sys.path.insert(0, str(AROMMA_DIR / "src"))
 sys.path.insert(0, str(FLAVRI_DIR))
